@@ -2,650 +2,759 @@
   "version": "1.0",
   "category": "Science",
   "metadata": {
-    "totalQuestions": 45,
+    "totalQuestions": 50,
     "difficultyRange": {
       "min": 700,
-      "max": 1300
+      "max": 1200
     },
     "lastUpdated": "2025-10-27",
     "tags": [
-      "physics",
-      "chemistry",
-      "biology",
-      "technology"
+      "oppfinnelser",
+      "norsk-teknologi",
+      "innovasjon",
+      "forskning",
+      "energi"
     ]
   },
   "questions": [
     {
       "id": 1,
-      "q": "In which plant organelles does photosynthesis take place?",
-      "a": "Chloroplasts",
+      "q": "Hvilken nordmann oppfant ostehøvelen, som brukes i kjøkken verden over?",
+      "a": "Thor Bjørklund",
       "w": [
-        "Mitochondria",
-        "Vacuoles",
-        "Centrioles"
+        "Erik Rotheim",
+        "Kristian Birkeland",
+        "Johan Vaaler"
       ],
-      "r": 1026,
+      "r": 800,
       "t": [
-        "general"
+        "oppfinnelser"
+      ]
+    },
+    {
+      "id": 2,
+      "q": "Hvilken norsk ingeniør tok patent på verdens første sprayboks i 1926?",
+      "a": "Erik Rotheim",
+      "w": [
+        "Bror With",
+        "Ægidius Elling",
+        "Torkel Lende"
+      ],
+      "r": 900,
+      "t": [
+        "oppfinnelser"
+      ]
+    },
+    {
+      "id": 3,
+      "q": "Hvilken prosess utviklet av Kristian Birkeland og Sam Eyde gjorde det mulig å produsere kunstgjødsel industrielt?",
+      "a": "Birkeland–Eyde-prosessen",
+      "w": [
+        "Haber–Bosch-prosessen",
+        "Solvay-prosessen",
+        "Kontaktprosessen"
+      ],
+      "r": 1000,
+      "t": [
+        "kjemi",
+        "industri"
+      ]
+    },
+    {
+      "id": 4,
+      "q": "Hvilken norsk ingeniør regnes som gassturbinens far og en pioner for jetmotoren?",
+      "a": "Ægidius Elling",
+      "w": [
+        "Fredrik Bull",
+        "Bror With",
+        "Thor Bjørklund"
+      ],
+      "r": 1100,
+      "t": [
+        "teknologi"
       ]
     },
     {
       "id": 5,
-      "q": "What is the largest planet in our solar system?",
-      "a": "Jupiter",
+      "q": "Hvilke to nordmenn utviklet 'Simula', verdens første objektorienterte programmeringsspråk?",
+      "a": "Ole-Johan Dahl og Kristen Nygaard",
       "w": [
-        "Saturn",
-        "Neptune",
-        "Earth"
+        "Håkon Wium Lie og Jon Postel",
+        "Erik Rotheim og Bror With",
+        "Tore og Petter Planke"
       ],
-      "r": 1100,
+      "r": 1200,
       "t": [
-        "astronomy"
+        "data",
+        "programmering"
       ]
     },
     {
       "id": 6,
-      "q": "Which programming language was created by Brendan Eich?",
-      "a": "JavaScript",
+      "q": "Hvilken norsk bedrift oppfant verdens første panteautomat?",
+      "a": "Tomra (Tore og Petter Planke)",
       "w": [
-        "Python",
-        "Java",
-        "C++"
+        "Norsk Hydro",
+        "Stokke",
+        "Kongsberg Gruppen"
       ],
-      "r": 1200,
+      "r": 950,
       "t": [
-        "general"
+        "miljø",
+        "industri"
       ]
     },
     {
       "id": 7,
-      "q": "What is the chemical symbol for gold?",
-      "a": "Au",
+      "q": "Hvilken norsk oppfinner laget et astronomisk ur med en feilmargin på bare syv sekunder på tusen år?",
+      "a": "Rasmus Sørnes",
       "w": [
-        "Go",
-        "Gd",
-        "Ag"
+        "Colin Archer",
+        "Torkel Lende",
+        "Bror With"
+      ],
+      "r": 1150,
+      "t": [
+        "mekanikk"
+      ]
+    },
+    {
+      "id": 8,
+      "q": "Hvilken norsk design, laget av Peter Opsvik i 1972, er en barnestol som 'vokser med barnet'?",
+      "a": "Tripp Trapp-stolen",
+      "w": [
+        "Nomi-stolen",
+        "Stokke Steps",
+        "Flexi-chair"
       ],
       "r": 900,
       "t": [
-        "chemistry"
+        "design"
+      ]
+    },
+    {
+      "id": 9,
+      "q": "Hvilken nordmann oppfant CSS, teknologien som brukes til å designe nettsider?",
+      "a": "Håkon Wium Lie",
+      "w": [
+        "Jon Postel",
+        "Ole-Johan Dahl",
+        "Kristen Nygaard"
+      ],
+      "r": 1050,
+      "t": [
+        "data"
       ]
     },
     {
       "id": 10,
-      "q": "Which element has the atomic number 1?",
-      "a": "Hydrogen",
+      "q": "Hvilken norsk oppfinnelse ble kåret til Norges viktigste i en NRK-avstemning i 2011?",
+      "a": "Kunstgjødsel (Birkeland–Eyde-prosessen)",
       "w": [
-        "Helium",
-        "Lithium",
-        "Carbon"
+        "Ostehøvelen",
+        "Sprayboksen",
+        "Panteautomaten"
       ],
-      "r": 1050,
+      "r": 1000,
       "t": [
-        "chemistry"
+        "industri"
+      ]
+    },
+    {
+      "id": 11,
+      "q": "Hvilken norsk ingeniør oppfant skibindingen 'Rottefella' i 1927?",
+      "a": "Bror With",
+      "w": [
+        "Tore Planke",
+        "Thor Bjørklund",
+        "Ægidius Elling"
+      ],
+      "r": 850,
+      "t": [
+        "sport",
+        "oppfinnelser"
+      ]
+    },
+    {
+      "id": 12,
+      "q": "Hvilken norsk oppfinner bygde en hullkortmaskin på 1920-tallet som la grunnlaget for moderne databehandling?",
+      "a": "Fredrik Rosing Bull",
+      "w": [
+        "Håkon Wium Lie",
+        "Erik Rotheim",
+        "Kristian Birkeland"
+      ],
+      "r": 1100,
+      "t": [
+        "data",
+        "historie"
       ]
     },
     {
       "id": 13,
-      "q": "What is the speed of light in a vacuum?",
-      "a": "299,792,458 m/s",
+      "q": "Hvilken norsk lege utviklet det første standardiserte kontrollserumet for laboratoriediagnostikk?",
+      "a": "Lorentz Eldjarn",
       "w": [
-        "300,000,000 m/s",
-        "299,000,000 m/s",
-        "301,000,000 m/s"
+        "John Ugelstad",
+        "Torkel Lende",
+        "Rasmus Sørnes"
       ],
-      "r": 1300,
+      "r": 1150,
       "t": [
-        "general"
+        "medisin"
+      ]
+    },
+    {
+      "id": 14,
+      "q": "Hvilken norsk kjemiker utviklet 'Ugelstad-kulene', mikroskopiske plastkuler som brukes i medisinsk diagnostikk?",
+      "a": "John Ugelstad",
+      "w": [
+        "Erik Rotheim",
+        "Ole-Johan Dahl",
+        "Bror With"
+      ],
+      "r": 1050,
+      "t": [
+        "kjemi",
+        "medisin"
       ]
     },
     {
       "id": 15,
-      "q": "What is the hardest natural substance on Earth?",
-      "a": "Diamond",
+      "q": "Hvilken norsk oppfinner laget en maskin som kunne kutte småfisk til hermetikkindustrien?",
+      "a": "Torkel Lende",
       "w": [
-        "Quartz",
-        "Corundum",
-        "Topaz"
+        "Colin Archer",
+        "Bror With",
+        "Erik Rotheim"
       ],
-      "r": 900,
+      "r": 800,
       "t": [
-        "art"
+        "industri"
       ]
     },
     {
       "id": 16,
-      "q": "Which planet is known as the Red Planet?",
-      "a": "Mars",
+      "q": "Hvilken norsk oppfinner bygde både et astronomisk ur, en tidlig traktor og en rugemaskin for kyllinger?",
+      "a": "Rasmus Sørnes",
       "w": [
-        "Venus",
-        "Jupiter",
-        "Mercury"
+        "Torkel Lende",
+        "Ægidius Elling",
+        "John Ugelstad"
       ],
-      "r": 800,
+      "r": 950,
       "t": [
-        "astronomy"
+        "mekanikk"
+      ]
+    },
+    {
+      "id": 17,
+      "q": "Hvilken norsk oppfinnelse, utviklet av Erik Rotheim, førte til en revolusjon innen rengjøring og husholdning?",
+      "a": "Sprayboksen (aerosolboksen)",
+      "w": [
+        "Panteautomaten",
+        "Ostehøvelen",
+        "Gassturbinen"
+      ],
+      "r": 900,
+      "t": [
+        "hjem",
+        "kjemi"
+      ]
+    },
+    {
+      "id": 18,
+      "q": "Hvem designet Tripp Trapp-stolen, den justerbare barnestolen som har blitt verdenskjent?",
+      "a": "Peter Opsvik",
+      "w": [
+        "Håkon Wium Lie",
+        "Bror With",
+        "Colin Archer"
+      ],
+      "r": 850,
+      "t": [
+        "design"
       ]
     },
     {
       "id": 19,
-      "q": "What is the largest mammal in the world?",
-      "a": "Blue whale",
+      "q": "Hvilken norsk oppfinnelse muliggjorde industriell binding av nitrogen og la grunnlaget for moderne landbruk?",
+      "a": "Birkeland–Eyde-prosessen",
       "w": [
-        "African elephant",
-        "Giraffe",
-        "Hippopotamus"
-      ],
-      "r": 950,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 22,
-      "q": "Who discovered penicillin?",
-      "a": "Alexander Fleming",
-      "w": [
-        "Louis Pasteur",
-        "Robert Koch",
-        "Joseph Lister"
+        "Haber–Bosch-prosessen",
+        "Solvay-prosessen",
+        "Kontaktprosessen"
       ],
       "r": 1200,
       "t": [
-        "discoveries"
+        "kjemi",
+        "industri"
       ]
     },
     {
-      "id": 24,
-      "q": "Which programming paradigm does Python primarily follow?",
-      "a": "Object-oriented",
+      "id": 20,
+      "q": "Hvilken norsk oppfinnelse forbedret resirkulering globalt gjennom automatiske pantesystemer?",
+      "a": "Panteautomaten (Tomra)",
       "w": [
-        "Functional",
-        "Procedural",
-        "Logic"
-      ],
-      "r": 1250,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 25,
-      "q": "What is the chemical formula for water?",
-      "a": "H2O",
-      "w": [
-        "H2O2",
-        "CO2",
-        "NaCl"
-      ],
-      "r": 700,
-      "t": [
-        "chemistry"
-      ]
-    },
-    {
-      "id": 27,
-      "q": "What is the largest organ in the human body?",
-      "a": "Skin",
-      "w": [
-        "Liver",
-        "Lungs",
-        "Brain"
-      ],
-      "r": 900,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 28,
-      "q": "Which planet has the most moons?",
-      "a": "Saturn",
-      "w": [
-        "Jupiter",
-        "Neptune",
-        "Uranus"
-      ],
-      "r": 1100,
-      "t": [
-        "astronomy"
-      ]
-    },
-    {
-      "id": 30,
-      "q": "What is the smallest unit of matter?",
-      "a": "Atom",
-      "w": [
-        "Molecule",
-        "Cell",
-        "Electron"
-      ],
-      "r": 850,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 32,
-      "q": "What is the fastest land animal?",
-      "a": "Cheetah",
-      "w": [
-        "Lion",
-        "Leopard",
-        "Gazelle"
-      ],
-      "r": 750,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 33,
-      "q": "Which element is the most abundant in Earth's atmosphere?",
-      "a": "Nitrogen",
-      "w": [
-        "Oxygen",
-        "Carbon dioxide",
-        "Argon"
-      ],
-      "r": 950,
-      "t": [
-        "chemistry",
-        "art"
-      ]
-    },
-    {
-      "id": 36,
-      "q": "Which programming language is known for its use in data science?",
-      "a": "Python",
-      "w": [
-        "Java",
-        "C++",
-        "JavaScript"
-      ],
-      "r": 1150,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 37,
-      "q": "What is the longest bone in the human body?",
-      "a": "Femur",
-      "w": [
-        "Tibia",
-        "Humerus",
-        "Radius"
-      ],
-      "r": 850,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 39,
-      "q": "What is the chemical symbol for silver?",
-      "a": "Ag",
-      "w": [
-        "Si",
-        "Au",
-        "Al"
-      ],
-      "r": 900,
-      "t": [
-        "chemistry"
-      ]
-    },
-    {
-      "id": 42,
-      "q": "Which blood type is known as the universal donor?",
-      "a": "O negative",
-      "w": [
-        "A positive",
-        "B positive",
-        "AB positive"
-      ],
-      "r": 950,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 43,
-      "q": "What is the largest mammal that lives on land?",
-      "a": "African elephant",
-      "w": [
-        "Giraffe",
-        "Hippopotamus",
-        "Rhinoceros"
-      ],
-      "r": 800,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 45,
-      "q": "What is the largest planet in our solar system?",
-      "a": "Jupiter",
-      "w": [
-        "Saturn",
-        "Neptune",
-        "Uranus"
-      ],
-      "r": 750,
-      "t": [
-        "astronomy"
-      ]
-    },
-    {
-      "id": 46,
-      "q": "Which element has the atomic number 6?",
-      "a": "Carbon",
-      "w": [
-        "Nitrogen",
-        "Oxygen",
-        "Boron"
-      ],
-      "r": 850,
-      "t": [
-        "chemistry"
-      ]
-    },
-    {
-      "id": 48,
-      "q": "Which programming language was created by Microsoft?",
-      "a": "C#",
-      "w": [
-        "Java",
-        "Python",
-        "JavaScript"
-      ],
-      "r": 1200,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 52,
-      "q": "What is the chemical symbol for potassium?",
-      "a": "K",
-      "w": [
-        "P",
-        "Pt",
-        "Po"
-      ],
-      "r": 900,
-      "t": [
-        "chemistry"
-      ]
-    },
-    {
-      "id": 56,
-      "q": "What gas do plants absorb during photosynthesis?",
-      "a": "Carbon dioxide",
-      "w": [
-        "Oxygen",
-        "Nitrogen",
-        "Hydrogen"
-      ],
-      "r": 850,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 59,
-      "q": "Which chemical element has the symbol 'Na'?",
-      "a": "Sodium",
-      "w": [
-        "Nitrogen",
-        "Nickel",
-        "Neon"
-      ],
-      "r": 950,
-      "t": [
-        "chemistry"
-      ]
-    },
-    {
-      "id": 61,
-      "q": "Which planet is closest to the Sun?",
-      "a": "Mercury",
-      "w": [
-        "Venus",
-        "Earth",
-        "Mars"
-      ],
-      "r": 850,
-      "t": [
-        "astronomy"
-      ]
-    },
-    {
-      "id": 64,
-      "q": "What is the hardest known natural metal?",
-      "a": "Tungsten",
-      "w": [
-        "Iron",
-        "Titanium",
-        "Steel"
-      ],
-      "r": 1150,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 68,
-      "q": "Which organ pumps blood through the body?",
-      "a": "Heart",
-      "w": [
-        "Liver",
-        "Lungs",
-        "Kidneys"
-      ],
-      "r": 700,
-      "t": [
-        "art"
-      ]
-    },
-    {
-      "id": 70,
-      "q": "What is the largest internal organ in the human body?",
-      "a": "Liver",
-      "w": [
-        "Lungs",
-        "Heart",
-        "Kidneys"
-      ],
-      "r": 900,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 71,
-      "q": "Which programming language is primarily used for iOS app development?",
-      "a": "Swift",
-      "w": [
-        "Kotlin",
-        "Java",
-        "Objective-C"
-      ],
-      "r": 1250,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 73,
-      "q": "Who discovered gravity when observing a falling apple?",
-      "a": "Isaac Newton",
-      "w": [
-        "Albert Einstein",
-        "Galileo Galilei",
-        "Nikola Tesla"
-      ],
-      "r": 950,
-      "t": [
-        "discoveries"
-      ]
-    },
-    {
-      "id": 74,
-      "q": "Which famous scientist developed the theory of relativity?",
-      "a": "Albert Einstein",
-      "w": [
-        "Isaac Newton",
-        "Stephen Hawking",
-        "Niels Bohr"
+        "Gassturbinen",
+        "Ostehøvelen",
+        "Hullkortmaskinen"
       ],
       "r": 1000,
       "t": [
-        "general"
+        "miljø",
+        "teknologi"
       ]
     },
     {
-      "id": 75,
-      "q": "What is the largest animal currently living on Earth?",
-      "a": "Blue whale",
-      "w": [
-        "Elephant",
-        "Giraffe",
-        "Orca"
-      ],
-      "r": 800,
-      "t": [
-        "art"
+      "id": 21,
+        "q": "Hvilken norsk fysiker var sentral i utviklingen av moderne værvarsling og grunnla dynamisk meteorologi?",
+        "a": "Vilhelm Bjerknes",
+          "w": [
+            "Kristian Birkeland",
+            "Fridtjof Nansen",
+            "Carl Størmer"
+          ],
+          "r": 1150,
+          "t": [
+            "forskning",
+            "meteorologi"
+          ]
+        },
+        {
+          "id": 22,
+          "q": "Hvilken norsk vitenskapsmann oppdaget nordlysets sammenheng med solaktivitet?",
+          "a": "Kristian Birkeland",
+          "w": [
+            "Vilhelm Bjerknes",
+            "Carl Størmer",
+            "Ivar Giæver"
+          ],
+          "r": 1000,
+          "t": [
+            "astronomi",
+            "fysikk"
+          ]
+        },
+        {
+          "id": 23,
+          "q": "Hvilken norsk matematiker mottok Abelprisen i 2004 for sitt arbeid innen algebraisk topologi?",
+          "a": "Michael Atiyah og Isadore Singer (pris delt med britisk-amerikansk samarbeid)",
+          "w": [
+            "Atle Selberg",
+            "May-Britt Moser",
+            "Ivar Giæver"
+          ],
+          "r": 1150,
+          "t": [
+            "matematikk",
+            "forskning"
+          ]
+        },
+        {
+          "id": 24,
+          "q": "Hvilken norsk fysiker vant Nobelprisen i 1973 for sine bidrag til forståelsen av superledning i metaller?",
+          "a": "Ivar Giæver",
+          "w": [
+            "Kristian Birkeland",
+            "Vilhelm Bjerknes",
+            "Anders Jahre"
+          ],
+          "r": 1200,
+          "t": [
+            "fysikk",
+            "nobelpris"
+          ]
+        },
+        {
+          "id": 25,
+          "q": "Hvilket norsk ektepar mottok Nobelprisen i medisin i 2014 for sin oppdagelse av hjernens 'indre GPS'?",
+          "a": "May-Britt og Edvard Moser",
+          "w": [
+            "Lorentz Eldjarn og Gro Harlem Brundtland",
+            "John Ugelstad og Anne Grete Ellingsen",
+            "Fredrik Bull og Marit Reiersen"
+          ],
+          "r": 1000,
+          "t": [
+            "medisin",
+            "forskning"
+          ]
+        },
+        {
+          "id": 26,
+          "q": "Hvilken norsk polarforsker var den første til å krysse Grønland på ski i 1888?",
+          "a": "Fridtjof Nansen",
+          "w": [
+            "Roald Amundsen",
+            "Hjalmar Johansen",
+            "Otto Sverdrup"
+          ],
+          "r": 850,
+          "t": [
+            "ekspedisjoner",
+            "naturvitenskap"
+          ]
+        },
+        {
+          "id": 27,
+          "q": "Hvilken norsk ingeniør og oppfinner utviklet redningsflåten som ble standard på skip verden over?",
+          "a": "Torleif Haugland",
+          "w": [
+            "Kåre Berg",
+            "Knut Haug",
+            "Per Bratland"
+          ],
+          "r": 950,
+          "t": [
+            "sjøfart",
+            "teknologi"
+          ]
+        },
+        {
+          "id": 28,
+          "q": "Hvilket norsk forskningsinstitutt er kjent for sitt arbeid med materialteknologi og robotikk, og har hovedkontor i Trondheim?",
+          "a": "SINTEF",
+          "w": [
+            "IFE",
+            "NILU",
+            "NINA"
+          ],
+          "r": 800,
+          "t": [
+            "forskning",
+            "teknologi"
+          ]
+        },
+        {
+          "id": 29,
+          "q": "Hvilken norsk energikilde står for størstedelen av landets kraftproduksjon?",
+          "a": "Vannkraft",
+          "w": [
+            "Vindkraft",
+            "Solkraft",
+            "Kjernekraft"
+          ],
+          "r": 700,
+          "t": [
+            "energi",
+            "miljø"
+          ]
+        },
+        {
+          "id": 30,
+          "q": "Hva heter det norske forskningssenteret som utvikler teknologi for olje- og gassindustrien på havbunnen?",
+          "a": "Kongsberg Gruppen",
+          "w": [
+            "Equinor Innovasjon",
+            "HydroTek",
+            "SINTEF Ocean"
+          ],
+          "r": 900,
+          "t": [
+            "energi",
+            "industri"
+          ]
+        },
+        {
+          "id": 31,
+          "q": "Hvilken norsk oppfinner og ingeniør utviklet den moderne gassfyren og var tidlig ute med trykkregulering?",
+          "a": "Johan Petter Holen",
+          "w": [
+            "Bror With",
+            "Thor Bjørklund",
+            "Erik Rotheim"
+          ],
+          "r": 950,
+          "t": [
+            "energi",
+            "oppfinnelser"
+          ]
+        },
+        {
+          "id": 32,
+          "q": "Hvilken norsk bedrift er kjent for utviklingen av batteriteknologi og maritime energilagringssystemer?",
+          "a": "Corvus Energy",
+          "w": [
+            "Kongsberg Gruppen",
+            "Hydro",
+            "Equinor"
+          ],
+          "r": 950,
+          "t": [
+            "energi",
+            "teknologi"
+          ]
+        },
+        {
+          "id": 33,
+          "q": "Hvilket norsk universitet huser Kavli-instituttet for systemnevrovitenskap?",
+          "a": "NTNU",
+          "w": [
+            "UiO",
+            "UiB",
+            "UiT"
+          ],
+          "r": 850,
+          "t": [
+            "medisin",
+            "forskning"
+          ]
+        },
+        {
+          "id": 34,
+          "q": "Hvilken norsk oppfinnelse fra 1800-tallet gjorde hermetikkindustrien til en suksess?",
+          "a": "Automatisk sardinkutter",
+          "w": [
+            "Panteautomat",
+            "Sprayboks",
+            "Gassfyr"
+          ],
+          "r": 800,
+          "t": [
+            "industri",
+            "oppfinnelser"
+          ]
+        },
+        {
+          "id": 35,
+          "q": "Hvilken norsk institusjon leder mye av landets romforskning og driver Andøya Space?",
+          "a": "Norsk Romsenter",
+          "w": [
+            "SINTEF",
+            "NILU",
+            "Forsvarets forskningsinstitutt"
+          ],
+          "r": 950,
+          "t": [
+            "romfart",
+            "forskning"
+          ]
+        },
+        {
+          "id": 36,
+          "q": "Hvilken norsk fysiker bidro til å forklare hvordan nordlyset oppstår ved hjelp av partikkelstråling?",
+          "a": "Carl Størmer",
+          "w": [
+            "Kristian Birkeland",
+            "Vilhelm Bjerknes",
+            "Rasmus Sørnes"
+          ],
+          "r": 1000,
+          "t": [
+            "astronomi",
+            "fysikk"
+          ]
+        },
+        {
+          "id": 37,
+          "q": "Hva kalles det store norske forskningsprosjektet som kartla hjernen ved hjelp av avansert avbildningsteknologi?",
+          "a": "Hjerneprosjektet (The Brain Project)",
+          "w": [
+            "BioNorge",
+            "Helseinnovasjon 2030",
+            "MedTek 2025"
+          ],
+          "r": 950,
+          "t": [
+            "medisin",
+            "forskning"
+          ]
+        },
+        {
+          "id": 38,
+          "q": "Hvilken norsk professor utviklet det matematiske grunnlaget for moderne kryptering og internett-sikkerhet?",
+          "a": "Arne Håkonsson Clausen",
+          "w": [
+            "Ole-Johan Dahl",
+            "Håkon Wium Lie",
+            "Kjetil Storesletten"
+          ],
+          "r": 1100,
+          "t": [
+            "data",
+            "sikkerhet"
+          ]
+        },
+        {
+          "id": 39,
+          "q": "Hvilket norsk selskap har utviklet autonome undervannsdroner for havforskning og oljeindustri?",
+          "a": "Kongsberg Maritime",
+          "w": [
+            "Equinor",
+            "SINTEF Ocean",
+            "Aker Solutions"
+          ],
+          "r": 1000,
+          "t": [
+            "maritim",
+            "robotikk"
+          ]
+        },
+        {
+          "id": 40,
+          "q": "Hvilken norsk oppfinnelse hjalp til med å industrialisere melkeproduksjon på 1900-tallet?",
+          "a": "Separatormaskinen til Amund Stenerud",
+          "w": [
+            "Ostehøvelen",
+            "Sprayboksen",
+            "Fiskekutteren"
+          ],
+          "r": 900,
+          "t": [
+            "industri",
+            "landbruk"
+          ]
+        },
+        {
+          "id": 41,
+          "q": "Hvilken norsk geolog var sentral i oppdagelsen av olje i Nordsjøen på 1960-tallet?",
+          "a": "Christian Michelsen",
+          "w": [
+            "Per Blystad",
+            "Phillip Hauge Abelson",
+            "Trygve Haavelmo"
+          ],
+          "r": 950,
+          "t": [
+            "energi",
+            "geologi"
+          ]
+        },
+        {
+          "id": 42,
+          "q": "Hvilket norsk selskap utviklet verdens første fullskala flytende vindturbin?",
+          "a": "Equinor (Hywind-prosjektet)",
+          "w": [
+            "Statkraft",
+            "SINTEF",
+            "Hydro"
+          ],
+          "r": 1050,
+          "t": [
+            "energi",
+            "fornybar"
+          ]
+        },
+        {
+          "id": 43,
+          "q": "Hvilket norsk universitet har vært ledende innen utvikling av undervannsteknologi?",
+          "a": "NTNU",
+          "w": [
+            "UiB",
+            "UiO",
+            "UiT"
+          ],
+          "r": 850,
+          "t": [
+            "teknologi",
+            "forskning"
+          ]
+        },
+        {
+          "id": 44,
+          "q": "Hvilken norsk oppfinner og industripioner startet produksjonen av norsk aluminiumsindustri?",
+          "a": "Sam Eyde",
+          "w": [
+            "Kristian Birkeland",
+            "Carl Størmer",
+            "Fridtjof Nansen"
+          ],
+          "r": 900,
+          "t": [
+            "industri",
+            "energi"
+          ]
+        },
+        {
+          "id": 45,
+          "q": "Hvilken norsk kjemiker ledet forskningen bak miljøvennlig CO2-fangst ved Mongstad?",
+          "a": "Nils Eldrup",
+          "w": [
+            "John Ugelstad",
+            "Anders Bjørkum",
+            "Ellen Hambro"
+          ],
+          "r": 950,
+          "t": [
+            "miljø",
+            "energi"
+          ]
+        },
+        {
+          "id": 46,
+          "q": "Hva heter det norske forskningssenteret som utvikler teknologi for å fange plast i havet?",
+          "a": "The Ocean Cleanup Norge",
+          "w": [
+            "Havforskningsinstituttet",
+            "NINA",
+            "Bellona"
+          ],
+          "r": 900,
+          "t": [
+            "miljø",
+            "havforskning"
+          ]
+        },
+        {
+          "id": 47,
+          "q": "Hvilket norsk forskningsmiljø oppfant teknologien bak moderne høreapparater (Cochlear implant)?",
+          "a": "NTNU og Rikshospitalet",
+          "w": [
+            "UiB og Haukeland",
+            "SINTEF og UiO",
+            "St. Olavs og NINA"
+          ],
+          "r": 1100,
+          "t": [
+            "medisin",
+            "teknologi"
+          ]
+        },
+        {
+          "id": 48,
+          "q": "Hvilken norsk vitenskapsmann ledet de første oseanografiske målingene i Arktis?",
+          "a": "Fridtjof Nansen",
+          "w": [
+            "Otto Sverdrup",
+            "Roald Amundsen",
+            "Gunnar Isachsen"
+          ],
+          "r": 850,
+          "t": [
+            "naturvitenskap",
+            "havforskning"
+          ]
+        },
+        {
+          "id": 49,
+          "q": "Hvilken norsk teknolog bedrev pionerarbeid innen kunstig intelligens og robotikk på 1980-tallet?",
+          "a": "Tore Risch",
+          "w": [
+            "Håkon Wium Lie",
+            "Ole-Johan Dahl",
+            "Kristen Nygaard"
+          ],
+          "r": 1150,
+          "t": [
+            "AI",
+            "data"
+          ]
+        },
+        {
+          "id": 50,
+          "q": "Hvilken norsk oppfinnelse har bidratt til økt trafikksikkerhet og brukes i veibygging verden over?",
+          "a": "Autovern i stål utviklet av Vik Ørsta",
+          "w": [
+            "Bilbelte",
+            "Piggdekk",
+            "Refleksvest"
+          ],
+          "r": 950,
+          "t": [
+            "transport",
+            "industri"
+          ]
+        }
       ]
-    },
-    {
-      "id": 78,
-      "q": "Which blood cells help the body fight infection?",
-      "a": "White blood cells",
-      "w": [
-        "Red blood cells",
-        "Platelets",
-        "Plasma cells"
-      ],
-      "r": 950,
-      "t": [
-        "biology"
-      ]
-    },
-    {
-      "id": 83,
-      "q": "What is the unit of electrical resistance?",
-      "a": "Ohm",
-      "w": [
-        "Volt",
-        "Ampere",
-        "Watt"
-      ],
-      "r": 1050,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 85,
-      "q": "Which metal is liquid at room temperature?",
-      "a": "Mercury",
-      "w": [
-        "Lead",
-        "Copper",
-        "Iron"
-      ],
-      "r": 900,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 86,
-      "q": "What is the main gas found in the air we breathe?",
-      "a": "Nitrogen",
-      "w": [
-        "Oxygen",
-        "Carbon dioxide",
-        "Hydrogen"
-      ],
-      "r": 850,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 88,
-      "q": "Which is the smallest planet in our solar system?",
-      "a": "Mercury",
-      "w": [
-        "Mars",
-        "Venus",
-        "Pluto"
-      ],
-      "r": 900,
-      "t": [
-        "astronomy"
-      ]
-    },
-    {
-      "id": 92,
-      "q": "What is the SI unit of force?",
-      "a": "Newton",
-      "w": [
-        "Joule",
-        "Pascal",
-        "Watt"
-      ],
-      "r": 1050,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 96,
-      "q": "Which data structure uses First In First Out (FIFO)?",
-      "a": "Queue",
-      "w": [
-        "Stack",
-        "Array",
-        "Tree"
-      ],
-      "r": 1250,
-      "t": [
-        "general"
-      ]
-    },
-    {
-      "id": 98,
-      "q": "Which element is needed for combustion?",
-      "a": "Oxygen",
-      "w": [
-        "Hydrogen",
-        "Nitrogen",
-        "Carbon"
-      ],
-      "r": 900,
-      "t": [
-        "chemistry"
-      ]
-    },
-    {
-      "id": 99,
-      "q": "Who is known as the 'Father of Computers'?",
-      "a": "Charles Babbage",
-      "w": [
-        "Alan Turing",
-        "John von Neumann",
-        "Bill Gates"
-      ],
-      "r": 1200,
-      "t": [
-        "general"
-      ]
-    }
-  ]
 }
