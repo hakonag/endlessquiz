@@ -815,6 +815,166 @@
       "w": ["Grensen mellom liv og død", "Veien til kjærligheten", "Adskillelse fra naturen"],
       "r": 950,
       "t": ["symbolikk", "tolkning"]
+    },
+    {
+      "id": 101,
+      "q": "Når og hvor ble Nikolai Astrup født?",
+      "a": "30. august 1880 i Bremanger",
+      "w": ["12. desember 1879 i Luster", "30. august 1881 i Førde", "15. juli 1880 i Jølster"],
+      "r": 850,
+      "t": ["biografi", "fødselsår"]
+    },
+    {
+      "id": 102,
+      "q": "Hvor døde Nikolai Astrup, og hvor gammel ble han?",
+      "a": "Han døde i Førde i 1928, 47 år gammel",
+      "w": ["Han døde i Bergen i 1930, 50 år gammel", "Han døde i Jølster i 1925, 45 år gammel", "Han døde i Oslo i 1928, 48 år gammel"],
+      "r": 860,
+      "t": ["biografi", "dødsår"]
+    },
+    {
+      "id": 103,
+      "q": "Hvilket kunstnerisk medium, ved siden av maleri, er Astrup kjent for å ha fornyet i Norge?",
+      "a": "Tresnitt",
+      "w": ["Litografi", "Oljepastell", "Freskomaleri"],
+      "r": 890,
+      "t": ["kunst", "grafikk"]
+    },
+    {
+      "id": 104,
+      "q": "Hvilken annen norsk kunstner blir nevnt som Astrups samtidige fornyer av grafikk?",
+      "a": "Edvard Munch",
+      "w": ["Harald Sohlberg", "Christian Krohg", "Erik Werenskiold"],
+      "r": 870,
+      "t": ["kunstnere", "forbindelser"]
+    },
+    {
+      "id": 105,
+      "q": "Hva het Astrups kone, og hva var hennes kunstneriske virke?",
+      "a": "Engel Astrup; hun var tekstilkunstner",
+      "w": ["Kari Astrup; hun var billedhugger", "Anna Astrup; hun var maler", "Signe Astrup; hun var musiker"],
+      "r": 880,
+      "t": ["familie", "kunst"]
+    },
+    {
+      "id": 106,
+      "q": "Hva het stedet der Astrup bodde og arbeidet de siste årene av livet sitt?",
+      "a": "Sandalstrand (nå Astruptunet)",
+      "w": ["Ekely", "Fjærland", "Prestegården i Jølster"],
+      "r": 870,
+      "t": ["sted", "museum"]
+    },
+    {
+      "id": 107,
+      "q": "Hva kjennetegner Astrups motivkrets i kunsten?",
+      "a": "Landskaper og folkeliv fra Jølster, ofte gjentatt i varianter",
+      "w": ["Bybilder fra Bergen", "Marinemotiver fra Vestlandet", "Portretter av kjente personer"],
+      "r": 900,
+      "t": ["motiver", "kunst"]
+    },
+    {
+      "id": 108,
+      "q": "Hvilken sykdom var Astrup plaget av hele livet?",
+      "a": "Astma",
+      "w": ["Tuberkulose", "Hjertesykdom", "Diabetes"],
+      "r": 860,
+      "t": ["helse", "biografi"]
+    },
+    {
+      "id": 109,
+      "q": "Hva døde Nikolai Astrup av?",
+      "a": "Lungebetennelse",
+      "w": ["Astmaanfall", "Tuberkulose", "Nyresvikt"],
+      "r": 850,
+      "t": ["helse", "dødsårsak"]
+    },
+    {
+      "id": 110,
+      "q": "Hvilken utenlandsk kunstner påvirket Astrup sterkt og inspirerte navnet på en av hans sønner?",
+      "a": "Arnold Böcklin",
+      "w": ["Vincent van Gogh", "Paul Gauguin", "Claude Monet"],
+      "r": 910,
+      "t": ["inspirasjon", "kunstnere"]
+    },
+    {
+      "id": 111,
+      "q": "Hvor studerte Astrup i Paris?",
+      "a": "Académie Colarossi",
+      "w": ["École des Beaux-Arts", "Académie Julian", "Sorbonne"],
+      "r": 870,
+      "t": ["utdanning", "Paris"]
+    },
+    {
+      "id": 112,
+      "q": "Hvilken norsk lærer hadde Astrup tidligere studert hos i Kristiania?",
+      "a": "Harriet Backer",
+      "w": ["Erik Werenskiold", "Christian Krohg", "Frits Thaulow"],
+      "r": 880,
+      "t": ["utdanning", "lærer"]
+    },
+    {
+      "id": 113,
+      "q": "Hva mente Astrup skulle komme først i et maleri?",
+      "a": "Stemningen",
+      "w": ["Fargene", "Motivet", "Komposisjonen"],
+      "r": 890,
+      "t": ["kunst", "teori"]
+    },
+    {
+      "id": 114,
+      "q": "Hvor gammel var Engel Sunde da hun giftet seg med Astrup?",
+      "a": "15 år",
+      "w": ["17 år", "19 år", "21 år"],
+      "r": 880,
+      "t": ["familie", "ekteskap"]
+    },
+    {
+      "id": 115,
+      "q": "Hva var Astrups forhold til farens religiøse syn?",
+      "a": "Han tok avstand fra farens strenge kristendom",
+      "w": ["Han ble prest selv", "Han ble enda mer religiøs", "Han forlot kristendommen helt"],
+      "r": 870,
+      "t": ["oppvekst", "religion"]
+    },
+    {
+      "id": 116,
+      "q": "Hvilket kjent Astrup-verk viser et stort sankthansbål omgitt av mennesker?",
+      "a": "Jonsokbål",
+      "w": ["Maimåne", "Vårnatt", "Prestegårdshagen"],
+      "r": 900,
+      "t": ["verk", "symbolikk"]
+    },
+    {
+      "id": 117,
+      "q": "Hvilket motiv brukte Astrup i mange varianter, inspirert av barndommen?",
+      "a": "Prestegårdshagen i måneskinn",
+      "w": ["Fjellgården", "Blått vann", "Hus ved elven"],
+      "r": 890,
+      "t": ["verk", "barndom"]
+    },
+    {
+      "id": 118,
+      "q": "Hvilken årstid er særlig sentral i Astrups kunst?",
+      "a": "Vår og sommer",
+      "w": ["Høst", "Vinter", "Senhøst"],
+      "r": 850,
+      "t": ["motiver", "årstid"]
+    },
+    {
+      "id": 119,
+      "q": "Hva slags minnesmerke ble reist over Astrup i 1938?",
+      "a": "En minnestein ved barndomshjemmet på Ålhus",
+      "w": ["Et monument i Bergen", "En statue i Jølster sentrum", "En bauta på Sandalstrand"],
+      "r": 860,
+      "t": ["minne", "monument"]
+    },
+    {
+      "id": 120,
+      "q": "Hvilket museum i Bergen viser mange av Astrups verk i dag?",
+      "a": "KODE 4",
+      "w": ["Nasjonalmuseet", "Munchmuseet", "Astrup Fearnley Museet"],
+      "r": 880,
+      "t": ["museum", "kunst"]
     }
   ]
 }
