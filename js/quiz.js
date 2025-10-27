@@ -33,7 +33,7 @@ class EndlessQuiz {
             const data = await response.json();
             this.categories = data.categories;
         } catch (error) {
-            console.error('Error loading categories:', error);
+            console.error('Feil ved lasting av kategorier:', error);
             this.categories = this.getFallbackCategories();
         }
     }
@@ -70,7 +70,7 @@ class EndlessQuiz {
                 this.currentCategory = data.category;
             }
         } catch (error) {
-            console.error('Error loading questions:', error);
+            console.error('Feil ved lasting av spørsmål:', error);
             this.questions = this.getFallbackQuestions();
         }
     }
@@ -109,7 +109,7 @@ class EndlessQuiz {
             this.shuffleArray(this.questions);
             this.currentCategory = 'Generell Kunnskap';
         } catch (error) {
-            console.error('Error loading general knowledge:', error);
+            console.error('Feil ved lasting av generell kunnskap:', error);
             this.questions = this.getFallbackQuestions();
         }
     }
@@ -188,7 +188,7 @@ class EndlessQuiz {
         
         // Close dropdown when clicking outside
         document.addEventListener('click', (e) => {
-            if (!e.target.closest('.dropdown')) {
+            if (!e.target.closest('#btnCategory') && !e.target.closest('.dropdown-content')) {
                 dropdownContent.classList.remove('show');
             }
         });
@@ -251,66 +251,8 @@ class EndlessQuiz {
     
     async startQuiz(categoryFilename) {
         await this.loadQuestions(categoryFilename);
-        this.restoreQuizUI();
         this.displayQuestion();
         this.updateUI();
-    }
-    
-    restoreQuizUI() {
-        const container = document.getElementById('container');
-        container.innerHTML = `
-            <!-- Top Control Bar -->
-            <div id="topControls">
-                <div id="questionInfo">
-                    <span id="currentCategory">${this.currentCategory}</span>
-                    <span id="questionCount">${this.questions.length.toLocaleString()} spørsmål</span>
-                </div>
-                <div id="topButtons">
-                    <div class="dropdown">
-                        <button id="btnCategory" class="topbutton">Kategori</button>
-                        <div id="dropdownContent" class="dropdown-content">
-                            <div class="dropdown-item" data-filename="general.json">Generell Kunnskap</div>
-                            <div class="dropdown-item" data-filename="history.json">Historie</div>
-                            <div class="dropdown-item" data-filename="geography.json">Geografi</div>
-                            <div class="dropdown-item" data-filename="science.json">Vitenskap</div>
-                            <div class="dropdown-item" data-filename="culture.json">Kultur</div>
-                        </div>
-                    </div>
-                    <button id="btnLearn" class="topbutton">Lær</button>
-                    <div id="btnRating" class="topbutton">1000</div>
-                </div>
-            </div>
-
-            <!-- Question -->
-            <div id="question">
-                Laster spørsmål...
-            </div>
-
-            <!-- 4 Answer Buttons -->
-            <div id="answers">
-                <button class="answer" id="answer1">
-                    <span class="answer-text">Svar 1</span>
-                </button>
-                <button class="answer" id="answer2">
-                    <span class="answer-text">Svar 2</span>
-                </button>
-                <button class="answer" id="answer3">
-                    <span class="answer-text">Svar 3</span>
-                </button>
-                <button class="answer" id="answer4">
-                    <span class="answer-text">Svar 4</span>
-                </button>
-            </div>
-
-            <!-- Footer -->
-            <div class="panel-footer">
-                © ENDELØS QUIZ 2025
-                <a href="#" class="footerItem">Om</a>
-            </div>
-        `;
-        
-        // Re-setup event listeners for the restored UI
-        this.setupEventListeners();
     }
     
     handleKeyPress(e) {
@@ -324,7 +266,10 @@ class EndlessQuiz {
     }
     
     displayQuestion() {
-        if (this.questions.length === 0) return;
+        if (this.questions.length === 0) {
+            document.getElementById('question').textContent = "Ingen spørsmål tilgjengelig for denne kategorien.";
+            return;
+        }
         
         this.currentQuestion = this.questions[this.currentQuestionIndex];
         const questionElement = document.getElementById('question');
@@ -334,10 +279,10 @@ class EndlessQuiz {
         const answers = [this.currentQuestion.answer, ...this.currentQuestion.wrongAnswers];
         this.shuffleArray(answers);
         
-        // Display answers
-        const answerElements = document.querySelectorAll('.answer');
+        // Display answers in table cells
+        const answerElements = document.querySelectorAll('#answersTable th.answer');
         answerElements.forEach((element, index) => {
-            element.querySelector('.answer-text').textContent = answers[index];
+            element.textContent = answers[index];
             element.className = 'answer';
             element.style.pointerEvents = 'auto';
         });
@@ -353,9 +298,9 @@ class EndlessQuiz {
         if (this.isAnswering || !this.currentQuestion) return;
         
         this.isAnswering = true;
-        const answerElements = document.querySelectorAll('.answer');
+        const answerElements = document.querySelectorAll('#answersTable th.answer');
         const selectedElement = answerElements[selectedIndex];
-        const selectedAnswer = selectedElement.querySelector('.answer-text').textContent;
+        const selectedAnswer = selectedElement.textContent;
         
         // Disable all answer buttons
         answerElements.forEach(element => {
@@ -367,7 +312,7 @@ class EndlessQuiz {
         
         // Show correct answer
         answerElements.forEach((element, index) => {
-            const answerText = element.querySelector('.answer-text').textContent;
+            const answerText = element.textContent;
             if (answerText === this.currentQuestion.answer) {
                 element.classList.add('correct');
             } else if (index === selectedIndex && !isCorrect) {
@@ -433,6 +378,7 @@ class EndlessQuiz {
     
     updateUI() {
         document.getElementById('btnRating').textContent = Math.round(this.elo);
+        document.getElementById('btnMatchPoints').textContent = this.streak;
     }
 }
 
