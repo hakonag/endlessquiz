@@ -17,146 +17,404 @@
   },
   "questions": [
     {
+      "id": 1,
+      "q": "Hva kalles perioden da mennesker først slo seg ned i Norge etter siste istid?",
+      "a": "Steinalderen",
+      "w": ["Bronsealderen", "Jernalderen", "Vikingtiden"],
+      "r": 800,
+      "t": ["forhistorie"]
+    },
+    {
+      "id": 2,
+      "q": "Når regner man vanligvis at vikingtiden startet i Norge?",
+      "a": "793 e.Kr.",
+      "w": ["872 e.Kr.", "999 e.Kr.", "1030 e.Kr."],
+      "r": 800,
+      "t": ["vikingtid"]
+    },
+    {
+      "id": 3,
+      "q": "Hvilken hendelse markerer begynnelsen på vikingtiden i Europa?",
+      "a": "Angrepet på klosteret Lindisfarne",
+      "w": ["Slaget ved Stiklestad", "Opprettelsen av Nidarosdomen", "Kristningen av Island"],
+      "r": 800,
+      "t": ["vikingtid"]
+    },
+    {
+      "id": 4,
+      "q": "Hva het den første kongen som samlet Norge til ett rike?",
+      "a": "Harald Hårfagre",
+      "w": ["Olav Tryggvason", "Håkon den gode", "Magnus Lagabøte"],
+      "r": 800,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 5,
+      "q": "Ved hvilket slag sies Harald Hårfagre å ha samlet Norge?",
+      "a": "Slaget ved Hafrsfjord",
+      "w": ["Slaget ved Stiklestad", "Slaget ved Re", "Slaget på Refsnes"],
+      "r": 800,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 6,
+      "q": "Hvilken norsk konge ble drept i slaget ved Stiklestad i 1030?",
+      "a": "Olav den hellige",
+      "w": ["Olav Tryggvason", "Håkon Håkonsson", "Harald Hardråde"],
+      "r": 800,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 7,
+      "q": "Hva ble Olav den hellige erklært som etter sin død?",
+      "a": "Helgen",
+      "w": ["Erkebiskop", "Jarl", "Biskop"],
+      "r": 800,
+      "t": ["kirkehistorie"]
+    },
+    {
+      "id": 8,
+      "q": "Hvor ligger Nidarosdomen, Norges nasjonalhelligdom?",
+      "a": "Trondheim",
+      "w": ["Bergen", "Oslo", "Stavanger"],
+      "r": 800,
+      "t": ["middelalder", "religion"]
+    },
+    {
       "id": 9,
-      "q": "What year did World War II end?",
-      "a": "1945",
-      "w": [
-        "1944",
-        "1946",
-        "1943"
-      ],
-      "r": 1000,
-      "t": [
-        "wars",
-        "timeline"
-      ]
+      "q": "Hvilken by var Norges hovedstad i middelalderen?",
+      "a": "Bergen",
+      "w": ["Oslo", "Nidaros", "Trondheim"],
+      "r": 800,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 10,
+      "q": "Hvilken pest rammet Norge hardt på 1300-tallet?",
+      "a": "Svartedauden",
+      "w": ["Spanskesyken", "Kolera", "Tuberkulose"],
+      "r": 800,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 11,
+      "q": "Når døde omtrent halvparten av Norges befolkning av svartedauden?",
+      "a": "1349",
+      "w": ["1397", "1319", "1405"],
+      "r": 800,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 12,
+      "q": "Hva var Kalmarunionen?",
+      "a": "En union mellom Danmark, Norge og Sverige",
+      "w": ["Et handelsforbund", "Et kirkelig råd", "Et nordisk kongedynasti"],
+      "r": 800,
+      "t": ["unionstid"]
+    },
+    {
+      "id": 13,
+      "q": "Hvilket år ble Kalmarunionen dannet?",
+      "a": "1397",
+      "w": ["1380", "1523", "1537"],
+      "r": 800,
+      "t": ["unionstid"]
+    },
+    {
+      "id": 14,
+      "q": "Hvem ble Norges konge i 1380 og innledet unionen med Danmark?",
+      "a": "Olav IV Håkonsson",
+      "w": ["Haakon VI", "Christian I", "Frederik II"],
+      "r": 800,
+      "t": ["unionstid"]
+    },
+    {
+      "id": 15,
+      "q": "Hva kalles perioden da Norge var i union med Danmark (1380–1814)?",
+      "a": "Dansketiden",
+      "w": ["Svensketiden", "Vikingtiden", "Opplysningstiden"],
+      "r": 800,
+      "t": ["unionstid"]
+    },
+    {
+      "id": 16,
+      "q": "Hvor ble den norske grunnloven skrevet i 1814?",
+      "a": "Eidsvoll",
+      "w": ["Moss", "Bergen", "Oslo"],
+      "r": 800,
+      "t": ["grunnloven"]
+    },
+    {
+      "id": 17,
+      "q": "Hvem ledet forhandlingene på Eidsvoll i 1814?",
+      "a": "Christian Magnus Falsen",
+      "w": ["Henrik Wergeland", "Christian Michelsen", "Carl Johan"],
+      "r": 800,
+      "t": ["grunnloven"]
+    },
+    {
+      "id": 18,
+      "q": "Hvilken dato ble Norges grunnlov vedtatt?",
+      "a": "17. mai 1814",
+      "w": ["4. november 1814", "7. juni 1905", "8. mai 1945"],
+      "r": 800,
+      "t": ["grunnloven"]
+    },
+    {
+      "id": 19,
+      "q": "Hva førte Mossekonvensjonen i 1814 til?",
+      "a": "Union mellom Norge og Sverige",
+      "w": ["Oppløsning av unionen", "Selvstendighetserklæring", "Dansk overtakelse"],
+      "r": 800,
+      "t": ["unionstid"]
+    },
+    {
+      "id": 20,
+      "q": "Når ble unionen med Sverige oppløst?",
+      "a": "1905",
+      "w": ["1884", "1814", "1918"],
+      "r": 800,
+      "t": ["unionstid", "nasjonsbygging"]
+    },
+    {
+      "id": 21,
+      "q": "Hvem ble Norges konge etter unionsoppløsningen i 1905?",
+      "a": "Haakon VII",
+      "w": ["Oscar II", "Christian IX", "Harald V"],
+      "r": 800,
+      "t": ["nasjonsbygging"]
+    },
+    {
+      "id": 22,
+      "q": "Hvem var Norges første statsminister etter 1905?",
+      "a": "Christian Michelsen",
+      "w": ["Johan Sverdrup", "Gunnar Knudsen", "Einar Gerhardsen"],
+      "r": 800,
+      "t": ["nasjonsbygging"]
+    },
+    {
+      "id": 23,
+      "q": "Når fikk Norge parlamentarisme?",
+      "a": "1884",
+      "w": ["1905", "1814", "1913"],
+      "r": 800,
+      "t": ["politikk"]
+    },
+    {
+      "id": 24,
+      "q": "Hvilket år fikk kvinner stemmerett i Norge?",
+      "a": "1913",
+      "w": ["1905", "1945", "1890"],
+      "r": 800,
+      "t": ["likestilling"]
+    },
+    {
+      "id": 25,
+      "q": "Hva oppnådde arbeiderbevegelsen på 1930-tallet?",
+      "a": "Utbygging av velferdsstaten og arbeidstakerrettigheter",
+      "w": ["Full uavhengighet fra Sverige", "Innføring av parlamentarisme", "Avskaffelse av monarkiet"],
+      "r": 800,
+      "t": ["arbeiderbevegelse"]
+    },
+    {
+      "id": 26,
+      "q": "Hvem var statsminister da Norge ble invadert i 1940?",
+      "a": "Johan Nygaardsvold",
+      "w": ["Vidkun Quisling", "Einar Gerhardsen", "Christian Michelsen"],
+      "r": 800,
+      "t": ["andre verdenskrig"]
+    },
+    {
+      "id": 27,
+      "q": "Hvilken dato ble Norge invadert av Tyskland under andre verdenskrig?",
+      "a": "9. april 1940",
+      "w": ["8. mai 1945", "17. mai 1940", "3. september 1939"],
+      "r": 800,
+      "t": ["andre verdenskrig"]
+    },
+    {
+      "id": 28,
+      "q": "Hva het den tyske operasjonen for invasjonen av Norge?",
+      "a": "Operasjon Weserübung",
+      "w": ["Operasjon Barbarossa", "Operasjon Overlord", "Operasjon Nordlys"],
+      "r": 800,
+      "t": ["andre verdenskrig"]
+    },
+    {
+      "id": 29,
+      "q": "Når ble Norge frigjort fra tysk okkupasjon?",
+      "a": "8. mai 1945",
+      "w": ["9. april 1945", "17. mai 1946", "3. mai 1945"],
+      "r": 800,
+      "t": ["andre verdenskrig"]
+    },
+    {
+      "id": 30,
+      "q": "Hvilket parti ledet regjeringen under gjenreisningen etter krigen?",
+      "a": "Arbeiderpartiet",
+      "w": ["Høyre", "Venstre", "Kristelig Folkeparti"],
+      "r": 800,
+      "t": ["etterkrigstid"]
+    },
+    {
+      "id": 31,
+      "q": "Hvem ble kjent som 'landsfaderen' etter krigen?",
+      "a": "Einar Gerhardsen",
+      "w": ["Haakon VII", "Trygve Bratteli", "Oscar Torp"],
+      "r": 800,
+      "t": ["etterkrigstid"]
+    },
+    {
+      "id": 32,
+      "q": "Når ble NATO opprettet, med Norge som medlem?",
+      "a": "1949",
+      "w": ["1955", "1948", "1960"],
+      "r": 800,
+      "t": ["utenrikspolitikk"]
+    },
+    {
+      "id": 33,
+      "q": "Når ble olje funnet på norsk sokkel?",
+      "a": "1969",
+      "w": ["1959", "1971", "1980"],
+      "r": 800,
+      "t": ["industrihistorie"]
+    },
+    {
+      "id": 34,
+      "q": "Hva het det første store oljefeltet i Norge?",
+      "a": "Ekofisk",
+      "w": ["Statfjord", "Troll", "Snorre"],
+      "r": 800,
+      "t": ["industrihistorie"]
+    },
+    {
+      "id": 35,
+      "q": "Hvilket år stemte Norge nei til EF-medlemskap første gang?",
+      "a": "1972",
+      "w": ["1969", "1981", "1994"],
+      "r": 800,
+      "t": ["europa"]
+    },
+    {
+      "id": 36,
+      "q": "Når sa Norge nei til EU for andre gang?",
+      "a": "1994",
+      "w": ["1986", "1972", "2001"],
+      "r": 800,
+      "t": ["europa"]
+    },
+    {
+      "id": 37,
+      "q": "Hva er EØS-avtalen?",
+      "a": "En avtale som gir Norge tilgang til EUs indre marked",
+      "w": ["En militærallianse", "En nordisk handelsunion", "En klimatraktat"],
+      "r": 800,
+      "t": ["europa"]
+    },
+    {
+      "id": 38,
+      "q": "Hvilket år ble sametinget opprettet?",
+      "a": "1989",
+      "w": ["1979", "1995", "2005"],
+      "r": 800,
+      "t": ["minoritetspolitikk"]
+    },
+    {
+      "id": 39,
+      "q": "Hvor ligger Sametinget?",
+      "a": "Karasjok",
+      "w": ["Alta", "Tromsø", "Kautokeino"],
+      "r": 800,
+      "t": ["minoritetspolitikk"]
+    },
+    {
+      "id": 40,
+      "q": "Hvilket år ble kong Harald V kronet som Norges konge?",
+      "a": "1991",
+      "w": ["1989", "1993", "1980"],
+      "r": 800,
+      "t": ["monarki"]
+    },
+    {
+      "id": 41,
+      "q": "Hva kalles grunnloven som styrer Norge i dag?",
+      "a": "Grunnloven av 1814",
+      "w": ["Grunnloven av 1905", "Eidsvollsloven", "Nordisk lov"],
+      "r": 800,
+      "t": ["grunnloven"]
+    },
+    {
+      "id": 42,
+      "q": "Hvilken by ble sterkt rammet av storbrannen i 1904?",
+      "a": "Ålesund",
+      "w": ["Bergen", "Drammen", "Trondheim"],
+      "r": 800,
+      "t": ["byhistorie"]
+    },
+    {
+      "id": 43,
+      "q": "Hvem fikk Nobels fredspris for arbeidet med Suez-krisen i 1956?",
+      "a": "Trygve Lie",
+      "w": ["Fridtjof Nansen", "Gro Harlem Brundtland", "Thorvald Stoltenberg"],
+      "r": 800,
+      "t": ["internasjonalt"]
     },
     {
       "id": 44,
-      "q": "Which country invented the telephone?",
-      "a": "United States",
-      "w": [
-        "United Kingdom",
-        "Germany",
-        "France"
-      ],
-      "r": 1000,
-      "t": [
-        "capitals",
-        "discoveries"
-      ]
+      "q": "Hvem var Norges første kvinnelige statsminister?",
+      "a": "Gro Harlem Brundtland",
+      "w": ["Kaci Kullmann Five", "Erna Solberg", "Kristin Halvorsen"],
+      "r": 800,
+      "t": ["likestilling"]
     },
     {
-      "id": 51,
-      "q": "Who was the first person to walk on the Moon?",
-      "a": "Neil Armstrong",
-      "w": [
-        "Buzz Aldrin",
-        "Yuri Gagarin",
-        "Michael Collins"
-      ],
-      "r": 950,
-      "t": [
-        "general"
-      ]
+      "id": 45,
+      "q": "Hvilket år ble Gro Harlem Brundtland statsminister for første gang?",
+      "a": "1981",
+      "w": ["1979", "1985", "1990"],
+      "r": 800,
+      "t": ["politikk"]
     },
     {
-      "id": 55,
-      "q": "Who invented the telephone?",
-      "a": "Alexander Graham Bell",
-      "w": [
-        "Thomas Edison",
-        "Nikola Tesla",
-        "Guglielmo Marconi"
-      ],
-      "r": 1000,
-      "t": [
-        "discoveries"
-      ]
+      "id": 46,
+      "q": "Hvilket år ble det første barnet født ved kunstig befruktning i Norge?",
+      "a": "1984",
+      "w": ["1974", "1990", "1999"],
+      "r": 800,
+      "t": ["vitenskap"]
     },
     {
-      "id": 60,
-      "q": "In which year did the Titanic sink?",
-      "a": "1912",
-      "w": [
-        "1910",
-        "1914",
-        "1915"
-      ],
-      "r": 1000,
-      "t": [
-        "timeline"
-      ]
+      "id": 47,
+      "q": "Hvilken by ble OL arrangert i 1994?",
+      "a": "Lillehammer",
+      "w": ["Oslo", "Bergen", "Trondheim"],
+      "r": 800,
+      "t": ["sport"]
     },
     {
-      "id": 65,
-      "q": "Who was the first woman to win a Nobel Prize?",
-      "a": "Marie Curie",
-      "w": [
-        "Rosalind Franklin",
-        "Jane Goodall",
-        "Ada Lovelace"
-      ],
-      "r": 1050,
-      "t": [
-        "general"
-      ]
+      "id": 48,
+      "q": "Når ble 22. juli-terrorangrepene utført i Norge?",
+      "a": "2011",
+      "w": ["2010", "2013", "2015"],
+      "r": 800,
+      "t": ["moderne tid"]
     },
     {
-      "id": 69,
-      "q": "Who was the first President of the United States?",
-      "a": "George Washington",
-      "w": [
-        "Thomas Jefferson",
-        "John Adams",
-        "Abraham Lincoln"
-      ],
-      "r": 950,
-      "t": [
-        "capitals"
-      ]
+      "id": 49,
+      "q": "Hvem var statsminister under 22. juli-angrepene?",
+      "a": "Jens Stoltenberg",
+      "w": ["Erna Solberg", "Gro Harlem Brundtland", "Jonas Gahr Støre"],
+      "r": 800,
+      "t": ["moderne tid"]
     },
     {
-      "id": 76,
-      "q": "What year did the Berlin Wall fall?",
-      "a": "1989",
-      "w": [
-        "1987",
-        "1990",
-        "1991"
-      ],
-      "r": 1000,
-      "t": [
-        "timeline"
-      ]
-    },
-    {
-      "id": 87,
-      "q": "Which country gifted the Statue of Liberty to the United States?",
-      "a": "France",
-      "w": [
-        "United Kingdom",
-        "Germany",
-        "Italy"
-      ],
-      "r": 1000,
-      "t": [
-        "capitals"
-      ]
-    },
-    {
-      "id": 94,
-      "q": "Who was the British Prime Minister during World War II?",
-      "a": "Winston Churchill",
-      "w": [
-        "Neville Chamberlain",
-        "Clement Attlee",
-        "Anthony Eden"
-      ],
-      "r": 1000,
-      "t": [
-        "wars"
-      ]
+      "id": 50,
+      "q": "Hvilket år feiret Norge grunnlovens 200-årsjubileum?",
+      "a": "2014",
+      "w": ["2013", "2015", "2018"],
+      "r": 800,
+      "t": ["grunnloven"]
     }
   ]
 }
