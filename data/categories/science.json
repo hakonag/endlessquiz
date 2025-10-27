@@ -864,7 +864,7 @@
     {
       "id": 58,
       "q": "Hvilket norsk forskningsprogram fokuserer på klimaendringer i Arktis?",
-      "a": "FRAM – Nordområdesenter for klima og miljøforskning",
+      "a": "FRAM",
       "w": [
         "NORKLIMA",
         "ARCticNow",
@@ -1434,7 +1434,7 @@
     {
       "id": 96,
       "q": "Hvilket norsk forskningsmiljø utviklet de første autonome skipene i verden?",
-      "a": "Kongsberg Maritime og Yara Birkeland-prosjektet",
+      "a": "Kongsberg Maritime",
       "w": [
         "Equinor Marine",
         "Statkraft Ocean",
@@ -1989,7 +1989,7 @@
 {
   "id": 133,
   "q": "Hvilket norsk forskningssenter jobber med kunstig fotosyntese for grønn energi?",
-  "a": "SINTEF Materialer og kjemi",
+  "a": "SINTEF",
   "w": [
     "IFE",
     "CICERO",
