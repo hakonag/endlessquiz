@@ -18,54 +18,46 @@
     </div>
 
     <div id="container">
-        <!-- Top Control Bar -->
-        <div id="topControls">
-            <div id="questionInfo">
-                <span id="currentCategory">Generell Kunnskap</span>
-                <span id="questionCount">10,000 spørsmål</span>
-            </div>
-            <div id="topButtons">
-                <div class="dropdown">
-                    <button id="btnCategory" class="topbutton">Kategori</button>
-                    <div id="dropdownContent" class="dropdown-content">
-                        <div class="dropdown-item" data-filename="general.json">Generell Kunnskap</div>
-                        <div class="dropdown-item" data-filename="history.json">Historie</div>
-                        <div class="dropdown-item" data-filename="geography.json">Geografi</div>
-                        <div class="dropdown-item" data-filename="science.json">Vitenskap</div>
-                        <div class="dropdown-item" data-filename="culture.json">Kultur</div>
-                    </div>
-                </div>
-                <button id="btnLearn" class="topbutton">Lær</button>
-                <div id="btnRating" class="topbutton">1000</div>
+        <div id="toprow">
+            <div id="btnMatchPoints" class="topbutton">0</div>
+            <div id="btnRating" class="topbutton">1000</div>
+            <div id="btnLearn" class="topbutton">Lær</div>
+            <div id="btnCategory" class="topbutton">Kategori</div>
+        </div>
+        <div style="clear: both;"></div>
+        
+        <div id="questionWrapper">
+            <div style="display:table-cell; vertical-align:middle;">
+                <div id="question">Laster spørsmål...</div>
             </div>
         </div>
+        
+        <table id="answersTable">
+            <tbody>
+                <tr>
+                    <th class="answer" id="answer1">Svar 1</th>
+                    <th class="answer" id="answer2">Svar 2</th>
+                </tr>
+                <tr>
+                    <th class="answer" id="answer3">Svar 3</th>
+                    <th class="answer" id="answer4">Svar 4</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="panel-footer">
+        © ENDELØS QUIZ 2025
+        <a href="#" class="footerItem">Om</a>
+    </div>
 
-        <!-- Question -->
-        <div id="question">
-            Laster spørsmål...
-        </div>
-
-        <!-- 4 Answer Buttons -->
-        <div id="answers">
-            <button class="answer" id="answer1">
-                <span class="answer-text">Svar 1</span>
-            </button>
-            <button class="answer" id="answer2">
-                <span class="answer-text">Svar 2</span>
-            </button>
-            <button class="answer" id="answer3">
-                <span class="answer-text">Svar 3</span>
-            </button>
-            <button class="answer" id="answer4">
-                <span class="answer-text">Svar 4</span>
-            </button>
-        </div>
-
-        <!-- Footer -->
-        <div class="panel-footer">
-            © ENDELØS QUIZ 2025
-            <a href="#" class="footerItem">Om</a>
-        </div>
+    <!-- Dropdown Menu (hidden by default) -->
+    <div id="dropdownContent" class="dropdown-content">
+        <div class="dropdown-item" data-filename="general.json">Generell Kunnskap</div>
+        <div class="dropdown-item" data-filename="history.json">Historie</div>
+        <div class="dropdown-item" data-filename="geography.json">Geografi</div>
+        <div class="dropdown-item" data-filename="science.json">Vitenskap</div>
+        <div class="dropdown-item" data-filename="culture.json">Kultur</div>
     </div>
 
     <script src="js/quiz.js"></script>
