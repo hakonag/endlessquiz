@@ -1,5 +1,7 @@
 class EndlessQuiz {
     constructor() {
+        this.categories = [];
+        this.currentCategory = null;
         this.questions = [];
         this.currentQuestionIndex = 0;
         this.elo = 1000;
@@ -12,21 +14,95 @@ class EndlessQuiz {
     }
     
     async init() {
-        await this.loadQuestions();
+        await this.loadCategories();
         this.setupEventListeners();
-        this.displayQuestion();
-        this.updateUI();
+        this.showCategorySelection();
     }
     
-    async loadQuestions() {
+    async loadCategories() {
         try {
-            const response = await fetch('data/questions.json');
-            this.questions = await response.json();
-            this.shuffleArray(this.questions);
+            const response = await fetch('data/categories.json');
+            const data = await response.json();
+            this.categories = data.categories;
+        } catch (error) {
+            console.error('Error loading categories:', error);
+            this.categories = this.getFallbackCategories();
+        }
+    }
+    
+    async loadQuestions(categoryFilename) {
+        try {
+            if (categoryFilename === 'general.json') {
+                // For General Knowledge, load all 4 categories and combine
+                await this.loadGeneralKnowledge();
+            } else {
+                // For specific categories, load normally
+                const response = await fetch(`data/categories/${categoryFilename}`);
+                const data = await response.json();
+                this.questions = data.questions;
+                this.shuffleArray(this.questions);
+                this.currentCategory = data.category;
+            }
         } catch (error) {
             console.error('Error loading questions:', error);
             this.questions = this.getFallbackQuestions();
         }
+    }
+    
+    async loadGeneralKnowledge() {
+        try {
+            const categories = ['history', 'geography', 'science', 'culture'];
+            const allQuestions = [];
+            
+            // Load all 4 category files
+            for (const category of categories) {
+                const response = await fetch(`data/categories/${category}.json`);
+                const data = await response.json();
+                allQuestions.push(...data.questions);
+            }
+            
+            this.questions = allQuestions;
+            this.shuffleArray(this.questions);
+            this.currentCategory = 'General Knowledge';
+        } catch (error) {
+            console.error('Error loading general knowledge:', error);
+            this.questions = this.getFallbackQuestions();
+        }
+    }
+    
+    getFallbackCategories() {
+        return [
+            {
+                name: "Science",
+                filename: "science.json",
+                count: 2500,
+                description: "General science questions"
+            },
+            {
+                name: "History",
+                filename: "history.json",
+                count: 2500,
+                description: "Historical questions"
+            },
+            {
+                name: "Geography",
+                filename: "geography.json",
+                count: 2500,
+                description: "Geography questions"
+            },
+            {
+                name: "Culture",
+                filename: "culture.json",
+                count: 2500,
+                description: "Cultural questions"
+            },
+            {
+                name: "General Knowledge",
+                filename: "general.json",
+                count: 10000,
+                description: "Mixed questions from all categories"
+            }
+        ];
     }
     
     getFallbackQuestions() {
@@ -62,6 +138,80 @@ class EndlessQuiz {
         
         // Keyboard support
         document.addEventListener('keypress', (e) => this.handleKeyPress(e));
+    }
+    
+    showCategorySelection() {
+        const container = document.getElementById('container');
+        container.innerHTML = `
+            <div id="categorySelection">
+                <h2>Choose a Category</h2>
+                <div id="categoryGrid">
+                    ${this.categories.map(category => `
+                        <button class="categoryButton" data-filename="${category.filename}">
+                            <div class="categoryName">${category.name}</div>
+                            <div class="categoryCount">${category.count} questions</div>
+                            <div class="categoryDescription">${category.description}</div>
+                        </button>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        
+        // Add event listeners to category buttons
+        document.querySelectorAll('.categoryButton').forEach(button => {
+            button.addEventListener('click', async (e) => {
+                const filename = e.currentTarget.dataset.filename;
+                await this.startQuiz(filename);
+            });
+        });
+    }
+    
+    async startQuiz(categoryFilename) {
+        await this.loadQuestions(categoryFilename);
+        this.restoreQuizUI();
+        this.displayQuestion();
+        this.updateUI();
+    }
+    
+    restoreQuizUI() {
+        const container = document.getElementById('container');
+        container.innerHTML = `
+            <!-- Top Right Buttons -->
+            <div id="topButtons">
+                <button id="btnLearn" class="topbutton">Learn</button>
+                <div id="btnRating" class="topbutton">1000</div>
+            </div>
+
+            <!-- Question -->
+            <div id="question">
+                Loading question...
+            </div>
+
+            <!-- 4 Answer Buttons -->
+            <div id="answers">
+                <button class="answer" id="answer1">
+                    Answer 1
+                </button>
+                <button class="answer" id="answer2">
+                    Answer 2
+                </button>
+                <button class="answer" id="answer3">
+                    Answer 3
+                </button>
+                <button class="answer" id="answer4">
+                    Answer 4
+                </button>
+            </div>
+
+            <!-- Footer -->
+            <div class="panel-footer">
+                © ENDLESS QUIZ 2025
+                <a href="#" class="footerItem">About</a>
+            </div>
+        `;
+        
+        // Re-setup event listeners for the restored UI
+        this.setupEventListeners();
     }
     
     handleKeyPress(e) {

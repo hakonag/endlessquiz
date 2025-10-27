@@ -1,0 +1,136 @@
+{
+  "category": "History",
+  "count": 10,
+  "questions": [
+    {
+      "id": 9,
+      "question": "What year did World War II end?",
+      "answer": "1945",
+      "wrongAnswers": [
+        "1944",
+        "1946",
+        "1943"
+      ],
+      "rating": 1000,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 44,
+      "question": "Which country invented the telephone?",
+      "answer": "United States",
+      "wrongAnswers": [
+        "United Kingdom",
+        "Germany",
+        "France"
+      ],
+      "rating": 1000,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 51,
+      "question": "Who was the first person to walk on the Moon?",
+      "answer": "Neil Armstrong",
+      "wrongAnswers": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Michael Collins"
+      ],
+      "rating": 950,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 55,
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell",
+      "wrongAnswers": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "rating": 1000,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 60,
+      "question": "In which year did the Titanic sink?",
+      "answer": "1912",
+      "wrongAnswers": [
+        "1910",
+        "1914",
+        "1915"
+      ],
+      "rating": 1000,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 65,
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answer": "Marie Curie",
+      "wrongAnswers": [
+        "Rosalind Franklin",
+        "Jane Goodall",
+        "Ada Lovelace"
+      ],
+      "rating": 1050,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 69,
+      "question": "Who was the first President of the United States?",
+      "answer": "George Washington",
+      "wrongAnswers": [
+        "Thomas Jefferson",
+        "John Adams",
+        "Abraham Lincoln"
+      ],
+      "rating": 950,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 76,
+      "question": "What year did the Berlin Wall fall?",
+      "answer": "1989",
+      "wrongAnswers": [
+        "1987",
+        "1990",
+        "1991"
+      ],
+      "rating": 1000,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 87,
+      "question": "Which country gifted the Statue of Liberty to the United States?",
+      "answer": "France",
+      "wrongAnswers": [
+        "United Kingdom",
+        "Germany",
+        "Italy"
+      ],
+      "rating": 1000,
+      "category": "History",
+      "language": "eng"
+    },
+    {
+      "id": 94,
+      "question": "Who was the British Prime Minister during World War II?",
+      "answer": "Winston Churchill",
+      "wrongAnswers": [
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Anthony Eden"
+      ],
+      "rating": 1000,
+      "category": "History",
+      "language": "eng"
+    }
+  ]
+}

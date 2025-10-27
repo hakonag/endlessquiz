@@ -1,0 +1,36 @@
+{
+  "totalCategories": 5,
+  "totalQuestions": 10000,
+  "categories": [
+    {
+      "name": "History",
+      "filename": "history.json",
+      "count": 2500,
+      "description": "Questions about historical events, figures, and time periods"
+    },
+    {
+      "name": "Geography",
+      "filename": "geography.json",
+      "count": 2500,
+      "description": "Questions about countries, capitals, landmarks, and physical features"
+    },
+    {
+      "name": "Science",
+      "filename": "science.json",
+      "count": 2500,
+      "description": "Questions about physics, chemistry, biology, and general science"
+    },
+    {
+      "name": "Culture",
+      "filename": "culture.json",
+      "count": 2500,
+      "description": "Questions about art, literature, music, and cultural practices"
+    },
+    {
+      "name": "General Knowledge",
+      "filename": "general.json",
+      "count": 10000,
+      "description": "Mixed questions from all categories (10k total)"
+    }
+  ]
+}
