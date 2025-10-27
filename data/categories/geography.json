@@ -1,385 +1,815 @@
 {
   "version": "1.0",
-  "category": "Geography",
+  "category": "Geografi",
   "metadata": {
-    "totalQuestions": 26,
+    "totalQuestions": 100,
     "difficultyRange": {
       "min": 700,
       "max": 1200
     },
     "lastUpdated": "2025-10-27",
-    "tags": [
-      "countries",
-      "capitals",
-      "landmarks",
-      "physical-features"
-    ]
+    "tags": ["norge", "natur", "klima", "fjell", "innsjøer", "kyst", "regioner", "elver", "arktis"]
   },
   "questions": [
     {
+      "id": 1,
+      "q": "Hva er Norges høyeste fjell?",
+      "a": "Galdhøpiggen",
+      "w": ["Glittertind", "Snøhetta", "Store Skagastølstind"],
+      "r": 850,
+      "t": ["fjell"]
+    },
+    {
       "id": 2,
-      "q": "Which US state does NOT border Mexico?",
-      "a": "Colorado",
-      "w": [
-        "Texas",
-        "New Mexico",
-        "Arizona"
-      ],
-      "r": 1127,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hva heter Norges lengste elv?",
+      "a": "Glomma",
+      "w": ["Numedalslågen", "Tana", "Drammenselva"],
+      "r": 820,
+      "t": ["elver"]
     },
     {
       "id": 3,
-      "q": "What is the capital of Australia?",
-      "a": "Canberra",
-      "w": [
-        "Sydney",
-        "Melbourne",
-        "Perth"
-      ],
-      "r": 850,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvilken innsjø er Norges største?",
+      "a": "Mjøsa",
+      "w": ["Femunden", "Røssvatnet", "Tyrifjorden"],
+      "r": 800,
+      "t": ["innsjøer"]
+    },
+    {
+      "id": 4,
+      "q": "Hvor stor del av Norge ligger nord for polarsirkelen?",
+      "a": "Omtrent en tredjedel",
+      "w": ["Omtrent halvparten", "En fjerdedel", "Nesten hele landet"],
+      "r": 970,
+      "t": ["klima"]
+    },
+    {
+      "id": 5,
+      "q": "Hvilken havstrøm bidrar mest til Norges milde klima?",
+      "a": "Golfstrømmen",
+      "w": ["Canariastrømmen", "Labradorstrømmen", "Perustrømmen"],
+      "r": 880,
+      "t": ["klima"]
+    },
+    {
+      "id": 6,
+      "q": "Hva heter det høyeste fjellet i Nord-Norge?",
+      "a": "Jiehkkevárri",
+      "w": ["Higravtindan", "Oksskolten", "Suliskongen"],
+      "r": 930,
+      "t": ["fjell"]
+    },
+    {
+      "id": 7,
+      "q": "Hvor stor er Norges kystlinje inkludert øyer?",
+      "a": "Over 100 000 kilometer",
+      "w": ["Omtrent 10 000 kilometer", "30 000 kilometer", "70 000 kilometer"],
+      "r": 1050,
+      "t": ["kyst"]
     },
     {
       "id": 8,
-      "q": "Which ocean is the largest?",
-      "a": "Pacific Ocean",
-      "w": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Arctic Ocean"
-      ],
-      "r": 800,
-      "t": [
-        "physical"
-      ]
+      "q": "Hvilken øygruppe ligger lengst nord i Norge?",
+      "a": "Svalbard",
+      "w": ["Lofoten", "Vesterålen", "Jan Mayen"],
+      "r": 760,
+      "t": ["arktis"]
+    },
+    {
+      "id": 9,
+      "q": "Hvilket hav grenser Norge til i vest?",
+      "a": "Norskehavet",
+      "w": ["Barentshavet", "Nordsjøen", "Atlanterhavet"],
+      "r": 780,
+      "t": ["hav"]
+    },
+    {
+      "id": 10,
+      "q": "Hva er den sørligste kommunen i Norge?",
+      "a": "Lindesnes",
+      "w": ["Kristiansand", "Farsund", "Lyngdal"],
+      "r": 870,
+      "t": ["regioner"]
     },
     {
       "id": 11,
-      "q": "What is the smallest country in the world?",
-      "a": "Vatican City",
-      "w": [
-        "Monaco",
-        "Nauru",
-        "San Marino"
-      ],
-      "r": 1150,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvilken kommune er Norges nordligste?",
+      "a": "Nordkapp",
+      "w": ["Tromsø", "Karasjok", "Vadsø"],
+      "r": 840,
+      "t": ["regioner"]
+    },
+    {
+      "id": 12,
+      "q": "Hvor ligger Hardangervidda?",
+      "a": "Mellom Østlandet og Vestlandet",
+      "w": ["I Trøndelag", "På Sørlandet", "I Nord-Norge"],
+      "r": 810,
+      "t": ["fjellvidder"]
+    },
+    {
+      "id": 13,
+      "q": "Hva er Norges nest største øy?",
+      "a": "Senja",
+      "w": ["Hinnøya", "Kvaløya", "Sørøya"],
+      "r": 930,
+      "t": ["øyer"]
     },
     {
       "id": 14,
-      "q": "Which country has the most natural lakes?",
-      "a": "Canada",
-      "w": [
-        "Russia",
-        "Finland",
-        "United States"
-      ],
-      "r": 1100,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hva heter Norges største øy?",
+      "a": "Hinnøya",
+      "w": ["Senja", "Kvaløya", "Sørøya"],
+      "r": 810,
+      "t": ["øyer"]
+    },
+    {
+      "id": 15,
+      "q": "Hva er Norges største nasjonalpark?",
+      "a": "Hardangervidda nasjonalpark",
+      "w": ["Jotunheimen nasjonalpark", "Femundsmarka", "Rondane nasjonalpark"],
+      "r": 880,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 16,
+      "q": "Hva heter Norges lengste fjord?",
+      "a": "Sognefjorden",
+      "w": ["Hardangerfjorden", "Oslofjorden", "Trondheimsfjorden"],
+      "r": 770,
+      "t": ["fjord"]
     },
     {
       "id": 17,
-      "q": "What is the currency of Japan?",
-      "a": "Yen",
-      "w": [
-        "Won",
-        "Dollar",
-        "Euro"
-      ],
-      "r": 850,
-      "t": [
-        "general"
-      ]
+      "q": "Hvilken fjord er kjent for Geiranger og UNESCO-status?",
+      "a": "Geirangerfjorden",
+      "w": ["Nordfjorden", "Lysefjorden", "Nærøyfjorden"],
+      "r": 890,
+      "t": ["fjord"]
+    },
+    {
+      "id": 18,
+      "q": "Hvor ligger Dovrefjell?",
+      "a": "Mellom Oppland og Trøndelag",
+      "w": ["I Finnmark", "På Vestlandet", "I Telemark"],
+      "r": 880,
+      "t": ["fjell"]
+    },
+    {
+      "id": 19,
+      "q": "Hvilken region har mest fjellterreng i Norge?",
+      "a": "Sør-Norge",
+      "w": ["Nord-Norge", "Trøndelag", "Østlandet"],
+      "r": 970,
+      "t": ["topografi"]
+    },
+    {
+      "id": 20,
+      "q": "Hva er Norges største isbre?",
+      "a": "Jostedalsbreen",
+      "w": ["Svartisen", "Folgefonna", "Hardangerjøkulen"],
+      "r": 780,
+      "t": ["isbreer"]
     },
     {
       "id": 21,
-      "q": "What is the longest river in the world?",
-      "a": "Nile River",
-      "w": [
-        "Amazon River",
-        "Mississippi River",
-        "Yangtze River"
-      ],
-      "r": 1050,
-      "t": [
-        "physical"
-      ]
+      "q": "Hvor ligger Svartisen?",
+      "a": "Nordland fylke",
+      "w": ["Vestland", "Troms", "Innlandet"],
+      "r": 870,
+      "t": ["isbreer"]
+    },
+    {
+      "id": 22,
+      "q": "Hva er den laveste temperaturen som er målt i Norge?",
+      "a": "−51,4 °C",
+      "w": ["−46,8 °C", "−53,0 °C", "−48,2 °C"],
+      "r": 1150,
+      "t": ["klima"]
     },
     {
       "id": 23,
-      "q": "What is the largest desert in the world?",
-      "a": "Antarctic Desert",
-      "w": [
-        "Sahara Desert",
-        "Arabian Desert",
-        "Gobi Desert"
-      ],
-      "r": 1100,
-      "t": [
-        "general"
-      ]
+      "q": "Hva heter den største øygruppen i Nordland?",
+      "a": "Lofoten",
+      "w": ["Helgeland", "Vesterålen", "Tysnesøyene"],
+      "r": 840,
+      "t": ["øyer"]
+    },
+    {
+      "id": 24,
+      "q": "Hvilken elv renner gjennom Elverum og Kongsvinger?",
+      "a": "Glomma",
+      "w": ["Numedalslågen", "Driva", "Gudbrandsdalslågen"],
+      "r": 870,
+      "t": ["elver"]
+    },
+    {
+      "id": 25,
+      "q": "Hva er Norges største innsjø i Nord-Norge?",
+      "a": "Røssvatnet",
+      "w": ["Femunden", "Limingen", "Iesjavri"],
+      "r": 910,
+      "t": ["innsjøer"]
     },
     {
       "id": 26,
-      "q": "Which country has the most time zones?",
-      "a": "France",
-      "w": [
-        "Russia",
-        "United States",
-        "China"
-      ],
-      "r": 1200,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvor ligger Finnmarksvidda?",
+      "a": "I Troms og Finnmark fylke",
+      "w": ["I Trøndelag", "På Østlandet", "På Vestlandet"],
+      "r": 780,
+      "t": ["vidde"]
+    },
+    {
+      "id": 27,
+      "q": "Hvilken fjellkjede danner grensen mellom Norge og Sverige?",
+      "a": "Kjølen",
+      "w": ["Jotunheimen", "Dovrefjell", "Langfjella"],
+      "r": 920,
+      "t": ["fjellkjeder"]
+    },
+    {
+      "id": 28,
+      "q": "Hva heter Norges største øy i ferskvann?",
+      "a": "Helgøya",
+      "w": ["Odderøya", "Sandøya", "Tjøme"],
+      "r": 980,
+      "t": ["øyer"]
+    },
+    {
+      "id": 29,
+      "q": "Hvor ligger Svalbard i forhold til fastlands-Norge?",
+      "a": "Omtrent 1000 km nord for fastlandet",
+      "w": ["500 km nord", "1500 km vest", "2000 km øst"],
+      "r": 970,
+      "t": ["arktis"]
+    },
+    {
+      "id": 30,
+      "q": "Hvilken by ligger lengst nord i Norge?",
+      "a": "Hammerfest",
+      "w": ["Alta", "Tromsø", "Honningsvåg"],
+      "r": 880,
+      "t": ["byer"]
     },
     {
       "id": 31,
-      "q": "Which country is known as the 'Land of the Rising Sun'?",
-      "a": "Japan",
-      "w": [
-        "China",
-        "South Korea",
-        "Thailand"
-      ],
-      "r": 800,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hva er den største innsjøen på Østlandet etter Mjøsa?",
+      "a": "Røssvatnet",
+      "w": ["Tyrifjorden", "Femunden", "Krøderen"],
+      "r": 940,
+      "t": ["innsjøer"]
+    },
+    {
+      "id": 32,
+      "q": "Hvilken fjord går inn til byen Bergen?",
+      "a": "Byfjorden",
+      "w": ["Sognefjorden", "Hardangerfjorden", "Nordfjorden"],
+      "r": 820,
+      "t": ["fjord"]
+    },
+    {
+      "id": 33,
+      "q": "Hva heter Norges største øy i Arktis?",
+      "a": "Spitsbergen",
+      "w": ["Edgeøya", "Nordaustlandet", "Jan Mayen"],
+      "r": 850,
+      "t": ["arktis"]
+    },
+    {
+      "id": 34,
+      "q": "Hva er den største elva i Nord-Norge?",
+      "a": "Tanaelva",
+      "w": ["Altaelva", "Pasvikelva", "Saltdalselva"],
+      "r": 860,
+      "t": ["elver"]
     },
     {
       "id": 35,
-      "q": "What is the largest continent by area?",
-      "a": "Asia",
-      "w": [
-        "Africa",
-        "North America",
-        "Europe"
-      ],
-      "r": 800,
-      "t": [
-        "regions"
-      ]
+      "q": "Hvilken fjord ligger nærmest Ålesund?",
+      "a": "Storfjorden",
+      "w": ["Romsdalsfjorden", "Nordfjorden", "Sognefjorden"],
+      "r": 830,
+      "t": ["fjord"]
+    },
+    {
+      "id": 36,
+      "q": "Hva er det høyeste punktet på Hardangervidda?",
+      "a": "Hardangerjøkulen",
+      "w": ["Hårteigen", "Haukelifjell", "Gaustatoppen"],
+      "r": 980,
+      "t": ["fjell"]
+    },
+    {
+      "id": 37,
+      "q": "Hvor ligger Folgefonna?",
+      "a": "I Vestland fylke",
+      "w": ["I Nordland", "I Trøndelag", "I Troms"],
+      "r": 810,
+      "t": ["isbreer"]
     },
     {
       "id": 38,
-      "q": "Which country has the largest population?",
-      "a": "China",
-      "w": [
-        "India",
-        "United States",
-        "Indonesia"
-      ],
-      "r": 700,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvilket landskap preger store deler av Sørlandet?",
+      "a": "Skjærgård og lave åser",
+      "w": ["Høye fjell og vidder", "Store myrområder", "Dype dalfører"],
+      "r": 920,
+      "t": ["landskap"]
+    },
+    {
+      "id": 39,
+      "q": "Hvilken fjellkjede strekker seg fra Rogaland til Trøndelag?",
+      "a": "Langfjella",
+      "w": ["Jotunheimen", "Dovrefjell", "Kjølen"],
+      "r": 880,
+      "t": ["fjellkjeder"]
+    },
+    {
+      "id": 40,
+      "q": "Hva heter den største halvøya i Finnmark?",
+      "a": "Varangerhalvøya",
+      "w": ["Porsangerhalvøya", "Nordkapphalvøya", "Hammerfestlandet"],
+      "r": 930,
+      "t": ["regioner"]
     },
     {
       "id": 41,
-      "q": "What is the deepest ocean trench?",
-      "a": "Mariana Trench",
-      "w": [
-        "Puerto Rico Trench",
-        "Java Trench",
-        "Tonga Trench"
-      ],
-      "r": 1100,
-      "t": [
-        "physical"
-      ]
+      "q": "Hvilken region har de fleste og største elvene i Norge?",
+      "a": "Østlandet",
+      "w": ["Vestlandet", "Nord-Norge", "Trøndelag"],
+      "r": 870,
+      "t": ["elver"]
+    },
+    {
+      "id": 42,
+      "q": "Hvor ligger Norges geografiske midtpunkt?",
+      "a": "I Steinkjer kommune",
+      "w": ["I Dovre", "I Tynset", "I Oppdal"],
+      "r": 960,
+      "t": ["regioner"]
+    },
+    {
+      "id": 43,
+      "q": "Hva er den største byen nord for polarsirkelen?",
+      "a": "Tromsø",
+      "w": ["Bodø", "Narvik", "Alta"],
+      "r": 780,
+      "t": ["byer"]
+    },
+    {
+      "id": 44,
+      "q": "Hvor stor del av Norges landareal består av fjell og vidde?",
+      "a": "Omtrent 70 %",
+      "w": ["Omtrent 30 %", "Omtrent 50 %", "Omtrent 85 %"],
+      "r": 1070,
+      "t": ["topografi"]
+    },
+    {
+      "id": 45,
+      "q": "Hva er Norges største dalføre?",
+      "a": "Gudbrandsdalen",
+      "w": ["Numedal", "Hallingdal", "Setesdal"],
+      "r": 850,
+      "t": ["daler"]
+    },
+    {
+      "id": 46,
+      "q": "Hvilken fjellkjede er kjent for villrein og moskus?",
+      "a": "Dovrefjell",
+      "w": ["Jotunheimen", "Rondane", "Hardangervidda"],
+      "r": 870,
+      "t": ["dyreliv"]
     },
     {
       "id": 47,
-      "q": "What is the capital of Brazil?",
-      "a": "Brasília",
-      "w": [
-        "São Paulo",
-        "Rio de Janeiro",
-        "Salvador"
-      ],
-      "r": 900,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hva er Norges høyeste fossefall?",
+      "a": "Vettisfossen",
+      "w": ["Langfoss", "Mardalsfossen", "Kjosfossen"],
+      "r": 960,
+      "t": ["fosser"]
+    },
+    {
+      "id": 48,
+      "q": "Hvilken by ligger nærmest Norges geografiske midtpunkt?",
+      "a": "Steinkjer",
+      "w": ["Trondheim", "Oppdal", "Røros"],
+      "r": 870,
+      "t": ["byer"]
     },
     {
       "id": 49,
-      "q": "What is the largest island in the world?",
-      "a": "Greenland",
-      "w": [
-        "Australia",
-        "New Guinea",
-        "Borneo"
-      ],
-      "r": 1000,
-      "t": [
-        "general"
-      ]
+      "q": "Hva heter Norges største øy sør for Polarsirkelen?",
+      "a": "Hitra",
+      "w": ["Frøya", "Karmøy", "Tysnes"],
+      "r": 880,
+      "t": ["øyer"]
     },
     {
       "id": 50,
-      "q": "Which country has the most UNESCO World Heritage Sites?",
-      "a": "Italy",
-      "w": [
-        "China",
-        "Spain",
-        "France"
-      ],
-      "r": 1100,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvor mange fylker har Norge etter 2024-reformen?",
+      "a": "15",
+      "w": ["11", "18", "19"],
+      "r": 1050,
+      "t": ["administrasjon"]
+    },
+    {
+      "id": 51,
+      "q": "Hvilken innsjø ligger nærmest Oslo?",
+      "a": "Maridalsvannet",
+      "w": ["Bogstadvannet", "Øyeren", "Gjersjøen"],
+      "r": 780,
+      "t": ["innsjøer"]
+    },
+    {
+      "id": 52,
+      "q": "Hva er hovedstaden på Svalbard?",
+      "a": "Longyearbyen",
+      "w": ["Ny-Ålesund", "Barentsburg", "Svea"],
+      "r": 750,
+      "t": ["arktis"]
     },
     {
       "id": 53,
-      "q": "Which continent is the Sahara Desert located on?",
-      "a": "Africa",
-      "w": [
-        "Asia",
-        "Australia",
-        "South America"
-      ],
-      "r": 800,
-      "t": [
-        "regions"
-      ]
+      "q": "Hvilken norsk by ligger lengst sør?",
+      "a": "Kristiansand",
+      "w": ["Mandalsøyra", "Farsund", "Lyngdal"],
+      "r": 810,
+      "t": ["byer"]
+    },
+    {
+      "id": 54,
+      "q": "Hvilket land grenser Norge til i øst?",
+      "a": "Sverige",
+      "w": ["Finland", "Russland", "Danmark"],
+      "r": 740,
+      "t": ["grenser"]
+    },
+    {
+      "id": 55,
+      "q": "Hvilket land grenser Norge til i nordøst?",
+      "a": "Russland",
+      "w": ["Finland", "Sverige", "Estland"],
+      "r": 830,
+      "t": ["grenser"]
+    },
+    {
+      "id": 56,
+      "q": "Hvor mange prosent av Norge er dekket av skog?",
+      "a": "Omtrent 38 %",
+      "w": ["Omtrent 25 %", "Omtrent 50 %", "Omtrent 60 %"],
+      "r": 1100,
+      "t": ["natur"]
+    },
+    {
+      "id": 57,
+      "q": "Hva er Norges dypeste innsjø?",
+      "a": "Hornindalsvatnet",
+      "w": ["Mjøsa", "Røssvatnet", "Tyrifjorden"],
+      "r": 780,
+      "t": ["innsjøer"]
     },
     {
       "id": 58,
-      "q": "What is the capital of Canada?",
-      "a": "Ottawa",
-      "w": [
-        "Toronto",
-        "Vancouver",
-        "Montreal"
-      ],
-      "r": 900,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvilken type landskap finnes mest av i Nord-Norge?",
+      "a": "Fjorder og fjell",
+      "w": ["Flate sletter", "Skogsområder", "Sanddyner"],
+      "r": 920,
+      "t": ["landskap"]
+    },
+    {
+      "id": 59,
+      "q": "Hva heter Norges største øygruppe i Nordland fylke?",
+      "a": "Lofoten",
+      "w": ["Vesterålen", "Helgeland", "Tysnesøyene"],
+      "r": 760,
+      "t": ["øyer"]
+    },
+    {
+      "id": 60,
+      "q": "Hvilken elv markerer grensen mellom Norge og Russland?",
+      "a": "Pasvikelva",
+      "w": ["Tanaelva", "Neidenelva", "Altaelva"],
+      "r": 890,
+      "t": ["grenser"]
+    },
+    {
+      "id": 61,
+      "q": "Hva er den dominerende bergarten i Sør-Norge?",
+      "a": "Gneis",
+      "w": ["Sandstein", "Basalt", "Skifer"],
+      "r": 1080,
+      "t": ["geologi"]
+    },
+    {
+      "id": 62,
+      "q": "Hvilken norsk by har kallenavnet 'Nordens Paris'?",
+      "a": "Tromsø",
+      "w": ["Bodø", "Narvik", "Alta"],
+      "r": 770,
+      "t": ["byer"]
+    },
+    {
+      "id": 63,
+      "q": "Hva heter Norges største øy utenfor fastlandet i sør?",
+      "a": "Karmøy",
+      "w": ["Bømlo", "Tysnes", "Averøya"],
+      "r": 870,
+      "t": ["øyer"]
+    },
+    {
+      "id": 64,
+      "q": "Hva er den høyeste toppen i Trøndelag?",
+      "a": "Skarvan",
+      "w": ["Snøhetta", "Blåhø", "Trollheimen"],
+      "r": 940,
+      "t": ["fjell"]
+    },
+    {
+      "id": 65,
+      "q": "Hvilken norsk øy ligger nærmest Island?",
+      "a": "Jan Mayen",
+      "w": ["Spitsbergen", "Sørøya", "Senja"],
+      "r": 970,
+      "t": ["arktis"]
     },
     {
       "id": 66,
-      "q": "Which country is famous for the Taj Mahal?",
-      "a": "India",
-      "w": [
-        "Pakistan",
-        "Bangladesh",
-        "Nepal"
-      ],
-      "r": 800,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvilket fylke har flest innsjøer?",
+      "a": "Innlandet",
+      "w": ["Vestland", "Trøndelag", "Nordland"],
+      "r": 850,
+      "t": ["innsjøer"]
+    },
+    {
+      "id": 67,
+      "q": "Hva heter Norges største øy i ferskvann?",
+      "a": "Helgøya",
+      "w": ["Tjøme", "Odderøya", "Giske"],
+      "r": 860,
+      "t": ["øyer"]
+    },
+    {
+      "id": 68,
+      "q": "Hva er Norges største deltaområde?",
+      "a": "Øyeren-deltaet",
+      "w": ["Numedalslågen delta", "Pasvikdeltaet", "Tanadeltaet"],
+      "r": 1080,
+      "t": ["natur"]
+    },
+    {
+      "id": 69,
+      "q": "Hvor ligger Jotunheimen?",
+      "a": "Mellom Oppland og Sogn",
+      "w": ["I Nordland", "I Trøndelag", "I Telemark"],
+      "r": 820,
+      "t": ["fjell"]
+    },
+    {
+      "id": 70,
+      "q": "Hva er Norges største halvøy på Østlandet?",
+      "a": "Hurumslandet",
+      "w": ["Eidangerhalvøya", "Follohalvøya", "Nesodden"],
+      "r": 1070,
+      "t": ["regioner"]
+    },
+    {
+      "id": 71,
+      "q": "Hva er det mest typiske treet i norske skoger?",
+      "a": "Gran",
+      "w": ["Furu", "Bjørk", "Eik"],
+      "r": 740,
+      "t": ["skog"]
     },
     {
       "id": 72,
-      "q": "What is the largest ocean on Earth?",
-      "a": "Pacific Ocean",
-      "w": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Southern Ocean"
-      ],
-      "r": 800,
-      "t": [
-        "physical",
-        "art"
-      ]
+      "q": "Hvor ligger Trollheimen?",
+      "a": "Mellom Trøndelag og Møre og Romsdal",
+      "w": ["I Nordland", "I Telemark", "I Rogaland"],
+      "r": 870,
+      "t": ["fjell"]
+    },
+    {
+      "id": 73,
+      "q": "Hva heter fjellområdet mellom Sognefjorden og Hardangerfjorden?",
+      "a": "Fjellheimen",
+      "w": ["Hardangervidda", "Setesdalsheiene", "Jotunheimen"],
+      "r": 940,
+      "t": ["fjell"]
+    },
+    {
+      "id": 74,
+      "q": "Hvilken by ligger ved Trondheimsfjorden?",
+      "a": "Trondheim",
+      "w": ["Molde", "Kristiansund", "Levanger"],
+      "r": 760,
+      "t": ["byer"]
+    },
+    {
+      "id": 75,
+      "q": "Hvilket fylke har lengst kystlinje?",
+      "a": "Vestland",
+      "w": ["Nordland", "Møre og Romsdal", "Trøndelag"],
+      "r": 910,
+      "t": ["kyst"]
+    },
+    {
+      "id": 76,
+      "q": "Hvilken fjellkjede dekker store deler av Sør-Norge?",
+      "a": "Langfjella",
+      "w": ["Jotunheimen", "Rondane", "Dovrefjell"],
+      "r": 890,
+      "t": ["fjell"]
     },
     {
       "id": 77,
-      "q": "Which Italian city is famous for its canals?",
-      "a": "Venice",
-      "w": [
-        "Rome",
-        "Florence",
-        "Milan"
-      ],
-      "r": 850,
-      "t": [
-        "general"
-      ]
+      "q": "Hva heter Norges største nasjonalpark på Svalbard?",
+      "a": "Nordaust-Svalbard naturreservat",
+      "w": ["Sør-Spitsbergen nasjonalpark", "Forlandet nasjonalpark", "Nordvest-Spitsbergen nasjonalpark"],
+      "r": 1050,
+      "t": ["arktis"]
+    },
+    {
+      "id": 78,
+      "q": "Hvilken norsk innsjø ligger høyest over havet?",
+      "a": "Gjende",
+      "w": ["Femunden", "Bygdin", "Randsfjorden"],
+      "r": 960,
+      "t": ["innsjøer"]
+    },
+    {
+      "id": 79,
+      "q": "Hvilket fylke ligger både øst og vest for Langfjella?",
+      "a": "Innlandet",
+      "w": ["Trøndelag", "Vestfold", "Nordland"],
+      "r": 1000,
+      "t": ["regioner"]
     },
     {
       "id": 80,
-      "q": "What is the capital of Egypt?",
-      "a": "Cairo",
-      "w": [
-        "Alexandria",
-        "Giza",
-        "Luxor"
-      ],
-      "r": 850,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvilken elv renner ut i Fredrikstad?",
+      "a": "Glomma",
+      "w": ["Lågen", "Drammenselva", "Vorma"],
+      "r": 760,
+      "t": ["elver"]
+    },
+    {
+      "id": 81,
+      "q": "Hvilken øygruppe ligger mellom Lofoten og fastlandet?",
+      "a": "Vesterålen",
+      "w": ["Helgeland", "Sørøya", "Senja"],
+      "r": 820,
+      "t": ["øyer"]
+    },
+    {
+      "id": 82,
+      "q": "Hva heter Norges nest lengste fjord?",
+      "a": "Hardangerfjorden",
+      "w": ["Sognefjorden", "Trondheimsfjorden", "Nordfjorden"],
+      "r": 900,
+      "t": ["fjord"]
+    },
+    {
+      "id": 83,
+      "q": "Hvilken øy har Norges vestligste punkt?",
+      "a": "Røst",
+      "w": ["Værøy", "Sørøya", "Karmøy"],
+      "r": 910,
+      "t": ["øyer"]
+    },
+    {
+      "id": 84,
+      "q": "Hva heter fjellmassivet der Gaustatoppen ligger?",
+      "a": "Telemarksfjella",
+      "w": ["Setesdalsheiene", "Hardangervidda", "Rondane"],
+      "r": 930,
+      "t": ["fjell"]
+    },
+    {
+      "id": 85,
+      "q": "Hvilken øygruppe ligger lengst sør i Norge?",
+      "a": "Sørlandsøyene",
+      "w": ["Tysnesøyene", "Røvær", "Fedje"],
+      "r": 980,
+      "t": ["øyer"]
+    },
+        {
+      "id": 86,
+      "q": "Hvilket fjell er kjent som 'Dronningen av Jotunheimen'?",
+      "a": "Glittertind",
+      "w": ["Galdhøpiggen", "Store Skagastølstind", "Surtningssue"],
+      "r": 950,
+      "t": ["fjell"]
+    },
+    {
+      "id": 87,
+      "q": "Hvilken norsk elv renner ut i Trondheimsfjorden?",
+      "a": "Nidelva",
+      "w": ["Numedalslågen", "Driva", "Gaula"],
+      "r": 870,
+      "t": ["elver"]
+    },
+    {
+      "id": 88,
+      "q": "Hva heter den største øya i Oslofjorden?",
+      "a": "Nesøya",
+      "w": ["Hovedøya", "Tjøme", "Gressholmen"],
+      "r": 960,
+      "t": ["øyer"]
+    },
+    {
+      "id": 89,
+      "q": "Hvilken fjellkjede ligger nærmest den svenske grensen i nord?",
+      "a": "Kjølen",
+      "w": ["Rondane", "Jotunheimen", "Dovrefjell"],
+      "r": 840,
+      "t": ["fjellkjeder"]
     },
     {
       "id": 90,
-      "q": "What is the currency of the United Kingdom?",
-      "a": "Pound sterling",
-      "w": [
-        "Euro",
-        "Dollar",
-        "Franc"
-      ],
-      "r": 800,
-      "t": [
-        "general"
-      ]
+      "q": "Hvilken norsk by ligger ved munningen av Glomma?",
+      "a": "Fredrikstad",
+      "w": ["Sarpsborg", "Halden", "Moss"],
+      "r": 780,
+      "t": ["byer"]
+    },
+    {
+      "id": 91,
+      "q": "Hva er Norges største øykommune?",
+      "a": "Hitra",
+      "w": ["Frøya", "Senja", "Karmøy"],
+      "r": 870,
+      "t": ["øyer"]
+    },
+    {
+      "id": 92,
+      "q": "Hvilken innsjø ligger lengst nord i Norge?",
+      "a": "Iesjavri",
+      "w": ["Røssvatnet", "Femunden", "Tyrifjorden"],
+      "r": 890,
+      "t": ["innsjøer"]
     },
     {
       "id": 93,
-      "q": "Which continent has the most countries?",
-      "a": "Africa",
-      "w": [
-        "Asia",
-        "Europe",
-        "South America"
-      ],
-      "r": 950,
-      "t": [
-        "regions"
-      ]
+      "q": "Hvilken elv danner deler av grensen mellom Norge og Finland?",
+      "a": "Tanaelva",
+      "w": ["Pasvikelva", "Altaelva", "Neidenelva"],
+      "r": 880,
+      "t": ["grenser"]
+    },
+    {
+      "id": 94,
+      "q": "Hva er den største byen i Nordland fylke?",
+      "a": "Bodø",
+      "w": ["Mo i Rana", "Narvik", "Sortland"],
+      "r": 780,
+      "t": ["byer"]
     },
     {
       "id": 95,
-      "q": "What is the capital city of South Korea?",
-      "a": "Seoul",
-      "w": [
-        "Busan",
-        "Tokyo",
-        "Pyongyang"
-      ],
-      "r": 900,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hvilken øy er kjent for fuglefjellene Runde?",
+      "a": "Runde",
+      "w": ["Smøla", "Bremangerlandet", "Værøy"],
+      "r": 970,
+      "t": ["natur"]
+    },
+    {
+      "id": 96,
+      "q": "Hvilken fjellvidde ligger mellom Sogn og Hardanger?",
+      "a": "Hardangervidda",
+      "w": ["Rondane", "Dovrefjell", "Setesdalsheiene"],
+      "r": 780,
+      "t": ["fjellvidder"]
+    },
+    {
+      "id": 97,
+      "q": "Hva heter Norges dypeste punkt i havet?",
+      "a": "Norskegropen",
+      "w": ["Skagerrakrenna", "Barentsgropen", "Vesterålrenna"],
+      "r": 1130,
+      "t": ["hav"]
+    },
+    {
+      "id": 98,
+      "q": "Hvilket fylke har høyest gjennomsnittshøyde over havet?",
+      "a": "Innlandet",
+      "w": ["Vestland", "Troms og Finnmark", "Trøndelag"],
+      "r": 980,
+      "t": ["topografi"]
+    },
+    {
+      "id": 99,
+      "q": "Hvilken norsk innsjø er kjent for sin karakteristiske grønnfarge?",
+      "a": "Gjende",
+      "w": ["Bygdin", "Femunden", "Tyrifjorden"],
+      "r": 910,
+      "t": ["innsjøer"]
     },
     {
       "id": 100,
-      "q": "Which country is home to the Great Barrier Reef?",
-      "a": "Australia",
-      "w": [
-        "Indonesia",
-        "Philippines",
-        "New Zealand"
-      ],
-      "r": 850,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hva heter den lengste fjellkjeden i Norge?",
+      "a": "Langfjella",
+      "w": ["Kjølen", "Jotunheimen", "Rondane"],
+      "r": 890,
+      "t": ["fjellkjeder"]
     }
   ]
 }
