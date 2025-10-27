@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "question": "In which plant organelles does photosynthesis take place?",
+    "answer": "Chloroplasts",
+    "wrongAnswers": ["Mitochondria", "Vacuoles", "Centrioles"],
+    "rating": 1026,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 2,
+    "question": "Which US state does NOT border Mexico?",
+    "answer": "Colorado",
+    "wrongAnswers": ["Texas", "New Mexico", "Arizona"],
+    "rating": 1127,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 3,
+    "question": "What is the capital of Australia?",
+    "answer": "Canberra",
+    "wrongAnswers": ["Sydney", "Melbourne", "Perth"],
+    "rating": 850,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 4,
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "wrongAnswers": ["Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+    "rating": 950,
+    "category": "Art",
+    "language": "eng"
+  },
+  {
+    "id": 5,
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "wrongAnswers": ["Saturn", "Neptune", "Earth"],
+    "rating": 1100,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 6,
+    "question": "Which programming language was created by Brendan Eich?",
+    "answer": "JavaScript",
+    "wrongAnswers": ["Python", "Java", "C++"],
+    "rating": 1200,
+    "category": "Technology",
+    "language": "eng"
+  },
+  {
+    "id": 7,
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "wrongAnswers": ["Go", "Gd", "Ag"],
+    "rating": 900,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 8,
+    "question": "Which ocean is the largest?",
+    "answer": "Pacific Ocean",
+    "wrongAnswers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "rating": 800,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 9,
+    "question": "What year did World War II end?",
+    "answer": "1945",
+    "wrongAnswers": ["1944", "1946", "1943"],
+    "rating": 1000,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 10,
+    "question": "Which element has the atomic number 1?",
+    "answer": "Hydrogen",
+    "wrongAnswers": ["Helium", "Lithium", "Carbon"],
+    "rating": 1050,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 11,
+    "question": "What is the smallest country in the world?",
+    "answer": "Vatican City",
+    "wrongAnswers": ["Monaco", "Nauru", "San Marino"],
+    "rating": 1150,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 12,
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "answer": "Harper Lee",
+    "wrongAnswers": ["Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+    "rating": 950,
+    "category": "Literature",
+    "language": "eng"
+  },
+  {
+    "id": 13,
+    "question": "What is the speed of light in a vacuum?",
+    "answer": "299,792,458 m/s",
+    "wrongAnswers": ["300,000,000 m/s", "299,000,000 m/s", "301,000,000 m/s"],
+    "rating": 1300,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 14,
+    "question": "Which country has the most natural lakes?",
+    "answer": "Canada",
+    "wrongAnswers": ["Russia", "Finland", "United States"],
+    "rating": 1100,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 15,
+    "question": "What is the hardest natural substance on Earth?",
+    "answer": "Diamond",
+    "wrongAnswers": ["Quartz", "Corundum", "Topaz"],
+    "rating": 900,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 16,
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "wrongAnswers": ["Venus", "Jupiter", "Mercury"],
+    "rating": 800,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 17,
+    "question": "What is the currency of Japan?",
+    "answer": "Yen",
+    "wrongAnswers": ["Won", "Dollar", "Euro"],
+    "rating": 850,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 18,
+    "question": "Who composed 'The Four Seasons'?",
+    "answer": "Antonio Vivaldi",
+    "wrongAnswers": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven"],
+    "rating": 1000,
+    "category": "Music",
+    "language": "eng"
+  },
+  {
+    "id": 19,
+    "question": "What is the largest mammal in the world?",
+    "answer": "Blue whale",
+    "wrongAnswers": ["African elephant", "Giraffe", "Hippopotamus"],
+    "rating": 950,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 20,
+    "question": "Which country invented pizza?",
+    "answer": "Italy",
+    "wrongAnswers": ["Greece", "France", "Spain"],
+    "rating": 750,
+    "category": "Culture",
+    "language": "eng"
+  },
+  {
+    "id": 21,
+    "question": "What is the longest river in the world?",
+    "answer": "Nile River",
+    "wrongAnswers": ["Amazon River", "Mississippi River", "Yangtze River"],
+    "rating": 1050,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 22,
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming",
+    "wrongAnswers": ["Louis Pasteur", "Robert Koch", "Joseph Lister"],
+    "rating": 1200,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 23,
+    "question": "What is the largest desert in the world?",
+    "answer": "Antarctic Desert",
+    "wrongAnswers": ["Sahara Desert", "Arabian Desert", "Gobi Desert"],
+    "rating": 1100,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 24,
+    "question": "Which programming paradigm does Python primarily follow?",
+    "answer": "Object-oriented",
+    "wrongAnswers": ["Functional", "Procedural", "Logic"],
+    "rating": 1250,
+    "category": "Technology",
+    "language": "eng"
+  },
+  {
+    "id": 25,
+    "question": "What is the chemical formula for water?",
+    "answer": "H2O",
+    "wrongAnswers": ["H2O2", "CO2", "NaCl"],
+    "rating": 700,
+    "category": "Science",
+    "language": "eng"
+  }
+]
