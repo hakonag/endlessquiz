@@ -14,9 +14,17 @@ class EndlessQuiz {
     }
     
     async init() {
+        // Show loading screen
+        this.showLoadingScreen();
+        
         await this.loadCategories();
         this.setupEventListeners();
         await this.startQuiz('general.json');
+        
+        // Hide loading screen after everything is loaded
+        setTimeout(() => {
+            this.hideLoadingScreen();
+        }, 1500);
     }
     
     async loadCategories() {
@@ -169,14 +177,50 @@ class EndlessQuiz {
         document.getElementById('answer3').addEventListener('click', () => this.handleAnswer(2));
         document.getElementById('answer4').addEventListener('click', () => this.handleAnswer(3));
         
-        // Category switcher button
-        document.getElementById('btnCategory').addEventListener('click', () => this.showCategorySelection());
+        // Category dropdown
+        const categoryButton = document.getElementById('btnCategory');
+        const dropdownContent = document.getElementById('dropdownContent');
+        
+        categoryButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownContent.classList.toggle('show');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.dropdown')) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+        
+        // Dropdown item clicks
+        document.querySelectorAll('.dropdown-item').forEach(item => {
+            item.addEventListener('click', async (e) => {
+                const filename = e.target.dataset.filename;
+                dropdownContent.classList.remove('show');
+                await this.startQuiz(filename);
+            });
+        });
         
         // Learn button
         document.getElementById('btnLearn').addEventListener('click', () => this.openLearnLink());
         
         // Keyboard support
         document.addEventListener('keypress', (e) => this.handleKeyPress(e));
+    }
+    
+    showLoadingScreen() {
+        const loadingScreen = document.getElementById('loadingScreen');
+        if (loadingScreen) {
+            loadingScreen.style.display = 'flex';
+        }
+    }
+    
+    hideLoadingScreen() {
+        const loadingScreen = document.getElementById('loadingScreen');
+        if (loadingScreen) {
+            loadingScreen.style.display = 'none';
+        }
     }
     
     showCategorySelection() {
@@ -222,7 +266,16 @@ class EndlessQuiz {
                     <span id="questionCount">${this.questions.length.toLocaleString()} spørsmål</span>
                 </div>
                 <div id="topButtons">
-                    <button id="btnCategory" class="topbutton">Kategori</button>
+                    <div class="dropdown">
+                        <button id="btnCategory" class="topbutton">Kategori</button>
+                        <div id="dropdownContent" class="dropdown-content">
+                            <div class="dropdown-item" data-filename="general.json">Generell Kunnskap</div>
+                            <div class="dropdown-item" data-filename="history.json">Historie</div>
+                            <div class="dropdown-item" data-filename="geography.json">Geografi</div>
+                            <div class="dropdown-item" data-filename="science.json">Vitenskap</div>
+                            <div class="dropdown-item" data-filename="culture.json">Kultur</div>
+                        </div>
+                    </div>
                     <button id="btnLearn" class="topbutton">Lær</button>
                     <div id="btnRating" class="topbutton">1000</div>
                 </div>
