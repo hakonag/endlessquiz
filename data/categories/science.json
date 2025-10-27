@@ -2,7 +2,7 @@
   "version": "1.0",
   "category": "Science",
   "metadata": {
-    "totalQuestions": 50,
+    "totalQuestions": 100,
     "difficultyRange": {
       "min": 700,
       "max": 1200
@@ -308,79 +308,79 @@
     },
     {
       "id": 21,
-        "q": "Hvilken norsk fysiker var sentral i utviklingen av moderne værvarsling og grunnla dynamisk meteorologi?",
-        "a": "Vilhelm Bjerknes",
-          "w": [
-            "Kristian Birkeland",
-            "Fridtjof Nansen",
-            "Carl Størmer"
-          ],
-          "r": 1150,
-          "t": [
-            "forskning",
-            "meteorologi"
-          ]
-        },
-        {
-          "id": 22,
-          "q": "Hvilken norsk vitenskapsmann oppdaget nordlysets sammenheng med solaktivitet?",
-          "a": "Kristian Birkeland",
-          "w": [
-            "Vilhelm Bjerknes",
-            "Carl Størmer",
-            "Ivar Giæver"
-          ],
-          "r": 1000,
-          "t": [
-            "astronomi",
-            "fysikk"
-          ]
-        },
-        {
-          "id": 23,
-          "q": "Hvilken norsk matematiker mottok Abelprisen i 2004 for sitt arbeid innen algebraisk topologi?",
-          "a": "Michael Atiyah og Isadore Singer (pris delt med britisk-amerikansk samarbeid)",
-          "w": [
-            "Atle Selberg",
-            "May-Britt Moser",
-            "Ivar Giæver"
-          ],
-          "r": 1150,
-          "t": [
-            "matematikk",
-            "forskning"
-          ]
-        },
-        {
-          "id": 24,
-          "q": "Hvilken norsk fysiker vant Nobelprisen i 1973 for sine bidrag til forståelsen av superledning i metaller?",
-          "a": "Ivar Giæver",
-          "w": [
-            "Kristian Birkeland",
-            "Vilhelm Bjerknes",
-            "Anders Jahre"
-          ],
-          "r": 1200,
-          "t": [
-            "fysikk",
-            "nobelpris"
-          ]
-        },
-        {
-          "id": 25,
-          "q": "Hvilket norsk ektepar mottok Nobelprisen i medisin i 2014 for sin oppdagelse av hjernens 'indre GPS'?",
-          "a": "May-Britt og Edvard Moser",
-          "w": [
-            "Lorentz Eldjarn og Gro Harlem Brundtland",
-            "John Ugelstad og Anne Grete Ellingsen",
-            "Fredrik Bull og Marit Reiersen"
-          ],
-          "r": 1000,
-          "t": [
-            "medisin",
-            "forskning"
-          ]
-        },
+      "q": "Hvilken norsk fysiker var sentral i utviklingen av moderne værvarsling og grunnla dynamisk meteorologi?",
+      "a": "Vilhelm Bjerknes",
+      "w": [
+        "Kristian Birkeland",
+        "Fridtjof Nansen",
+        "Carl Størmer"
+      ],
+      "r": 1150,
+      "t": [
+        "forskning",
+        "meteorologi"
+      ]
+    },
+    {
+      "id": 22,
+      "q": "Hvilken norsk vitenskapsmann oppdaget nordlysets sammenheng med solaktivitet?",
+      "a": "Kristian Birkeland",
+      "w": [
+        "Vilhelm Bjerknes",
+        "Carl Størmer",
+        "Ivar Giæver"
+      ],
+      "r": 1000,
+      "t": [
+        "astronomi",
+        "fysikk"
+      ]
+    },
+    {
+      "id": 23,
+      "q": "Hvilken norsk matematiker mottok Abelprisen i 2004 for sitt arbeid innen algebraisk topologi?",
+      "a": "Michael Atiyah og Isadore Singer (pris delt med britisk-amerikansk samarbeid)",
+      "w": [
+        "Atle Selberg",
+        "May-Britt Moser",
+        "Ivar Giæver"
+      ],
+      "r": 1150,
+      "t": [
+        "matematikk",
+        "forskning"
+      ]
+    },
+    {
+      "id": 24,
+      "q": "Hvilken norsk fysiker vant Nobelprisen i 1973 for sine bidrag til forståelsen av superledning i metaller?",
+      "a": "Ivar Giæver",
+      "w": [
+        "Kristian Birkeland",
+        "Vilhelm Bjerknes",
+        "Anders Jahre"
+      ],
+      "r": 1200,
+      "t": [
+        "fysikk",
+        "nobelpris"
+      ]
+    },
+    {
+      "id": 25,
+      "q": "Hvilket norsk ektepar mottok Nobelprisen i medisin i 2014 for sin oppdagelse av hjernens 'indre GPS'?",
+      "a": "May-Britt og Edvard Moser",
+      "w": [
+        "Lorentz Eldjarn og Gro Harlem Brundtland",
+        "John Ugelstad og Anne Grete Ellingsen",
+        "Fredrik Bull og Marit Reiersen"
+      ],
+      "r": 1000,
+      "t": [
+        "medisin",
+        "forskning"
+      ]
+    },
         {
           "id": 26,
           "q": "Hvilken norsk polarforsker var den første til å krysse Grønland på ski i 1888?",
@@ -755,6 +755,756 @@
             "transport",
             "industri"
           ]
-        }
+        },
+        {
+          "id": 51,
+      "q": "Hvilken norsk ingeniør utviklet verdens første elektriske tog i drift i 1892?",
+      "a": "Thune Mekaniske Verksted (med ingeniør Thune Johnsen)",
+      "w": [
+        "Kongsberg Gruppen",
+        "Norsk Hydro",
+        "Hamar Jernstøperi"
+      ],
+      "r": 1100,
+      "t": [
+        "transport",
+        "teknologi"
       ]
+    },
+    {
+      "id": 52,
+      "q": "Hva het den norske oppfinneren som utviklet verdens første magnetiske lydopptaker i 1898?",
+      "a": "Valdemar Poulsen",
+      "w": [
+        "Fredrik Bull",
+        "Ægidius Elling",
+        "Torleif Haugland"
+      ],
+      "r": 1200,
+      "t": [
+        "teknologi",
+        "kommunikasjon"
+      ]
+    },
+    {
+      "id": 53,
+      "q": "Hvilken norsk bedrift utviklet den første undervannskabelen for strømforsyning til oljeplattformer?",
+      "a": "Nexans Norway",
+      "w": [
+        "Kongsberg Gruppen",
+        "Aker Solutions",
+        "Statkraft"
+      ],
+      "r": 950,
+      "t": [
+        "energi",
+        "maritim"
+      ]
+    },
+    {
+      "id": 54,
+      "q": "Hva heter den norske geologen som bidro til teorien om kontinentenes drift?",
+      "a": "Olav Holtedahl",
+      "w": [
+        "Fridtjof Nansen",
+        "Bjørn G. Andersen",
+        "Carl Størmer"
+      ],
+      "r": 1000,
+      "t": [
+        "geologi",
+        "forskning"
+      ]
+    },
+    {
+      "id": 55,
+      "q": "Hvilket norsk universitet var sentralt i utviklingen av 5G-teknologi i Europa?",
+      "a": "NTNU",
+      "w": [
+        "UiO",
+        "UiB",
+        "UiT"
+      ],
+      "r": 950,
+      "t": [
+        "teknologi",
+        "kommunikasjon"
+      ]
+    },
+    {
+      "id": 56,
+      "q": "Hvilken norsk forsker utviklet en metode for å måle ozonlaget i atmosfæren på 1950-tallet?",
+      "a": "Anders Ångström",
+      "w": [
+        "Carl Størmer",
+        "Kristian Birkeland",
+        "Vilhelm Bjerknes"
+      ],
+      "r": 1100,
+      "t": [
+        "klima",
+        "forskning"
+      ]
+    },
+    {
+      "id": 57,
+      "q": "Hva heter den norske organisasjonen som driver verdens nordligste rakettskytefelt?",
+      "a": "Andøya Space",
+      "w": [
+        "Norsk Romsenter",
+        "Forsvarets forskningsinstitutt",
+        "SINTEF"
+      ],
+      "r": 850,
+      "t": [
+        "romfart",
+        "teknologi"
+      ]
+    },
+    {
+      "id": 58,
+      "q": "Hvilket norsk forskningsprogram fokuserer på klimaendringer i Arktis?",
+      "a": "FRAM – Nordområdesenter for klima og miljøforskning",
+      "w": [
+        "NORKLIMA",
+        "ARCticNow",
+        "Bjerknes-senteret"
+      ],
+      "r": 900,
+      "t": [
+        "klima",
+        "forskning"
+      ]
+    },
+    {
+      "id": 59,
+      "q": "Hvilken norsk by huser Bjerknessenteret for klimaforskning?",
+      "a": "Bergen",
+      "w": [
+        "Oslo",
+        "Trondheim",
+        "Tromsø"
+      ],
+      "r": 750,
+      "t": [
+        "klima",
+        "forskning"
+      ]
+    },
+    {
+      "id": 60,
+      "q": "Hva heter det norske forskningsfartøyet som brukes til oseanografiske målinger i Arktis?",
+      "a": "Kronprins Haakon",
+      "w": [
+        "Fram II",
+        "G.O. Sars",
+        "Maud"
+      ],
+      "r": 950,
+      "t": [
+        "havforskning",
+        "teknologi"
+      ]
+    },
+    {
+      "id": 61,
+      "q": "Hvilken norsk professor ble verdenskjent for sine bidrag til internettprotokoller?",
+      "a": "Pål Spilling",
+      "w": [
+        "Håkon Wium Lie",
+        "Jon Postel",
+        "Kristen Nygaard"
+      ],
+      "r": 1100,
+      "t": [
+        "data",
+        "nettverk"
+      ]
+    },
+    {
+      "id": 62,
+      "q": "Hva heter den norske organisasjonen som forvalter domenenavnet .no?",
+      "a": "Norid",
+      "w": [
+        "Telenor",
+        "Norsk Regnesentral",
+        "SINTEF Digital"
+      ],
+      "r": 850,
+      "t": [
+        "data",
+        "nettverk"
+      ]
+    },
+    {
+      "id": 63,
+      "q": "Hvilken norsk geofysiker var med på å utvikle seismiske metoder for oljeleting?",
+      "a": "Olav Eldholm",
+      "w": [
+        "Per Blystad",
+        "Carl Størmer",
+        "John Ugelstad"
+      ],
+      "r": 1050,
+      "t": [
+        "energi",
+        "geologi"
+      ]
+    },
+    {
+      "id": 64,
+      "q": "Hvilken norsk ingeniør utviklet en banebrytende teknologi for fjernstyrte undervannsfarkoster (ROV)?",
+      "a": "Svein Tore Holsether",
+      "w": [
+        "Tore Planke",
+        "Ægidius Elling",
+        "Bror With"
+      ],
+      "r": 1150,
+      "t": [
+        "robotikk",
+        "maritim"
+      ]
+    },
+    {
+      "id": 65,
+      "q": "Hvilken norsk oppfinnelse brukes globalt til å sikre oljeplattformer mot eksplosjoner?",
+      "a": "Norsafe blast doors",
+      "w": [
+        "Tomra-pant",
+        "Kongsberg sonar",
+        "Aker subsea locks"
+      ],
+      "r": 1100,
+      "t": [
+        "energi",
+        "sikkerhet"
+      ]
+    },
+    {
+      "id": 66,
+      "q": "Hvilken norsk oppfinnelse fra 1960-tallet ble avgjørende for moderne fiskeri?",
+      "a": "Ekkoloddet utviklet av Simrad",
+      "w": [
+        "Radarstyrt tråler",
+        "Elektronisk kartplotter",
+        "GPS-navigasjon"
+      ],
+      "r": 950,
+      "t": [
+        "maritim",
+        "fiskeri"
+      ]
+    },
+    {
+      "id": 67,
+      "q": "Hvilket norsk universitet har et eget senter for klimadrevet samfunnsforskning?",
+      "a": "UiB",
+      "w": [
+        "UiO",
+        "UiT",
+        "NTNU"
+      ],
+      "r": 900,
+      "t": [
+        "forskning",
+        "klima"
+      ]
+    },
+    {
+      "id": 68,
+      "q": "Hva heter den norske forskningsstasjonen på Svalbard som overvåker atmosfæren?",
+      "a": "Zeppelin-observatoriet",
+      "w": [
+        "Ny-Ålesund-basen",
+        "Longyearbyen-laben",
+        "Arktisk Miljøsenter"
+      ],
+      "r": 950,
+      "t": [
+        "miljø",
+        "klima"
+      ]
+    },
+    {
+      "id": 69,
+      "q": "Hvilken norsk bedrift utviklet programvaren som brukes til 3D-modellering av olje- og gassfelt?",
+      "a": "Roxar",
+      "w": [
+        "HydroSoft",
+        "Equinor Digital",
+        "PetroSim"
+      ],
+      "r": 1100,
+      "t": [
+        "data",
+        "energi"
+      ]
+    },
+    {
+      "id": 70,
+      "q": "Hva heter det norske forskningssenteret som utvikler teknologi for hydrogen som energibærer?",
+      "a": "IFE (Institutt for energiteknikk)",
+      "w": [
+        "SINTEF Hydrogen",
+        "Equinor Research",
+        "NTNU Energilab"
+      ],
+      "r": 1000,
+      "t": [
+        "energi",
+        "forskning"
+      ]
+    },
+    {
+      "id": 71,
+      "q": "Hvilken norsk miljøforsker har ledet internasjonalt arbeid med plastforurensning i havet?",
+      "a": "Dag O. Hessen",
+      "w": [
+        "Ellen Hambro",
+        "Gro Harlem Brundtland",
+        "Nils Eldrup"
+      ],
+      "r": 1050,
+      "t": [
+        "miljø",
+        "biologi"
+      ]
+    },
+    {
+      "id": 72,
+      "q": "Hvilket norsk forskningsprogram fokuserer på utvikling av grønn skipsfart?",
+      "a": "Grønt skipsfartsprogram",
+      "w": [
+        "Maritim Innovasjon Norge",
+        "Blue Norway",
+        "OceanX"
+      ],
+      "r": 900,
+      "t": [
+        "energi",
+        "maritim"
+      ]
+    },
+    {
+      "id": 73,
+      "q": "Hvilken norsk oppfinnelse brukes i dag i nesten alle moderne redningsvester?",
+      "a": "Automatisk gassutløser utviklet av Helly Hansen",
+      "w": [
+        "Oppblåsbar sele",
+        "Vannavvisende nylon",
+        "Nødbluss i miniformat"
+      ],
+      "r": 850,
+      "t": [
+        "sikkerhet",
+        "maritim"
+      ]
+    },
+    {
+      "id": 74,
+      "q": "Hvilken norsk by er sentrum for landets havforskning og marinbiologi?",
+      "a": "Bergen",
+      "w": [
+        "Tromsø",
+        "Trondheim",
+        "Ålesund"
+      ],
+      "r": 750,
+      "t": [
+        "forskning",
+        "havforskning"
+      ]
+    },
+    {
+      "id": 75,
+      "q": "Hva heter det norske laboratoriet som overvåker radioaktivitet i miljøet?",
+      "a": "DSA-laboratoriet (Direktoratet for strålevern og atomsikkerhet)",
+      "w": [
+        "NILU-lab",
+        "IFE Kjeller",
+        "SINTEF Energi"
+      ],
+      "r": 950,
+      "t": [
+        "miljø",
+        "sikkerhet"
+      ]
+    },
+    {
+      "id": 76,
+      "q": "Hvilken norsk fysiker utviklet teorier om elektroner som grunnla moderne atomfysikk i Norge?",
+      "a": "Egil Hylleraas",
+      "w": [
+        "Ivar Giæver",
+        "Carl Størmer",
+        "Vilhelm Bjerknes"
+      ],
+      "r": 1100,
+      "t": [
+        "fysikk",
+        "forskning"
+      ]
+    },
+    {
+      "id": 77,
+      "q": "Hvilket norsk forskningsmiljø står bak utviklingen av verdens første elektriske ferge, 'Ampere'?",
+      "a": "Norled og Westcon Power & Automation",
+      "w": [
+        "Kongsberg Gruppen",
+        "SINTEF Energi",
+        "Statkraft"
+      ],
+      "r": 950,
+      "t": [
+        "energi",
+        "transport"
+      ]
+    },
+    {
+      "id": 78,
+      "q": "Hvilket norsk selskap utviklet den første helelektriske hurtigbåten for passasjertrafikk?",
+      "a": "Brødrene Aa",
+      "w": [
+        "Fjord1",
+        "Kongsberg Maritime",
+        "Color Line"
+      ],
+      "r": 1000,
+      "t": [
+        "energi",
+        "maritim"
+      ]
+    },
+    {
+      "id": 79,
+      "q": "Hva heter det norske forskningsprosjektet som kartlegger økosystemene i Barentshavet?",
+      "a": "MAREANO",
+      "w": [
+        "FRAM-prosjektet",
+        "Havprosjektet 2030",
+        "Blue Norway"
+      ],
+      "r": 900,
+      "t": [
+        "havforskning",
+        "miljø"
+      ]
+    },
+    {
+      "id": 80,
+      "q": "Hvilken norsk vitenskapsmann utviklet en metode for å beregne verdenshavets strømmer?",
+      "a": "Harald Ulrik Sverdrup",
+      "w": [
+        "Vilhelm Bjerknes",
+        "Carl Størmer",
+        "Kristian Birkeland"
+      ],
+      "r": 1100,
+      "t": [
+        "forskning",
+        "havforskning"
+      ]
+    },
+    {
+      "id": 81,
+      "q": "Hvilket norsk selskap var først i verden til å produsere ammoniakk med fornybar energi?",
+      "a": "Yara International",
+      "w": [
+        "Hydro",
+        "Equinor",
+        "Statkraft"
+      ],
+      "r": 1000,
+      "t": [
+        "energi",
+        "kjemi"
+      ]
+    },
+    {
+      "id": 82,
+      "q": "Hva heter den norske biologen som ledet arbeidet med å kartlegge norsk naturmangfold digitalt?",
+      "a": "Anne Sverdrup-Thygeson",
+      "w": [
+        "Dag O. Hessen",
+        "Ellen Hambro",
+        "Gro Amdam"
+      ],
+      "r": 950,
+      "t": [
+        "biologi",
+        "miljø"
+      ]
+    },
+    {
+      "id": 83,
+      "q": "Hvilken norsk matematiker fikk Abelprisen i 2022 for sitt arbeid innen kombinatorikk?",
+      "a": "Dennis Parnell Sullivan",
+      "w": [
+        "Atle Selberg",
+        "Carl-Erik Frøseth",
+        "Rolf Wallin"
+      ],
+      "r": 1100,
+      "t": [
+        "matematikk",
+        "forskning"
+      ]
+    },
+    {
+      "id": 84,
+      "q": "Hvilket norsk universitet har etablert 'Ocean Space Centre' for forskning på havteknologi?",
+      "a": "NTNU",
+      "w": [
+        "UiB",
+        "UiO",
+        "UiT"
+      ],
+      "r": 850,
+      "t": [
+        "teknologi",
+        "havforskning"
+      ]
+    },
+    {
+      "id": 85,
+      "q": "Hva heter den norske legen som utviklet vaksinen mot difteri på 1930-tallet?",
+      "a": "Thorvald Madsen",
+      "w": [
+        "Lorentz Eldjarn",
+        "John Ugelstad",
+        "Kåre Berg"
+      ],
+      "r": 1150,
+      "t": [
+        "medisin",
+        "forskning"
+      ]
+    },
+    {
+      "id": 86,
+      "q": "Hvilket norsk forskningsmiljø har utviklet teknologi for karbonfangst direkte fra luft?",
+      "a": "SINTEF og NTNU",
+      "w": [
+        "IFE og Equinor",
+        "Statkraft og Yara",
+        "NILU og UiO"
+      ],
+      "r": 1050,
+      "t": [
+        "energi",
+        "klima"
+      ]
+    },
+    {
+      "id": 87,
+      "q": "Hvilken norsk forsker oppdaget sammenhengen mellom høyt kolesterol og hjertesykdom?",
+      "a": "Kåre Berg",
+      "w": [
+        "Lorentz Eldjarn",
+        "Dag Hessen",
+        "Ivar Giæver"
+      ],
+      "r": 950,
+      "t": [
+        "medisin",
+        "forskning"
+      ]
+    },
+    {
+      "id": 88,
+      "q": "Hva heter den norske forskningsstasjonen i Antarktis?",
+      "a": "Troll-stasjonen",
+      "w": [
+        "Framheim",
+        "Maudheim",
+        "Nordlysbasen"
+      ],
+      "r": 750,
+      "t": [
+        "klima",
+        "forskning"
+      ]
+    },
+    {
+      "id": 89,
+      "q": "Hvilken norsk oppfinnelse ble utviklet for å fange metangass fra søppelfyllinger?",
+      "a": "Biogassanlegg utviklet av Cambi AS",
+      "w": [
+        "Hydro CleanTech",
+        "Equinor GreenGas",
+        "SINTEF Bioenergi"
+      ],
+      "r": 950,
+      "t": [
+        "miljø",
+        "energi"
+      ]
+    },
+    {
+      "id": 90,
+      "q": "Hvilken norsk bedrift utviklet verdens første resirkulerbare plastpose for dagligvare?",
+      "a": "Nor-Bag",
+      "w": [
+        "Tomra",
+        "Norsk Gjenvinning",
+        "BAMA"
+      ],
+      "r": 800,
+      "t": [
+        "miljø",
+        "industri"
+      ]
+    },
+    {
+      "id": 91,
+      "q": "Hva heter den norske matematikeren som bidro sterkt til tallteori og mottok Fields-medaljen?",
+      "a": "Atle Selberg",
+      "w": [
+        "Egil Hylleraas",
+        "Dennis Sullivan",
+        "Carl Størmer"
+      ],
+      "r": 1200,
+      "t": [
+        "matematikk",
+        "forskning"
+      ]
+    },
+    {
+      "id": 92,
+      "q": "Hvilken norsk forsker står bak studier av humlens flymønstre og pollinering?",
+      "a": "Anne Sverdrup-Thygeson",
+      "w": [
+        "Dag Hessen",
+        "Gro Amdam",
+        "Trude Storelvmo"
+      ],
+      "r": 900,
+      "t": [
+        "biologi",
+        "miljø"
+      ]
+    },
+    {
+      "id": 93,
+      "q": "Hvilken norsk oppfinnelse brukes i dag i avanserte undervannsboringer globalt?",
+      "a": "Kongsberg subsea-kontrollsystem",
+      "w": [
+        "Equinor boremodul",
+        "Aker DeepScan",
+        "Hydro WaveSensor"
+      ],
+      "r": 1100,
+      "t": [
+        "teknologi",
+        "energi"
+      ]
+    },
+    {
+      "id": 94,
+      "q": "Hva heter det norske forskningsprosjektet som utvikler karbonnøytral sement?",
+      "a": "Zero Emission Concrete (ZECON)",
+      "w": [
+        "GreenCem",
+        "CementTech Norge",
+        "EcoBuild"
+      ],
+      "r": 1000,
+      "t": [
+        "energi",
+        "industri"
+      ]
+    },
+    {
+      "id": 95,
+      "q": "Hvilket norsk universitet leder senteret for bærekraftig energiomstilling (FME NTRANS)?",
+      "a": "NTNU",
+      "w": [
+        "UiB",
+        "UiO",
+        "UiT"
+      ],
+      "r": 900,
+      "t": [
+        "energi",
+        "forskning"
+      ]
+    },
+    {
+      "id": 96,
+      "q": "Hvilket norsk forskningsmiljø utviklet de første autonome skipene i verden?",
+      "a": "Kongsberg Maritime og Yara Birkeland-prosjektet",
+      "w": [
+        "Equinor Marine",
+        "Statkraft Ocean",
+        "SINTEF Ocean"
+      ],
+      "r": 1050,
+      "t": [
+        "maritim",
+        "teknologi"
+      ]
+    },
+    {
+      "id": 97,
+      "q": "Hva heter den norske fysikeren som studerte elektriske utladninger i atmosfæren på 1900-tallet?",
+      "a": "Carl Størmer",
+      "w": [
+        "Kristian Birkeland",
+        "Vilhelm Bjerknes",
+        "Egil Hylleraas"
+      ],
+      "r": 950,
+      "t": [
+        "fysikk",
+        "astronomi"
+      ]
+    },
+    {
+      "id": 98,
+      "q": "Hvilket norsk selskap står bak utviklingen av havvindprosjektet 'Tampen Hywind'?",
+      "a": "Equinor",
+      "w": [
+        "Statkraft",
+        "Hydro",
+        "Kongsberg Gruppen"
+      ],
+      "r": 850,
+      "t": [
+        "energi",
+        "fornybar"
+      ]
+    },
+    {
+      "id": 99,
+      "q": "Hva heter det norske initiativet som skal bygge verdens første fullskala hydrogenferge?",
+      "a": "Hydra-prosjektet",
+      "w": [
+        "HySea",
+        "BlueEnergy",
+        "FutureFuel"
+      ],
+      "r": 950,
+      "t": [
+        "energi",
+        "transport"
+      ]
+    },
+    {
+      "id": 100,
+      "q": "Hvilken norsk forsker og forfatter har gjort internasjonal suksess med formidling av naturvitenskap?",
+      "a": "Dag O. Hessen",
+      "w": [
+        "Anne Sverdrup-Thygeson",
+        "Trude Storelvmo",
+        "Kåre Berg"
+      ],
+      "r": 850,
+      "t": [
+        "forskning",
+        "formidling"
+      ]
+    }
+  ]
 }
