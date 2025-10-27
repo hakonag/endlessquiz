@@ -9,16 +9,19 @@ class EndlessQuiz {
         this.isAnswering = false;
         this.currentQuestion = null;
         this.answeredQuestions = 0;
+        this.correctAnswers = 0;
         this.totalQuestions = 0;
         
         this.init();
     }
     
     async init() {
-        // Show loading screen
+        // Load categories first to get accurate question count
+        await this.loadCategories();
+        
+        // Show loading screen with actual question count
         this.showLoadingScreen();
         
-        await this.loadCategories();
         this.setupEventListeners();
         await this.startQuiz('general.json');
         
@@ -203,9 +206,6 @@ class EndlessQuiz {
             });
         });
         
-        // Learn button
-        document.getElementById('btnLearn').addEventListener('click', () => this.openLearnLink());
-        
         // Keyboard support
         document.addEventListener('keypress', (e) => this.handleKeyPress(e));
     }
@@ -214,7 +214,22 @@ class EndlessQuiz {
         const loadingScreen = document.getElementById('loadingScreen');
         if (loadingScreen) {
             loadingScreen.style.display = 'flex';
+            // Update the loading text with actual question count
+            const loadingSubtext = loadingScreen.querySelector('.loading-subtext');
+            if (loadingSubtext) {
+                loadingSubtext.textContent = `Forbereder ${this.getTotalQuestionCount()} spørsmål`;
+            }
         }
+    }
+    
+    getTotalQuestionCount() {
+        // Calculate total questions from all categories
+        if (this.categories.length > 0) {
+            return this.categories.reduce((total, category) => {
+                return total + category.count;
+            }, 0).toLocaleString();
+        }
+        return "10,000"; // Fallback
     }
     
     hideLoadingScreen() {
@@ -254,6 +269,7 @@ class EndlessQuiz {
         await this.loadQuestions(categoryFilename);
         this.totalQuestions = this.questions.length;
         this.answeredQuestions = 0;
+        this.correctAnswers = 0;
         this.currentQuestionIndex = 0;
         this.displayQuestion();
         this.updateUI();
@@ -344,21 +360,13 @@ class EndlessQuiz {
         
         if (isCorrect) {
             this.streak++;
+            this.correctAnswers++;
         } else {
             this.streak = 0;
         }
         
         this.answeredQuestions++;
         this.updateUI();
-    }
-    
-    openLearnLink() {
-        if (!this.currentQuestion) return;
-        
-        // Create a Wikipedia search URL for the question topic
-        const searchTerm = encodeURIComponent(this.currentQuestion.question);
-        const wikiUrl = `https://en.wikipedia.org/wiki/Special:Search?search=${searchTerm}`;
-        window.open(wikiUrl, '_blank');
     }
     
     nextQuestion() {
@@ -382,8 +390,8 @@ class EndlessQuiz {
     
     updateUI() {
         document.getElementById('btnRating').textContent = Math.round(this.elo);
-        document.getElementById('btnMatchPoints').textContent = this.streak;
-        document.getElementById('questionCounter').textContent = `${this.answeredQuestions} / ${this.totalQuestions.toLocaleString()}`;
+        document.getElementById('questionCounter').innerHTML = 
+            `<span class="correct">${this.correctAnswers}</span> / <span class="answered">${this.answeredQuestions}</span> / <span class="total">${this.totalQuestions.toLocaleString()}</span>`;
     }
 }
 

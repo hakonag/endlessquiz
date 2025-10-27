@@ -71,10 +71,18 @@ body {
     font-weight: 600;
 }
 
-#btnMatchPoints {
-    background: #f0f0f0;
-    border-color: #d0d0d0;
-    color: #000000;
+#questionCounter .correct {
+    color: #28a745;
+    font-weight: 700;
+}
+
+#questionCounter .answered {
+    color: #ffc107;
+    font-weight: 700;
+}
+
+#questionCounter .total {
+    color: #6c757d;
     font-weight: 600;
 }
 
@@ -83,12 +91,6 @@ body {
     border-color: #d0d0d0;
     color: #000000;
     font-weight: 600;
-}
-
-#btnLearn {
-    background: #f0f0f0;
-    border-color: #d0d0d0;
-    color: #000000;
 }
 
 #btnCategory {
