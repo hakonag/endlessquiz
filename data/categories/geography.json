@@ -970,6 +970,683 @@
       "w": ["Lindesnes og Nordkapp", "Egersund og Kibergsneset", "Vardetangen og Kinnarodden"],
       "r": 970,
       "t": ["avstander"]
+    },
+    {
+      "id": 121,
+      "q": "Hvem regnes som den tidligste kjente oppdageren som besøkte Norge?",
+      "a": "Pytheas fra Massalia (ca. 330 f.Kr.)",
+      "w": ["Pietro Querini (1432)", "Olaus Magnus (1518–19)", "Hans Glaser (1538)"],
+      "r": 1080,
+      "t": ["antikken"]
+    },
+    {
+      "id": 122,
+      "q": "Hva kalte Pytheas landet han beskrev, som trolig var Norge?",
+      "a": "Thule",
+      "w": ["Hyperborea", "Ultima Borealis", "Avalon"],
+      "r": 920,
+      "t": ["antikken"]
+    },
+    {
+      "id": 123,
+      "q": "Hvor strandet Pietro Querini og hans mannskap i 1432?",
+      "a": "Røst i Lofoten",
+      "w": ["Vardø i Finnmark", "Tønsberg i Vestfold", "Trondheim i Trøndelag"],
+      "r": 870,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 124,
+      "q": "Hvilken italiensk adelsmann besøkte Norge etter et skipsforlis i 1432?",
+      "a": "Pietro Querini",
+      "w": ["Marco Polo", "Antonio Pigafetta", "Giovanni da Verrazzano"],
+      "r": 860,
+      "t": ["middelalder"]
+    },
+    {
+      "id": 125,
+      "q": "Hvem skrev verket 'Historia de gentibus septentrionalibus' i 1555?",
+      "a": "Olaus Magnus",
+      "w": ["Hans Glaser", "Richard Chancellor", "Francesco Negri"],
+      "r": 940,
+      "t": ["renessanse"]
+    },
+    {
+      "id": 126,
+      "q": "Hvilke britiske sjøfarere forsøkte å finne Nordøstpassasjen i 1553?",
+      "a": "Hugh Willoughby og Richard Chancellor",
+      "w": ["Francis Drake og John Davis", "Henry Hudson og Robert Bylot", "John Franklin og James Clark Ross"],
+      "r": 1020,
+      "t": ["ekspedisjoner"]
+    },
+    {
+      "id": 127,
+      "q": "Hvilken nederlandsk ekspedisjon nådde Svalbard i 1596?",
+      "a": "Willem Barentsz og Gerrit de Veer",
+      "w": ["Piet Hein og Abel Tasman", "Jan Mayen og Cornelis de Houtman", "Pieter Dirkszoon Keyser og Jacob van Neck"],
+      "r": 1110,
+      "t": ["arktis"]
+    },
+    {
+      "id": 128,
+      "q": "Hvilken dansk konge foretok en ekspedisjon til Nord-Norge i 1599?",
+      "a": "Christian IV",
+      "w": ["Frederik II", "Christian III", "Frederik IV"],
+      "r": 890,
+      "t": ["1600-tallet"]
+    },
+    {
+      "id": 129,
+      "q": "Hvem var den dansk-norske sjøfareren som besøkte Kildin og Novaja Zemlja i 1609–1610?",
+      "a": "Jens Munk",
+      "w": ["Peder Claussøn Friis", "Hans Egede", "Ola Nordmann"],
+      "r": 950,
+      "t": ["arktis"]
+    },
+    {
+      "id": 130,
+      "q": "Hvilken italiensk prest reiste til Nordkapp på 1600-tallet?",
+      "a": "Francesco Negri",
+      "w": ["Giuseppe Acerbi", "Paolo Mantegazza", "Umberto Cagni"],
+      "r": 970,
+      "t": ["1700-tallet"]
+    },
+    {
+      "id": 131,
+      "q": "Hvem skrev reiseverket 'Viaggio Settentrionale' om Finnmark?",
+      "a": "Francesco Negri",
+      "w": ["Pierre Martin de la Martinière", "Louis Phillipe", "Knud Leem"],
+      "r": 920,
+      "t": ["reiseverk"]
+    },
+    {
+      "id": 132,
+      "q": "Hvilken fransk skipslege besøkte Varanger og Novaja Zemlja i 1670?",
+      "a": "Pierre Martin de la Martinière",
+      "w": ["René Laennec", "Louis Pasteur", "Henri Poincaré"],
+      "r": 970,
+      "t": ["opplysningstid"]
+    },
+    {
+      "id": 133,
+      "q": "Hvem var amtmann i Finnmark og skrev 'Speculum Boreale'?",
+      "a": "Hans H. Lilienskiold",
+      "w": ["Petter Dass", "Knud Leem", "Peder Anker"],
+      "r": 910,
+      "t": ["1700-tallet"]
+    },
+    {
+      "id": 134,
+      "q": "Hvem skrev 'Nordlands trompet' på 1700-tallet?",
+      "a": "Petter Dass",
+      "w": ["Hans H. Lilienskiold", "Knud Leem", "Peder Dass"],
+      "r": 750,
+      "t": ["litteratur"]
+    },
+    {
+      "id": 135,
+      "q": "Hva var temaet i Knud Leems bok fra 1767?",
+      "a": "Samenes språk, levesett og religion",
+      "w": ["Norsk bergverkshistorie", "Nordlands fiske", "Dansk adel i Norge"],
+      "r": 980,
+      "t": ["samisk"]
+    },
+    {
+      "id": 136,
+      "q": "Hvilken dansk zoolog besøkte Kongsberg og Telemark på 1770-tallet?",
+      "a": "Morten Thrane Brünnich",
+      "w": ["Hans Strøm", "Otto Fabricius", "Christian Leopold von Buch"],
+      "r": 950,
+      "t": ["naturvitenskap"]
+    },
+    {
+      "id": 137,
+      "q": "Hvilken britisk filosof og økonom reiste i Norge i 1799?",
+      "a": "Thomas Robert Malthus",
+      "w": ["John Stuart Mill", "David Ricardo", "Adam Smith"],
+      "r": 920,
+      "t": ["opplysningstid"]
+    },
+    {
+      "id": 138,
+      "q": "Hvilken britisk feminist skrev 'Min norske reise' i 1795?",
+      "a": "Mary Wollstonecraft",
+      "w": ["Jane Austen", "Charlotte Brontë", "Harriet Martineau"],
+      "r": 890,
+      "t": ["reiseverk"]
+    },
+    {
+      "id": 139,
+      "q": "Hvilken tysk geolog besøkte Norge og Lappland i 1806–07?",
+      "a": "Christian Leopold von Buch",
+      "w": ["Alexander von Humboldt", "Carl Ritter", "Adolf Erik Nordenskiöld"],
+      "r": 970,
+      "t": ["naturvitenskap"]
+    },
+    {
+      "id": 140,
+      "q": "Hva var Jotunheimen kjent for på 1800-tallet blant britiske reisende?",
+      "a": "Fjellturer og jaktreiser",
+      "w": ["Mineralutvinning", "Samiske bosettinger", "Tømmerhandel"],
+      "r": 830,
+      "t": ["turisme"]
+    },
+    {
+      "id": 141,
+      "q": "Hvilken britisk oppdager skrev 'Til fjells i Norge'?",
+      "a": "William Cecil Slingsby",
+      "w": ["Edward Daniel Clarke", "Frederick Metcalfe", "W. J. Clutterbuck"],
+      "r": 860,
+      "t": ["fjellreiser"]
+    },
+    {
+      "id": 142,
+      "q": "Hva var hovedtemaet i 'Tre i Norge – ved to av dem' (1882)?",
+      "a": "Britiske turisters reise i Jotunheimen",
+      "w": ["Danske ekspedisjoner i Finnmark", "Franske reisende på Svalbard", "Italienske malere i Hardanger"],
+      "r": 870,
+      "t": ["reiseverk"]
+    },
+    {
+      "id": 143,
+      "q": "Hvilke to italienske etnografer foretok vinterreise til Nordkapp i 1879?",
+      "a": "Stefano Sommier og Paolo Mantegazza",
+      "w": ["Giuseppe Acerbi og Francesco Negri", "Luigi Galvani og Umberto Cagni", "Pietro Querini og Antonio Pigafetta"],
+      "r": 1030,
+      "t": ["etnografi"]
+    },
+    {
+      "id": 144,
+      "q": "Hvilken fransk ekspedisjon besøkte Lofoten og Svalbard på 1830-tallet?",
+      "a": "La Recherche-ekspedisjonen",
+      "w": ["Terra Nova-ekspedisjonen", "Fram-ferden", "Gauss-ekspedisjonen"],
+      "r": 960,
+      "t": ["arktis"]
+    },
+    {
+      "id": 145,
+      "q": "Hva var motivet for mange britiske reisende til Norge på 1800-tallet?",
+      "a": "Fornøyelsesturer med jakt og laksefiske",
+      "w": ["Kartlegging av handelsruter", "Politisk alliansebygging", "Misjonsarbeid blant samene"],
+      "r": 850,
+      "t": ["turisme"]
+    },
+    {
+      "id": 146,
+      "q": "Hvilken tysk keiser besøkte Norge gjentatte ganger fra 1890-tallet?",
+      "a": "Wilhelm II",
+      "w": ["Friedrich III", "Wilhelm I", "Otto von Bismarck"],
+      "r": 890,
+      "t": ["historie"]
+    },
+    {
+      "id": 147,
+      "q": "Hva ble en populær form for reise langs norskekysten etter Wilhelm II's besøk?",
+      "a": "Tyske cruisereiser",
+      "w": ["Britiske jernbaneturer", "Russiske handelsruter", "Franske kunstutstillinger"],
+      "r": 870,
+      "t": ["turisme"]
+    },
+    {
+      "id": 148,
+      "q": "Hvilken italiensk admiral ledet en ekspedisjon til Svalbard rundt 1900?",
+      "a": "Umberto Cagni",
+      "w": ["Paolo Mantegazza", "Francesco Negri", "Giuseppe Acerbi"],
+      "r": 990,
+      "t": ["arktis"]
+    },
+    {
+      "id": 149,
+      "q": "Hvilken tysk kunstmaler besøkte Nord-Norge og Svalbard rundt 1905?",
+      "a": "Themistokles von Eckenbrecker",
+      "w": ["Hermann Kauffmann", "Andreas Achenbach", "Christian Morgenstern"],
+      "r": 880,
+      "t": ["kunst"]
+    },
+    {
+      "id": 150,
+      "q": "Hva var hovedmotivet for utenlandske oppdagelsesreiser til Norge på 1800-tallet?",
+      "a": "Interesse for natur, samer og arktiske landskap",
+      "w": ["Søk etter gullforekomster", "Militære ekspedisjoner", "Religiøs pilegrimsferd"],
+      "r": 910,
+      "t": ["oppdagelsesreiser"]
+    },
+    {
+      "id": 151,
+      "q": "Hvor mange navngitte fjorder finnes det i Norge ifølge Kartverket?",
+      "a": "1 732",
+      "w": ["1 542", "1 890", "1 205"],
+      "r": 850,
+      "t": ["antall"]
+    },
+    {
+      "id": 152,
+      "q": "Hva er Norges lengste fjord?",
+      "a": "Sognefjorden",
+      "w": ["Hardangerfjorden", "Nordfjorden", "Romsdalsfjorden"],
+      "r": 820,
+      "t": ["lengde"]
+    },
+    {
+      "id": 153,
+      "q": "Hva er den nest lengste fjorden i Norge?",
+      "a": "Hardangerfjorden",
+      "w": ["Trondheimsfjorden", "Nordfjorden", "Lysefjorden"],
+      "r": 870,
+      "t": ["lengde"]
+    },
+    {
+      "id": 154,
+      "q": "Hvor dyp er Sognefjorden på det dypeste?",
+      "a": "1 302 meter",
+      "w": ["975 meter", "1 100 meter", "1 450 meter"],
+      "r": 910,
+      "t": ["dybde"]
+    },
+    {
+      "id": 155,
+      "q": "Hvilken fjord har en terskel på bare én meter?",
+      "a": "Bolstadfjorden",
+      "w": ["Mofjorden", "Borgundfjorden", "Iddefjorden"],
+      "r": 970,
+      "t": ["terskel"]
+    },
+    {
+      "id": 156,
+      "q": "Hvilken fjord ble tidligere dannet som en innsjø før den ble åpnet mot havet i 1743?",
+      "a": "Mofjorden",
+      "w": ["Salvatnet", "Borgundfjorden", "Førdefjorden"],
+      "r": 990,
+      "t": ["historie"]
+    },
+    {
+      "id": 157,
+      "q": "Hva betyr ordet «fjord» i sin norrøne opprinnelse?",
+      "a": "å krysse eller gå over",
+      "w": ["smal dal", "dyp vik", "land bak havet"],
+      "r": 930,
+      "t": ["etymologi"]
+    },
+    {
+      "id": 158,
+      "q": "Hva var det norrøne ordet for fjord?",
+      "a": "fjǫrðr",
+      "w": ["fjorðr", "fjerdr", "fjǫrn"],
+      "r": 910,
+      "t": ["språk"]
+    },
+    {
+      "id": 159,
+      "q": "Hva betyr endelsen «-angr» i gamle fjordnavn som Geiranger og Hardanger?",
+      "a": "vik eller smal bukt",
+      "w": ["klippe eller fjell", "innsjø eller vann", "øy eller holme"],
+      "r": 980,
+      "t": ["etymologi"]
+    },
+    {
+      "id": 160,
+      "q": "Hvor mange norske fjorder har navn som ender på «-anger»?",
+      "a": "om lag 80",
+      "w": ["rundt 40", "over 120", "omtrent 50"],
+      "r": 970,
+      "t": ["språk"]
+    },
+    {
+      "id": 161,
+      "q": "Hvilken fjord ble i middelalderen bare kalt «Fjǫrðrinn»?",
+      "a": "Trondheimsfjorden",
+      "w": ["Oslofjorden", "Hardangerfjorden", "Sognefjorden"],
+      "r": 900,
+      "t": ["navn"]
+    },
+    {
+      "id": 162,
+      "q": "Hva var det gamle norrøne navnet på Oslofjorden?",
+      "a": "Foldin",
+      "w": ["Grenmarr", "Sognsær", "Hvinir"],
+      "r": 910,
+      "t": ["navn"]
+    },
+    {
+      "id": 163,
+      "q": "Hva var norrønt navn for Vefsnfjorden?",
+      "a": "Vefsnir",
+      "w": ["Vefsni", "Vefsundr", "Vefsen"],
+      "r": 940,
+      "t": ["navn"]
+    },
+    {
+      "id": 164,
+      "q": "Hva ble Ofotfjorden kalt i norrøn tid?",
+      "a": "Ófóti",
+      "w": ["Ofoti", "Ofotar", "Ofotenir"],
+      "r": 930,
+      "t": ["navn"]
+    },
+    {
+      "id": 165,
+      "q": "Hvilken fjord hadde det gamle navnet Varanger eller Verangr?",
+      "a": "Varangerfjorden",
+      "w": ["Kvænangen", "Altafjorden", "Porsangerfjorden"],
+      "r": 950,
+      "t": ["navn"]
+    },
+    {
+      "id": 166,
+      "q": "Hvilket fylke har flest fjorder i Norge?",
+      "a": "Nordland",
+      "w": ["Vestland", "Møre og Romsdal", "Troms"],
+      "r": 820,
+      "t": ["geografi"]
+    },
+    {
+      "id": 167,
+      "q": "Hvor mange fjorder finnes det omtrent i Nordland fylke?",
+      "a": "rundt 300",
+      "w": ["ca. 200", "rundt 150", "over 400"],
+      "r": 900,
+      "t": ["geografi"]
+    },
+    {
+      "id": 168,
+      "q": "Hvilke to norske fjorder står på UNESCOs verdensarvliste?",
+      "a": "Geirangerfjorden og Nærøyfjorden",
+      "w": ["Sognefjorden og Hardangerfjorden", "Lysefjorden og Nordfjorden", "Romsdalsfjorden og Isfjorden"],
+      "r": 890,
+      "t": ["verdensarv"]
+    },
+    {
+      "id": 169,
+      "q": "Hva kjennetegner mange norske fjorder ifølge UNESCOs begrunnelse?",
+      "a": "unik naturskjønnhet og arketypiske fjordlandskap",
+      "w": ["varmt klima og fruktbart jordsmonn", "vulkansk opprinnelse og rikt dyreliv", "sterke strømmer og høye sanddyner"],
+      "r": 1040,
+      "t": ["verdensarv"]
+    },
+    {
+      "id": 170,
+      "q": "Hva er vanlig dybde på terskelen i ytre del av Sognefjorden?",
+      "a": "100–200 meter",
+      "w": ["50–80 meter", "300–400 meter", "10–50 meter"],
+      "r": 1070,
+      "t": ["terskel"]
+    },
+    {
+      "id": 171,
+      "q": "Hvilken fjord er kjent for å ha en terskel på bare 1,5 meter og oksygenfattig bunnvann?",
+      "a": "Bolstadfjorden",
+      "w": ["Granvinsfjorden", "Halsnøyfjorden", "Vikafjorden"],
+      "r": 1150,
+      "t": ["hydrologi"]
+    },
+    {
+      "id": 172,
+      "q": "Hva danner fjordens brakkvannslag om sommeren?",
+      "a": "smeltevann fra elver og isbreer",
+      "w": ["varmluft fra sør", "saltvann fra dypet", "tidevann fra Nordsjøen"],
+      "r": 1080,
+      "t": ["hydrologi"]
+    },
+    {
+      "id": 173,
+      "q": "Hva kalles innsjøer som tidligere var fjorder men ble skilt fra havet av morener?",
+      "a": "fjordsjøer",
+      "w": ["innlandsfjorder", "strandvann", "deltaelver"],
+      "r": 1020,
+      "t": ["geologi"]
+    },
+    {
+      "id": 174,
+      "q": "Hvilken innsjø ble skilt fra havet ca. 1000 år f.Kr. og har fortsatt saltvann på bunnen?",
+      "a": "Salvatnet",
+      "w": ["Mjøsa", "Movatnet", "Hornindalsvatnet"],
+      "r": 1140,
+      "t": ["hydrologi"]
+    },
+    {
+      "id": 175,
+      "q": "Hva karakteriserer vannet i Salvatnet i de dypeste lagene?",
+      "a": "salt og oksygenfattig",
+      "w": ["ferskt og varmt", "isfritt og klart", "kaldt og strømførende"],
+      "r": 1130,
+      "t": ["hydrologi"]
+    },
+    {
+      "id": 176,
+      "q": "Hva menes med fjordenes 'terskel'?",
+      "a": "grunne parti nær munningen som hindrer vannutskifting",
+      "w": ["høye fjell rundt fjorden", "vannspeilet i overflaten", "innsjø som ligger over fjorden"],
+      "r": 940,
+      "t": ["geologi"]
+    },
+    {
+      "id": 177,
+      "q": "Hvilken fjord er den dypeste i Norge og ved hovedlandet?",
+      "a": "Sognefjorden",
+      "w": ["Hardangerfjorden", "Nordfjorden", "Lysefjorden"],
+      "r": 830,
+      "t": ["dybde"]
+    },
+    {
+      "id": 178,
+      "q": "Hvilken fjord ligger nærmest Drammenselvas utløp og har en av Norges sterkeste tidevannsstrømmer?",
+      "a": "Drammensfjorden",
+      "w": ["Borgundfjorden", "Romsdalsfjorden", "Boknafjorden"],
+      "r": 1040,
+      "t": ["hydrologi"]
+    },
+    {
+      "id": 179,
+      "q": "Hvilke to fjorder er spesielt viktige for norsk nasjonalromantikk?",
+      "a": "Hardangerfjorden og Sognefjorden",
+      "w": ["Nordfjorden og Lysefjorden", "Geirangerfjorden og Romsdalsfjorden", "Oslofjorden og Trondheimsfjorden"],
+      "r": 970,
+      "t": ["kultur"]
+    },
+    {
+      "id": 180,
+      "q": "Hvem malte «Brudeferd i Hardanger», et ikon for fjorden som nasjonalsymbol?",
+      "a": "Tidemand og Gude",
+      "w": ["Eckersberg og Dahl", "Krohg og Munch", "Werenskiold og Sinding"],
+      "r": 890,
+      "t": ["kunst"]
+    },
+    {
+      "id": 181,
+      "q": "Hvor mange landsdeler regnes det vanligvis med i Norge i moderne tid?",
+      "a": "Fem",
+      "w": ["Fire", "Seks", "Syv"],
+      "r": 820,
+      "t": ["geografi"]
+    },
+    {
+      "id": 182,
+      "q": "Hvilke fem landsdeler består Norge av?",
+      "a": "Nord-Norge, Trøndelag, Vestlandet, Østlandet og Sørlandet",
+      "w": [
+        "Nord-Norge, Midt-Norge, Østlandet, Agder og Rogaland",
+        "Trøndelag, Hedmark, Vestlandet, Oslo og Nordland",
+        "Nord-Norge, Østlandet, Vestlandet, Sørlandet og Svalbard"
+      ],
+      "r": 880,
+      "t": ["inndeling"]
+    },
+    {
+      "id": 183,
+      "q": "Hva het det historiske hovedlenet som tilsvarer dagens Østlandet?",
+      "a": "Akershus hovedlen",
+      "w": ["Bergenhus len", "Trondhjems len", "Agdesiden len"],
+      "r": 940,
+      "t": ["historie"]
+    },
+    {
+      "id": 184,
+      "q": "Når ble ordningen med hovedlen og stiftamt formelt avskaffet i Norge?",
+      "a": "1919",
+      "w": ["1905", "1945", "1860"],
+      "r": 970,
+      "t": ["historie"]
+    },
+    {
+      "id": 185,
+      "q": "Hvem innførte betegnelsen «Sørlandet»?",
+      "a": "Vilhelm Krag",
+      "w": ["Knut Hamsun", "Arne Garborg", "Jonas Lie"],
+      "r": 890,
+      "t": ["navn"]
+    },
+    {
+      "id": 186,
+      "q": "I hvilket år ble betegnelsen «Sørlandet» først brukt?",
+      "a": "1902",
+      "w": ["1888", "1910", "1895"],
+      "r": 900,
+      "t": ["historie"]
+    },
+    {
+      "id": 187,
+      "q": "Hva ble området som i dag kalles Sørlandet regnet som før 1902?",
+      "a": "En del av Vestlandet",
+      "w": ["Et eget stiftamt", "En del av Østlandet", "Et nordnorsk fogderi"],
+      "r": 920,
+      "t": ["geografi"]
+    },
+    {
+      "id": 188,
+      "q": "Hvilket historisk hovedlen tilsvarer dagens Sørlandet?",
+      "a": "Agdesiden",
+      "w": ["Akershus", "Trondhjems len", "Bergenhus"],
+      "r": 950,
+      "t": ["historie"]
+    },
+    {
+      "id": 189,
+      "q": "Hva kjennetegner begrepet «Midt-Norge»?",
+      "a": "En uformell region uten fast geografisk avgrensning",
+      "w": [
+        "Et administrativt fylke mellom Trøndelag og Nordland",
+        "Et tidligere navn på Sør-Trøndelag",
+        "Et historisk hovedlen fra middelalderen"
+      ],
+      "r": 980,
+      "t": ["begrep"]
+    },
+    {
+      "id": 190,
+      "q": "Hvilke områder omfatter «Midt-Norge» oftest?",
+      "a": "Trøndelag og deler av Vestlandet",
+      "w": [
+        "Nord-Norge og Troms",
+        "Østlandet og Sørlandet",
+        "Rogaland og Telemark"
+      ],
+      "r": 970,
+      "t": ["geografi"]
+    },
+    {
+      "id": 191,
+      "q": "Regnes Svalbard og Jan Mayen som en landsdel?",
+      "a": "Nei, de står utenfor landsdelsinndelingen",
+      "w": [
+        "Ja, de regnes som Nord-Norge",
+        "Ja, de regnes som egne landsdeler",
+        "Kun Jan Mayen regnes som en del av Vestlandet"
+      ],
+      "r": 930,
+      "t": ["særstatus"]
+    },
+    {
+      "id": 192,
+      "q": "Hvor gikk den gamle grensen mellom Vestlandet og Trøndelag?",
+      "a": "Gjennom Møre og Romsdal fylke",
+      "w": [
+        "Langs Dovrefjell",
+        "Mellom Nordland og Troms",
+        "Over Romsdalsalpene"
+      ],
+      "r": 990,
+      "t": ["grenser"]
+    },
+    {
+      "id": 193,
+      "q": "Hvilke bispedømmer møttes ved grensen i Møre og Romsdal før 1983?",
+      "a": "Nidaros og Bjørgvin",
+      "w": ["Oslo og Tunsberg", "Borg og Stavanger", "Nidaros og Hamar"],
+      "r": 1080,
+      "t": ["kirke"]
+    },
+    {
+      "id": 194,
+      "q": "Hva betyr betegnelsen «nordenfjells» historisk sett?",
+      "a": "Områdene nord for Dovrefjell",
+      "w": [
+        "Områdene sør for Hardangervidda",
+        "Områdene vest for Langfjella",
+        "Områdene øst for Glomma"
+      ],
+      "r": 870,
+      "t": ["historie"]
+    },
+    {
+      "id": 195,
+      "q": "Hvilke landsdeler omfattes av betegnelsen «nordenfjells»?",
+      "a": "Trøndelag og Nord-Norge",
+      "w": [
+        "Vestlandet og Sørlandet",
+        "Østlandet og Agder",
+        "Telemark og Rogaland"
+      ],
+      "r": 920,
+      "t": ["språk"]
+    },
+    {
+      "id": 196,
+      "q": "Hvor mange fylker finnes i Norge fra og med 2024?",
+      "a": "15",
+      "w": ["11", "18", "13"],
+      "r": 840,
+      "t": ["administrasjon"]
+    },
+    {
+      "id": 197,
+      "q": "Hvilken funksjon har Statsforvalteren?",
+      "a": "Statens representant som kontrollerer lovverk og gir veiledning",
+      "w": [
+        "Leder for kommunens økonomiske styre",
+        "Sjef for lokal politienhet",
+        "Representant for fylkeskommunens kulturavdeling"
+      ],
+      "r": 940,
+      "t": ["forvaltning"]
+    },
+    {
+      "id": 198,
+      "q": "Hvor mange kommuner finnes det i Norge ifølge oppdateringen i 2024?",
+      "a": "357",
+      "w": ["365", "312", "401"],
+      "r": 850,
+      "t": ["administrasjon"]
+    },
+    {
+      "id": 199,
+      "q": "Hva kjennetegner topografisk skillet mellom Østlandet og Vestlandet?",
+      "a": "Store høyfjellsområder som Langfjella og Hardangervidda",
+      "w": [
+        "Lave elvesletter og kystområder",
+        "Tette barskoger og innsjøsystemer",
+        "Elvedeltaer og kystfjorder"
+      ],
+      "r": 1020,
+      "t": ["natur"]
+    },
+    {
+      "id": 200,
+      "q": "Hvilken landsdel har flest fylker ifølge moderne inndeling?",
+      "a": "Østlandet",
+      "w": ["Vestlandet", "Nord-Norge", "Trøndelag"],
+      "r": 890,
+      "t": ["inndeling"]
     }
   ]
 }
+

@@ -16,7 +16,7 @@ class EndlessQuiz {
     async init() {
         await this.loadCategories();
         this.setupEventListeners();
-        this.showCategorySelection();
+        await this.startQuiz('general.json');
     }
     
     async loadCategories() {
@@ -169,6 +169,9 @@ class EndlessQuiz {
         document.getElementById('answer3').addEventListener('click', () => this.handleAnswer(2));
         document.getElementById('answer4').addEventListener('click', () => this.handleAnswer(3));
         
+        // Category switcher button
+        document.getElementById('btnCategory').addEventListener('click', () => this.showCategorySelection());
+        
         // Learn button
         document.getElementById('btnLearn').addEventListener('click', () => this.openLearnLink());
         
@@ -212,10 +215,17 @@ class EndlessQuiz {
     restoreQuizUI() {
         const container = document.getElementById('container');
         container.innerHTML = `
-            <!-- Top Right Buttons -->
-            <div id="topButtons">
-                <button id="btnLearn" class="topbutton">Lær</button>
-                <div id="btnRating" class="topbutton">1000</div>
+            <!-- Top Control Bar -->
+            <div id="topControls">
+                <div id="questionInfo">
+                    <span id="currentCategory">${this.currentCategory}</span>
+                    <span id="questionCount">${this.questions.length.toLocaleString()} spørsmål</span>
+                </div>
+                <div id="topButtons">
+                    <button id="btnCategory" class="topbutton">Kategori</button>
+                    <button id="btnLearn" class="topbutton">Lær</button>
+                    <div id="btnRating" class="topbutton">1000</div>
+                </div>
             </div>
 
             <!-- Question -->
@@ -226,16 +236,16 @@ class EndlessQuiz {
             <!-- 4 Answer Buttons -->
             <div id="answers">
                 <button class="answer" id="answer1">
-                    Svar 1
+                    <span class="answer-text">Svar 1</span>
                 </button>
                 <button class="answer" id="answer2">
-                    Svar 2
+                    <span class="answer-text">Svar 2</span>
                 </button>
                 <button class="answer" id="answer3">
-                    Svar 3
+                    <span class="answer-text">Svar 3</span>
                 </button>
                 <button class="answer" id="answer4">
-                    Svar 4
+                    <span class="answer-text">Svar 4</span>
                 </button>
             </div>
 
@@ -274,7 +284,7 @@ class EndlessQuiz {
         // Display answers
         const answerElements = document.querySelectorAll('.answer');
         answerElements.forEach((element, index) => {
-            element.textContent = answers[index];
+            element.querySelector('.answer-text').textContent = answers[index];
             element.className = 'answer';
             element.style.pointerEvents = 'auto';
         });
@@ -292,7 +302,7 @@ class EndlessQuiz {
         this.isAnswering = true;
         const answerElements = document.querySelectorAll('.answer');
         const selectedElement = answerElements[selectedIndex];
-        const selectedAnswer = selectedElement.textContent;
+        const selectedAnswer = selectedElement.querySelector('.answer-text').textContent;
         
         // Disable all answer buttons
         answerElements.forEach(element => {
@@ -304,7 +314,7 @@ class EndlessQuiz {
         
         // Show correct answer
         answerElements.forEach((element, index) => {
-            const answerText = element.textContent;
+            const answerText = element.querySelector('.answer-text').textContent;
             if (answerText === this.currentQuestion.answer) {
                 element.classList.add('correct');
             } else if (index === selectedIndex && !isCorrect) {
