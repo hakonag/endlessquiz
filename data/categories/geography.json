@@ -3726,6 +3726,966 @@
       "w": ["Ved Longyearbyen", "På Hopen", "På Kvitøya"],
       "r": 890,
       "t": ["forskning"]
-    }
+    },
+    {
+      "id": 511,
+      "q": "Hva er det høyeste punktet på Jan Mayen?",
+      "a": "Beerenberg (2 272 moh)",
+      "w": ["Rudolftoppen", "Midtfjellet", "Olafberget"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 512,
+      "q": "Hva slags vulkan er Beerenberg?",
+      "a": "En stratovulkan",
+      "w": ["En skjoldvulkan", "En kaldera", "En tuffkjegle"],
+      "r": 880,
+      "t": ["geologi"]
+    },
+    {
+      "id": 513,
+      "q": "Når hadde Beerenberg sitt siste vulkanutbrudd?",
+      "a": "1985",
+      "w": ["1970", "1993", "1968"],
+      "r": 880,
+      "t": ["historie", "geologi"]
+    },
+    {
+      "id": 514,
+      "q": "Hva er arealet til Jan Mayen?",
+      "a": "377 km²",
+      "w": ["420 km²", "255 km²", "600 km²"],
+      "r": 850,
+      "t": ["geografi"]
+    },
+    {
+      "id": 515,
+      "q": "Hva heter bosetningen på Jan Mayen?",
+      "a": "Olonkinbyen",
+      "w": ["Beerenbergbyen", "Nordlaguna", "Rudolfstasjonen"],
+      "r": 800,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 516,
+      "q": "Hvilket departement har overordnet ansvar for Jan Mayen per 2025?",
+      "a": "Justis- og beredskapsdepartementet",
+      "w": ["Forsvarsdepartementet", "Miljødepartementet", "Kommunal- og distriktsdepartementet"],
+      "r": 910,
+      "t": ["administrasjon"]
+    },
+    {
+      "id": 517,
+      "q": "Når ble Jan Mayen en del av Kongeriket Norge?",
+      "a": "1930",
+      "w": ["1926", "1940", "1929"],
+      "r": 870,
+      "t": ["historie"]
+    },
+    {
+      "id": 518,
+      "q": "Hvem gjenoppdaget øya i 1607?",
+      "a": "Henry Hudson",
+      "w": ["John Clarke", "Jean Vrolicq", "Joris Carolus"],
+      "r": 890,
+      "t": ["historie"]
+    },
+    {
+      "id": 519,
+      "q": "Etter hvem er Jan Mayen oppkalt?",
+      "a": "Kaptein Jan Jacobs May van Schellinkhout",
+      "w": ["Joris Carolus", "Jan van Beeren", "Jacob van der Zee"],
+      "r": 910,
+      "t": ["historie"]
+    },
+    {
+      "id": 520,
+      "q": "Hvilken nasjon drev omfattende hvalfangst ved Jan Mayen på 1600-tallet?",
+      "a": "Nederland",
+      "w": ["England", "Frankrike", "Danmark"],
+      "r": 880,
+      "t": ["historie", "næringsliv"]
+    },
+    {
+      "id": 521,
+      "q": "Hvor mange personer er vanligvis stasjonert på Jan Mayen?",
+      "a": "Omtrent 17",
+      "w": ["Omtrent 30", "Omtrent 10", "Omtrent 50"],
+      "r": 820,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 522,
+      "q": "Hva er hovednæringen på Jan Mayen?",
+      "a": "Drift av militær- og meteorologisk stasjon",
+      "w": ["Turisme", "Fiske", "Oljeutvinning"],
+      "r": 800,
+      "t": ["næringsliv"]
+    },
+    {
+      "id": 523,
+      "q": "Hvilken forskningsinstitusjon etablerte den første meteorologiske stasjonen på Jan Mayen?",
+      "a": "Meteorologisk institutt",
+      "w": ["Norsk Polarinstitutt", "Forsvarets forskningsinstitutt", "NTNU"],
+      "r": 850,
+      "t": ["forskning"]
+    },
+    {
+      "id": 524,
+      "q": "Hvilket år ble hele Jan Mayen fredet som naturreservat?",
+      "a": "2010",
+      "w": ["2005", "1995", "2015"],
+      "r": 890,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 525,
+      "q": "Hvor stor del av øya er dekket av isbreer?",
+      "a": "Ca. 30 %",
+      "w": ["Ca. 10 %", "Ca. 50 %", "Ca. 70 %"],
+      "r": 880,
+      "t": ["klima", "geografi"]
+    },
+    {
+      "id": 526,
+      "q": "Hva heter den største innsjøen på Jan Mayen?",
+      "a": "Sørlaguna",
+      "w": ["Nordlaguna", "Rekvedvatnet", "Olonkinsjøen"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 527,
+      "q": "Hva slags klima har Jan Mayen?",
+      "a": "Overgang mellom arktisk og borealt klima",
+      "w": ["Subarktisk klima", "Tropisk kystklima", "Rent arktisk klima"],
+      "r": 880,
+      "t": ["klima"]
+    },
+    {
+      "id": 528,
+      "q": "Hvilket dyr var tidligere tallrikt på Jan Mayen, men er nå utryddet der?",
+      "a": "Fjellrev",
+      "w": ["Isbjørn", "Moskus", "Hvalross"],
+      "r": 900,
+      "t": ["fauna"]
+    },
+    {
+      "id": 529,
+      "q": "Hva er verdens nordligste aktive vulkan?",
+      "a": "Beerenberg",
+      "w": ["Eyjafjallajökull", "Mount Etna", "Askja"],
+      "r": 850,
+      "t": ["geologi"]
+    },
+    {
+      "id": 530,
+      "q": "Hvilket år ble Jan Mayens økonomiske sone utvidet til 200 nautiske mil?",
+      "a": "1980",
+      "w": ["1975", "1993", "1960"],
+      "r": 890,
+      "t": ["politikk", "historie"]
+    },
+    {
+      "id": 531,
+      "q": "Hvilke land protesterte mot utvidelsen av Jan Mayens økonomiske sone i 1980?",
+      "a": "Island og Grønland",
+      "w": ["Sverige og Finland", "Russland og Storbritannia", "Danmark og Canada"],
+      "r": 910,
+      "t": ["politikk"]
+    },
+    {
+      "id": 532,
+      "q": "Hva heter flyplassen på Jan Mayen?",
+      "a": "Jan Mayen flyplass",
+      "w": ["Beerenberg Airfield", "Olonkin Airstrip", "Midt-Jan Airport"],
+      "r": 800,
+      "t": ["samferdsel"]
+    },
+    {
+      "id": 533,
+      "q": "Hvilket år ble flyplassen på Jan Mayen åpnet?",
+      "a": "1960",
+      "w": ["1955", "1970", "1949"],
+      "r": 870,
+      "t": ["samferdsel", "historie"]
+    },
+    {
+      "id": 534,
+      "q": "Hvilken flytype var først til å lande på Jan Mayen?",
+      "a": "Catalina-fly fra Luftforsvaret",
+      "w": ["Douglas DC-4", "C-130 Hercules", "Lockheed Electra"],
+      "r": 910,
+      "t": ["samferdsel"]
+    },
+    {
+      "id": 535,
+      "q": "Hvilken norsk dikter skrev 'Øya i Ishavet' etter opphold på Jan Mayen under krigen?",
+      "a": "Nordahl Grieg",
+      "w": ["Arnulf Øverland", "Inger Hagerup", "Aksel Sandemose"],
+      "r": 870,
+      "t": ["historie", "kultur"]
+    },
+    {
+      "id": 536,
+      "q": "Hva slags fugl hekker i store kolonier på Jan Mayen?",
+      "a": "Havhest",
+      "w": ["Lomvi", "Sildemåke", "Polarlomvi"],
+      "r": 880,
+      "t": ["fauna"]
+    },
+    {
+      "id": 537,
+      "q": "Hvor mange fuglearter hekker fast på Jan Mayen?",
+      "a": "27 arter",
+      "w": ["10 arter", "50 arter", "5 arter"],
+      "r": 910,
+      "t": ["fauna"]
+    },
+    {
+      "id": 538,
+      "q": "Hva heter innsjøen med en isolert bestand av røye på Jan Mayen?",
+      "a": "Nordlaguna",
+      "w": ["Sørlaguna", "Beerenvatnet", "Rudolfsjøen"],
+      "r": 900,
+      "t": ["geografi", "fauna"]
+    },
+    {
+      "id": 539,
+      "q": "Hvem administrerer Jan Mayen i dag?",
+      "a": "Statsforvalteren i Nordland",
+      "w": ["Sysselmesteren på Svalbard", "Forsvarsdepartementet", "Norsk Polarinstitutt"],
+      "r": 870,
+      "t": ["administrasjon"]
+    },
+    {
+      "id": 540,
+      "q": "Hva heter hovedbyggprosjektet som skal ferdigstilles på Jan Mayen rundt 2027?",
+      "a": "Nytt hovedbygg Jan Mayen",
+      "w": ["Olonkin 2.0", "Beerenberg Base", "Arktisk Stasjon Nord"],
+      "r": 880,
+      "t": ["forsvar", "samfunn"]
+    },
+    {
+      "id": 541,
+      "q": "Hvem eier de eneste byggene på Jan Mayen?",
+      "a": "Forsvaret og Meteorologisk institutt",
+      "w": ["Norsk Polarinstitutt", "Universitetet i Oslo", "Kystverket"],
+      "r": 850,
+      "t": ["forsvar"]
+    },
+    {
+      "id": 542,
+      "q": "Hvilket system drives på øya for satellittnavigasjon?",
+      "a": "Galileo og EGNOS",
+      "w": ["GPS og GLONASS", "Starlink", "Iridium"],
+      "r": 910,
+      "t": ["teknologi"]
+    },
+    {
+      "id": 543,
+      "q": "Når ble LORAN-C-senderen på Jan Mayen tatt ut av drift?",
+      "a": "2015",
+      "w": ["2009", "2010", "2017"],
+      "r": 900,
+      "t": ["samferdsel", "historie"]
+    },
+    {
+      "id": 544,
+      "q": "Hvor mange kilometer fra Island ligger Jan Mayen?",
+      "a": "Ca. 560 km",
+      "w": ["Ca. 420 km", "Ca. 700 km", "Ca. 350 km"],
+      "r": 880,
+      "t": ["geografi"]
+    },
+    {
+      "id": 545,
+      "q": "Hva er avstanden fra Jan Mayen til fastlands-Norge?",
+      "a": "Ca. 910 km",
+      "w": ["Ca. 750 km", "Ca. 1050 km", "Ca. 500 km"],
+      "r": 880,
+      "t": ["geografi"]
+    },
+    {
+      "id": 546,
+      "q": "Hvilket land ligger nærmest Jan Mayen?",
+      "a": "Grønland",
+      "w": ["Island", "Norge", "Svalbard"],
+      "r": 880,
+      "t": ["geografi"]
+    },
+    {
+      "id": 547,
+      "q": "Hvilket år ble to ansatte drept i et snøskred på Jan Mayen?",
+      "a": "2021",
+      "w": ["2019", "2017", "2023"],
+      "r": 920,
+      "t": ["historie"]
+    },
+    {
+      "id": 548,
+      "q": "Hva ble funnet ved Kvalrossbukta i 1962?",
+      "a": "To kanoner fra hvalfangsttiden",
+      "w": ["Flyvrak", "Gamle spekkgryter", "Fjellrevfeller"],
+      "r": 910,
+      "t": ["historie"]
+    },
+    {
+      "id": 549,
+      "q": "Hvilket år krasjet to tyske fly på Jan Mayen under andre verdenskrig?",
+      "a": "1942",
+      "w": ["1940", "1944", "1941"],
+      "r": 890,
+      "t": ["historie", "krig"]
+    },
+    {
+      "id": 550,
+      "q": "Hva slags økosystem finnes i Nordlaguna?",
+      "a": "Ferskvannsøkosystem med røye",
+      "w": ["Saltvannsinnsjø", "Ingen livsformer", "Tundraøkosystem"],
+      "r": 880,
+      "t": ["fauna", "økologi"]
+    },
+    {
+      "id": 551,
+      "q": "Hvilken naturtype dominerer landskapet på Jan Mayen?",
+      "a": "Svart vulkansk stein og sand",
+      "w": ["Tundra", "Granskog", "Snaufjell"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 552,
+      "q": "Hvor mange karplantearter finnes på Jan Mayen?",
+      "a": "73 arter",
+      "w": ["40 arter", "150 arter", "20 arter"],
+      "r": 890,
+      "t": ["flora"]
+    },
+    {
+      "id": 553,
+      "q": "Hvilken dvergbusk vokser på Jan Mayen?",
+      "a": "Musøre",
+      "w": ["Dvergbjørk", "Greplyng", "Krekling"],
+      "r": 900,
+      "t": ["flora"]
+    },
+    {
+      "id": 554,
+      "q": "Hvilken sjøpattedyrart yngler på Jan Mayen?",
+      "a": "Klappmyss",
+      "w": ["Hvalross", "Grønlandssel", "Hvithval"],
+      "r": 900,
+      "t": ["fauna"]
+    },
+    {
+      "id": 555,
+      "q": "Hva er den største trusselen mot vegetasjonen på Jan Mayen?",
+      "a": "Erosjon og slitasje fra vær og vulkanaske",
+      "w": ["Beitedyr", "Turisme", "Forurensning"],
+      "r": 910,
+      "t": ["flora", "klima"]
+    },
+    {
+      "id": 556,
+      "q": "Hva heter fjellet som dominerer Sør-Jan?",
+      "a": "Rudolftoppen",
+      "w": ["Midtfjellet", "Olonkintoppen", "Sørkrateret"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 557,
+      "q": "Hva er typisk års­nedbør på Jan Mayen?",
+      "a": "Ca. 700 mm",
+      "w": ["Ca. 200 mm", "Ca. 1100 mm", "Ca. 400 mm"],
+      "r": 880,
+      "t": ["klima"]
+    },
+    {
+      "id": 558,
+      "q": "Når ble LORAN-C-masten på Jan Mayen revet?",
+      "a": "2017",
+      "w": ["2015", "2020", "2013"],
+      "r": 910,
+      "t": ["samferdsel", "historie"]
+    },
+    {
+      "id": 559,
+      "q": "Hva er Jan Mayens postnummer?",
+      "a": "8099",
+      "w": ["9991", "8080", "1000"],
+      "r": 850,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 560,
+      "q": "Hva er Internettdomenet som er tildelt Svalbard og Jan Mayen?",
+      "a": ".sj",
+      "w": [".no", ".bv", ".arctic"],
+      "r": 850,
+      "t": ["teknologi"]
+    },
+    {
+      "id": 561,
+      "q": "Når regnes vikingtiden i Norge å ha startet og sluttet?",
+      "a": "Fra ca. 800 til ca. 1050",
+      "w": ["Fra 793 til 1100", "Fra 850 til 950", "Fra 700 til 1000"],
+      "r": 800,
+      "t": ["historie"]
+    },
+    {
+      "id": 562,
+      "q": "Hvilket angrep regnes som starten på vikingtiden?",
+      "a": "Angrepet på Lindisfarne i 793",
+      "w": ["Angrepet på York i 866", "Slaget ved Hafrsfjord", "Angrepet på Paris i 845"],
+      "r": 820,
+      "t": ["historie"]
+    },
+    {
+      "id": 563,
+      "q": "Hva var hovedårsaken til at mange nordmenn dro ut som vikinger?",
+      "a": "Mangel på dyrkbar jord og økende folketall",
+      "w": ["Søken etter gull", "Kristen misjon", "Politiske konflikter i Europa"],
+      "r": 850,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 564,
+      "q": "Hva kalles handelsplassen i Vestfold som vokste fram på 800-tallet?",
+      "a": "Kaupangen i Skiringssal",
+      "w": ["Avaldsnes", "Veøy", "Borre"],
+      "r": 870,
+      "t": ["handel"]
+    },
+    {
+      "id": 565,
+      "q": "Hvilken konge regnes tradisjonelt som den som samlet Norge til ett rike?",
+      "a": "Harald Hårfagre",
+      "w": ["Håkon den gode", "Olav Tryggvason", "Olav den hellige"],
+      "r": 780,
+      "t": ["historie", "personer"]
+    },
+    {
+      "id": 566,
+      "q": "Hvilket slag knyttes til Harald Hårfagres rikssamling?",
+      "a": "Slaget i Hafrsfjord",
+      "w": ["Slaget på Stiklestad", "Slaget ved Stamford Bridge", "Slaget ved Re"],
+      "r": 790,
+      "t": ["historie"]
+    },
+    {
+      "id": 567,
+      "q": "Hva betyr tilnavnet 'Hårfagre'?",
+      "a": "Den med det vakre håret",
+      "w": ["Den fryktløse", "Den kloke", "Den rettferdige"],
+      "r": 800,
+      "t": ["kultur"]
+    },
+    {
+      "id": 568,
+      "q": "Hvilket år ble Harald Hårfagre konge etter sagatradisjonen?",
+      "a": "872",
+      "w": ["850", "900", "930"],
+      "r": 850,
+      "t": ["historie"]
+    },
+    {
+      "id": 569,
+      "q": "Hva var den viktigste økonomiske aktiviteten i vikingtidens Norge?",
+      "a": "Jordbruk og fiske",
+      "w": ["Handel med silke", "Håndverk og gruvedrift", "Trehandel"],
+      "r": 800,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 570,
+      "q": "Hva var en trell i vikingtiden?",
+      "a": "En ufri person eller slave",
+      "w": ["En bonde", "En handelsmann", "En kriger"],
+      "r": 820,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 571,
+      "q": "Hvilken gud var menneskenes beskytter i norrøn mytologi?",
+      "a": "Tor",
+      "w": ["Odin", "Frøy", "Balder"],
+      "r": 780,
+      "t": ["religion"]
+    },
+    {
+      "id": 572,
+      "q": "Hva var hovedmålet for Håkon den gode da han ble konge?",
+      "a": "Å kristne Norge",
+      "w": ["Å samle Norge", "Å styrte ladejarlene", "Å ekspandere mot øst"],
+      "r": 860,
+      "t": ["religion"]
+    },
+    {
+      "id": 573,
+      "q": "Hvem var Håkon den godes far?",
+      "a": "Harald Hårfagre",
+      "w": ["Olav Tryggvason", "Håkon Ladejarl", "Eirik Blodøks"],
+      "r": 790,
+      "t": ["personer"]
+    },
+    {
+      "id": 574,
+      "q": "Hva heter kvadet som forteller om Håkon den godes død?",
+      "a": "Håkonarmål",
+      "w": ["Haraldskvadet", "Glymsdråpa", "Tryggvaflokkr"],
+      "r": 900,
+      "t": ["litteratur"]
+    },
+    {
+      "id": 575,
+      "q": "Hva het ladejarlen som styrte store deler av Norge rundt år 1000?",
+      "a": "Håkon jarl",
+      "w": ["Eirik jarl", "Olav Tryggvason", "Knut den mektige"],
+      "r": 850,
+      "t": ["historie"]
+    },
+    {
+      "id": 576,
+      "q": "Hvilken gud mente ladejarlene at de stammet fra?",
+      "a": "Odin",
+      "w": ["Tor", "Frøy", "Balder"],
+      "r": 870,
+      "t": ["religion", "slekt"]
+    },
+    {
+      "id": 577,
+      "q": "Hvilken konge innførte kristenretten på Mostratinget i 1024?",
+      "a": "Olav den hellige",
+      "w": ["Olav Tryggvason", "Harald Hardråde", "Magnus den gode"],
+      "r": 790,
+      "t": ["religion"]
+    },
+    {
+      "id": 578,
+      "q": "Hva skjedde i slaget på Stiklestad i 1030?",
+      "a": "Olav den hellige ble drept",
+      "w": ["Danene ble beseiret", "Kristendommen ble avskaffet", "Harald Hardråde ble drept"],
+      "r": 780,
+      "t": ["historie"]
+    },
+    {
+      "id": 579,
+      "q": "Hvem ble Norges helgenkonge etter sin død i 1030?",
+      "a": "Olav den hellige",
+      "w": ["Håkon den gode", "Olav Tryggvason", "Magnus den gode"],
+      "r": 780,
+      "t": ["religion", "personer"]
+    },
+    {
+      "id": 580,
+      "q": "Hvor ble Olav den hellige gravlagt til slutt?",
+      "a": "I Nidarosdomen",
+      "w": ["På Stiklestad", "I Avaldsnes kirke", "I Moster kirke"],
+      "r": 820,
+      "t": ["religion"]
+    },
+    {
+      "id": 581,
+      "q": "Hvem kom tilbake til Norge i 1045 etter tjeneste i Bysants?",
+      "a": "Harald Hardråde",
+      "w": ["Eirik jarl", "Olav Tryggvason", "Magnus den gode"],
+      "r": 800,
+      "t": ["historie"]
+    },
+    {
+      "id": 582,
+      "q": "Hva skjedde med Harald Hardråde i 1066?",
+      "a": "Han ble drept i slaget ved Stamford Bridge",
+      "w": ["Han ble konge av England", "Han døde i Norge", "Han falt i slaget ved Re"],
+      "r": 780,
+      "t": ["historie"]
+    },
+    {
+      "id": 583,
+      "q": "Hva markerer slaget ved Stamford Bridge historisk?",
+      "a": "Slutten på vikingtiden",
+      "w": ["Starten på borgerkrigstiden", "Danmarks samling", "Kristningen av Norge"],
+      "r": 780,
+      "t": ["historie"]
+    },
+    {
+      "id": 584,
+      "q": "Hvilken konge regnes som Norges første kristne konge?",
+      "a": "Håkon den gode",
+      "w": ["Olav Tryggvason", "Olav den hellige", "Harald Hardråde"],
+      "r": 850,
+      "t": ["religion"]
+    },
+    {
+      "id": 585,
+      "q": "Hva var en viktig handelsvare fra Norge i vikingtiden?",
+      "a": "Tjære og pelsverk",
+      "w": ["Silke", "Vin", "Krydder"],
+      "r": 800,
+      "t": ["handel"]
+    },
+    {
+      "id": 586,
+      "q": "Hva kalles de karakteristiske dyreornamentene fra Osebergskipet?",
+      "a": "Osebergstil",
+      "w": ["Ringeriksstil", "Mammenstil", "Urnesstil"],
+      "r": 820,
+      "t": ["kunst"]
+    },
+    {
+      "id": 587,
+      "q": "Hvilket skip er blant de mest kjente arkeologiske funnene fra vikingtiden?",
+      "a": "Osebergskipet",
+      "w": ["Gokstadskipet", "Tune-skipet", "Myklebustskipet"],
+      "r": 780,
+      "t": ["arkeologi"]
+    },
+    {
+      "id": 588,
+      "q": "Hva slags samfunn var vikingtiden preget av i Norge?",
+      "a": "Et gårds- og ættesamfunn",
+      "w": ["Et bysamfunn", "Et handelsmonarki", "Et embetsstyre"],
+      "r": 820,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 589,
+      "q": "Hva var et ting i vikingtiden?",
+      "a": "En forsamling for lover og dommer",
+      "w": ["Et gravsted", "Et skip", "Et våpenlager"],
+      "r": 800,
+      "t": ["styresett"]
+    },
+    {
+      "id": 590,
+      "q": "Hva ble Norges eldste kirke trolig bygget på Veøy?",
+      "a": "Fordi øya hadde tidlig kristen påvirkning",
+      "w": ["Fordi kongen bodde der", "Fordi den lå ved Borre", "Fordi den lå nær Kaupang"],
+      "r": 870,
+      "t": ["religion"]
+    },
+    {
+      "id": 591,
+      "q": "Hvem var den første ladejarl ifølge sagaene?",
+      "a": "Håkon Grjotgardsson",
+      "w": ["Eirik Håkonsson", "Knut Ladejarl", "Tore Hund"],
+      "r": 870,
+      "t": ["historie"]
+    },
+    {
+      "id": 592,
+      "q": "Hvilken gud var assosiert med krig og død?",
+      "a": "Odin",
+      "w": ["Tor", "Loke", "Balder"],
+      "r": 780,
+      "t": ["religion"]
+    },
+    {
+      "id": 593,
+      "q": "Hva var grunnen til at mange vikinger lot seg døpe?",
+      "a": "For å få handelsfordeler i kristne land",
+      "w": ["For å unngå skatt", "For å slippe militærtjeneste", "For å bli jarler"],
+      "r": 880,
+      "t": ["religion", "handel"]
+    },
+    {
+      "id": 594,
+      "q": "Hva heter sagaen som forteller om Norges konger fra Harald Hårfagre og fremover?",
+      "a": "Heimskringla",
+      "w": ["Islendingesagaene", "Gylfaginning", "Edda"],
+      "r": 780,
+      "t": ["litteratur"]
+    },
+    {
+      "id": 595,
+      "q": "Hvilken konge bygde ut Nidaros som kirkesenter?",
+      "a": "Olav den hellige",
+      "w": ["Håkon den gode", "Magnus den gode", "Olav Tryggvason"],
+      "r": 820,
+      "t": ["religion"]
+    },
+    {
+      "id": 596,
+      "q": "Hva kalles perioden etter vikingtiden i Norge?",
+      "a": "Tidlig middelalder",
+      "w": ["Borgerkrigstiden", "Reformasjonen", "Renessansen"],
+      "r": 780,
+      "t": ["historie"]
+    },
+    {
+      "id": 597,
+      "q": "Hvilket område ble først kristnet i Norge?",
+      "a": "Vestlandet",
+      "w": ["Trøndelag", "Østlandet", "Nord-Norge"],
+      "r": 870,
+      "t": ["religion"]
+    },
+    {
+      "id": 598,
+      "q": "Hva slags stil kjennetegner Vangsteinen fra Ringerike?",
+      "a": "Ringeriksstil",
+      "w": ["Osebergstil", "Urnesstil", "Mammenstil"],
+      "r": 860,
+      "t": ["kunst"]
+    },
+    {
+      "id": 599,
+      "q": "Hvilken konge falt i slaget ved Stamford Bridge i 1066?",
+      "a": "Harald Hardråde",
+      "w": ["Olav Tryggvason", "Magnus den gode", "Eirik Blodøks"],
+      "r": 780,
+      "t": ["historie"]
+    },
+    {
+      "id": 600,
+      "q": "Hva symboliserer overgangen fra vikingtid til middelalder i Norge?",
+      "a": "Kristningen og fast kongemakt",
+      "w": ["Ny handelslov", "Dansk innflytelse", "Kullalderen"],
+      "r": 850,
+      "t": ["historie", "religion"]
+    },
+    {
+      "id": 601,
+      "q": "Hva betyr det at et område er et norsk biland?",
+      "a": "Det er under norsk statshøyhet uten å være del av kongeriket",
+      "w": ["Det er et fylke i Norge", "Det er et område under Svalbardtraktaten", "Det er et uavhengig land med norsk språk"],
+      "r": 900,
+      "t": ["definisjon"]
+    },
+    {
+      "id": 602,
+      "q": "Hvor ligger samtlige norske biland geografisk?",
+      "a": "På den sørlige halvkule",
+      "w": ["På den nordlige halvkule", "Langs ekvator", "I Nordishavet"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 603,
+      "q": "Hvilken øy regnes som verdens mest avsidesliggende?",
+      "a": "Bouvetøya",
+      "w": ["Jan Mayen", "Peter I Øy", "Kerguelen"],
+      "r": 880,
+      "t": ["bouvetøya"]
+    },
+    {
+      "id": 604,
+      "q": "Når ble Bouvetøya erklært som norsk biland ved lov?",
+      "a": "27. februar 1930",
+      "w": ["14. januar 1939", "24. mars 1933", "1. desember 1927"],
+      "r": 1020,
+      "t": ["historie"]
+    },
+    {
+      "id": 605,
+      "q": "Hvilket departement har forvaltningen av de norske bilandene?",
+      "a": "Justis- og beredskapsdepartementet",
+      "w": ["Utenriksdepartementet", "Forsvarsdepartementet", "Klima- og miljødepartementet"],
+      "r": 970,
+      "t": ["forvaltning"]
+    },
+    {
+      "id": 606,
+      "q": "Hvor stor andel av Bouvetøya er dekket av isbreer?",
+      "a": "Omtrent 93 %",
+      "w": ["Omtrent 50 %", "Omtrent 70 %", "Omtrent 20 %"],
+      "r": 920,
+      "t": ["natur"]
+    },
+    {
+      "id": 607,
+      "q": "Hvem oppdaget Bouvetøya i 1739?",
+      "a": "Jean-Baptiste Charles Bouvet de Lozier",
+      "w": ["Fabian Gottlieb von Bellingshausen", "James Cook", "Roald Amundsen"],
+      "r": 1000,
+      "t": ["oppdagelse"]
+    },
+    {
+      "id": 608,
+      "q": "Hva er arealet til Bouvetøya?",
+      "a": "49 km²",
+      "w": ["156 km²", "2 700 000 km²", "310 km²"],
+      "r": 850,
+      "t": ["geografi"]
+    },
+    {
+      "id": 609,
+      "q": "Hva ble Bouvetøya kalt av oppdageren i 1739?",
+      "a": "Cap de la Circoncision",
+      "w": ["Île du Roi", "Terre de l’Espérance", "Cap du Sud"],
+      "r": 1050,
+      "t": ["navn"]
+    },
+    {
+      "id": 610,
+      "q": "Hva skjedde på Bouvetøya i 1971?",
+      "a": "Øya ble erklært som naturreservat",
+      "w": ["En forskningsstasjon ble etablert", "Den ble innlemmet i kongeriket", "En hvalfangststasjon ble bygget"],
+      "r": 920,
+      "t": ["miljø"]
+    },
+    {
+      "id": 611,
+      "q": "Når ble Peter I Øy erklært som norsk biland?",
+      "a": "24. mars 1933",
+      "w": ["14. januar 1939", "27. februar 1930", "6. mars 1931"],
+      "r": 970,
+      "t": ["historie"]
+    },
+    {
+      "id": 612,
+      "q": "Hvem oppdaget Peter I Øy i 1821?",
+      "a": "Fabian Gottlieb von Bellingshausen",
+      "w": ["James Clark Ross", "Jean-Baptiste Charcot", "Lars Christensen"],
+      "r": 930,
+      "t": ["oppdagelse"]
+    },
+    {
+      "id": 613,
+      "q": "Hvor langt ligger Peter I Øy fra det antarktiske kontinentet?",
+      "a": "Omtrent 450 km",
+      "w": ["Omtrent 2200 km", "Omtrent 120 km", "Omtrent 900 km"],
+      "r": 890,
+      "t": ["geografi"]
+    },
+    {
+      "id": 614,
+      "q": "Hva kjennetegner kysten av Peter I Øy?",
+      "a": "Bratte klipper og en isvegg på rundt 40 meter",
+      "w": ["Sandstrender og laguner", "Fjorder og innsjøer", "Store korallrev"],
+      "r": 910,
+      "t": ["natur"]
+    },
+    {
+      "id": 615,
+      "q": "Når ble Dronning Maud Land erklært norsk?",
+      "a": "14. januar 1939",
+      "w": ["27. februar 1930", "6. mars 1931", "24. mars 1933"],
+      "r": 970,
+      "t": ["historie"]
+    },
+    {
+      "id": 616,
+      "q": "Hvilket land gjorde krav på deler av Dronning Maud Land som «Neuschwabenland»?",
+      "a": "Tyskland",
+      "w": ["Sverige", "Storbritannia", "Sovjetunionen"],
+      "r": 1000,
+      "t": ["historie"]
+    },
+    {
+      "id": 617,
+      "q": "Hva er arealet til Dronning Maud Land?",
+      "a": "2 700 000 km²",
+      "w": ["156 km²", "49 km²", "1 200 000 km²"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 618,
+      "q": "Hva heter den norske helårsstasjonen i Dronning Maud Land?",
+      "a": "Troll",
+      "w": ["Tor", "Ongul", "Jutul"],
+      "r": 860,
+      "t": ["forskning"]
+    },
+    {
+      "id": 619,
+      "q": "Hvor ligger forskningsstasjonen Troll?",
+      "a": "I Jutulsessen i Dronning Maud Land",
+      "w": ["På Bouvetøya", "På Peter I Øy", "Ved Sørpolen"],
+      "r": 900,
+      "t": ["forskning"]
+    },
+    {
+      "id": 620,
+      "q": "Når ble Antarktistraktaten undertegnet?",
+      "a": "1959",
+      "w": ["1945", "1969", "1939"],
+      "r": 950,
+      "t": ["traktat"]
+    },
+    {
+      "id": 621,
+      "q": "Hvilke to norske biland omfattes av Antarktistraktaten?",
+      "a": "Dronning Maud Land og Peter I Øy",
+      "w": ["Bouvetøya og Svalbard", "Svalbard og Jan Mayen", "Bouvetøya og Dronning Maud Land"],
+      "r": 970,
+      "t": ["traktat"]
+    },
+    {
+      "id": 622,
+      "q": "Hva var hovedårsaken til at Norge annekterte Dronning Maud Land?",
+      "a": "Å sikre norske rettigheter i hvalfangsten",
+      "w": ["Å etablere en koloni", "Å drive gruvedrift", "Å bygge en flybase"],
+      "r": 1040,
+      "t": ["historie"]
+    },
+    {
+      "id": 623,
+      "q": "Hvilken norsk ekspedisjon foretok annekteringen av Bouvetøya?",
+      "a": "Den første Norvegia-ekspedisjonen",
+      "w": ["Fram-ekspedisjonen", "Maud-ekspedisjonen", "Belgica-ekspedisjonen"],
+      "r": 980,
+      "t": ["ekspedisjon"]
+    },
+    {
+      "id": 624,
+      "q": "Hva slags øy er Peter I Øy geologisk sett?",
+      "a": "En vulkansk øy",
+      "w": ["En koralløy", "En sandbanke", "En basaltplate"],
+      "r": 880,
+      "t": ["geologi"]
+    },
+    {
+      "id": 625,
+      "q": "Hvilket år ble Bouvetøya erklært naturreservat?",
+      "a": "1971",
+      "w": ["1959", "1930", "1996"],
+      "r": 890,
+      "t": ["miljø"]
+    },
+    {
+      "id": 626,
+      "q": "Hvor langt ligger Bouvetøya fra Sør-Afrika?",
+      "a": "Omtrent 2200 km",
+      "w": ["450 km", "1100 km", "3000 km"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 627,
+      "q": "Hvilken lov fastsetter at Bouvetøya, Peter I Øy og Dronning Maud Land er biland?",
+      "a": "Bilandsloven av 1930",
+      "w": ["Svalbardloven av 1925", "Antarktistraktaten", "Polarloven av 1948"],
+      "r": 950,
+      "t": ["lov"]
+    },
+    {
+      "id": 628,
+      "q": "Hvilken norsk ekspedisjon foretok første ilandstigning på Peter I Øy?",
+      "a": "Den andre Norvegia-ekspedisjonen i 1929",
+      "w": ["Den første Norvegia-ekspedisjonen i 1927", "Amundsen-ekspedisjonen i 1911", "Charcot-ekspedisjonen i 1909"],
+      "r": 970,
+      "t": ["ekspedisjon"]
+    },
+    {
+      "id": 629,
+      "q": "Hvilket land anerkjente først norsk suverenitet over Dronning Maud Land?",
+      "a": "Storbritannia",
+      "w": ["USA", "Sverige", "Sovjetunionen"],
+      "r": 960,
+      "t": ["diplomati"]
+    },
+    {
+      "id": 630,
+      "q": "Hva var navnet på kapteinen som tok Bouvetøya i besittelse i 1927?",
+      "a": "Harald Horntvedt",
+      "w": ["Hjalmar Riiser-Larsen", "Lars Christensen", "Gunnar Isachsen"],
+      "r": 980,
+      "t": ["historie"]
+    }    
   ]
 }

@@ -10,6 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Laster Endeløs Quiz...</div>
+        <div class="loading-subtext">Forbereder 10,000 spørsmål</div>
+    </div>
+
     <div id="container">
         <!-- Top Control Bar -->
         <div id="topControls">
@@ -18,7 +25,16 @@
                 <span id="questionCount">10,000 spørsmål</span>
             </div>
             <div id="topButtons">
-                <button id="btnCategory" class="topbutton">Kategori</button>
+                <div class="dropdown">
+                    <button id="btnCategory" class="topbutton">Kategori</button>
+                    <div id="dropdownContent" class="dropdown-content">
+                        <div class="dropdown-item" data-filename="general.json">Generell Kunnskap</div>
+                        <div class="dropdown-item" data-filename="history.json">Historie</div>
+                        <div class="dropdown-item" data-filename="geography.json">Geografi</div>
+                        <div class="dropdown-item" data-filename="science.json">Vitenskap</div>
+                        <div class="dropdown-item" data-filename="culture.json">Kultur</div>
+                    </div>
+                </div>
                 <button id="btnLearn" class="topbutton">Lær</button>
                 <div id="btnRating" class="topbutton">1000</div>
             </div>

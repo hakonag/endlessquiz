@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #0a0a0a;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    background: #111111;
+    background: #ffffff;
     border-radius: 0;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
@@ -36,8 +36,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    background: #1a1a1a;
-    border-bottom: 1px solid #333;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
 }
 
 #questionInfo {
@@ -49,13 +49,13 @@ body {
 #currentCategory {
     font-size: 18px;
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
 }
 
 #questionCount {
     font-size: 12px;
     font-weight: 400;
-    color: #888;
+    color: #6c757d;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -67,52 +67,53 @@ body {
 }
 
 .topbutton {
-    background: #2a2a2a;
-    border: 1px solid #444;
-    border-radius: 6px;
-    color: #ffffff;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    color: #000000;
     font-size: 13px;
     font-weight: 500;
     padding: 8px 16px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: background-color 0.15s ease;
     font-family: inherit;
     min-width: 60px;
     text-align: center;
 }
 
 .topbutton:hover {
-    background: #333;
-    border-color: #555;
+    background: #f8f9fa;
 }
 
 .topbutton:active {
-    background: #2a2a2a;
+    background: #e9ecef;
 }
 
 #btnLearn {
-    background: #1a4d1a;
-    border-color: #2d5a2d;
+    background: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
 }
 
 #btnLearn:hover {
-    background: #2d5a2d;
+    background: #c3e6cb;
 }
 
 #btnCategory {
-    background: #2a2a2a;
-    border-color: #444;
+    background: #ffffff;
+    border-color: #dee2e6;
 }
 
 #btnCategory:hover {
-    background: #333;
+    background: #f8f9fa;
 }
 
 #btnRating {
-    background: #1a1a3a;
-    border-color: #2d2d5a;
+    background: #e2e3e5;
+    border-color: #d6d8db;
     font-weight: 600;
     font-size: 14px;
+    color: #000000;
 }
 
 /* Question */
@@ -121,9 +122,9 @@ body {
     font-weight: 500;
     text-align: center;
     line-height: 1.4;
-    color: #ffffff;
+    color: #000000;
     padding: 40px 30px;
-    background: #111111;
+    background: #ffffff;
     min-height: 120px;
     display: flex;
     align-items: center;
@@ -136,18 +137,18 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1px;
-    background: #333;
+    background: #dee2e6;
     padding: 1px;
 }
 
 .answer {
-    background: #1a1a1a;
-    border: none;
-    color: #ffffff;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    color: #000000;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: background-color 0.15s ease;
     padding: 30px 20px;
     min-height: 100px;
     display: flex;
@@ -159,11 +160,11 @@ body {
 }
 
 .answer:hover {
-    background: #222;
+    background: #f8f9fa;
 }
 
 .answer:active {
-    background: #1a1a1a;
+    background: #e9ecef;
 }
 
 .answer-text {
@@ -174,13 +175,15 @@ body {
 
 /* Answer States */
 .answer.correct {
-    background: #1a4d1a;
-    color: #ffffff;
+    background: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
 }
 
 .answer.incorrect {
-    background: #4d1a1a;
-    color: #ffffff;
+    background: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
 }
 
 .answer.disabled {
@@ -191,39 +194,121 @@ body {
 
 /* Footer */
 .panel-footer {
-    background: #0a0a0a;
-    color: #666;
+    background: #f8f9fa;
+    color: #6c757d;
     text-align: center;
     padding: 20px;
     font-size: 11px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-top: 1px solid #333;
+    border-top: 1px solid #dee2e6;
 }
 
 .footerItem {
-    color: #888;
+    color: #6c757d;
     text-decoration: none;
     margin-left: 15px;
-    transition: color 0.3s ease;
+    transition: color 0.15s ease;
 }
 
 .footerItem:hover {
-    color: #aaa;
+    color: #495057;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    z-index: 1000;
+    top: 100%;
+    right: 0;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-item {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item:active {
+    background-color: #e9ecef;
+}
+
+/* Loading Screen */
+#loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-spinner {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+.loading-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.loading-subtext {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /* Category Selection Screen */
 #categorySelection {
     text-align: center;
     padding: 60px 30px;
-    background: #111111;
+    background: #ffffff;
 }
 
 #categorySelection h2 {
     font-size: 28px;
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 50px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -238,38 +323,35 @@ body {
 }
 
 .categoryButton {
-    background: #1a1a1a;
-    border: 1px solid #333;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
     border-radius: 8px;
-    color: #ffffff;
+    color: #000000;
     padding: 30px 25px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: background-color 0.15s ease;
     text-align: left;
     font-family: inherit;
 }
 
 .categoryButton:hover {
-    background: #222;
-    border-color: #444;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: #f8f9fa;
 }
 
 .categoryButton:active {
-    transform: translateY(0);
+    background: #e9ecef;
 }
 
 .categoryName {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .categoryCount {
     font-size: 12px;
-    color: #888;
+    color: #6c757d;
     margin-bottom: 8px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -277,7 +359,7 @@ body {
 
 .categoryDescription {
     font-size: 13px;
-    color: #aaa;
+    color: #6c757d;
     line-height: 1.4;
 }
 
