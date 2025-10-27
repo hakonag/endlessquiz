@@ -2,9 +2,8 @@ class EndlessQuiz {
     constructor() {
         this.questions = [];
         this.currentQuestionIndex = 0;
-        this.score = 0;
-        this.rating = 1000;
-        this.matchPoints = 0;
+        this.elo = 1000;
+        this.streak = 0;
         this.isAnswering = false;
         this.currentQuestion = null;
         this.answeredQuestions = 0;
@@ -26,7 +25,6 @@ class EndlessQuiz {
             this.shuffleArray(this.questions);
         } catch (error) {
             console.error('Error loading questions:', error);
-            // Fallback questions if JSON fails to load
             this.questions = this.getFallbackQuestions();
         }
     }
@@ -38,17 +36,8 @@ class EndlessQuiz {
                 question: "In which plant organelles does photosynthesis take place?",
                 answer: "Chloroplasts",
                 wrongAnswers: ["Mitochondria", "Vacuoles", "Centrioles"],
-                rating: 1026,
+                rating: 1000,
                 category: "Biology",
-                language: "eng"
-            },
-            {
-                id: 2,
-                question: "Which US state does NOT border Mexico?",
-                answer: "Colorado",
-                wrongAnswers: ["Texas", "New Mexico", "Arizona"],
-                rating: 1127,
-                category: "Geography",
                 language: "eng"
             }
         ];
@@ -70,12 +59,6 @@ class EndlessQuiz {
         
         // Learn button
         document.getElementById('btnLearn').addEventListener('click', () => this.openLearnLink());
-        
-        // Match button (placeholder for future functionality)
-        document.getElementById('btnMatch').addEventListener('click', () => this.showMatchInfo());
-        
-        // Next button
-        document.getElementById('nextButton').addEventListener('click', () => this.nextQuestion());
         
         // Keyboard support
         document.addEventListener('keypress', (e) => this.handleKeyPress(e));
@@ -105,18 +88,14 @@ class EndlessQuiz {
         // Display answers
         const answerElements = document.querySelectorAll('.answer');
         answerElements.forEach((element, index) => {
-            element.querySelector('.answer-text').textContent = answers[index];
+            element.textContent = answers[index];
             element.className = 'answer';
             element.style.pointerEvents = 'auto';
         });
         
-        // Reset feedback
-        document.getElementById('feedbackText').textContent = '';
-        document.getElementById('nextButton').classList.add('hidden');
-        
         // Add fade-in animation
         questionElement.classList.add('fade-in');
-        setTimeout(() => questionElement.classList.remove('fade-in'), 500);
+        setTimeout(() => questionElement.classList.remove('fade-in'), 300);
         
         this.isAnswering = false;
     }
@@ -127,7 +106,7 @@ class EndlessQuiz {
         this.isAnswering = true;
         const answerElements = document.querySelectorAll('.answer');
         const selectedElement = answerElements[selectedIndex];
-        const selectedAnswer = selectedElement.querySelector('.answer-text').textContent;
+        const selectedAnswer = selectedElement.textContent;
         
         // Disable all answer buttons
         answerElements.forEach(element => {
@@ -139,7 +118,7 @@ class EndlessQuiz {
         
         // Show correct answer
         answerElements.forEach((element, index) => {
-            const answerText = element.querySelector('.answer-text').textContent;
+            const answerText = element.textContent;
             if (answerText === this.currentQuestion.answer) {
                 element.classList.add('correct');
             } else if (index === selectedIndex && !isCorrect) {
@@ -147,49 +126,32 @@ class EndlessQuiz {
             }
         });
         
-        // Update score and rating
+        // Update ELO and streak
+        this.updateELO(isCorrect);
+        
+        // Auto-advance to next question after delay
+        setTimeout(() => {
+            this.nextQuestion();
+        }, 2000);
+    }
+    
+    updateELO(isCorrect) {
+        const questionRating = this.currentQuestion.rating;
+        const expectedScore = 1 / (1 + Math.pow(10, (questionRating - this.elo) / 400));
+        const actualScore = isCorrect ? 1 : 0;
+        const kFactor = 32; // Standard K-factor for ELO
+        
+        const eloChange = Math.round(kFactor * (actualScore - expectedScore));
+        this.elo += eloChange;
+        
         if (isCorrect) {
-            this.score += 10;
-            this.matchPoints += 10;
-            this.rating += 20;
-            document.getElementById('feedbackText').textContent = 'Correct! Well done!';
-            document.getElementById('feedbackText').style.color = '#4CAF50';
-            selectedElement.classList.add('pulse');
+            this.streak++;
         } else {
-            this.rating = Math.max(800, this.rating - 15);
-            document.getElementById('feedbackText').textContent = `Incorrect! The correct answer is: ${this.currentQuestion.answer}`;
-            document.getElementById('feedbackText').style.color = '#f44336';
+            this.streak = 0;
         }
         
         this.answeredQuestions++;
         this.updateUI();
-        
-        // Show next button after a delay
-        setTimeout(() => {
-            document.getElementById('nextButton').classList.remove('hidden');
-        }, 1500);
-    }
-    
-    nextQuestion() {
-        this.currentQuestionIndex = (this.currentQuestionIndex + 1) % this.questions.length;
-        
-        // If we've gone through all questions, shuffle them again
-        if (this.currentQuestionIndex === 0) {
-            this.shuffleArray(this.questions);
-        }
-        
-        this.displayQuestion();
-        this.updateProgress();
-    }
-    
-    updateUI() {
-        document.querySelector('#btnMatchPoints .value').textContent = this.matchPoints;
-        document.querySelector('#btnRating .value').textContent = this.rating;
-    }
-    
-    updateProgress() {
-        const progress = (this.answeredQuestions % this.questions.length) / this.questions.length * 100;
-        document.getElementById('progressFill').style.width = `${progress}%`;
     }
     
     openLearnLink() {
@@ -201,8 +163,27 @@ class EndlessQuiz {
         window.open(wikiUrl, '_blank');
     }
     
-    showMatchInfo() {
-        alert(`Match Points: ${this.matchPoints}\nRating: ${this.rating}\nQuestions Answered: ${this.answeredQuestions}`);
+    nextQuestion() {
+        // Add auto-advance animation to current question
+        const questionElement = document.getElementById('question');
+        questionElement.classList.add('auto-advance');
+        
+        setTimeout(() => {
+            this.currentQuestionIndex = (this.currentQuestionIndex + 1) % this.questions.length;
+            
+            // If we've gone through all questions, shuffle them again
+            if (this.currentQuestionIndex === 0) {
+                this.shuffleArray(this.questions);
+            }
+            
+            // Reset animations
+            questionElement.classList.remove('auto-advance');
+            this.displayQuestion();
+        }, 300);
+    }
+    
+    updateUI() {
+        document.getElementById('btnRating').textContent = Math.round(this.elo);
     }
 }
 

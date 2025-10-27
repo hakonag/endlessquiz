@@ -7,160 +7,121 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #4a6b7a;
+    color: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #333;
     overflow-x: hidden;
 }
 
 /* Container */
 #container {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    width: 100%;
     max-width: 800px;
-    width: 90%;
-    margin: 20px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     position: relative;
 }
 
-/* Top row buttons */
-#toprow {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    margin-bottom: 30px;
+/* Top Right Buttons */
+#topButtons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
 }
 
 .topbutton {
-    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
-    border-radius: 12px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    background: #2c3e50;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
     cursor: pointer;
-    border: 2px solid transparent;
+    transition: background-color 0.2s ease;
 }
 
 .topbutton:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background: #34495e;
 }
 
-.topbutton:active {
-    transform: translateY(0);
+#btnLearn {
+    font-family: inherit;
 }
 
-.topbutton .label {
-    display: block;
-    font-size: 12px;
-    font-weight: 500;
-    color: #666;
-    margin-bottom: 5px;
-}
-
-.topbutton .value {
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    color: #333;
-}
-
-#btnLearn, #btnMatch {
-    background: linear-gradient(145deg, #4CAF50, #45a049);
-    color: white;
-}
-
-#btnLearn:hover, #btnMatch:hover {
-    background: linear-gradient(145deg, #45a049, #3d8b40);
-}
-
-#btnLearn .label, #btnMatch .label {
-    color: rgba(255, 255, 255, 0.9);
-}
-
-#btnLearn .value, #btnMatch .value {
-    color: white;
-}
-
-/* Question wrapper */
-#questionWrapper {
-    background: linear-gradient(145deg, #f8f9fa, #e9ecef);
-    border-radius: 15px;
-    padding: 30px;
-    margin-bottom: 30px;
-    min-height: 120px;
+#btnRating {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 60px;
 }
 
+/* Question */
 #question {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     line-height: 1.4;
-    color: #2c3e50;
+    color: #ffffff;
+    padding: 0 20px;
+    margin-top: 60px;
 }
 
-/* Answers grid */
-#answersGrid {
+/* Answers Grid - 2x2 */
+#answers {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 15px;
-    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .answer {
-    background: linear-gradient(145deg, #ffffff, #f0f0f0);
-    border-radius: 12px;
-    padding: 20px;
-    text-align: center;
+    background: #2c3e50;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    padding: 20px;
     min-height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-family: inherit;
 }
 
 .answer:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    border-color: #667eea;
-}
-
-.answer:active {
+    background: #34495e;
     transform: translateY(-1px);
 }
 
-.answer-text {
-    font-size: 16px;
-    font-weight: 500;
-    color: #333;
+.answer:active {
+    transform: translateY(0);
 }
 
-/* Answer states */
+/* Answer States */
 .answer.correct {
-    background: linear-gradient(145deg, #4CAF50, #45a049);
-    color: white;
-    border-color: #4CAF50;
+    background: #27ae60;
+    color: #ffffff;
 }
 
 .answer.incorrect {
-    background: linear-gradient(145deg, #f44336, #d32f2f);
-    color: white;
-    border-color: #f44336;
+    background: #e74c3c;
+    color: #ffffff;
 }
 
 .answer.disabled {
@@ -169,113 +130,57 @@ body {
     transform: none !important;
 }
 
-/* Progress bar */
-#progressBar {
-    background: #e0e0e0;
-    border-radius: 10px;
-    height: 8px;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-#progressFill {
-    background: linear-gradient(90deg, #4CAF50, #45a049);
-    height: 100%;
-    width: 0%;
-    transition: width 0.3s ease;
-    border-radius: 10px;
-}
-
-/* Feedback */
-#feedback {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#feedbackText {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    min-height: 25px;
-}
-
-#nextButton {
-    background: linear-gradient(145deg, #667eea, #764ba2);
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 12px 30px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: inline-block;
-}
-
-#nextButton:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
-}
-
-#nextButton:active {
-    transform: translateY(0);
-}
-
-.hidden {
-    display: none !important;
-}
-
 /* Footer */
 .panel-footer {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 10px;
-    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #2c3e50;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .footerItem {
-    color: #4CAF50;
+    color: #2c3e50;
     text-decoration: none;
     margin-left: 15px;
     transition: color 0.3s ease;
 }
 
 .footerItem:hover {
-    color: #45a049;
+    color: #34495e;
 }
 
-/* Responsive design */
+/* Responsive Design */
 @media (max-width: 768px) {
     #container {
-        padding: 20px;
-        margin: 10px;
-    }
-    
-    #toprow {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        padding: 30px 15px;
+        gap: 30px;
     }
     
     #question {
         font-size: 20px;
+        margin-top: 50px;
     }
     
-    #answersGrid {
-        grid-template-columns: 1fr;
-        gap: 10px;
+    #answers {
+        gap: 12px;
     }
     
     .answer {
+        font-size: 14px;
         padding: 15px;
-        min-height: 60px;
+        min-height: 70px;
     }
     
-    .answer-text {
-        font-size: 14px;
+    #topButtons {
+        top: 15px;
+        right: 15px;
+    }
+    
+    .topbutton {
+        font-size: 12px;
+        padding: 6px 12px;
     }
 }
 
@@ -284,24 +189,26 @@ body {
         font-size: 18px;
     }
     
-    .topbutton {
+    .answer {
+        font-size: 13px;
         padding: 12px;
+        min-height: 60px;
     }
     
-    .topbutton .value {
-        font-size: 16px;
+    #answers {
+        gap: 10px;
     }
 }
 
-/* Animation classes */
+/* Animation Classes */
 .fade-in {
-    animation: fadeIn 0.5s ease-in;
+    animation: fadeIn 0.3s ease-in;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(10px);
     }
     to {
         opacity: 1;
@@ -310,7 +217,7 @@ body {
 }
 
 .pulse {
-    animation: pulse 0.6s ease-in-out;
+    animation: pulse 0.4s ease-in-out;
 }
 
 @keyframes pulse {
@@ -318,9 +225,29 @@ body {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.05);
+        transform: scale(1.02);
     }
     100% {
         transform: scale(1);
+    }
+}
+
+/* Auto-advance animation */
+.auto-advance {
+    animation: autoAdvance 1.5s ease-in-out forwards;
+}
+
+@keyframes autoAdvance {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.1);
     }
 }

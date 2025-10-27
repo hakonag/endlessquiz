@@ -223,5 +223,230 @@
     "rating": 700,
     "category": "Science",
     "language": "eng"
+  },
+  {
+    "id": 26,
+    "question": "Which country has the most time zones?",
+    "answer": "France",
+    "wrongAnswers": ["Russia", "United States", "China"],
+    "rating": 1200,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 27,
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin",
+    "wrongAnswers": ["Liver", "Lungs", "Brain"],
+    "rating": 900,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 28,
+    "question": "Which planet has the most moons?",
+    "answer": "Saturn",
+    "wrongAnswers": ["Jupiter", "Neptune", "Uranus"],
+    "rating": 1100,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 29,
+    "question": "Who wrote '1984'?",
+    "answer": "George Orwell",
+    "wrongAnswers": ["Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+    "rating": 1000,
+    "category": "Literature",
+    "language": "eng"
+  },
+  {
+    "id": 30,
+    "question": "What is the smallest unit of matter?",
+    "answer": "Atom",
+    "wrongAnswers": ["Molecule", "Cell", "Electron"],
+    "rating": 850,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 31,
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "answer": "Japan",
+    "wrongAnswers": ["China", "South Korea", "Thailand"],
+    "rating": 800,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 32,
+    "question": "What is the fastest land animal?",
+    "answer": "Cheetah",
+    "wrongAnswers": ["Lion", "Leopard", "Gazelle"],
+    "rating": 750,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 33,
+    "question": "Which element is the most abundant in Earth's atmosphere?",
+    "answer": "Nitrogen",
+    "wrongAnswers": ["Oxygen", "Carbon dioxide", "Argon"],
+    "rating": 950,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 34,
+    "question": "Who painted 'The Starry Night'?",
+    "answer": "Vincent van Gogh",
+    "wrongAnswers": ["Pablo Picasso", "Claude Monet", "Salvador Dalí"],
+    "rating": 900,
+    "category": "Art",
+    "language": "eng"
+  },
+  {
+    "id": 35,
+    "question": "What is the largest continent by area?",
+    "answer": "Asia",
+    "wrongAnswers": ["Africa", "North America", "Europe"],
+    "rating": 800,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 36,
+    "question": "Which programming language is known for its use in data science?",
+    "answer": "Python",
+    "wrongAnswers": ["Java", "C++", "JavaScript"],
+    "rating": 1150,
+    "category": "Technology",
+    "language": "eng"
+  },
+  {
+    "id": 37,
+    "question": "What is the longest bone in the human body?",
+    "answer": "Femur",
+    "wrongAnswers": ["Tibia", "Humerus", "Radius"],
+    "rating": 850,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 38,
+    "question": "Which country has the largest population?",
+    "answer": "China",
+    "wrongAnswers": ["India", "United States", "Indonesia"],
+    "rating": 700,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 39,
+    "question": "What is the chemical symbol for silver?",
+    "answer": "Ag",
+    "wrongAnswers": ["Si", "Au", "Al"],
+    "rating": 900,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 40,
+    "question": "Who composed 'Für Elise'?",
+    "answer": "Ludwig van Beethoven",
+    "wrongAnswers": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Frédéric Chopin"],
+    "rating": 1000,
+    "category": "Music",
+    "language": "eng"
+  },
+  {
+    "id": 41,
+    "question": "What is the deepest ocean trench?",
+    "answer": "Mariana Trench",
+    "wrongAnswers": ["Puerto Rico Trench", "Java Trench", "Tonga Trench"],
+    "rating": 1100,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 42,
+    "question": "Which blood type is known as the universal donor?",
+    "answer": "O negative",
+    "wrongAnswers": ["A positive", "B positive", "AB positive"],
+    "rating": 950,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 43,
+    "question": "What is the largest mammal that lives on land?",
+    "answer": "African elephant",
+    "wrongAnswers": ["Giraffe", "Hippopotamus", "Rhinoceros"],
+    "rating": 800,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 44,
+    "question": "Which country invented the telephone?",
+    "answer": "United States",
+    "wrongAnswers": ["United Kingdom", "Germany", "France"],
+    "rating": 1000,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 45,
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "wrongAnswers": ["Saturn", "Neptune", "Uranus"],
+    "rating": 750,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 46,
+    "question": "Which element has the atomic number 6?",
+    "answer": "Carbon",
+    "wrongAnswers": ["Nitrogen", "Oxygen", "Boron"],
+    "rating": 850,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 47,
+    "question": "What is the capital of Brazil?",
+    "answer": "Brasília",
+    "wrongAnswers": ["São Paulo", "Rio de Janeiro", "Salvador"],
+    "rating": 900,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 48,
+    "question": "Which programming language was created by Microsoft?",
+    "answer": "C#",
+    "wrongAnswers": ["Java", "Python", "JavaScript"],
+    "rating": 1200,
+    "category": "Technology",
+    "language": "eng"
+  },
+  {
+    "id": 49,
+    "question": "What is the largest island in the world?",
+    "answer": "Greenland",
+    "wrongAnswers": ["Australia", "New Guinea", "Borneo"],
+    "rating": 1000,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 50,
+    "question": "Which country has the most UNESCO World Heritage Sites?",
+    "answer": "Italy",
+    "wrongAnswers": ["China", "Spain", "France"],
+    "rating": 1100,
+    "category": "Geography",
+    "language": "eng"
   }
 ]
