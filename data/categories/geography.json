@@ -1,344 +1,385 @@
 {
+  "version": "1.0",
   "category": "Geography",
-  "count": 26,
+  "metadata": {
+    "totalQuestions": 26,
+    "difficultyRange": {
+      "min": 700,
+      "max": 1200
+    },
+    "lastUpdated": "2025-10-27",
+    "tags": [
+      "countries",
+      "capitals",
+      "landmarks",
+      "physical-features"
+    ]
+  },
   "questions": [
     {
       "id": 2,
-      "question": "Which US state does NOT border Mexico?",
-      "answer": "Colorado",
-      "wrongAnswers": [
+      "q": "Which US state does NOT border Mexico?",
+      "a": "Colorado",
+      "w": [
         "Texas",
         "New Mexico",
         "Arizona"
       ],
-      "rating": 1127,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1127,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 3,
-      "question": "What is the capital of Australia?",
-      "answer": "Canberra",
-      "wrongAnswers": [
+      "q": "What is the capital of Australia?",
+      "a": "Canberra",
+      "w": [
         "Sydney",
         "Melbourne",
         "Perth"
       ],
-      "rating": 850,
-      "category": "Geography",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 8,
-      "question": "Which ocean is the largest?",
-      "answer": "Pacific Ocean",
-      "wrongAnswers": [
+      "q": "Which ocean is the largest?",
+      "a": "Pacific Ocean",
+      "w": [
         "Atlantic Ocean",
         "Indian Ocean",
         "Arctic Ocean"
       ],
-      "rating": 800,
-      "category": "Geography",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "physical"
+      ]
     },
     {
       "id": 11,
-      "question": "What is the smallest country in the world?",
-      "answer": "Vatican City",
-      "wrongAnswers": [
+      "q": "What is the smallest country in the world?",
+      "a": "Vatican City",
+      "w": [
         "Monaco",
         "Nauru",
         "San Marino"
       ],
-      "rating": 1150,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1150,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 14,
-      "question": "Which country has the most natural lakes?",
-      "answer": "Canada",
-      "wrongAnswers": [
+      "q": "Which country has the most natural lakes?",
+      "a": "Canada",
+      "w": [
         "Russia",
         "Finland",
         "United States"
       ],
-      "rating": 1100,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1100,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 17,
-      "question": "What is the currency of Japan?",
-      "answer": "Yen",
-      "wrongAnswers": [
+      "q": "What is the currency of Japan?",
+      "a": "Yen",
+      "w": [
         "Won",
         "Dollar",
         "Euro"
       ],
-      "rating": 850,
-      "category": "Geography",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 21,
-      "question": "What is the longest river in the world?",
-      "answer": "Nile River",
-      "wrongAnswers": [
+      "q": "What is the longest river in the world?",
+      "a": "Nile River",
+      "w": [
         "Amazon River",
         "Mississippi River",
         "Yangtze River"
       ],
-      "rating": 1050,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1050,
+      "t": [
+        "physical"
+      ]
     },
     {
       "id": 23,
-      "question": "What is the largest desert in the world?",
-      "answer": "Antarctic Desert",
-      "wrongAnswers": [
+      "q": "What is the largest desert in the world?",
+      "a": "Antarctic Desert",
+      "w": [
         "Sahara Desert",
         "Arabian Desert",
         "Gobi Desert"
       ],
-      "rating": 1100,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1100,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 26,
-      "question": "Which country has the most time zones?",
-      "answer": "France",
-      "wrongAnswers": [
+      "q": "Which country has the most time zones?",
+      "a": "France",
+      "w": [
         "Russia",
         "United States",
         "China"
       ],
-      "rating": 1200,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1200,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 31,
-      "question": "Which country is known as the 'Land of the Rising Sun'?",
-      "answer": "Japan",
-      "wrongAnswers": [
+      "q": "Which country is known as the 'Land of the Rising Sun'?",
+      "a": "Japan",
+      "w": [
         "China",
         "South Korea",
         "Thailand"
       ],
-      "rating": 800,
-      "category": "Geography",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 35,
-      "question": "What is the largest continent by area?",
-      "answer": "Asia",
-      "wrongAnswers": [
+      "q": "What is the largest continent by area?",
+      "a": "Asia",
+      "w": [
         "Africa",
         "North America",
         "Europe"
       ],
-      "rating": 800,
-      "category": "Geography",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "regions"
+      ]
     },
     {
       "id": 38,
-      "question": "Which country has the largest population?",
-      "answer": "China",
-      "wrongAnswers": [
+      "q": "Which country has the largest population?",
+      "a": "China",
+      "w": [
         "India",
         "United States",
         "Indonesia"
       ],
-      "rating": 700,
-      "category": "Geography",
-      "language": "eng"
+      "r": 700,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 41,
-      "question": "What is the deepest ocean trench?",
-      "answer": "Mariana Trench",
-      "wrongAnswers": [
+      "q": "What is the deepest ocean trench?",
+      "a": "Mariana Trench",
+      "w": [
         "Puerto Rico Trench",
         "Java Trench",
         "Tonga Trench"
       ],
-      "rating": 1100,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1100,
+      "t": [
+        "physical"
+      ]
     },
     {
       "id": 47,
-      "question": "What is the capital of Brazil?",
-      "answer": "Brasília",
-      "wrongAnswers": [
+      "q": "What is the capital of Brazil?",
+      "a": "Brasília",
+      "w": [
         "São Paulo",
         "Rio de Janeiro",
         "Salvador"
       ],
-      "rating": 900,
-      "category": "Geography",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 49,
-      "question": "What is the largest island in the world?",
-      "answer": "Greenland",
-      "wrongAnswers": [
+      "q": "What is the largest island in the world?",
+      "a": "Greenland",
+      "w": [
         "Australia",
         "New Guinea",
         "Borneo"
       ],
-      "rating": 1000,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 50,
-      "question": "Which country has the most UNESCO World Heritage Sites?",
-      "answer": "Italy",
-      "wrongAnswers": [
+      "q": "Which country has the most UNESCO World Heritage Sites?",
+      "a": "Italy",
+      "w": [
         "China",
         "Spain",
         "France"
       ],
-      "rating": 1100,
-      "category": "Geography",
-      "language": "eng"
+      "r": 1100,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 53,
-      "question": "Which continent is the Sahara Desert located on?",
-      "answer": "Africa",
-      "wrongAnswers": [
+      "q": "Which continent is the Sahara Desert located on?",
+      "a": "Africa",
+      "w": [
         "Asia",
         "Australia",
         "South America"
       ],
-      "rating": 800,
-      "category": "Geography",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "regions"
+      ]
     },
     {
       "id": 58,
-      "question": "What is the capital of Canada?",
-      "answer": "Ottawa",
-      "wrongAnswers": [
+      "q": "What is the capital of Canada?",
+      "a": "Ottawa",
+      "w": [
         "Toronto",
         "Vancouver",
         "Montreal"
       ],
-      "rating": 900,
-      "category": "Geography",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 66,
-      "question": "Which country is famous for the Taj Mahal?",
-      "answer": "India",
-      "wrongAnswers": [
+      "q": "Which country is famous for the Taj Mahal?",
+      "a": "India",
+      "w": [
         "Pakistan",
         "Bangladesh",
         "Nepal"
       ],
-      "rating": 800,
-      "category": "Geography",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 72,
-      "question": "What is the largest ocean on Earth?",
-      "answer": "Pacific Ocean",
-      "wrongAnswers": [
+      "q": "What is the largest ocean on Earth?",
+      "a": "Pacific Ocean",
+      "w": [
         "Atlantic Ocean",
         "Indian Ocean",
         "Southern Ocean"
       ],
-      "rating": 800,
-      "category": "Geography",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "physical",
+        "art"
+      ]
     },
     {
       "id": 77,
-      "question": "Which Italian city is famous for its canals?",
-      "answer": "Venice",
-      "wrongAnswers": [
+      "q": "Which Italian city is famous for its canals?",
+      "a": "Venice",
+      "w": [
         "Rome",
         "Florence",
         "Milan"
       ],
-      "rating": 850,
-      "category": "Geography",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 80,
-      "question": "What is the capital of Egypt?",
-      "answer": "Cairo",
-      "wrongAnswers": [
+      "q": "What is the capital of Egypt?",
+      "a": "Cairo",
+      "w": [
         "Alexandria",
         "Giza",
         "Luxor"
       ],
-      "rating": 850,
-      "category": "Geography",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 90,
-      "question": "What is the currency of the United Kingdom?",
-      "answer": "Pound sterling",
-      "wrongAnswers": [
+      "q": "What is the currency of the United Kingdom?",
+      "a": "Pound sterling",
+      "w": [
         "Euro",
         "Dollar",
         "Franc"
       ],
-      "rating": 800,
-      "category": "Geography",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 93,
-      "question": "Which continent has the most countries?",
-      "answer": "Africa",
-      "wrongAnswers": [
+      "q": "Which continent has the most countries?",
+      "a": "Africa",
+      "w": [
         "Asia",
         "Europe",
         "South America"
       ],
-      "rating": 950,
-      "category": "Geography",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "regions"
+      ]
     },
     {
       "id": 95,
-      "question": "What is the capital city of South Korea?",
-      "answer": "Seoul",
-      "wrongAnswers": [
+      "q": "What is the capital city of South Korea?",
+      "a": "Seoul",
+      "w": [
         "Busan",
         "Tokyo",
         "Pyongyang"
       ],
-      "rating": 900,
-      "category": "Geography",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 100,
-      "question": "Which country is home to the Great Barrier Reef?",
-      "answer": "Australia",
-      "wrongAnswers": [
+      "q": "Which country is home to the Great Barrier Reef?",
+      "a": "Australia",
+      "w": [
         "Indonesia",
         "Philippines",
         "New Zealand"
       ],
-      "rating": 850,
-      "category": "Geography",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "capitals"
+      ]
     }
   ]
 }

@@ -1,136 +1,162 @@
 {
+  "version": "1.0",
   "category": "History",
-  "count": 10,
+  "metadata": {
+    "totalQuestions": 10,
+    "difficultyRange": {
+      "min": 950,
+      "max": 1050
+    },
+    "lastUpdated": "2025-10-27",
+    "tags": [
+      "events",
+      "figures",
+      "time-periods",
+      "wars"
+    ]
+  },
   "questions": [
     {
       "id": 9,
-      "question": "What year did World War II end?",
-      "answer": "1945",
-      "wrongAnswers": [
+      "q": "What year did World War II end?",
+      "a": "1945",
+      "w": [
         "1944",
         "1946",
         "1943"
       ],
-      "rating": 1000,
-      "category": "History",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "wars",
+        "timeline"
+      ]
     },
     {
       "id": 44,
-      "question": "Which country invented the telephone?",
-      "answer": "United States",
-      "wrongAnswers": [
+      "q": "Which country invented the telephone?",
+      "a": "United States",
+      "w": [
         "United Kingdom",
         "Germany",
         "France"
       ],
-      "rating": 1000,
-      "category": "History",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "capitals",
+        "discoveries"
+      ]
     },
     {
       "id": 51,
-      "question": "Who was the first person to walk on the Moon?",
-      "answer": "Neil Armstrong",
-      "wrongAnswers": [
+      "q": "Who was the first person to walk on the Moon?",
+      "a": "Neil Armstrong",
+      "w": [
         "Buzz Aldrin",
         "Yuri Gagarin",
         "Michael Collins"
       ],
-      "rating": 950,
-      "category": "History",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 55,
-      "question": "Who invented the telephone?",
-      "answer": "Alexander Graham Bell",
-      "wrongAnswers": [
+      "q": "Who invented the telephone?",
+      "a": "Alexander Graham Bell",
+      "w": [
         "Thomas Edison",
         "Nikola Tesla",
         "Guglielmo Marconi"
       ],
-      "rating": 1000,
-      "category": "History",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "discoveries"
+      ]
     },
     {
       "id": 60,
-      "question": "In which year did the Titanic sink?",
-      "answer": "1912",
-      "wrongAnswers": [
+      "q": "In which year did the Titanic sink?",
+      "a": "1912",
+      "w": [
         "1910",
         "1914",
         "1915"
       ],
-      "rating": 1000,
-      "category": "History",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "timeline"
+      ]
     },
     {
       "id": 65,
-      "question": "Who was the first woman to win a Nobel Prize?",
-      "answer": "Marie Curie",
-      "wrongAnswers": [
+      "q": "Who was the first woman to win a Nobel Prize?",
+      "a": "Marie Curie",
+      "w": [
         "Rosalind Franklin",
         "Jane Goodall",
         "Ada Lovelace"
       ],
-      "rating": 1050,
-      "category": "History",
-      "language": "eng"
+      "r": 1050,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 69,
-      "question": "Who was the first President of the United States?",
-      "answer": "George Washington",
-      "wrongAnswers": [
+      "q": "Who was the first President of the United States?",
+      "a": "George Washington",
+      "w": [
         "Thomas Jefferson",
         "John Adams",
         "Abraham Lincoln"
       ],
-      "rating": 950,
-      "category": "History",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 76,
-      "question": "What year did the Berlin Wall fall?",
-      "answer": "1989",
-      "wrongAnswers": [
+      "q": "What year did the Berlin Wall fall?",
+      "a": "1989",
+      "w": [
         "1987",
         "1990",
         "1991"
       ],
-      "rating": 1000,
-      "category": "History",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "timeline"
+      ]
     },
     {
       "id": 87,
-      "question": "Which country gifted the Statue of Liberty to the United States?",
-      "answer": "France",
-      "wrongAnswers": [
+      "q": "Which country gifted the Statue of Liberty to the United States?",
+      "a": "France",
+      "w": [
         "United Kingdom",
         "Germany",
         "Italy"
       ],
-      "rating": 1000,
-      "category": "History",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "capitals"
+      ]
     },
     {
       "id": 94,
-      "question": "Who was the British Prime Minister during World War II?",
-      "answer": "Winston Churchill",
-      "wrongAnswers": [
+      "q": "Who was the British Prime Minister during World War II?",
+      "a": "Winston Churchill",
+      "w": [
         "Neville Chamberlain",
         "Clement Attlee",
         "Anthony Eden"
       ],
-      "rating": 1000,
-      "category": "History",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "wars"
+      ]
     }
   ]
 }

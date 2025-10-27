@@ -39,7 +39,25 @@ class EndlessQuiz {
                 // For specific categories, load normally
                 const response = await fetch(`data/categories/${categoryFilename}`);
                 const data = await response.json();
-                this.questions = data.questions;
+                
+                // Handle both old and new format
+                if (data.version) {
+                    // New optimized format
+                    this.questions = data.questions.map(q => ({
+                        id: q.id,
+                        question: q.q,
+                        answer: q.a,
+                        wrongAnswers: q.w,
+                        rating: q.r,
+                        category: data.category,
+                        language: "eng",
+                        tags: q.t
+                    }));
+                } else {
+                    // Old format (fallback)
+                    this.questions = data.questions;
+                }
+                
                 this.shuffleArray(this.questions);
                 this.currentCategory = data.category;
             }
@@ -58,7 +76,25 @@ class EndlessQuiz {
             for (const category of categories) {
                 const response = await fetch(`data/categories/${category}.json`);
                 const data = await response.json();
-                allQuestions.push(...data.questions);
+                
+                // Handle both old and new format
+                if (data.version) {
+                    // New optimized format
+                    const questions = data.questions.map(q => ({
+                        id: q.id,
+                        question: q.q,
+                        answer: q.a,
+                        wrongAnswers: q.w,
+                        rating: q.r,
+                        category: data.category,
+                        language: "eng",
+                        tags: q.t
+                    }));
+                    allQuestions.push(...questions);
+                } else {
+                    // Old format (fallback)
+                    allQuestions.push(...data.questions);
+                }
             }
             
             this.questions = allQuestions;

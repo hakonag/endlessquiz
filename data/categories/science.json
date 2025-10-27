@@ -1,591 +1,651 @@
 {
+  "version": "1.0",
   "category": "Science",
-  "count": 45,
+  "metadata": {
+    "totalQuestions": 45,
+    "difficultyRange": {
+      "min": 700,
+      "max": 1300
+    },
+    "lastUpdated": "2025-10-27",
+    "tags": [
+      "physics",
+      "chemistry",
+      "biology",
+      "technology"
+    ]
+  },
   "questions": [
     {
       "id": 1,
-      "question": "In which plant organelles does photosynthesis take place?",
-      "answer": "Chloroplasts",
-      "wrongAnswers": [
+      "q": "In which plant organelles does photosynthesis take place?",
+      "a": "Chloroplasts",
+      "w": [
         "Mitochondria",
         "Vacuoles",
         "Centrioles"
       ],
-      "rating": 1026,
-      "category": "Science",
-      "language": "eng"
+      "r": 1026,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 5,
-      "question": "What is the largest planet in our solar system?",
-      "answer": "Jupiter",
-      "wrongAnswers": [
+      "q": "What is the largest planet in our solar system?",
+      "a": "Jupiter",
+      "w": [
         "Saturn",
         "Neptune",
         "Earth"
       ],
-      "rating": 1100,
-      "category": "Science",
-      "language": "eng"
+      "r": 1100,
+      "t": [
+        "astronomy"
+      ]
     },
     {
       "id": 6,
-      "question": "Which programming language was created by Brendan Eich?",
-      "answer": "JavaScript",
-      "wrongAnswers": [
+      "q": "Which programming language was created by Brendan Eich?",
+      "a": "JavaScript",
+      "w": [
         "Python",
         "Java",
         "C++"
       ],
-      "rating": 1200,
-      "category": "Science",
-      "language": "eng"
+      "r": 1200,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 7,
-      "question": "What is the chemical symbol for gold?",
-      "answer": "Au",
-      "wrongAnswers": [
+      "q": "What is the chemical symbol for gold?",
+      "a": "Au",
+      "w": [
         "Go",
         "Gd",
         "Ag"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 10,
-      "question": "Which element has the atomic number 1?",
-      "answer": "Hydrogen",
-      "wrongAnswers": [
+      "q": "Which element has the atomic number 1?",
+      "a": "Hydrogen",
+      "w": [
         "Helium",
         "Lithium",
         "Carbon"
       ],
-      "rating": 1050,
-      "category": "Science",
-      "language": "eng"
+      "r": 1050,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 13,
-      "question": "What is the speed of light in a vacuum?",
-      "answer": "299,792,458 m/s",
-      "wrongAnswers": [
+      "q": "What is the speed of light in a vacuum?",
+      "a": "299,792,458 m/s",
+      "w": [
         "300,000,000 m/s",
         "299,000,000 m/s",
         "301,000,000 m/s"
       ],
-      "rating": 1300,
-      "category": "Science",
-      "language": "eng"
+      "r": 1300,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 15,
-      "question": "What is the hardest natural substance on Earth?",
-      "answer": "Diamond",
-      "wrongAnswers": [
+      "q": "What is the hardest natural substance on Earth?",
+      "a": "Diamond",
+      "w": [
         "Quartz",
         "Corundum",
         "Topaz"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "art"
+      ]
     },
     {
       "id": 16,
-      "question": "Which planet is known as the Red Planet?",
-      "answer": "Mars",
-      "wrongAnswers": [
+      "q": "Which planet is known as the Red Planet?",
+      "a": "Mars",
+      "w": [
         "Venus",
         "Jupiter",
         "Mercury"
       ],
-      "rating": 800,
-      "category": "Science",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "astronomy"
+      ]
     },
     {
       "id": 19,
-      "question": "What is the largest mammal in the world?",
-      "answer": "Blue whale",
-      "wrongAnswers": [
+      "q": "What is the largest mammal in the world?",
+      "a": "Blue whale",
+      "w": [
         "African elephant",
         "Giraffe",
         "Hippopotamus"
       ],
-      "rating": 950,
-      "category": "Science",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 22,
-      "question": "Who discovered penicillin?",
-      "answer": "Alexander Fleming",
-      "wrongAnswers": [
+      "q": "Who discovered penicillin?",
+      "a": "Alexander Fleming",
+      "w": [
         "Louis Pasteur",
         "Robert Koch",
         "Joseph Lister"
       ],
-      "rating": 1200,
-      "category": "Science",
-      "language": "eng"
+      "r": 1200,
+      "t": [
+        "discoveries"
+      ]
     },
     {
       "id": 24,
-      "question": "Which programming paradigm does Python primarily follow?",
-      "answer": "Object-oriented",
-      "wrongAnswers": [
+      "q": "Which programming paradigm does Python primarily follow?",
+      "a": "Object-oriented",
+      "w": [
         "Functional",
         "Procedural",
         "Logic"
       ],
-      "rating": 1250,
-      "category": "Science",
-      "language": "eng"
+      "r": 1250,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 25,
-      "question": "What is the chemical formula for water?",
-      "answer": "H2O",
-      "wrongAnswers": [
+      "q": "What is the chemical formula for water?",
+      "a": "H2O",
+      "w": [
         "H2O2",
         "CO2",
         "NaCl"
       ],
-      "rating": 700,
-      "category": "Science",
-      "language": "eng"
+      "r": 700,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 27,
-      "question": "What is the largest organ in the human body?",
-      "answer": "Skin",
-      "wrongAnswers": [
+      "q": "What is the largest organ in the human body?",
+      "a": "Skin",
+      "w": [
         "Liver",
         "Lungs",
         "Brain"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 28,
-      "question": "Which planet has the most moons?",
-      "answer": "Saturn",
-      "wrongAnswers": [
+      "q": "Which planet has the most moons?",
+      "a": "Saturn",
+      "w": [
         "Jupiter",
         "Neptune",
         "Uranus"
       ],
-      "rating": 1100,
-      "category": "Science",
-      "language": "eng"
+      "r": 1100,
+      "t": [
+        "astronomy"
+      ]
     },
     {
       "id": 30,
-      "question": "What is the smallest unit of matter?",
-      "answer": "Atom",
-      "wrongAnswers": [
+      "q": "What is the smallest unit of matter?",
+      "a": "Atom",
+      "w": [
         "Molecule",
         "Cell",
         "Electron"
       ],
-      "rating": 850,
-      "category": "Science",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 32,
-      "question": "What is the fastest land animal?",
-      "answer": "Cheetah",
-      "wrongAnswers": [
+      "q": "What is the fastest land animal?",
+      "a": "Cheetah",
+      "w": [
         "Lion",
         "Leopard",
         "Gazelle"
       ],
-      "rating": 750,
-      "category": "Science",
-      "language": "eng"
+      "r": 750,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 33,
-      "question": "Which element is the most abundant in Earth's atmosphere?",
-      "answer": "Nitrogen",
-      "wrongAnswers": [
+      "q": "Which element is the most abundant in Earth's atmosphere?",
+      "a": "Nitrogen",
+      "w": [
         "Oxygen",
         "Carbon dioxide",
         "Argon"
       ],
-      "rating": 950,
-      "category": "Science",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "chemistry",
+        "art"
+      ]
     },
     {
       "id": 36,
-      "question": "Which programming language is known for its use in data science?",
-      "answer": "Python",
-      "wrongAnswers": [
+      "q": "Which programming language is known for its use in data science?",
+      "a": "Python",
+      "w": [
         "Java",
         "C++",
         "JavaScript"
       ],
-      "rating": 1150,
-      "category": "Science",
-      "language": "eng"
+      "r": 1150,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 37,
-      "question": "What is the longest bone in the human body?",
-      "answer": "Femur",
-      "wrongAnswers": [
+      "q": "What is the longest bone in the human body?",
+      "a": "Femur",
+      "w": [
         "Tibia",
         "Humerus",
         "Radius"
       ],
-      "rating": 850,
-      "category": "Science",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 39,
-      "question": "What is the chemical symbol for silver?",
-      "answer": "Ag",
-      "wrongAnswers": [
+      "q": "What is the chemical symbol for silver?",
+      "a": "Ag",
+      "w": [
         "Si",
         "Au",
         "Al"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 42,
-      "question": "Which blood type is known as the universal donor?",
-      "answer": "O negative",
-      "wrongAnswers": [
+      "q": "Which blood type is known as the universal donor?",
+      "a": "O negative",
+      "w": [
         "A positive",
         "B positive",
         "AB positive"
       ],
-      "rating": 950,
-      "category": "Science",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 43,
-      "question": "What is the largest mammal that lives on land?",
-      "answer": "African elephant",
-      "wrongAnswers": [
+      "q": "What is the largest mammal that lives on land?",
+      "a": "African elephant",
+      "w": [
         "Giraffe",
         "Hippopotamus",
         "Rhinoceros"
       ],
-      "rating": 800,
-      "category": "Science",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 45,
-      "question": "What is the largest planet in our solar system?",
-      "answer": "Jupiter",
-      "wrongAnswers": [
+      "q": "What is the largest planet in our solar system?",
+      "a": "Jupiter",
+      "w": [
         "Saturn",
         "Neptune",
         "Uranus"
       ],
-      "rating": 750,
-      "category": "Science",
-      "language": "eng"
+      "r": 750,
+      "t": [
+        "astronomy"
+      ]
     },
     {
       "id": 46,
-      "question": "Which element has the atomic number 6?",
-      "answer": "Carbon",
-      "wrongAnswers": [
+      "q": "Which element has the atomic number 6?",
+      "a": "Carbon",
+      "w": [
         "Nitrogen",
         "Oxygen",
         "Boron"
       ],
-      "rating": 850,
-      "category": "Science",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 48,
-      "question": "Which programming language was created by Microsoft?",
-      "answer": "C#",
-      "wrongAnswers": [
+      "q": "Which programming language was created by Microsoft?",
+      "a": "C#",
+      "w": [
         "Java",
         "Python",
         "JavaScript"
       ],
-      "rating": 1200,
-      "category": "Science",
-      "language": "eng"
+      "r": 1200,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 52,
-      "question": "What is the chemical symbol for potassium?",
-      "answer": "K",
-      "wrongAnswers": [
+      "q": "What is the chemical symbol for potassium?",
+      "a": "K",
+      "w": [
         "P",
         "Pt",
         "Po"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 56,
-      "question": "What gas do plants absorb during photosynthesis?",
-      "answer": "Carbon dioxide",
-      "wrongAnswers": [
+      "q": "What gas do plants absorb during photosynthesis?",
+      "a": "Carbon dioxide",
+      "w": [
         "Oxygen",
         "Nitrogen",
         "Hydrogen"
       ],
-      "rating": 850,
-      "category": "Science",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 59,
-      "question": "Which chemical element has the symbol 'Na'?",
-      "answer": "Sodium",
-      "wrongAnswers": [
+      "q": "Which chemical element has the symbol 'Na'?",
+      "a": "Sodium",
+      "w": [
         "Nitrogen",
         "Nickel",
         "Neon"
       ],
-      "rating": 950,
-      "category": "Science",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 61,
-      "question": "Which planet is closest to the Sun?",
-      "answer": "Mercury",
-      "wrongAnswers": [
+      "q": "Which planet is closest to the Sun?",
+      "a": "Mercury",
+      "w": [
         "Venus",
         "Earth",
         "Mars"
       ],
-      "rating": 850,
-      "category": "Science",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "astronomy"
+      ]
     },
     {
       "id": 64,
-      "question": "What is the hardest known natural metal?",
-      "answer": "Tungsten",
-      "wrongAnswers": [
+      "q": "What is the hardest known natural metal?",
+      "a": "Tungsten",
+      "w": [
         "Iron",
         "Titanium",
         "Steel"
       ],
-      "rating": 1150,
-      "category": "Science",
-      "language": "eng"
+      "r": 1150,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 68,
-      "question": "Which organ pumps blood through the body?",
-      "answer": "Heart",
-      "wrongAnswers": [
+      "q": "Which organ pumps blood through the body?",
+      "a": "Heart",
+      "w": [
         "Liver",
         "Lungs",
         "Kidneys"
       ],
-      "rating": 700,
-      "category": "Science",
-      "language": "eng"
+      "r": 700,
+      "t": [
+        "art"
+      ]
     },
     {
       "id": 70,
-      "question": "What is the largest internal organ in the human body?",
-      "answer": "Liver",
-      "wrongAnswers": [
+      "q": "What is the largest internal organ in the human body?",
+      "a": "Liver",
+      "w": [
         "Lungs",
         "Heart",
         "Kidneys"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 71,
-      "question": "Which programming language is primarily used for iOS app development?",
-      "answer": "Swift",
-      "wrongAnswers": [
+      "q": "Which programming language is primarily used for iOS app development?",
+      "a": "Swift",
+      "w": [
         "Kotlin",
         "Java",
         "Objective-C"
       ],
-      "rating": 1250,
-      "category": "Science",
-      "language": "eng"
+      "r": 1250,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 73,
-      "question": "Who discovered gravity when observing a falling apple?",
-      "answer": "Isaac Newton",
-      "wrongAnswers": [
+      "q": "Who discovered gravity when observing a falling apple?",
+      "a": "Isaac Newton",
+      "w": [
         "Albert Einstein",
         "Galileo Galilei",
         "Nikola Tesla"
       ],
-      "rating": 950,
-      "category": "Science",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "discoveries"
+      ]
     },
     {
       "id": 74,
-      "question": "Which famous scientist developed the theory of relativity?",
-      "answer": "Albert Einstein",
-      "wrongAnswers": [
+      "q": "Which famous scientist developed the theory of relativity?",
+      "a": "Albert Einstein",
+      "w": [
         "Isaac Newton",
         "Stephen Hawking",
         "Niels Bohr"
       ],
-      "rating": 1000,
-      "category": "Science",
-      "language": "eng"
+      "r": 1000,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 75,
-      "question": "What is the largest animal currently living on Earth?",
-      "answer": "Blue whale",
-      "wrongAnswers": [
+      "q": "What is the largest animal currently living on Earth?",
+      "a": "Blue whale",
+      "w": [
         "Elephant",
         "Giraffe",
         "Orca"
       ],
-      "rating": 800,
-      "category": "Science",
-      "language": "eng"
+      "r": 800,
+      "t": [
+        "art"
+      ]
     },
     {
       "id": 78,
-      "question": "Which blood cells help the body fight infection?",
-      "answer": "White blood cells",
-      "wrongAnswers": [
+      "q": "Which blood cells help the body fight infection?",
+      "a": "White blood cells",
+      "w": [
         "Red blood cells",
         "Platelets",
         "Plasma cells"
       ],
-      "rating": 950,
-      "category": "Science",
-      "language": "eng"
+      "r": 950,
+      "t": [
+        "biology"
+      ]
     },
     {
       "id": 83,
-      "question": "What is the unit of electrical resistance?",
-      "answer": "Ohm",
-      "wrongAnswers": [
+      "q": "What is the unit of electrical resistance?",
+      "a": "Ohm",
+      "w": [
         "Volt",
         "Ampere",
         "Watt"
       ],
-      "rating": 1050,
-      "category": "Science",
-      "language": "eng"
+      "r": 1050,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 85,
-      "question": "Which metal is liquid at room temperature?",
-      "answer": "Mercury",
-      "wrongAnswers": [
+      "q": "Which metal is liquid at room temperature?",
+      "a": "Mercury",
+      "w": [
         "Lead",
         "Copper",
         "Iron"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 86,
-      "question": "What is the main gas found in the air we breathe?",
-      "answer": "Nitrogen",
-      "wrongAnswers": [
+      "q": "What is the main gas found in the air we breathe?",
+      "a": "Nitrogen",
+      "w": [
         "Oxygen",
         "Carbon dioxide",
         "Hydrogen"
       ],
-      "rating": 850,
-      "category": "Science",
-      "language": "eng"
+      "r": 850,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 88,
-      "question": "Which is the smallest planet in our solar system?",
-      "answer": "Mercury",
-      "wrongAnswers": [
+      "q": "Which is the smallest planet in our solar system?",
+      "a": "Mercury",
+      "w": [
         "Mars",
         "Venus",
         "Pluto"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "astronomy"
+      ]
     },
     {
       "id": 92,
-      "question": "What is the SI unit of force?",
-      "answer": "Newton",
-      "wrongAnswers": [
+      "q": "What is the SI unit of force?",
+      "a": "Newton",
+      "w": [
         "Joule",
         "Pascal",
         "Watt"
       ],
-      "rating": 1050,
-      "category": "Science",
-      "language": "eng"
+      "r": 1050,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 96,
-      "question": "Which data structure uses First In First Out (FIFO)?",
-      "answer": "Queue",
-      "wrongAnswers": [
+      "q": "Which data structure uses First In First Out (FIFO)?",
+      "a": "Queue",
+      "w": [
         "Stack",
         "Array",
         "Tree"
       ],
-      "rating": 1250,
-      "category": "Science",
-      "language": "eng"
+      "r": 1250,
+      "t": [
+        "general"
+      ]
     },
     {
       "id": 98,
-      "question": "Which element is needed for combustion?",
-      "answer": "Oxygen",
-      "wrongAnswers": [
+      "q": "Which element is needed for combustion?",
+      "a": "Oxygen",
+      "w": [
         "Hydrogen",
         "Nitrogen",
         "Carbon"
       ],
-      "rating": 900,
-      "category": "Science",
-      "language": "eng"
+      "r": 900,
+      "t": [
+        "chemistry"
+      ]
     },
     {
       "id": 99,
-      "question": "Who is known as the 'Father of Computers'?",
-      "answer": "Charles Babbage",
-      "wrongAnswers": [
+      "q": "Who is known as the 'Father of Computers'?",
+      "a": "Charles Babbage",
+      "w": [
         "Alan Turing",
         "John von Neumann",
         "Bill Gates"
       ],
-      "rating": 1200,
-      "category": "Science",
-      "language": "eng"
+      "r": 1200,
+      "t": [
+        "general"
+      ]
     }
   ]
 }
