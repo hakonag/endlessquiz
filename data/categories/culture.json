@@ -17,272 +17,804 @@
   },
   "questions": [
     {
-      "id": 4,
-      "q": "Who painted the Mona Lisa?",
-      "a": "Leonardo da Vinci",
-      "w": [
-        "Vincent van Gogh",
-        "Pablo Picasso",
-        "Michelangelo"
-      ],
+      "id": 1,
+      "q": "Hvem tegnet hovedbygningen ved Norges tekniske høgskole (nå NTNU)?",
+      "a": "Bredo Greve",
+      "w": ["Christian Grosch", "Henrik Bull", "Paul Due"],
       "r": 950,
-      "t": [
-        "art"
-      ]
+      "t": ["arkitektur", "utdanning"]
+    },
+    {
+      "id": 2,
+      "q": "Arnstein Arneberg er blant annet kjent for å ha vunnet arkitektkonkurransen om hvilket bygg i Oslo?",
+      "a": "Oslo rådhus",
+      "w": ["Det kongelige slott", "Nasjonalgalleriet", "Operaen i Oslo"],
+      "r": 970,
+      "t": ["arkitektur", "Oslo"]
+    },
+    {
+      "id": 3,
+      "q": "Lars Backer regnes som en pioner innen funksjonalisme i Norge. Hvilket kjent serveringssted sto han bak?",
+      "a": "Ekebergrestauranten",
+      "w": ["Frognerbadet", "Grand Café", "Sogn Studentby"],
+      "r": 940,
+      "t": ["arkitektur", "funksjonalisme"]
+    },
+    {
+      "id": 4,
+      "q": "Hvilken arkitekt sto bak Skaugum, kronprinsparets bolig som brant i 1930?",
+      "a": "Herman Major Backer",
+      "w": ["Henrik Bull", "Magnus Poulsson", "Bredo Greve"],
+      "r": 930,
+      "t": ["arkitektur", "bolig"]
+    },
+    {
+      "id": 5,
+      "q": "Ove Bang var en sentral skikkelse i hvilken stilretning?",
+      "a": "Funksjonalismen",
+      "w": ["Nasjonalromantikken", "Jugendstilen", "Klassisismen"],
+      "r": 910,
+      "t": ["arkitektur", "stilretning"]
+    },
+    {
+      "id": 6,
+      "q": "Hvem sto sammen med Herman Munthe-Kaas bak Kunstnernes Hus i Oslo?",
+      "a": "Gudolf Blakstad",
+      "w": ["Ove Bang", "Kjell Lund", "Magnus Poulsson"],
+      "r": 920,
+      "t": ["arkitektur", "Oslo"]
+    },
+    {
+      "id": 7,
+      "q": "Kari Nissen Brodtkorb er kjent for boligprosjekter på Aker Brygge. Hvilken pris har hun mottatt?",
+      "a": "Houens fonds diplom",
+      "w": ["Grosch-medaljen", "Pritzker-prisen", "Betongtavlen"],
+      "r": 950,
+      "t": ["arkitektur", "priser"]
+    },
+    {
+      "id": 8,
+      "q": "Hvilken arkitekt tegnet både Vestbanestasjonen og Østbanestasjonen i Oslo?",
+      "a": "Georg Andreas Bull",
+      "w": ["Christian Grosch", "Paul Due", "Henrik Bull"],
+      "r": 970,
+      "t": ["arkitektur", "jernbane"]
+    },
+    {
+      "id": 9,
+      "q": "Henrik Bull er kjent for restaureringen av hvilket nasjonalt monument?",
+      "a": "Nidarosdomen",
+      "w": ["Stiklestad kirke", "Domkirken i Oslo", "Heddal stavkirke"],
+      "r": 960,
+      "t": ["arkitektur", "restaurering"]
+    },
+    {
+      "id": 10,
+      "q": "Paul Due er kjent for en rekke jernbanestasjoner og bygninger i hvilken stil?",
+      "a": "Dragestil og jugendstil",
+      "w": ["Nasjonalromantikk", "Funksjonalisme", "Klassisisme"],
+      "r": 910,
+      "t": ["arkitektur", "stilretning"]
+    },
+    {
+      "id": 11,
+      "q": "Hvilken norsk arkitekt mottok Pritzker Architecture Prize i 1997?",
+      "a": "Sverre Fehn",
+      "w": ["Kjetil Trædal Thorsen", "Arne Korsmo", "Nils Slaatto"],
+      "r": 980,
+      "t": ["arkitektur", "priser"]
     },
     {
       "id": 12,
-      "q": "Who wrote 'To Kill a Mockingbird'?",
-      "a": "Harper Lee",
-      "w": [
-        "Mark Twain",
-        "Ernest Hemingway",
-        "F. Scott Fitzgerald"
-      ],
+      "q": "Christian Heinrich Grosch tegnet universitetsbygningene i Oslo i hvilken stilretning?",
+      "a": "Dansk klassisisme",
+      "w": ["Funksjonalisme", "Jugendstil", "Nasjonalromantikk"],
       "r": 950,
-      "t": [
-        "general"
-      ]
+      "t": ["arkitektur", "klassisisme"]
+    },
+    {
+      "id": 13,
+      "q": "Lilla Hansen var Norges første kvinnelige arkitekt med egen praksis. Hva het studenthjemmet hun tegnet for unge kvinner?",
+      "a": "Studiehjem for unge piker",
+      "w": ["Heftyeterrassen", "Villa Stenersen", "Stranden-prosjektet"],
+      "r": 920,
+      "t": ["arkitektur", "kvinner"]
+    },
+    {
+      "id": 14,
+      "q": "Wilhelm von Hanno tegnet hvilken markant kirke i Oslo sentrum?",
+      "a": "Trefoldighetskirken",
+      "w": ["Sagene kirke", "Uranienborg kirke", "Gamle Aker kirke"],
+      "r": 940,
+      "t": ["arkitektur", "kirke"]
+    },
+    {
+      "id": 15,
+      "q": "Jan Inge Hovig tegnet et av Nord-Norges mest kjente landemerker. Hvilket?",
+      "a": "Ishavskatedralen",
+      "w": ["Domkirken i Tromsø", "Alta kirke", "Trondenes kirke"],
+      "r": 970,
+      "t": ["arkitektur", "Nord-Norge"]
+    },
+    {
+      "id": 16,
+      "q": "Kristin Jarmund står bak Justervesenets hovedkontor på Kjeller. Hvilken stil forbindes hun med?",
+      "a": "Nyfunksjonalisme",
+      "w": ["Brutalisme", "Postmodernisme", "Minimalisme"],
+      "r": 930,
+      "t": ["arkitektur", "moderne"]
+    },
+    {
+      "id": 17,
+      "q": "Arne Korsmo tegnet Villa Stenersen – et hovedverk innen hvilken retning?",
+      "a": "Funksjonalismen",
+      "w": ["Modernismen", "Jugendstilen", "Ekspresjonismen"],
+      "r": 970,
+      "t": ["arkitektur", "villa"]
     },
     {
       "id": 18,
-      "q": "Who composed 'The Four Seasons'?",
-      "a": "Antonio Vivaldi",
-      "w": [
-        "Johann Sebastian Bach",
-        "Wolfgang Amadeus Mozart",
-        "Ludwig van Beethoven"
-      ],
-      "r": 1000,
-      "t": [
-        "general"
-      ]
+      "q": "Håkon Mjelva fikk Betongtavlen i 1974 for hvilken T-banestasjon i Oslo?",
+      "a": "Romsås stasjon",
+      "w": ["Majorstuen stasjon", "Stortinget stasjon", "Grorud stasjon"],
+      "r": 900,
+      "t": ["arkitektur", "T-bane"]
+    },
+    {
+      "id": 19,
+      "q": "Hvilken norsk funksjonalist tegnet Norges ambassade i Stockholm?",
+      "a": "Knut Knutsen",
+      "w": ["Sverre Fehn", "Ove Bang", "Nils Slaatto"],
+      "r": 920,
+      "t": ["arkitektur", "utenriks"]
     },
     {
       "id": 20,
-      "q": "Which country invented pizza?",
-      "a": "Italy",
-      "w": [
-        "Greece",
-        "France",
-        "Spain"
-      ],
-      "r": 750,
-      "t": [
-        "capitals",
-        "discoveries"
-      ]
+      "q": "Hans Ditlev Franciscus Linstow sto bak planleggingen av hvilken sentral gate i Oslo?",
+      "a": "Karl Johans gate",
+      "w": ["Bogstadveien", "Prinsens gate", "Grensen"],
+      "r": 970,
+      "t": ["arkitektur", "Oslo"]
+    },
+    {
+      "id": 21,
+      "q": "Kjell Lund tegnet Chateau Neuf og mottok hvilken arkitekturpris?",
+      "a": "Grosch-medaljen",
+      "w": ["Betongtavlen", "Houens fonds diplom", "Pritzker-prisen"],
+      "r": 930,
+      "t": ["arkitektur", "priser"]
+    },
+    {
+      "id": 22,
+      "q": "Herman Munthe-Kaas samarbeidet tett med hvilken annen arkitekt om Haugesund rådhus?",
+      "a": "Gudolf Blakstad",
+      "w": ["Magnus Poulsson", "Sverre Fehn", "Nils Slaatto"],
+      "r": 910,
+      "t": ["arkitektur", "samarbeid"]
+    },
+    {
+      "id": 23,
+      "q": "Hvilken arkitekt sto bak Oslo rådhus sammen med Arnstein Arneberg?",
+      "a": "Magnus Poulsson",
+      "w": ["Lars Backer", "Henrik Bull", "Paul Due"],
+      "r": 960,
+      "t": ["arkitektur", "Oslo"]
+    },
+    {
+      "id": 24,
+      "q": "Heinrich Ernst Schirmer var kjent for restaurering av Nidarosdomen og bygging av hvilken institusjon i Oslo?",
+      "a": "Botsfengselet",
+      "w": ["Nationaltheatret", "Universitetet", "Det kongelige slott"],
+      "r": 950,
+      "t": ["arkitektur", "institusjon"]
+    },
+    {
+      "id": 25,
+      "q": "Nils Slaatto arbeidet sammen med Kjell Lund på flere prosjekter. Hvilken retning forbindes han med?",
+      "a": "Strukturalisme",
+      "w": ["Postmodernisme", "Konstruktivisme", "Funksjonalisme"],
+      "r": 920,
+      "t": ["arkitektur", "moderne"]
+    },
+    {
+      "id": 26,
+      "q": "Niels Torp tegnet terminalbygget på hvilken flyplass?",
+      "a": "Oslo lufthavn Gardermoen",
+      "w": ["København Kastrup", "Flesland", "Torp Sandefjord"],
+      "r": 970,
+      "t": ["arkitektur", "flyplass"]
+    },
+    {
+      "id": 27,
+      "q": "Kjetil Trædal Thorsen er medgrunnlegger av hvilket norsk arkitektfirma?",
+      "a": "Snøhetta",
+      "w": ["Aviaplan", "MAD Arkitekter", "Helen & Hard"],
+      "r": 980,
+      "t": ["arkitektur", "firma"]
+    },
+    {
+      "id": 28,
+      "q": "Hvilket verk av Snøhetta ble tildelt Grosch-medaljen i 2012?",
+      "a": "Operahuset i Oslo",
+      "w": ["Bibliotheca Alexandrina", "Deichman Bjørvika", "OL-museet i Lillehammer"],
+      "r": 970,
+      "t": ["arkitektur", "priser"]
     },
     {
       "id": 29,
-      "q": "Who wrote '1984'?",
-      "a": "George Orwell",
-      "w": [
-        "Aldous Huxley",
-        "Ray Bradbury",
-        "H.G. Wells"
-      ],
-      "r": 1000,
-      "t": [
-        "general"
-      ]
+      "q": "Aviaplan var involvert i planleggingen av hvilken type infrastruktur?",
+      "a": "Flyplasser",
+      "w": ["Bybaner", "Sykehus", "Universiteter"],
+      "r": 890,
+      "t": ["arkitektur", "transport"]
+    },
+    {
+      "id": 30,
+      "q": "Hvilken arkitekt fikk tilnavnet 'modernismens mester' etter Villa Schreiner og Hedmarksmuseet?",
+      "a": "Sverre Fehn",
+      "w": ["Arne Korsmo", "Knut Knutsen", "Nils Slaatto"],
+      "r": 950,
+      "t": ["arkitektur", "modernisme"]
+    },
+    {
+      "id": 31,
+      "q": "Hvilken periode regnes som starten på norsk kunsthistorie?",
+      "a": "Steinalderen",
+      "w": ["Bronsealderen", "Vikingtiden", "Middelalderen"],
+      "r": 750,
+      "t": ["kunsthistorie", "periode"]
+    },
+    {
+      "id": 32,
+      "q": "Hva kalles bergmaleriene som finnes flere steder i Norge, blant annet i Alta?",
+      "a": "Helleristninger",
+      "w": ["Runer", "Fresker", "Ikoner"],
+      "r": 800,
+      "t": ["forhistorisk", "kunst"]
+    },
+    {
+      "id": 33,
+      "q": "Dyreornamentikken fra vikingtiden er spesielt kjent fra utsmykning av hva?",
+      "a": "Skip og våpen",
+      "w": ["Kirker", "Glassmalerier", "Veggtepper"],
+      "r": 830,
+      "t": ["vikingtid", "ornamentikk"]
     },
     {
       "id": 34,
-      "q": "Who painted 'The Starry Night'?",
-      "a": "Vincent van Gogh",
-      "w": [
-        "Pablo Picasso",
-        "Claude Monet",
-        "Salvador Dalí"
-      ],
+      "q": "Hva kalles den særnorske kirkearkitekturen som oppsto i middelalderen?",
+      "a": "Stavkirker",
+      "w": ["Korskirker", "Steinkirker", "Klosterkirker"],
+      "r": 860,
+      "t": ["middelalder", "arkitektur"]
+    },
+    {
+      "id": 35,
+      "q": "Hvilken middelalderkunstner er kjent for utskjæringene i Urnes stavkirke?",
+      "a": "Urnesmesteren",
+      "w": ["Gudbrandsmesteren", "Nidarosmunkene", "Telemarksskolen"],
+      "r": 880,
+      "t": ["middelalder", "treskjæring"]
+    },
+    {
+      "id": 36,
+      "q": "Hvilken stil dominerte kirkekunsten i Norge på 1100- og 1200-tallet?",
+      "a": "Romansk stil",
+      "w": ["Gotisk stil", "Barokk", "Renessanse"],
+      "r": 870,
+      "t": ["stilhistorie", "middelalder"]
+    },
+    {
+      "id": 37,
+      "q": "Hva er typisk for gotisk kirkekunst?",
+      "a": "Spisse buer og glassmalerier",
+      "w": ["Enkle linjer og lite ornamentikk", "Runde hvelv og søyler", "Massive steinvegger uten vinduer"],
+      "r": 890,
+      "t": ["gotikk", "kunst"]
+    },
+    {
+      "id": 38,
+      "q": "Hvilken epoke kom etter middelalderen og brakte inn et mer menneskelig uttrykk i kunsten?",
+      "a": "Renessansen",
+      "w": ["Romantikken", "Barokken", "Empiren"],
       "r": 900,
-      "t": [
-        "astronomy",
-        "art"
-      ]
+      "t": ["kunsthistorie", "renessanse"]
+    },
+    {
+      "id": 39,
+      "q": "Hvilken kunstretning preget Norge på 1600-tallet, særlig i kirkekunsten?",
+      "a": "Barokken",
+      "w": ["Rokokko", "Renessanse", "Klassisisme"],
+      "r": 890,
+      "t": ["barokk", "kirke"]
     },
     {
       "id": 40,
-      "q": "Who composed 'Für Elise'?",
-      "a": "Ludwig van Beethoven",
-      "w": [
-        "Wolfgang Amadeus Mozart",
-        "Johann Sebastian Bach",
-        "Frédéric Chopin"
-      ],
-      "r": 1000,
-      "t": [
-        "general"
-      ]
+      "q": "Hvilket treslag ble oftest brukt til utskjæringer i barokke altertavler i Norge?",
+      "a": "Furu",
+      "w": ["Eik", "Bjørk", "Ask"],
+      "r": 850,
+      "t": ["barokk", "treskjæring"]
+    },
+    {
+      "id": 41,
+      "q": "Hvilken maler regnes som den første norske kunstner med internasjonalt gjennombrudd?",
+      "a": "Johan Christian Dahl",
+      "w": ["Harald Sohlberg", "Christian Krohg", "Hans Gude"],
+      "r": 980,
+      "t": ["romantikken", "maleri"]
+    },
+    {
+      "id": 42,
+      "q": "J.C. Dahl forbindes særlig med hvilken kunstretning?",
+      "a": "Romantikken",
+      "w": ["Klassisismen", "Naturalismen", "Impresjonismen"],
+      "r": 930,
+      "t": ["kunsthistorie", "romantikken"]
+    },
+    {
+      "id": 43,
+      "q": "Hvilket motiv ble særlig viktig i norsk nasjonalromantisk kunst på 1800-tallet?",
+      "a": "Norsk natur og fjellandskap",
+      "w": ["Krig og mytologi", "Portretter av konger", "Byliv og industri"],
+      "r": 890,
+      "t": ["romantikken", "nasjonal"]
+    },
+    {
+      "id": 44,
+      "q": "Hvilken kunstner malte «Brudeferd i Hardanger» sammen med Adolph Tidemand?",
+      "a": "Hans Gude",
+      "w": ["Christian Skredsvig", "Harald Sohlberg", "Frits Thaulow"],
+      "r": 910,
+      "t": ["romantikken", "maleri"]
+    },
+    {
+      "id": 45,
+      "q": "Hvilken epoke i norsk kunsthistorie er Adolph Tidemand mest kjent for?",
+      "a": "Nasjonalromantikken",
+      "w": ["Barokken", "Symbolismen", "Rokokko"],
+      "r": 920,
+      "t": ["kunsthistorie", "nasjonalromantikk"]
+    },
+    {
+      "id": 46,
+      "q": "Christian Krohg var en sentral figur i hvilken kunstretning?",
+      "a": "Naturalismen",
+      "w": ["Symbolismen", "Romantikken", "Impresjonismen"],
+      "r": 900,
+      "t": ["naturalismen", "realismen"]
+    },
+    {
+      "id": 47,
+      "q": "Hva heter maleriet av Christian Krohg som skildrer sosial nød i Kristiania?",
+      "a": "Albertine i politilægens venteværelse",
+      "w": ["Syk pike", "Natt", "Sjømannen og piken"],
+      "r": 940,
+      "t": ["kunst", "samfunn"]
+    },
+    {
+      "id": 48,
+      "q": "Hvilken norsk kunstner forbindes mest med symbolismen?",
+      "a": "Edvard Munch",
+      "w": ["Harald Sohlberg", "Oda Krohg", "Theodor Kittelsen"],
+      "r": 960,
+      "t": ["symbolisme", "maleri"]
+    },
+    {
+      "id": 49,
+      "q": "Hva heter Edvard Munchs mest kjente maleri?",
+      "a": "Skrik",
+      "w": ["Madonna", "Livets dans", "Vampyr"],
+      "r": 970,
+      "t": ["munch", "ikon"]
+    },
+    {
+      "id": 50,
+      "q": "Hvilken norsk kunstner er kjent for nasjonalromantiske eventyrmotiver og trollfigurer?",
+      "a": "Theodor Kittelsen",
+      "w": ["Gerhard Munthe", "Kitty Kielland", "Axel Revold"],
+      "r": 880,
+      "t": ["eventyr", "illustrasjon"]
+    },
+    {
+      "id": 51,
+      "q": "Hvilken kvinnelig maler var en pioner i friluftsmaleri på 1800-tallet?",
+      "a": "Kitty Kielland",
+      "w": ["Oda Krohg", "Harriet Backer", "Aasta Nørregaard"],
+      "r": 910,
+      "t": ["kunst", "kvinner"]
+    },
+    {
+      "id": 52,
+      "q": "Harriet Backer er kjent for sine malerier av hva?",
+      "a": "Interiører og lysvirkninger",
+      "w": ["Fjellandskap", "Hav og skip", "Abstrakte former"],
+      "r": 890,
+      "t": ["kunst", "realismen"]
+    },
+    {
+      "id": 53,
+      "q": "Hvilken norsk maler var en sentral figur i Nyromantikken og malte «Vinternatt i Rondane»?",
+      "a": "Harald Sohlberg",
+      "w": ["Hans Gude", "Frits Thaulow", "Oda Krohg"],
+      "r": 940,
+      "t": ["nyromantikken", "maleri"]
     },
     {
       "id": 54,
-      "q": "What is the most widely spoken language in the world?",
-      "a": "English",
-      "w": [
-        "Mandarin Chinese",
-        "Spanish",
-        "Hindi"
-      ],
-      "r": 1100,
-      "t": [
-        "general"
-      ]
+      "q": "Hva er hovedtema i nyromantisk kunst rundt år 1900?",
+      "a": "Menneskets forhold til naturen og det åndelige",
+      "w": ["Urbanisering", "Industrialisering", "Sosiale problemer"],
+      "r": 930,
+      "t": ["nyromantikken", "tema"]
+    },
+    {
+      "id": 55,
+      "q": "Hvilken kunstretning oppsto etter 1. verdenskrig og la vekt på abstrakte former?",
+      "a": "Modernismen",
+      "w": ["Naturalismen", "Klassisismen", "Romantikken"],
+      "r": 920,
+      "t": ["modernismen", "abstrakt"]
+    },
+    {
+      "id": 56,
+      "q": "Hva kjennetegner norsk funksjonalistisk kunst og design på 1930-tallet?",
+      "a": "Enkel form, brukervennlighet og rasjonell estetikk",
+      "w": ["Dekorative linjer og ornamenter", "Sterke farger og ekspresjon", "Naturmotiver og nasjonale symboler"],
+      "r": 890,
+      "t": ["design", "modernisme"]
     },
     {
       "id": 57,
-      "q": "Which artist is known for the painting 'The Persistence of Memory'?",
-      "a": "Salvador Dalí",
-      "w": [
-        "Pablo Picasso",
-        "René Magritte",
-        "Claude Monet"
-      ],
+      "q": "Hvilken norsk kunstnergruppe ble grunnlagt i 1948 og introduserte abstrakt ekspresjonisme?",
+      "a": "Konkretistene",
+      "w": ["Nyromantikerne", "Oslogruppen", "Sosialrealistene"],
+      "r": 940,
+      "t": ["kunst", "etterkrigstid"]
+    },
+    {
+      "id": 58,
+      "q": "Hvilken kunstner er kjent for fargesterke, abstrakte malerier og mosaikker, blant annet i Oslo rådhus?",
+      "a": "Kai Fjell",
+      "w": ["Jakob Weidemann", "Reidar Aulie", "Ludvig Karsten"],
       "r": 950,
-      "t": [
-        "art"
-      ]
+      "t": ["modernisme", "abstrakt"]
+    },
+    {
+      "id": 59,
+      "q": "Jakob Weidemann ble en av de fremste innen hvilken retning?",
+      "a": "Abstrakt ekspresjonisme",
+      "w": ["Symbolisme", "Naturalistisk realisme", "Romantikk"],
+      "r": 950,
+      "t": ["modernisme", "ekspresjonisme"]
+    },
+    {
+      "id": 60,
+      "q": "Hvilken norsk kunstner har stått bak glassmaleriene i Nidarosdomen?",
+      "a": "Gabriel Kielland",
+      "w": ["Kai Fjell", "Edvard Munch", "Per Krohg"],
+      "r": 880,
+      "t": ["kunst", "glassmaleri"]
+    },
+    {
+      "id": 61,
+      "q": "Når ble Edvard Munch født?",
+      "a": "12. desember 1863",
+      "w": ["24. januar 1864", "15. november 1862", "3. februar 1865"],
+      "r": 820,
+      "t": ["biografi", "fødselsår"]
     },
     {
       "id": 62,
-      "q": "Who is the author of 'The Great Gatsby'?",
-      "a": "F. Scott Fitzgerald",
-      "w": [
-        "Ernest Hemingway",
-        "John Steinbeck",
-        "William Faulkner"
-      ],
-      "r": 950,
-      "t": [
-        "literature"
-      ]
+      "q": "Hvor ble Edvard Munch født?",
+      "a": "Løten i Hedmark",
+      "w": ["Kristiania", "Fredrikstad", "Bærum"],
+      "r": 850,
+      "t": ["biografi", "fødested"]
     },
     {
       "id": 63,
-      "q": "Which country hosted the 2016 Summer Olympics?",
-      "a": "Brazil",
-      "w": [
-        "China",
-        "United Kingdom",
-        "Russia"
-      ],
-      "r": 900,
-      "t": [
-        "capitals"
-      ]
+      "q": "Hva het Edvard Munchs far?",
+      "a": "Christian Munch",
+      "w": ["Peter Andreas Munch", "Andreas Munch", "Søren Munch"],
+      "r": 880,
+      "t": ["familie", "biografi"]
+    },
+    {
+      "id": 64,
+      "q": "Hvilken sykdom døde Munchs mor av da han var barn?",
+      "a": "Tuberkulose",
+      "w": ["Lungebetennelse", "Difteri", "Kolera"],
+      "r": 890,
+      "t": ["familie", "sykdom"]
+    },
+    {
+      "id": 65,
+      "q": "Hvilken slektning tok seg av barna etter morens død?",
+      "a": "Tanten Karen Bjølstad",
+      "w": ["Tanten Sofie Munch", "Faren Christian", "Søsteren Inger"],
+      "r": 870,
+      "t": ["familie", "barndom"]
+    },
+    {
+      "id": 66,
+      "q": "Hva led Munch selv av i barndommen?",
+      "a": "Astmatisk bronkitt og revmatisk feber",
+      "w": ["Tuberkulose", "Polio", "Skarlagensfeber"],
+      "r": 890,
+      "t": ["helse", "barndom"]
     },
     {
       "id": 67,
-      "q": "What is the primary language spoken in Brazil?",
-      "a": "Portuguese",
-      "w": [
-        "Spanish",
-        "English",
-        "French"
-      ],
-      "r": 750,
-      "t": [
-        "general"
-      ]
+      "q": "Hvilken kunstner var Munch elev hos tidlig i karrieren?",
+      "a": "Christian Krohg",
+      "w": ["Hans Gude", "Frits Thaulow", "Harriet Backer"],
+      "r": 880,
+      "t": ["utdanning", "lærer"]
+    },
+    {
+      "id": 68,
+      "q": "Hva het Munchs første større utstillingsbilde fra 1886?",
+      "a": "Det syke barn",
+      "w": ["Pubertet", "Melankoli", "Pikene på broen"],
+      "r": 930,
+      "t": ["verk", "tidlig"]
+    },
+    {
+      "id": 69,
+      "q": "I hvilket land hadde Munch sin første store separatutstilling i utlandet?",
+      "a": "Tyskland (Berlin)",
+      "w": ["Frankrike", "Sverige", "Danmark"],
+      "r": 910,
+      "t": ["utstilling", "Berlin"]
+    },
+    {
+      "id": 70,
+      "q": "Hvilken kunstretning forbindes Munch særlig med?",
+      "a": "Ekspresjonismen",
+      "w": ["Kubismen", "Impresjonismen", "Futurismen"],
+      "r": 900,
+      "t": ["stilretning"]
+    },
+    {
+      "id": 71,
+      "q": "Hva var motivet for Munchs verdensberømte maleri «Skrik» inspirert av?",
+      "a": "En personlig opplevelse av angst under en solnedgang",
+      "w": ["En avisartikkel om krig", "Et dikt av Ibsen", "En religiøs visjon"],
+      "r": 960,
+      "t": ["verk", "symbolisme"]
+    },
+    {
+      "id": 72,
+      "q": "Hva kalles serien av verk som «Skrik» er en del av?",
+      "a": "Livsfrisen",
+      "w": ["Livets dans", "Menneskeberget", "Dødens syklus"],
+      "r": 940,
+      "t": ["verk", "serie"]
+    },
+    {
+      "id": 73,
+      "q": "Hvor oppholdt Munch seg i lange perioder om somrene og hentet inspirasjon?",
+      "a": "Åsgårdstrand",
+      "w": ["Kragerø", "Horten", "Skagen"],
+      "r": 890,
+      "t": ["sted", "inspirasjon"]
+    },
+    {
+      "id": 74,
+      "q": "Hva heter sommerhuset Munch kjøpte i Åsgårdstrand?",
+      "a": "Nygårdsgrunn",
+      "w": ["Ekely", "Engelhaug", "Grimsrød"],
+      "r": 870,
+      "t": ["sted", "eiendom"]
+    },
+    {
+      "id": 75,
+      "q": "Hva het eiendommen Munch bodde på fra 1916 til sin død?",
+      "a": "Ekely",
+      "w": ["Åsgårdstrand", "Frogner", "Tøyen"],
+      "r": 870,
+      "t": ["sted", "bolig"]
+    },
+    {
+      "id": 76,
+      "q": "Når døde Edvard Munch?",
+      "a": "23. januar 1944",
+      "w": ["1. mars 1943", "12. desember 1942", "5. februar 1945"],
+      "r": 820,
+      "t": ["biografi", "dødsår"]
+    },
+    {
+      "id": 77,
+      "q": "Hvor er Edvard Munch gravlagt?",
+      "a": "Æreslunden på Vår Frelsers gravlund i Oslo",
+      "w": ["Gamlebyen kirkegård", "Domkirkegården", "Kragerø kirkegård"],
+      "r": 850,
+      "t": ["biografi", "gravsted"]
+    },
+    {
+      "id": 78,
+      "q": "Hvilket selvportrett viser Munch liggende mellom to symboler på liv og død?",
+      "a": "Mellom klokken og sengen",
+      "w": ["Selvportrett med sigarett", "Selvportrett foran husveggen", "Selvportrett med knokkelarm"],
+      "r": 940,
+      "t": ["verk", "selvportrett"]
     },
     {
       "id": 79,
-      "q": "Who painted the ceiling of the Sistine Chapel?",
-      "a": "Michelangelo",
-      "w": [
-        "Leonardo da Vinci",
-        "Raphael",
-        "Donatello"
-      ],
-      "r": 1000,
-      "t": [
-        "art"
-      ]
+      "q": "Hvilken sykdomsscene ble et av Munchs mest berømte motiver?",
+      "a": "Det syke barn",
+      "w": ["Sjalusi", "Madonna", "Vampyr"],
+      "r": 900,
+      "t": ["verk", "tema"]
+    },
+    {
+      "id": 80,
+      "q": "Hvilket bilde regnes som Munchs sterkeste symbol på liv og død?",
+      "a": "Solen",
+      "w": ["Livets dans", "Dagen derpå", "Angst"],
+      "r": 950,
+      "t": ["symbolikk", "verk"]
     },
     {
       "id": 81,
-      "q": "Who wrote the play 'Romeo and Juliet'?",
-      "a": "William Shakespeare",
-      "w": [
-        "Christopher Marlowe",
-        "Oscar Wilde",
-        "George Bernard Shaw"
-      ],
-      "r": 900,
-      "t": [
-        "general"
-      ]
+      "q": "Hvem var en viktig støttespiller og samler av Munchs malerier?",
+      "a": "Harald Nørregaard",
+      "w": ["Rolf Stenersen", "Christian Krohg", "Frits Thaulow"],
+      "r": 890,
+      "t": ["venner", "samlere"]
     },
     {
       "id": 82,
-      "q": "What is the main ingredient in guacamole?",
-      "a": "Avocado",
-      "w": [
-        "Tomato",
-        "Pepper",
-        "Cucumber"
-      ],
-      "r": 800,
-      "t": [
-        "general"
-      ]
+      "q": "Hva slags kunstform drev Munch også med ved siden av maleri?",
+      "a": "Grafikk",
+      "w": ["Skulptur", "Fotografi", "Keramikk"],
+      "r": 870,
+      "t": ["kunstformer"]
+    },
+    {
+      "id": 83,
+      "q": "Hvor mange arbeider etterlot Munch seg omtrent?",
+      "a": "Rundt 28 000",
+      "w": ["10 000", "50 000", "18 000"],
+      "r": 880,
+      "t": ["produksjon", "statistikk"]
     },
     {
       "id": 84,
-      "q": "Who composed 'The Magic Flute'?",
-      "a": "Wolfgang Amadeus Mozart",
-      "w": [
-        "Ludwig van Beethoven",
-        "Johann Sebastian Bach",
-        "Franz Schubert"
-      ],
-      "r": 950,
-      "t": [
-        "art"
-      ]
+      "q": "Til hvem testamenterte Munch hoveddelen av sine verk?",
+      "a": "Oslo kommune",
+      "w": ["Staten", "Familien", "Nasjonalgalleriet"],
+      "r": 860,
+      "t": ["arv", "testament"]
+    },
+    {
+      "id": 85,
+      "q": "Hvor ligger dagens Munchmuseum?",
+      "a": "Bjørvika i Oslo",
+      "w": ["Tøyen", "Ekely", "Grünerløkka"],
+      "r": 850,
+      "t": ["museum"]
+    },
+    {
+      "id": 86,
+      "q": "Når åpnet det første Munchmuseet på Tøyen?",
+      "a": "1963",
+      "w": ["1958", "1970", "1981"],
+      "r": 850,
+      "t": ["museum", "årstall"]
+    },
+    {
+      "id": 87,
+      "q": "Hvilken tittel fikk Munch i 1933?",
+      "a": "Storkorset av St. Olavs Orden",
+      "w": ["Kunstnerforbundets ærespris", "Goetheprisen", "Nasjonalgalleriets medalje"],
+      "r": 880,
+      "t": ["utmerkelser"]
+    },
+    {
+      "id": 88,
+      "q": "Hvilken tysk kunstbevegelse tok med Munchs verk i sin «entartet kunst»-utstilling i 1937?",
+      "a": "Nazistene",
+      "w": ["Ekspresjonistene", "Surrealistene", "Kubistene"],
+      "r": 910,
+      "t": ["historie", "kunstpolitikk"]
     },
     {
       "id": 89,
-      "q": "Who wrote 'Pride and Prejudice'?",
-      "a": "Jane Austen",
-      "w": [
-        "Charlotte Brontë",
-        "Emily Brontë",
-        "Mary Shelley"
-      ],
-      "r": 950,
-      "t": [
-        "general"
-      ]
+      "q": "Hva er temaet i Munchs «Livsfrisen»-serie?",
+      "a": "Kjærlighet, angst og død",
+      "w": ["Religion, politikk og natur", "Familie, kunst og frihet", "Arbeid, fattigdom og samfunn"],
+      "r": 920,
+      "t": ["tema", "verk"]
+    },
+    {
+      "id": 90,
+      "q": "Hva heter Munchs selvbiografiske dikt som ble tonesatt av Ketil Bjørnstad og Kari Bremnes?",
+      "a": "Løsrivelse",
+      "w": ["Livets dans", "Soloppgang", "Angst"],
+      "r": 940,
+      "t": ["dikt", "musikk"]
     },
     {
       "id": 91,
-      "q": "Which country is known for inventing sushi?",
-      "a": "Japan",
-      "w": [
-        "China",
-        "South Korea",
-        "Thailand"
-      ],
+      "q": "Hva slags materiale finnes i Munchs etterlatte arkiv?",
+      "a": "Brev, dagbøker og notater",
+      "w": ["Kun malerier", "Bare fotografier", "Lydopptak og film"],
+      "r": 880,
+      "t": ["forskning", "arkiv"]
+    },
+    {
+      "id": 92,
+      "q": "Hvilket sted ble brukt som oppbevaring for Munchs bilder under 2. verdenskrig?",
+      "a": "Dikemark sykehus",
+      "w": ["Nasjonalgalleriet", "Slottet", "Rådhuset"],
+      "r": 900,
+      "t": ["krig", "oppbevaring"]
+    },
+    {
+      "id": 93,
+      "q": "Hvem spilte hovedrollen i filmen «Edvard Munch» (1974) regissert av Peter Watkins?",
+      "a": "Geir Westby",
+      "w": ["Sverre Krüger", "Henrik Dahlsbakken", "Trond Espen Seim"],
+      "r": 960,
+      "t": ["film", "biografi"]
+    },
+    {
+      "id": 94,
+      "q": "Hvilken norsk by er motivet for Munchs maleri «Solen»?",
+      "a": "Kragerø",
+      "w": ["Åsgårdstrand", "Oslo", "Løten"],
+      "r": 910,
+      "t": ["verk", "sted"]
+    },
+    {
+      "id": 95,
+      "q": "Hvilken kunstner laget bysten på Munchs grav?",
+      "a": "Arne Durban",
+      "w": ["Per Elsdorf", "Gustav Vigeland", "Kai Fjell"],
+      "r": 880,
+      "t": ["minnesmerke", "kunstner"]
+    },
+    {
+      "id": 96,
+      "q": "Hvilket instrument ble brukt til å hedre Munchs dikt i musikkprosjektene?",
+      "a": "Piano",
+      "w": ["Fiolin", "Fløyte", "Saxofon"],
       "r": 850,
-      "t": [
-        "capitals"
-      ]
+      "t": ["musikk", "tolkning"]
     },
     {
       "id": 97,
-      "q": "Which musical instrument has keys, pedals, and strings?",
-      "a": "Piano",
-      "w": [
-        "Harp",
-        "Organ",
-        "Accordion"
-      ],
-      "r": 850,
-      "t": [
-        "music"
-      ]
+      "q": "Hva ble funnet i Munchs atelier etter hans død?",
+      "a": "Tusenvis av malerier og grafiske trykk",
+      "w": ["Bare noen få ferdige verk", "Kun fotografier", "Kun møbler og brev"],
+      "r": 880,
+      "t": ["arv", "atelier"]
+    },
+    {
+      "id": 98,
+      "q": "Hvor mange malerier omtrent inngår i Munchs gave til Oslo?",
+      "a": "Omtrent 1 100",
+      "w": ["300", "2 000", "5 000"],
+      "r": 890,
+      "t": ["samling", "museum"]
+    },
+    {
+      "id": 99,
+      "q": "Når ble Munchs fødested på Løten markert med minnestein?",
+      "a": "1963",
+      "w": ["1944", "1970", "1989"],
+      "r": 870,
+      "t": ["minne", "sted"]
+    },
+    {
+      "id": 100,
+      "q": "Hva symboliserer broen i Munchs «Pikene på broen»?",
+      "a": "Overgangen mellom barndom og voksenliv",
+      "w": ["Grensen mellom liv og død", "Veien til kjærligheten", "Adskillelse fra naturen"],
+      "r": 950,
+      "t": ["symbolikk", "tolkning"]
     }
   ]
 }
