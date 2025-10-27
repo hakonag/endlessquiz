@@ -9,6 +9,7 @@ class EndlessQuiz {
         this.isAnswering = false;
         this.currentQuestion = null;
         this.answeredQuestions = 0;
+        this.totalQuestions = 0;
         
         this.init();
     }
@@ -251,6 +252,9 @@ class EndlessQuiz {
     
     async startQuiz(categoryFilename) {
         await this.loadQuestions(categoryFilename);
+        this.totalQuestions = this.questions.length;
+        this.answeredQuestions = 0;
+        this.currentQuestionIndex = 0;
         this.displayQuestion();
         this.updateUI();
     }
@@ -279,8 +283,8 @@ class EndlessQuiz {
         const answers = [this.currentQuestion.answer, ...this.currentQuestion.wrongAnswers];
         this.shuffleArray(answers);
         
-        // Display answers in table cells
-        const answerElements = document.querySelectorAll('#answersTable th.answer');
+        // Display answers in container
+        const answerElements = document.querySelectorAll('#answersContainer .answer');
         answerElements.forEach((element, index) => {
             element.textContent = answers[index];
             element.className = 'answer';
@@ -298,7 +302,7 @@ class EndlessQuiz {
         if (this.isAnswering || !this.currentQuestion) return;
         
         this.isAnswering = true;
-        const answerElements = document.querySelectorAll('#answersTable th.answer');
+        const answerElements = document.querySelectorAll('#answersContainer .answer');
         const selectedElement = answerElements[selectedIndex];
         const selectedAnswer = selectedElement.textContent;
         
@@ -379,6 +383,7 @@ class EndlessQuiz {
     updateUI() {
         document.getElementById('btnRating').textContent = Math.round(this.elo);
         document.getElementById('btnMatchPoints').textContent = this.streak;
+        document.getElementById('questionCounter').textContent = `${this.answeredQuestions} / ${this.totalQuestions.toLocaleString()}`;
     }
 }
 
