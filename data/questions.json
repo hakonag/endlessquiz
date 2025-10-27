@@ -448,5 +448,455 @@
     "rating": 1100,
     "category": "Geography",
     "language": "eng"
+  },
+  {
+    "id": 51,
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "wrongAnswers": ["Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+    "rating": 950,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 52,
+    "question": "What is the chemical symbol for potassium?",
+    "answer": "K",
+    "wrongAnswers": ["P", "Pt", "Po"],
+    "rating": 900,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 53,
+    "question": "Which continent is the Sahara Desert located on?",
+    "answer": "Africa",
+    "wrongAnswers": ["Asia", "Australia", "South America"],
+    "rating": 800,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 54,
+    "question": "What is the most widely spoken language in the world?",
+    "answer": "English",
+    "wrongAnswers": ["Mandarin Chinese", "Spanish", "Hindi"],
+    "rating": 1100,
+    "category": "Culture",
+    "language": "eng"
+  },
+  {
+    "id": 55,
+    "question": "Who invented the telephone?",
+    "answer": "Alexander Graham Bell",
+    "wrongAnswers": ["Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+    "rating": 1000,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 56,
+    "question": "What gas do plants absorb during photosynthesis?",
+    "answer": "Carbon dioxide",
+    "wrongAnswers": ["Oxygen", "Nitrogen", "Hydrogen"],
+    "rating": 850,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 57,
+    "question": "Which artist is known for the painting 'The Persistence of Memory'?",
+    "answer": "Salvador Dalí",
+    "wrongAnswers": ["Pablo Picasso", "René Magritte", "Claude Monet"],
+    "rating": 950,
+    "category": "Art",
+    "language": "eng"
+  },
+  {
+    "id": 58,
+    "question": "What is the capital of Canada?",
+    "answer": "Ottawa",
+    "wrongAnswers": ["Toronto", "Vancouver", "Montreal"],
+    "rating": 900,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 59,
+    "question": "Which chemical element has the symbol 'Na'?",
+    "answer": "Sodium",
+    "wrongAnswers": ["Nitrogen", "Nickel", "Neon"],
+    "rating": 950,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 60,
+    "question": "In which year did the Titanic sink?",
+    "answer": "1912",
+    "wrongAnswers": ["1910", "1914", "1915"],
+    "rating": 1000,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 61,
+    "question": "Which planet is closest to the Sun?",
+    "answer": "Mercury",
+    "wrongAnswers": ["Venus", "Earth", "Mars"],
+    "rating": 850,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 62,
+    "question": "Who is the author of 'The Great Gatsby'?",
+    "answer": "F. Scott Fitzgerald",
+    "wrongAnswers": ["Ernest Hemingway", "John Steinbeck", "William Faulkner"],
+    "rating": 950,
+    "category": "Literature",
+    "language": "eng"
+  },
+  {
+    "id": 63,
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "answer": "Brazil",
+    "wrongAnswers": ["China", "United Kingdom", "Russia"],
+    "rating": 900,
+    "category": "Culture",
+    "language": "eng"
+  },
+  {
+    "id": 64,
+    "question": "What is the hardest known natural metal?",
+    "answer": "Tungsten",
+    "wrongAnswers": ["Iron", "Titanium", "Steel"],
+    "rating": 1150,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 65,
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "answer": "Marie Curie",
+    "wrongAnswers": ["Rosalind Franklin", "Jane Goodall", "Ada Lovelace"],
+    "rating": 1050,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 66,
+    "question": "Which country is famous for the Taj Mahal?",
+    "answer": "India",
+    "wrongAnswers": ["Pakistan", "Bangladesh", "Nepal"],
+    "rating": 800,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 67,
+    "question": "What is the primary language spoken in Brazil?",
+    "answer": "Portuguese",
+    "wrongAnswers": ["Spanish", "English", "French"],
+    "rating": 750,
+    "category": "Culture",
+    "language": "eng"
+  },
+  {
+    "id": 68,
+    "question": "Which organ pumps blood through the body?",
+    "answer": "Heart",
+    "wrongAnswers": ["Liver", "Lungs", "Kidneys"],
+    "rating": 700,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 69,
+    "question": "Who was the first President of the United States?",
+    "answer": "George Washington",
+    "wrongAnswers": ["Thomas Jefferson", "John Adams", "Abraham Lincoln"],
+    "rating": 950,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 70,
+    "question": "What is the largest internal organ in the human body?",
+    "answer": "Liver",
+    "wrongAnswers": ["Lungs", "Heart", "Kidneys"],
+    "rating": 900,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 71,
+    "question": "Which programming language is primarily used for iOS app development?",
+    "answer": "Swift",
+    "wrongAnswers": ["Kotlin", "Java", "Objective-C"],
+    "rating": 1250,
+    "category": "Technology",
+    "language": "eng"
+  },
+  {
+    "id": 72,
+    "question": "What is the largest ocean on Earth?",
+    "answer": "Pacific Ocean",
+    "wrongAnswers": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean"],
+    "rating": 800,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 73,
+    "question": "Who discovered gravity when observing a falling apple?",
+    "answer": "Isaac Newton",
+    "wrongAnswers": ["Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "rating": 950,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 74,
+    "question": "Which famous scientist developed the theory of relativity?",
+    "answer": "Albert Einstein",
+    "wrongAnswers": ["Isaac Newton", "Stephen Hawking", "Niels Bohr"],
+    "rating": 1000,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 75,
+    "question": "What is the largest animal currently living on Earth?",
+    "answer": "Blue whale",
+    "wrongAnswers": ["Elephant", "Giraffe", "Orca"],
+    "rating": 800,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 76,
+    "question": "What year did the Berlin Wall fall?",
+    "answer": "1989",
+    "wrongAnswers": ["1987", "1990", "1991"],
+    "rating": 1000,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 77,
+    "question": "Which Italian city is famous for its canals?",
+    "answer": "Venice",
+    "wrongAnswers": ["Rome", "Florence", "Milan"],
+    "rating": 850,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 78,
+    "question": "Which blood cells help the body fight infection?",
+    "answer": "White blood cells",
+    "wrongAnswers": ["Red blood cells", "Platelets", "Plasma cells"],
+    "rating": 950,
+    "category": "Biology",
+    "language": "eng"
+  },
+  {
+    "id": 79,
+    "question": "Who painted the ceiling of the Sistine Chapel?",
+    "answer": "Michelangelo",
+    "wrongAnswers": ["Leonardo da Vinci", "Raphael", "Donatello"],
+    "rating": 1000,
+    "category": "Art",
+    "language": "eng"
+  },
+  {
+    "id": 80,
+    "question": "What is the capital of Egypt?",
+    "answer": "Cairo",
+    "wrongAnswers": ["Alexandria", "Giza", "Luxor"],
+    "rating": 850,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 81,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "answer": "William Shakespeare",
+    "wrongAnswers": ["Christopher Marlowe", "Oscar Wilde", "George Bernard Shaw"],
+    "rating": 900,
+    "category": "Literature",
+    "language": "eng"
+  },
+  {
+    "id": 82,
+    "question": "What is the main ingredient in guacamole?",
+    "answer": "Avocado",
+    "wrongAnswers": ["Tomato", "Pepper", "Cucumber"],
+    "rating": 800,
+    "category": "Culture",
+    "language": "eng"
+  },
+  {
+    "id": 83,
+    "question": "What is the unit of electrical resistance?",
+    "answer": "Ohm",
+    "wrongAnswers": ["Volt", "Ampere", "Watt"],
+    "rating": 1050,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 84,
+    "question": "Who composed 'The Magic Flute'?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "wrongAnswers": ["Ludwig van Beethoven", "Johann Sebastian Bach", "Franz Schubert"],
+    "rating": 950,
+    "category": "Music",
+    "language": "eng"
+  },
+  {
+    "id": 85,
+    "question": "Which metal is liquid at room temperature?",
+    "answer": "Mercury",
+    "wrongAnswers": ["Lead", "Copper", "Iron"],
+    "rating": 900,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 86,
+    "question": "What is the main gas found in the air we breathe?",
+    "answer": "Nitrogen",
+    "wrongAnswers": ["Oxygen", "Carbon dioxide", "Hydrogen"],
+    "rating": 850,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 87,
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "answer": "France",
+    "wrongAnswers": ["United Kingdom", "Germany", "Italy"],
+    "rating": 1000,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 88,
+    "question": "Which is the smallest planet in our solar system?",
+    "answer": "Mercury",
+    "wrongAnswers": ["Mars", "Venus", "Pluto"],
+    "rating": 900,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 89,
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "answer": "Jane Austen",
+    "wrongAnswers": ["Charlotte Brontë", "Emily Brontë", "Mary Shelley"],
+    "rating": 950,
+    "category": "Literature",
+    "language": "eng"
+  },
+  {
+    "id": 90,
+    "question": "What is the currency of the United Kingdom?",
+    "answer": "Pound sterling",
+    "wrongAnswers": ["Euro", "Dollar", "Franc"],
+    "rating": 800,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 91,
+    "question": "Which country is known for inventing sushi?",
+    "answer": "Japan",
+    "wrongAnswers": ["China", "South Korea", "Thailand"],
+    "rating": 850,
+    "category": "Culture",
+    "language": "eng"
+  },
+  {
+    "id": 92,
+    "question": "What is the SI unit of force?",
+    "answer": "Newton",
+    "wrongAnswers": ["Joule", "Pascal", "Watt"],
+    "rating": 1050,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 93,
+    "question": "Which continent has the most countries?",
+    "answer": "Africa",
+    "wrongAnswers": ["Asia", "Europe", "South America"],
+    "rating": 950,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 94,
+    "question": "Who was the British Prime Minister during World War II?",
+    "answer": "Winston Churchill",
+    "wrongAnswers": ["Neville Chamberlain", "Clement Attlee", "Anthony Eden"],
+    "rating": 1000,
+    "category": "History",
+    "language": "eng"
+  },
+  {
+    "id": 95,
+    "question": "What is the capital city of South Korea?",
+    "answer": "Seoul",
+    "wrongAnswers": ["Busan", "Tokyo", "Pyongyang"],
+    "rating": 900,
+    "category": "Geography",
+    "language": "eng"
+  },
+  {
+    "id": 96,
+    "question": "Which data structure uses First In First Out (FIFO)?",
+    "answer": "Queue",
+    "wrongAnswers": ["Stack", "Array", "Tree"],
+    "rating": 1250,
+    "category": "Technology",
+    "language": "eng"
+  },
+  {
+    "id": 97,
+    "question": "Which musical instrument has keys, pedals, and strings?",
+    "answer": "Piano",
+    "wrongAnswers": ["Harp", "Organ", "Accordion"],
+    "rating": 850,
+    "category": "Music",
+    "language": "eng"
+  },
+  {
+    "id": 98,
+    "question": "Which element is needed for combustion?",
+    "answer": "Oxygen",
+    "wrongAnswers": ["Hydrogen", "Nitrogen", "Carbon"],
+    "rating": 900,
+    "category": "Science",
+    "language": "eng"
+  },
+  {
+    "id": 99,
+    "question": "Who is known as the 'Father of Computers'?",
+    "answer": "Charles Babbage",
+    "wrongAnswers": ["Alan Turing", "John von Neumann", "Bill Gates"],
+    "rating": 1200,
+    "category": "Technology",
+    "language": "eng"
+  },
+  {
+    "id": 100,
+    "question": "Which country is home to the Great Barrier Reef?",
+    "answer": "Australia",
+    "wrongAnswers": ["Indonesia", "Philippines", "New Zealand"],
+    "rating": 850,
+    "category": "Geography",
+    "language": "eng"
   }
 ]
