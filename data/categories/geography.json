@@ -2606,6 +2606,486 @@
       "w": ["Landet sank under havet", "Kysten ble flatere", "Fjellene ble lavere"],
       "r": 880,
       "t": ["landhevning"]
+    },
+    {
+      "id": 321,
+      "q": "Hva er det høyeste fjellet i Dronning Maud Land?",
+      "a": "Jøkulkyrkja",
+      "w": ["Ulvetanna", "Holtanna", "Widerøefjellet"],
+      "r": 860,
+      "t": ["fjell"]
+    },
+    {
+      "id": 322,
+      "q": "Hvor høyt er Jøkulkyrkja-fjellet i Dronning Maud Land?",
+      "a": "3148 meter over havet",
+      "w": ["2994 meter", "2750 meter", "3280 meter"],
+      "r": 870,
+      "t": ["høyde"]
+    },
+    {
+      "id": 323,
+      "q": "I hvilken fjellkjede ligger Ulvetanna (2931 moh.)?",
+      "a": "Drygalskifjella",
+      "w": ["Jøkulkyrkjafjella", "Sør-Rondane", "Dronning Sonjafjella"],
+      "r": 900,
+      "t": ["fjellkjede"]
+    },
+    {
+      "id": 324,
+      "q": "Hvor høy er Holtanna-fjellet i Dronning Maud Land?",
+      "a": "2650 meter",
+      "w": ["2400 meter", "2994 meter", "3148 meter"],
+      "r": 850,
+      "t": ["fjell"]
+    },
+    {
+      "id": 325,
+      "q": "Hva er høyden til Johnsonhogna ifølge kildene?",
+      "a": "2221 meter",
+      "w": ["2994 meter", "3148 meter", "2650 meter"],
+      "r": 860,
+      "t": ["fjell"]
+    },
+    {
+      "id": 326,
+      "q": "Hvilket fjell i Sør-Rondane oppgis som høyest på norske topografiske kart?",
+      "a": "Widerøefjellet",
+      "w": ["Devoldnuten", "Isachsenfjella", "Bondtoppane"],
+      "r": 910,
+      "t": ["fjell"]
+    },
+    {
+      "id": 327,
+      "q": "Hvor høy er Widerøefjellet ifølge norske topografiske kart?",
+      "a": "2994 meter",
+      "w": ["3180 meter", "3425 meter", "2400 meter"],
+      "r": 880,
+      "t": ["høyde"]
+    },
+    {
+      "id": 328,
+      "q": "Hva er Devoldnuten registrert som ifølge norske kart?",
+      "a": "Omtrent 2400 meter høy",
+      "w": ["3280 meter", "2994 meter", "3148 meter"],
+      "r": 870,
+      "t": ["fjell"]
+    },
+    {
+      "id": 329,
+      "q": "Hva er Isachsenfjella oppgitt som i USGS-databasen?",
+      "a": "3425 meter",
+      "w": ["2750 meter", "3148 meter", "2994 meter"],
+      "r": 910,
+      "t": ["fjell"]
+    },
+    {
+      "id": 330,
+      "q": "Hva kalles fjell som stikker opp gjennom isen i Antarktis, som flere i Dronning Maud Land?",
+      "a": "Nunataker",
+      "w": ["Rauker", "Tinder", "Vidder"],
+      "r": 900,
+      "t": ["antarktis"]
+    },
+    {
+      "id": 331,
+      "q": "Hva er det høyeste punktet i Den skandinaviske fjellkjede?",
+      "a": "Galdhøpiggen",
+      "w": ["Kebnekaise", "Snøhetta", "Sarektjåhkkå"],
+      "r": 830,
+      "t": ["fjell"]
+    },
+    {
+      "id": 332,
+      "q": "Hvor lang er Den skandinaviske fjellkjede omtrent?",
+      "a": "1 700 kilometer",
+      "w": ["1 200 kilometer", "2 000 kilometer", "900 kilometer"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 333,
+      "q": "Hva kalles Den skandinaviske fjellkjede på svensk?",
+      "a": "Skanderna",
+      "w": ["Fjällkedjan", "Nordfjällen", "Skandit"],
+      "r": 890,
+      "t": ["språk"]
+    },
+    {
+      "id": 334,
+      "q": "Hva kalles fjellkjeden på finsk?",
+      "a": "Skandit",
+      "w": ["Fjällit", "Skanderna", "Kaledonit"],
+      "r": 900,
+      "t": ["språk"]
+    },
+    {
+      "id": 335,
+      "q": "Hva er Europas lengste fjellkjede?",
+      "a": "Den skandinaviske fjellkjede",
+      "w": ["Alpane", "Karpatene", "Pyreneene"],
+      "r": 850,
+      "t": ["rekord"]
+    },
+    {
+      "id": 336,
+      "q": "Hvilket fjell er høyest i den nordlige delen av Skandinavia?",
+      "a": "Kebnekaise",
+      "w": ["Jiehkkevárri", "Sarektjåhkkå", "Oksskolten"],
+      "r": 870,
+      "t": ["fjell"]
+    },
+    {
+      "id": 337,
+      "q": "Hva er høyden til Kebnekaise?",
+      "a": "2 106 meter",
+      "w": ["2 469 meter", "1 916 meter", "1 834 meter"],
+      "r": 860,
+      "t": ["høyde"]
+    },
+    {
+      "id": 338,
+      "q": "Hvilken side av Den skandinaviske fjellkjede danner fjordene i Norge?",
+      "a": "Vestsiden",
+      "w": ["Østsiden", "Nordenden", "Midtpartiet"],
+      "r": 850,
+      "t": ["geografi"]
+    },
+    {
+      "id": 339,
+      "q": "Hva er typisk for fjellene i nordlige Skandinavia nær Nordkapp?",
+      "a": "De er stort sett åser",
+      "w": ["De er høyere enn i sør", "De har vulkaner", "De er dekket av skog"],
+      "r": 880,
+      "t": ["landskap"]
+    },
+    {
+      "id": 340,
+      "q": "Hva heter fjellkjeden som Den skandinaviske fjellkjede opprinnelig var en del av?",
+      "a": "Den kaledonske fjellkjede",
+      "w": ["Den hercynske fjellkjede", "De alpine fjell", "Appalachene"],
+      "r": 870,
+      "t": ["geologi"]
+    },
+    {
+      "id": 341,
+      "q": "Hvor gammel er den kaledonske fjellkjede omtrent?",
+      "a": "Over 400 millioner år",
+      "w": ["200 millioner år", "100 millioner år", "50 millioner år"],
+      "r": 910,
+      "t": ["geologi"]
+    },
+    {
+      "id": 342,
+      "q": "Hva skapte dagens skandinaviske fjellkjede i paleogen?",
+      "a": "Heving av Den skandinaviske halvøy",
+      "w": ["Vulkanutbrudd", "Isbreer", "Kontinentkollisjon"],
+      "r": 900,
+      "t": ["dannelse"]
+    },
+    {
+      "id": 343,
+      "q": "Hvor mange hevningsperioder har det vært ifølge geologene?",
+      "a": "Minst fem",
+      "w": ["To", "Tre", "Ti"],
+      "r": 920,
+      "t": ["geologi"]
+    },
+    {
+      "id": 344,
+      "q": "Hva er sannsynlig årsak til hevningen av Skandinavia?",
+      "a": "Åpningen av Nord-Atlanteren og varmepunktet under Island",
+      "w": ["Jordskjelv", "Kontinentkollisjon", "Erosjon fra elver"],
+      "r": 940,
+      "t": ["dannelse"]
+    },
+    {
+      "id": 345,
+      "q": "Hva hevdet forskere fra Bergen og Zürich i 2012 om fjellkjeden?",
+      "a": "At dagens fjell er rester av den kaledonske fjellkjede",
+      "w": ["At fjellene ble dannet i kvartærtiden", "At fjordene er eldre enn fjellene", "At det finnes aktive vulkaner i fjellkjeden"],
+      "r": 950,
+      "t": ["forskning"]
+    },
+    {
+      "id": 346,
+      "q": "Hva viser seismiske undersøkelser om dagens fjellkjede?",
+      "a": "At den ikke har dype røtter i jordskorpa",
+      "w": ["At den er aktiv vulkansk", "At den er i ferd med å synke", "At den vokser i høyde"],
+      "r": 910,
+      "t": ["geologi"]
+    },
+    {
+      "id": 347,
+      "q": "Hva består Jotundekket hovedsakelig av?",
+      "a": "Gamle syenitter, monzonitter og gabbroer",
+      "w": ["Basalt og andesitt", "Kalkstein og marmor", "Sandstein og skifer"],
+      "r": 930,
+      "t": ["berggrunn"]
+    },
+    {
+      "id": 348,
+      "q": "Hvor gamle er bergartene i den nederste delen av Jotundekket?",
+      "a": "1 600–1 700 millioner år",
+      "w": ["300 millioner år", "2 800 millioner år", "900 millioner år"],
+      "r": 940,
+      "t": ["alder"]
+    },
+    {
+      "id": 349,
+      "q": "Hva ble fjellkjeden kalt etter en navnekonkurranse i 2013?",
+      "a": "Nordryggen",
+      "w": ["Langfjella", "Kjølen", "Midtryggen"],
+      "r": 860,
+      "t": ["navn"]
+    },
+    {
+      "id": 350,
+      "q": "Hva er Galdhøpiggens primærfaktor ifølge tabellen?",
+      "a": "2 372 meter",
+      "w": ["1 742 meter", "1 381 meter", "1 675 meter"],
+      "r": 880,
+      "t": ["primærfaktor"]
+    },
+    {
+      "id": 401,
+      "q": "Hvor stor del av Norges berggrunn består av den kaledonske fjellkjedesonen?",
+      "a": "Omtrent to tredjedeler",
+      "w": ["Omtrent halvparten", "En tredjedel", "Nesten hele landet"],
+      "r": 890,
+      "t": ["geologi"]
+    },
+    {
+      "id": 402,
+      "q": "Hvilke bergarter dominerer grunnfjellet i Norge?",
+      "a": "Gneis",
+      "w": ["Basalt", "Sandstein", "Kalkstein"],
+      "r": 870,
+      "t": ["bergarter"]
+    },
+    {
+      "id": 403,
+      "q": "Hvor gamle kan grunnfjellsbergarter i Norge være?",
+      "a": "Mer enn 2800 millioner år",
+      "w": ["Omtrent 500 millioner år", "Maks 1000 millioner år", "Rundt 150 millioner år"],
+      "r": 900,
+      "t": ["alder"]
+    },
+    {
+      "id": 404,
+      "q": "Hva slags bergart finnes det særlig av i Oslofeltet?",
+      "a": "Eruptivbergarter fra perm-tiden",
+      "w": ["Krittsandstein", "Kalkstein fra kambrium", "Gneis og granitt"],
+      "r": 860,
+      "t": ["oslofeltet"]
+    },
+    {
+      "id": 405,
+      "q": "Hvilke bergarter er vanlige i Norges eldste grunnfjell?",
+      "a": "Gneis, granitt og amfibolitt",
+      "w": ["Basalt, sandstein og dolomitt", "Skifer, kalkstein og marmor", "Konglomerat, tuff og leirstein"],
+      "r": 870,
+      "t": ["grunnfjell"]
+    },
+    {
+      "id": 406,
+      "q": "Hva er karst-landskap i Norge dannet av?",
+      "a": "Oppløsning av kalkstein",
+      "w": ["Erosjon av basalt", "Frostsprengning av gneis", "Elveerosjon i granitt"],
+      "r": 880,
+      "t": ["landskap"]
+    },
+    {
+      "id": 407,
+      "q": "Hva heter den store endemorenen fra Yngre Dryas-perioden?",
+      "a": "Raet",
+      "w": ["Hardangermorenene", "Finnmarksryggen", "Osloforkastningen"],
+      "r": 870,
+      "t": ["istid"]
+    },
+    {
+      "id": 408,
+      "q": "Hvor finnes Norges eldste bergarter på over 2800 millioner år?",
+      "a": "Øst-Finnmark og Lofoten",
+      "w": ["Hardangervidda", "Trøndelag", "Oslofeltet"],
+      "r": 880,
+      "t": ["eldste"]
+    },
+    {
+      "id": 409,
+      "q": "Hva er Trysilsandsteinen kjent for?",
+      "a": "Godt bevarte bølgeslagsmerker",
+      "w": ["Kalklag med fossiler", "Høyt jerninnhold", "Størknet lava"],
+      "r": 860,
+      "t": ["sandstein"]
+    },
+    {
+      "id": 410,
+      "q": "Hva er mylonitt?",
+      "a": "Sterkt omvandlet bergart med ukjent opprinnelse",
+      "w": ["En vulkansk basalt", "En sedimentær sandstein", "En fossilførende kalkstein"],
+      "r": 910,
+      "t": ["metamorfose"]
+    },
+    {
+      "id": 411,
+      "q": "Hva kalles området mellom Sogn og Nord-Trøndelag med gamle granittiske gneiser?",
+      "a": "Den vestre gneisregionen",
+      "w": ["Oslofeltet", "Jotundekket", "Sørlandskjernen"],
+      "r": 890,
+      "t": ["gneis"]
+    },
+    {
+      "id": 412,
+      "q": "Hva er alderen på bergartene i det sørnorske grunnfjellsområdet?",
+      "a": "1500 til 1040 millioner år",
+      "w": ["500 til 250 millioner år", "3000 millioner år", "250 til 100 millioner år"],
+      "r": 870,
+      "t": ["grunnfjell"]
+    },
+    {
+      "id": 413,
+      "q": "Hvilke fossiler kjennetegner kambrosiluren i Oslofeltet?",
+      "a": "Trilobitter og graptolitter",
+      "w": ["Koraller og ammonitter", "Dinosaurbein", "Planterester"],
+      "r": 860,
+      "t": ["fossiler"]
+    },
+    {
+      "id": 414,
+      "q": "Hvilken lavatype danner store platåer i Vestfold og Krokskogen?",
+      "a": "Rombeporfyrlava",
+      "w": ["Basaltlava", "Trachytt", "Andesitt"],
+      "r": 880,
+      "t": ["lava"]
+    },
+    {
+      "id": 415,
+      "q": "Hva er Larvikitt geologisk sett?",
+      "a": "En batolitt",
+      "w": ["En sandstein", "En gabbro", "En porfyr"],
+      "r": 870,
+      "t": ["bergarter"]
+    },
+    {
+      "id": 416,
+      "q": "Hvor på fastlandet finnes sandstein og kull fra juratiden?",
+      "a": "På Andøya",
+      "w": ["På Lista", "I Telemark", "I Trøndelag"],
+      "r": 870,
+      "t": ["juratid"]
+    },
+    {
+      "id": 417,
+      "q": "Hva kalles den historiske retten til å lete etter mineraler i Norge?",
+      "a": "Bergfriheten",
+      "w": ["Mineralprivilegiet", "Prospekteringsloven", "Mutingsretten"],
+      "r": 860,
+      "t": ["historie"]
+    },
+    {
+      "id": 418,
+      "q": "Hvilket metall ble utvunnet i Kongsberg fra 1623?",
+      "a": "Sølv",
+      "w": ["Kobber", "Gull", "Jern"],
+      "r": 850,
+      "t": ["gruvedrift"]
+    },
+    {
+      "id": 419,
+      "q": "Hvor ble Norges største gullutvinning gjort rundt 1900?",
+      "a": "Lykling på Bømlo",
+      "w": ["Kåfjord", "Eidsvoll", "Kvikne"],
+      "r": 860,
+      "t": ["gull"]
+    },
+    {
+      "id": 420,
+      "q": "Hva produserte Blaafarveværket på Modum på 1800-tallet?",
+      "a": "Blåfargepigment (kobolt)",
+      "w": ["Sølv", "Jern", "Svovel"],
+      "r": 850,
+      "t": ["industrihistorie"]
+    },
+    {
+      "id": 421,
+      "q": "Hva slags mineral utvinnes ved Hauge i Dalane og brukes i flyskrog?",
+      "a": "Titan (fra ilmenitt)",
+      "w": ["Kobber", "Grafitt", "Olivin"],
+      "r": 870,
+      "t": ["metall"]
+    },
+    {
+      "id": 422,
+      "q": "Hva brukes olivin blant annet til i industrien?",
+      "a": "Å absorbere giftige tungmetaller og i smelteverk",
+      "w": ["Som byggestein", "Til sement", "Til glassproduksjon"],
+      "r": 870,
+      "t": ["olivin"]
+    },
+    {
+      "id": 423,
+      "q": "Hvor finnes Norges største forekomst av thorium?",
+      "a": "Fensfeltet i Telemark",
+      "w": ["Finnmarksvidda", "Hallingdal", "Setesdal"],
+      "r": 880,
+      "t": ["thorium"]
+    },
+    {
+      "id": 424,
+      "q": "Hvilken bedrift i Møre og Romsdal er en av verdens største produsenter av kalkfyllstoff?",
+      "a": "Hustadmarmor",
+      "w": ["Blaafarveværket", "Åheim Minerals", "Knaben Gruve"],
+      "r": 870,
+      "t": ["industri"]
+    },
+    {
+      "id": 425,
+      "q": "Hva slags bergart inneholder apatitt, ilmenitt og magnetitt mellom Bjerkreim og Sokndal?",
+      "a": "Noritt",
+      "w": ["Anortositt", "Gabbro", "Syenitt"],
+      "r": 880,
+      "t": ["bergarter"]
+    },
+    {
+      "id": 426,
+      "q": "Hva slags fossilt brensel finnes på Svalbard?",
+      "a": "Kull",
+      "w": ["Olje", "Gass", "Torv"],
+      "r": 850,
+      "t": ["energi"]
+    },
+    {
+      "id": 427,
+      "q": "Hva er NGU en forkortelse for?",
+      "a": "Norges geologiske undersøkelse",
+      "w": ["Norsk geologisk union", "Nordisk grunnfjellsutvalg", "Nasjonalt geologisk utvalg"],
+      "r": 840,
+      "t": ["institusjon"]
+    },
+    {
+      "id": 428,
+      "q": "Hvor i Norge finnes anortositt som utvinnes kommersielt?",
+      "a": "Nærøydalen i Sogn",
+      "w": ["Rana", "Røros", "Tysnes"],
+      "r": 880,
+      "t": ["bergverk"]
+    },
+    {
+      "id": 429,
+      "q": "Hva var salgsverdien av mineraler og byggeråstoff i Norge i 2012?",
+      "a": "12,7 milliarder kroner",
+      "w": ["3,2 milliarder kroner", "27 milliarder kroner", "50 milliarder kroner"],
+      "r": 850,
+      "t": ["økonomi"]
+    },
+    {
+      "id": 430,
+      "q": "Hva dekker omtrent halvparten av mineralproduksjonen i Norge målt i volum?",
+      "a": "Stein, grus og pukk",
+      "w": ["Olivin og titan", "Metaller og malm", "Kull og grafitt"],
+      "r": 850,
+      "t": ["ressurser"]
     }
   ]
 }
