@@ -99,7 +99,7 @@ class EndlessQuiz {
             
             this.questions = allQuestions;
             this.shuffleArray(this.questions);
-            this.currentCategory = 'General Knowledge';
+            this.currentCategory = 'Generell Kunnskap';
         } catch (error) {
             console.error('Error loading general knowledge:', error);
             this.questions = this.getFallbackQuestions();
@@ -109,34 +109,34 @@ class EndlessQuiz {
     getFallbackCategories() {
         return [
             {
-                name: "Science",
+                name: "Vitenskap",
                 filename: "science.json",
                 count: 2500,
-                description: "General science questions"
+                description: "Generelle vitenskaps-spørsmål"
             },
             {
-                name: "History",
+                name: "Historie",
                 filename: "history.json",
                 count: 2500,
-                description: "Historical questions"
+                description: "Historiske spørsmål"
             },
             {
-                name: "Geography",
+                name: "Geografi",
                 filename: "geography.json",
                 count: 2500,
-                description: "Geography questions"
+                description: "Geografiske spørsmål"
             },
             {
-                name: "Culture",
+                name: "Kultur",
                 filename: "culture.json",
                 count: 2500,
-                description: "Cultural questions"
+                description: "Kulturelle spørsmål"
             },
             {
-                name: "General Knowledge",
+                name: "Generell Kunnskap",
                 filename: "general.json",
                 count: 10000,
-                description: "Mixed questions from all categories"
+                description: "Blandede spørsmål fra alle kategorier"
             }
         ];
     }
@@ -180,12 +180,12 @@ class EndlessQuiz {
         const container = document.getElementById('container');
         container.innerHTML = `
             <div id="categorySelection">
-                <h2>Choose a Category</h2>
+                <h2>Velg en kategori</h2>
                 <div id="categoryGrid">
                     ${this.categories.map(category => `
                         <button class="categoryButton" data-filename="${category.filename}">
                             <div class="categoryName">${category.name}</div>
-                            <div class="categoryCount">${category.count} questions</div>
+                            <div class="categoryCount">${category.count} spørsmål</div>
                             <div class="categoryDescription">${category.description}</div>
                         </button>
                     `).join('')}
@@ -214,35 +214,35 @@ class EndlessQuiz {
         container.innerHTML = `
             <!-- Top Right Buttons -->
             <div id="topButtons">
-                <button id="btnLearn" class="topbutton">Learn</button>
+                <button id="btnLearn" class="topbutton">Lær</button>
                 <div id="btnRating" class="topbutton">1000</div>
             </div>
 
             <!-- Question -->
             <div id="question">
-                Loading question...
+                Laster spørsmål...
             </div>
 
             <!-- 4 Answer Buttons -->
             <div id="answers">
                 <button class="answer" id="answer1">
-                    Answer 1
+                    Svar 1
                 </button>
                 <button class="answer" id="answer2">
-                    Answer 2
+                    Svar 2
                 </button>
                 <button class="answer" id="answer3">
-                    Answer 3
+                    Svar 3
                 </button>
                 <button class="answer" id="answer4">
-                    Answer 4
+                    Svar 4
                 </button>
             </div>
 
             <!-- Footer -->
             <div class="panel-footer">
-                © ENDLESS QUIZ 2025
-                <a href="#" class="footerItem">About</a>
+                © ENDELØS QUIZ 2025
+                <a href="#" class="footerItem">Om</a>
             </div>
         `;
         

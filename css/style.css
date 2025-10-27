@@ -9,6 +9,8 @@
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #categoryGrid {

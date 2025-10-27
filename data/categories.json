@@ -3,34 +3,34 @@
   "totalQuestions": 10000,
   "categories": [
     {
-      "name": "History",
+      "name": "Historie",
       "filename": "history.json",
       "count": 2500,
-      "description": "Questions about historical events, figures, and time periods"
+      "description": "Spørsmål om historiske hendelser, personer og tidsperioder"
     },
     {
-      "name": "Geography",
+      "name": "Geografi",
       "filename": "geography.json",
       "count": 2500,
-      "description": "Questions about countries, capitals, landmarks, and physical features"
+      "description": "Spørsmål om land, hovedsteder, landemerker og fysiske trekk"
     },
     {
-      "name": "Science",
+      "name": "Vitenskap",
       "filename": "science.json",
       "count": 2500,
-      "description": "Questions about physics, chemistry, biology, and general science"
+      "description": "Spørsmål om fysikk, kjemi, biologi og generell vitenskap"
     },
     {
-      "name": "Culture",
+      "name": "Kultur",
       "filename": "culture.json",
       "count": 2500,
-      "description": "Questions about art, literature, music, and cultural practices"
+      "description": "Spørsmål om kunst, litteratur, musikk og kulturelle praksiser"
     },
     {
-      "name": "General Knowledge",
+      "name": "Generell Kunnskap",
       "filename": "general.json",
       "count": 10000,
-      "description": "Mixed questions from all categories (10k total)"
+      "description": "Blandede spørsmål fra alle kategorier (10k totalt)"
     }
   ]
 }

@@ -810,6 +810,166 @@
       "w": ["Kjølen", "Jotunheimen", "Rondane"],
       "r": 890,
       "t": ["fjellkjeder"]
+    },
+    {
+      "id": 101,
+      "q": "Hva er Norges nordligste punkt (Kongeriket Norge)?",
+      "a": "Rossøya (Sjuøyane, Svalbard)",
+      "w": ["Kinnarodden (Finnmark)", "Knivskjelodden (Magerøya)", "Nordkapp (Magerøya)"],
+      "r": 840,
+      "t": ["ytterpunkter"]
+    },
+    {
+      "id": 102,
+      "q": "Hva er Norges vestligste punkt (Kongeriket Norge)?",
+      "a": "Hoybergodden (Jan Mayen)",
+      "w": ["Vardetangen (Austrheim)", "Utvær fyr (Solund)", "Holmebåen (Solund)"],
+      "r": 910,
+      "t": ["ytterpunkter"]
+    },
+    {
+      "id": 103,
+      "q": "Hva er Norges sørligste punkt på norsk jord?",
+      "a": "Pysen (Lindesnes)",
+      "w": ["Lindesnes fyr (Lindesnes)", "Lista (Farsund)", "Eigerøya (Eigersund)"],
+      "r": 760,
+      "t": ["ytterpunkter"]
+    },
+    {
+      "id": 104,
+      "q": "Hva er Norges østligste punkt (Kongeriket Norge)?",
+      "a": "Kræmerpynten (Kvitøya, Svalbard)",
+      "w": ["Kibergsneset (Vardø)", "Hornøya (Vardø)", "Elvenes (Sør-Varanger)"],
+      "r": 880,
+      "t": ["ytterpunkter"]
+    },
+    {
+      "id": 105,
+      "q": "Største avstand nord–sør i Norge (Kongeriket) er omtrent:",
+      "a": "2 636 km (Lindesnes–Kvitøya)",
+      "w": ["1 813 km (Lista–Hornøya)", "432 km (Vardetangen–Mellomfjellrøysa)", "210 km (punkt lengst fra sjø)"],
+      "r": 1050,
+      "t": ["avstander"]
+    },
+    {
+      "id": 106,
+      "q": "Hvor er Norge på sitt smaleste (bredde)?",
+      "a": "Elvenes (Sør-Varanger)",
+      "w": ["Kiberg (Vardø)", "Skibotn (Storfjord)", "Tana bru (Deatnu-Tana)"],
+      "r": 980,
+      "t": ["avstander"]
+    },
+    {
+      "id": 107,
+      "q": "Hvor ligger Norges geografiske midtpunkt?",
+      "a": "Steinkjer (Trøndelag)",
+      "w": ["Oppdal (Trøndelag)", "Røros (Trøndelag)", "Hattfjelldal (Nordland)"],
+      "r": 750,
+      "t": ["geografi"]
+    },
+    {
+      "id": 108,
+      "q": "Vestligste punkt på Fastlands-Norge er:",
+      "a": "Vardetangen (Austrheim)",
+      "w": ["Utvær fyr (Solund)", "Holmebåen (Solund)", "Hellesøy (Øygarden)"],
+      "r": 860,
+      "t": ["fastlands-norge"]
+    },
+    {
+      "id": 109,
+      "q": "Nordligste punkt på Fastlands-Norge er:",
+      "a": "Kinnarodden (Gamvik)",
+      "w": ["Nordkapp (Magerøya)", "Knivskjelodden (Magerøya)", "Rossøya (Svalbard)"],
+      "r": 800,
+      "t": ["fastlands-norge"]
+    },
+    {
+      "id": 110,
+      "q": "Østligste punkt på Fastlands-Norge er:",
+      "a": "Kibergsneset (Vardø)",
+      "w": ["Hornøya (Vardø)", "Elvenes (Sør-Varanger)", "Vardetangen (Austrheim)"],
+      "r": 880,
+      "t": ["fastlands-norge"]
+    },
+    {
+      "id": 111,
+      "q": "Sørligste punkt på Fastlands-Norge er:",
+      "a": "Lindesnes (Lindesnes)",
+      "w": ["Lista (Farsund)", "Mandal (Lindesnes)", "Egersund (Eigersund)"],
+      "r": 760,
+      "t": ["fastlands-norge"]
+    },
+    {
+      "id": 112,
+      "q": "Nordligste punkt når Fastlands-Norge med øyer og skjær medregnes:",
+      "a": "Knivskjelodden (Nordkapp)",
+      "w": ["Kinnarodden (Gamvik)", "Nordkapp-platået (Nordkapp)", "Hornøya (Vardø)"],
+      "r": 920,
+      "t": ["fastlands-norge med øyer"]
+    },
+    {
+      "id": 113,
+      "q": "Vestligste punkt når Fastlands-Norge med øyer og skjær medregnes:",
+      "a": "Holmebåen (ved Utvær fyr, Solund)",
+      "w": ["Vardetangen (Austrheim)", "Fedje (Alver)", "Bømlo (Bømlo)"],
+      "r": 930,
+      "t": ["fastlands-norge med øyer"]
+    },
+    {
+      "id": 114,
+      "q": "Østligste punkt når Fastlands-Norge med øyer og skjær medregnes:",
+      "a": "Hornøya (utenfor Vardø)",
+      "w": ["Kræmerpynten (Kvitøya)", "Kibergsneset (Vardø)", "Kinnarodden (Gamvik)"],
+      "r": 880,
+      "t": ["fastlands-norge med øyer"]
+    },
+    {
+      "id": 115,
+      "q": "Hva er Norges sørligste øy (innenfor riket)?",
+      "a": "Pysen (Lindesnes)",
+      "w": ["Skjernøy (Lindesnes)", "Hidra (Flekkefjord)", "Hvaler (Viken)"],
+      "r": 760,
+      "t": ["øyer"]
+    },
+    {
+      "id": 116,
+      "q": "Hvilke områder regnes som Norges biland?",
+      "a": "Bouvetøya, Peter I Øy og Dronning Maud Land",
+      "w": ["Jan Mayen, Svalbard og Bjørnøya", "Røst, Værøy og Sørøya", "Karmøy, Tysnes og Hitra"],
+      "r": 1050,
+      "t": ["biland"]
+    },
+    {
+      "id": 117,
+      "q": "Vestligste punkt når biland tas med er:",
+      "a": "Peter I Øy (Antarktis)",
+      "w": ["Hoybergodden (Jan Mayen)", "Bouvetøya (Sør-Atlanteren)", "Prinsesse Ragnhild Kyst (Antarktis)"],
+      "r": 1120,
+      "t": ["biland"]
+    },
+    {
+      "id": 118,
+      "q": "Sørligste punkt når biland tas med er:",
+      "a": "Polpunktet (Sydpolen), Dronning Maud Land",
+      "w": ["Sørspissen av Bouvetøya", "Peter I Øy (sørpunkt)", "Sørkapp (Jan Mayen)"],
+      "r": 1140,
+      "t": ["biland"]
+    },
+    {
+      "id": 119,
+      "q": "Østligste punkt når biland tas med er:",
+      "a": "Grensen mot Australias Antarktisterritorium (Dronning Maud Land)",
+      "w": ["Kræmerpynten på Kvitøya (Svalbard)", "Kibergsneset på Varangerhalvøya", "Hornøya utenfor Vardø"],
+      "r": 1180,
+      "t": ["biland"]
+    },
+    {
+      "id": 120,
+      "q": "Største avstand på Fastlands-Norge er mellom:",
+      "a": "Lista (Farsund) og Hornøya (Vardø)",
+      "w": ["Lindesnes og Nordkapp", "Egersund og Kibergsneset", "Vardetangen og Kinnarodden"],
+      "r": 970,
+      "t": ["avstander"]
     }
   ]
 }
