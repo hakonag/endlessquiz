@@ -3086,6 +3086,646 @@
       "w": ["Olivin og titan", "Metaller og malm", "Kull og grafitt"],
       "r": 850,
       "t": ["ressurser"]
+    },
+    {
+      "id": 431,
+      "q": "Hva er det totale landarealet til Svalbard?",
+      "a": "61 022 km²",
+      "w": ["45 300 km²", "72 000 km²", "53 100 km²"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 432,
+      "q": "Hva heter den største øya i øygruppen Svalbard?",
+      "a": "Spitsbergen",
+      "w": ["Edgeøya", "Nordaustlandet", "Barentsøya"],
+      "r": 850,
+      "t": ["geografi"]
+    },
+    {
+      "id": 433,
+      "q": "Hva heter Svalbards høyeste fjell?",
+      "a": "Newtontoppen",
+      "w": ["Perriertoppen", "Galileotoppen", "Ceresfjellet"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 434,
+      "q": "Hva er hovedstaden og administrasjonssenteret på Svalbard?",
+      "a": "Longyearbyen",
+      "w": ["Barentsburg", "Ny-Ålesund", "Svea"],
+      "r": 800,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 435,
+      "q": "Hvilket land har suverenitet over Svalbard?",
+      "a": "Norge",
+      "w": ["Russland", "Storbritannia", "Danmark"],
+      "r": 800,
+      "t": ["politikk"]
+    },
+    {
+      "id": 436,
+      "q": "Hva heter den nest største øya i Svalbard-øygruppen?",
+      "a": "Nordaustlandet",
+      "w": ["Edgeøya", "Barentsøya", "Kvitøya"],
+      "r": 860,
+      "t": ["geografi"]
+    },
+    {
+      "id": 437,
+      "q": "Hvor mange prosent av Svalbards areal er dekket av isbreer?",
+      "a": "60 %",
+      "w": ["40 %", "70 %", "50 %"],
+      "r": 900,
+      "t": ["natur"]
+    },
+    {
+      "id": 438,
+      "q": "Hva heter den største isbreen på Svalbard?",
+      "a": "Austfonna",
+      "w": ["Vestfonna", "Olav V Land", "Kvitbreen"],
+      "r": 880,
+      "t": ["natur"]
+    },
+    {
+      "id": 439,
+      "q": "Når ble Svalbardtraktaten undertegnet?",
+      "a": "9. februar 1920",
+      "w": ["17. juli 1925", "12. mars 1919", "1. juni 1921"],
+      "r": 870,
+      "t": ["historie"]
+    },
+    {
+      "id": 440,
+      "q": "Hva betyr ordet 'Svalbard' på norrønt?",
+      "a": "Den kalde kysten",
+      "w": ["Nordlig land", "Islandet", "Frosset rand"],
+      "r": 900,
+      "t": ["språk"]
+    },
+    {
+      "id": 441,
+      "q": "Hvem oppdaget Svalbard på nytt i 1596?",
+      "a": "Willem Barents",
+      "w": ["Roald Amundsen", "Umberto Nobile", "Friedrich Martens"],
+      "r": 860,
+      "t": ["historie"]
+    },
+    {
+      "id": 442,
+      "q": "Hva er det høyeste fjellet på Svalbard målt i meter over havet?",
+      "a": "1713 moh.",
+      "w": ["1640 moh.", "1730 moh.", "1685 moh."],
+      "r": 890,
+      "t": ["geografi"]
+    },
+    {
+      "id": 443,
+      "q": "Hvilken fjord er den lengste på Svalbard?",
+      "a": "Wijdefjorden",
+      "w": ["Isfjorden", "Woodfjorden", "Van Mijenfjorden"],
+      "r": 890,
+      "t": ["geografi"]
+    },
+    {
+      "id": 444,
+      "q": "Hvor mange nasjonalparker finnes det på Svalbard?",
+      "a": "7",
+      "w": ["5", "9", "6"],
+      "r": 880,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 445,
+      "q": "Hva heter det globale frøhvelvet som ligger på Svalbard?",
+      "a": "Svalbard globale frøhvelv",
+      "w": ["Arktisk frøbank", "Nordisk genlager", "UNESCO Frøarkiv"],
+      "r": 800,
+      "t": ["forskning"]
+    },
+    {
+      "id": 446,
+      "q": "Når ble Svalbard offisielt en del av kongeriket Norge?",
+      "a": "1925",
+      "w": ["1919", "1930", "1947"],
+      "r": 850,
+      "t": ["historie"]
+    },
+    {
+      "id": 447,
+      "q": "Hva slags klima har Svalbard?",
+      "a": "Tundraklima",
+      "w": ["Polarklima", "Subarktisk klima", "Maritimt klima"],
+      "r": 800,
+      "t": ["klima"]
+    },
+    {
+      "id": 448,
+      "q": "Hva heter den norske institusjonen som driver med forskning på luftforurensning på Svalbard?",
+      "a": "Norsk institutt for luftforskning (NILU)",
+      "w": ["Meteorologisk institutt", "Norsk Polarinstitutt", "UNIS"],
+      "r": 850,
+      "t": ["forskning"]
+    },
+    {
+      "id": 449,
+      "q": "Hvilket dyr er Svalbard spesielt kjent for?",
+      "a": "Isbjørn",
+      "w": ["Hvalross", "Reinsdyr", "Polarrev"],
+      "r": 750,
+      "t": ["fauna"]
+    },
+    {
+      "id": 450,
+      "q": "Hva er navnet på den eneste russiske bosetningen på Svalbard?",
+      "a": "Barentsburg",
+      "w": ["Pyramiden", "Ny-Ålesund", "Svea"],
+      "r": 830,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 451,
+      "q": "Hvilken type naturvern dekker størstedelen av Svalbard?",
+      "a": "Nasjonalparker og naturreservater",
+      "w": ["Landskapsvernområder", "Verdensarvsteder", "Kulturminnevern"],
+      "r": 870,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 452,
+      "q": "Hva er Svalbardtraktatens hovedprinsipp om militær aktivitet?",
+      "a": "Svalbard må ikke brukes i krigsøyemed",
+      "w": ["Svalbard må forsvares av NATO", "Svalbard kan ha norsk marinebase", "Kun forskningsformål er forbudt"],
+      "r": 920,
+      "t": ["politikk"]
+    },
+    {
+      "id": 453,
+      "q": "Hvor stor andel av Svalbard er dekket av vegetasjon?",
+      "a": "10 %",
+      "w": ["20 %", "5 %", "15 %"],
+      "r": 880,
+      "t": ["flora"]
+    },
+    {
+      "id": 454,
+      "q": "Hva er navnet på Svalbards lokale universitetssenter?",
+      "a": "UNIS",
+      "w": ["UiT Svalbard", "Polarforskningssenteret", "Norsk Arktisk Universitet"],
+      "r": 830,
+      "t": ["utdanning"]
+    },
+    {
+      "id": 455,
+      "q": "Hvilken by har Norges nordligste kullkraftverk?",
+      "a": "Longyearbyen",
+      "w": ["Tromsø", "Barentsburg", "Ny-Ålesund"],
+      "r": 820,
+      "t": ["energi"]
+    },
+    {
+      "id": 456,
+      "q": "Hva er den mest karakteristiske blomsten på Svalbard?",
+      "a": "Svalbardvalmue",
+      "w": ["Rødsildre", "Fjellflokk", "Småsøte"],
+      "r": 870,
+      "t": ["flora"]
+    },
+    {
+      "id": 457,
+      "q": "Hvilken øygruppe ligger øst for Svalbard?",
+      "a": "Franz Josefs land",
+      "w": ["Jan Mayen", "Færøyene", "Lofoten"],
+      "r": 900,
+      "t": ["geografi"]
+    },
+    {
+      "id": 458,
+      "q": "Hvilken fjord er Longyearbyen plassert ved?",
+      "a": "Isfjorden",
+      "w": ["Wijdefjorden", "Van Mijenfjorden", "Billefjorden"],
+      "r": 820,
+      "t": ["geografi"]
+    },
+    {
+      "id": 459,
+      "q": "Hvilken forskningsstasjon overvåker luftkvaliteten fra Zeppelinfjellet?",
+      "a": "Zeppelinobservatoriet",
+      "w": ["Polarforskningssenteret", "Ny-Ålesund Base", "Aurora-labben"],
+      "r": 870,
+      "t": ["forskning"]
+    },
+    {
+      "id": 460,
+      "q": "Hva var Svalbards viktigste næring før turisme og forskning tok over?",
+      "a": "Kullgruvedrift",
+      "w": ["Hvalfangst", "Fiske", "Turisme"],
+      "r": 810,
+      "t": ["næringsliv"]
+    },
+    {
+      "id": 461,
+      "q": "Når ble Svalbard lufthavn åpnet for ordinær trafikk?",
+      "a": "1975",
+      "w": ["1969", "1970", "1980"],
+      "r": 860,
+      "t": ["samferdsel"]
+    },
+    {
+      "id": 462,
+      "q": "Hva var navnet på den russiske gruvebyen som ble forlatt på 1990-tallet?",
+      "a": "Pyramiden",
+      "w": ["Barentsburg", "Svea", "Ny-Ålesund"],
+      "r": 850,
+      "t": ["historie"]
+    },
+    {
+      "id": 463,
+      "q": "Hva er omtrent befolkningen på Svalbard per 2020?",
+      "a": "2 884",
+      "w": ["3 500", "1 900", "2 100"],
+      "r": 840,
+      "t": ["demografi"]
+    },
+    {
+      "id": 464,
+      "q": "Hva heter det norske gruveselskapet som har vært dominerende på Svalbard?",
+      "a": "Store Norske Spitsbergen Kulkompani",
+      "w": ["Norsk Kullkompani", "Polarkraft", "Svalbard Mining AS"],
+      "r": 880,
+      "t": ["næringsliv"]
+    },
+    {
+      "id": 465,
+      "q": "Hvor mange nasjonaliteter er representert i Longyearbyen?",
+      "a": "Omtrent 40",
+      "w": ["Omtrent 25", "Omtrent 15", "Omtrent 60"],
+      "r": 880,
+      "t": ["demografi"]
+    },
+    {
+      "id": 466,
+      "q": "Når varer midnattssolen i Longyearbyen fra og til?",
+      "a": "20. april til 23. august",
+      "w": ["1. mai til 31. juli", "15. april til 15. august", "10. mai til 10. august"],
+      "r": 900,
+      "t": ["klima"]
+    },
+    {
+      "id": 467,
+      "q": "Hva er den vanligste transportformen mellom bosetningene på Svalbard?",
+      "a": "Snøskuter",
+      "w": ["Bil", "Tog", "Sykkel"],
+      "r": 850,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 468,
+      "q": "Hvilken plante ble valgt som ‘fylkesblomst’ for Svalbard i 1989?",
+      "a": "Svalbardvalmue",
+      "w": ["Polarvier", "Multe", "Tuemure"],
+      "r": 880,
+      "t": ["flora"]
+    },
+    {
+      "id": 469,
+      "q": "Hva heter observatoriet på Zeppelinfjellet ved Ny-Ålesund?",
+      "a": "Zeppelinobservatoriet",
+      "w": ["Polarisstasjonen", "Aurora Point", "Isfjordlab"],
+      "r": 870,
+      "t": ["forskning"]
+    },
+    {
+      "id": 470,
+      "q": "Hvilken by på Svalbard har en russisk-ukrainsk befolkning?",
+      "a": "Barentsburg",
+      "w": ["Ny-Ålesund", "Hornsund", "Longyearbyen"],
+      "r": 840,
+      "t": ["demografi"]
+    },
+    {
+      "id": 471,
+      "q": "Hvilket år ble den største flyulykken i Norge, Operafjell-ulykken, registrert på Svalbard?",
+      "a": "1996",
+      "w": ["1992", "1989", "2001"],
+      "r": 890,
+      "t": ["historie"]
+    },
+    {
+      "id": 472,
+      "q": "Hvor mange prosent av Svalbard eies av den norske staten?",
+      "a": "95,2 %",
+      "w": ["85 %", "90 %", "97 %"],
+      "r": 890,
+      "t": ["eierskap"]
+    },
+    {
+      "id": 473,
+      "q": "Hva heter den russiske gruveoperatøren på Svalbard?",
+      "a": "Trust Arktikugol",
+      "w": ["SibMining", "ArcticCoal", "NorRusMinerals"],
+      "r": 880,
+      "t": ["næringsliv"]
+    },
+    {
+      "id": 474,
+      "q": "Hvor stor er fiskerivernsonen rundt Svalbard?",
+      "a": "803 993 km²",
+      "w": ["500 000 km²", "900 000 km²", "650 000 km²"],
+      "r": 910,
+      "t": ["geografi"]
+    },
+    {
+      "id": 475,
+      "q": "Når ble de første nasjonalparkene på Svalbard opprettet?",
+      "a": "1973",
+      "w": ["1965", "1980", "1957"],
+      "r": 870,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 476,
+      "q": "Hva er den høyeste gjennomsnittstemperaturen i Longyearbyen om sommeren?",
+      "a": "+6,5 °C",
+      "w": ["+4,5 °C", "+8 °C", "+2 °C"],
+      "r": 880,
+      "t": ["klima"]
+    },
+    {
+      "id": 477,
+      "q": "Hva er den kaldeste måneden på Svalbard i gjennomsnitt?",
+      "a": "Februar",
+      "w": ["Januar", "Desember", "Mars"],
+      "r": 870,
+      "t": ["klima"]
+    },
+    {
+      "id": 478,
+      "q": "Hva er navnet på den norske guvernøren på Svalbard?",
+      "a": "Sysselmesteren",
+      "w": ["Sysselmannen", "Polarguvernøren", "Svalbardforvalteren"],
+      "r": 850,
+      "t": ["politikk"]
+    },
+    {
+      "id": 479,
+      "q": "Hvilken type geologisk aktivitet finnes fortsatt spor av i Bockfjorden?",
+      "a": "Vulkanisme",
+      "w": ["Karstgrotter", "Glasiale avsetninger", "Sanddyner"],
+      "r": 890,
+      "t": ["geologi"]
+    },
+    {
+      "id": 480,
+      "q": "Hva var Svalbards første hovednæring på 1600-tallet?",
+      "a": "Hvalfangst",
+      "w": ["Kullgruvedrift", "Fiske", "Fangst av sel"],
+      "r": 880,
+      "t": ["historie"]
+    },
+    {
+      "id": 481,
+      "q": "Hva heter den polske forskningsstasjonen på Svalbard?",
+      "a": "Hornsund",
+      "w": ["Barentsbukta", "Wisla", "Kraków-stasjonen"],
+      "r": 880,
+      "t": ["forskning"]
+    },
+    {
+      "id": 482,
+      "q": "Hva er den høyeste fjelltoppen på Svalbard?",
+      "a": "Newtontoppen",
+      "w": ["Perriertoppen", "Ceresfjellet", "Galileotoppen"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 483,
+      "q": "Hvilken fjord er den lengste på Svalbard?",
+      "a": "Wijdefjorden",
+      "w": ["Isfjorden", "Van Mijenfjorden", "Kongsfjorden"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 484,
+      "q": "Hvilken isbre er den største på Svalbard?",
+      "a": "Austfonna",
+      "w": ["Vestfonna", "Olav V Land-breen", "Kongsbreen"],
+      "r": 880,
+      "t": ["geografi"]
+    },
+    {
+      "id": 485,
+      "q": "Omtrent hvor stor andel av Svalbards areal er dekket av isbreer?",
+      "a": "60 %",
+      "w": ["40 %", "75 %", "25 %"],
+      "r": 880,
+      "t": ["klima"]
+    },
+    {
+      "id": 486,
+      "q": "Hva heter administrasjonssenteret på Svalbard?",
+      "a": "Longyearbyen",
+      "w": ["Barentsburg", "Ny-Ålesund", "Hopen"],
+      "r": 800,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 487,
+      "q": "Når varer midnattssolen i Longyearbyen omtrent?",
+      "a": "Fra 20. april til 23. august",
+      "w": ["Fra 1. mai til 1. august", "Fra 15. mai til 15. september", "Fra 1. april til 1. juli"],
+      "r": 880,
+      "t": ["klima"]
+    },
+    {
+      "id": 488,
+      "q": "Hva betyr navnet 'Svalbard' i norrønt?",
+      "a": "Den kalde kysten",
+      "w": ["Nordlig land", "Isdekket øy", "Kant av is"],
+      "r": 900,
+      "t": ["historie"]
+    },
+    {
+      "id": 489,
+      "q": "Hvilket land anerkjente Norges suverenitet over Svalbard gjennom traktaten i 1920?",
+      "a": "Alle signatarlandene til Svalbardtraktaten",
+      "w": ["Kun Storbritannia", "Kun Russland", "Kun Danmark og Sverige"],
+      "r": 940,
+      "t": ["traktat"]
+    },
+    {
+      "id": 490,
+      "q": "Når ble Svalbard formelt innlemmet som del av kongeriket Norge?",
+      "a": "1925",
+      "w": ["1918", "1939", "1945"],
+      "r": 880,
+      "t": ["historie"]
+    },
+    {
+      "id": 491,
+      "q": "Hva slags klima har Svalbard ifølge Köppens klimaklassifikasjon?",
+      "a": "Tundraklima",
+      "w": ["Subarktisk klima", "Kontinentalt klima", "Maritimt klima"],
+      "r": 870,
+      "t": ["klima"]
+    },
+    {
+      "id": 492,
+      "q": "Hva er den laveste årsnedbøren registrert på Svalbard?",
+      "a": "190 mm i året",
+      "w": ["320 mm i året", "95 mm i året", "250 mm i året"],
+      "r": 920,
+      "t": ["klima"]
+    },
+    {
+      "id": 493,
+      "q": "Hvilken dyreart er genetisk unik for Svalbard sammenlignet med fastlandsvarianten?",
+      "a": "Svalbardrein",
+      "w": ["Isbjørn", "Fjellrev", "Polarrev"],
+      "r": 890,
+      "t": ["fauna"]
+    },
+    {
+      "id": 494,
+      "q": "Hvilken plante ble valgt som 'fylkesblomst' for Svalbard i 1989?",
+      "a": "Svalbardvalmue",
+      "w": ["Rødsildre", "Tuemure", "Fjellflokk"],
+      "r": 870,
+      "t": ["flora"]
+    },
+    {
+      "id": 495,
+      "q": "Hvor mange nasjonalparker finnes på Svalbard?",
+      "a": "Sju",
+      "w": ["Fem", "Ti", "Fire"],
+      "r": 890,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 496,
+      "q": "Hva heter det største naturreservatet på Svalbard?",
+      "a": "Nordaust-Svalbard naturreservat",
+      "w": ["Søraust-Svalbard naturreservat", "Hopen naturreservat", "Bjørnøya naturreservat"],
+      "r": 900,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 497,
+      "q": "Hvilket forskningssenter ligger i Longyearbyen og tilbyr universitetskurs?",
+      "a": "Universitetssenteret på Svalbard (UNIS)",
+      "w": ["Norsk Polarinstitutt", "EISCAT", "Frøhvelvet"],
+      "r": 880,
+      "t": ["forskning"]
+    },
+    {
+      "id": 498,
+      "q": "Hva lagres i Svalbard globale frøhvelv?",
+      "a": "Frø fra planter over hele verden",
+      "w": ["DNA-prøver", "Iskjerner", "Mineraler og steinprøver"],
+      "r": 860,
+      "t": ["forskning"]
+    },
+    {
+      "id": 499,
+      "q": "Hvilket år ble Svalbard globale frøhvelv åpnet?",
+      "a": "2007",
+      "w": ["1999", "2010", "2003"],
+      "r": 870,
+      "t": ["forskning"]
+    },
+    {
+      "id": 500,
+      "q": "Hva var hovedårsaken til at Svalbard fikk fiberoptisk forbindelse til fastlandet i 2004?",
+      "a": "For å bedre kommunikasjonen for satellittstasjonen SvalSat",
+      "w": ["For å bedre turismen", "For militær kommunikasjon", "For å bygge mobildekning"],
+      "r": 900,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 501,
+      "q": "Hvilken hendelse i 1996 regnes som den verste flyulykken i norsk historie?",
+      "a": "Operafjell-ulykken",
+      "w": ["Isfjordulykken", "Sveagruva-krasjet", "Longyearbyen-ulykken"],
+      "r": 900,
+      "t": ["historie"]
+    },
+    {
+      "id": 502,
+      "q": "Hvilket land driver fortsatt kullgruvevirksomhet i Barentsburg?",
+      "a": "Russland",
+      "w": ["Sverige", "Storbritannia", "Finland"],
+      "r": 800,
+      "t": ["næringsliv"]
+    },
+    {
+      "id": 503,
+      "q": "Hva er den viktigste næringen på Svalbard i dag, ved siden av turisme?",
+      "a": "Forskning",
+      "w": ["Kullgruvedrift", "Fiske", "Militær aktivitet"],
+      "r": 820,
+      "t": ["næringsliv"]
+    },
+    {
+      "id": 504,
+      "q": "Hva slår artikkel 9 i Svalbardtraktaten fast?",
+      "a": "At Svalbard ikke skal brukes i krigsøyemed",
+      "w": ["At Svalbard skal ha eget parlament", "At Svalbard skal være internasjonalt territorium", "At Svalbard skal ha fri innvandring"],
+      "r": 940,
+      "t": ["traktat"]
+    },
+    {
+      "id": 505,
+      "q": "Hvor mange nasjonaliteter er representert i Longyearbyen?",
+      "a": "Omtrent 40",
+      "w": ["Rundt 10", "Over 100", "Rundt 25"],
+      "r": 870,
+      "t": ["demografi"]
+    },
+    {
+      "id": 506,
+      "q": "Hva heter den russiske bosetningen på Svalbard?",
+      "a": "Barentsburg",
+      "w": ["Ny-Ålesund", "Svea", "Pyramiden"],
+      "r": 800,
+      "t": ["samfunn"]
+    },
+    {
+      "id": 507,
+      "q": "Hvor mye av Svalbard er vernet som nasjonalpark eller naturreservat?",
+      "a": "Omtrent to tredeler",
+      "w": ["Halvparten", "En tredel", "Tre fjerdedeler"],
+      "r": 900,
+      "t": ["naturvern"]
+    },
+    {
+      "id": 508,
+      "q": "Hvilken art er Svalbard mest kjent for som symbol?",
+      "a": "Isbjørn",
+      "w": ["Hvalross", "Fjellrev", "Svalbardrein"],
+      "r": 780,
+      "t": ["fauna"]
+    },
+    {
+      "id": 509,
+      "q": "Hva slags energikilde brukes ved Longyear Energiverk?",
+      "a": "Kull",
+      "w": ["Vindkraft", "Diesel", "Solenergi"],
+      "r": 800,
+      "t": ["energi"]
+    },
+    {
+      "id": 510,
+      "q": "Hvor ligger forskningsstasjonen Zeppelinobservatoriet?",
+      "a": "Over Ny-Ålesund på Zeppelinfjellet",
+      "w": ["Ved Longyearbyen", "På Hopen", "På Kvitøya"],
+      "r": 890,
+      "t": ["forskning"]
     }
   ]
 }
