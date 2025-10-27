@@ -1646,7 +1646,966 @@
       "w": ["Vestlandet", "Nord-Norge", "Trøndelag"],
       "r": 890,
       "t": ["inndeling"]
+    },
+    {
+      "id": 201,
+      "q": "Hvilket land i Europa har lavere befolkningstetthet enn Norge?",
+      "a": "Island",
+      "w": ["Finland", "Sverige", "Estland"],
+      "r": 880,
+      "t": ["tetthet"]
+    },
+    {
+      "id": 202,
+      "q": "Omtrent hvor stor andel av Norges befolkning bor i tettsteder?",
+      "a": "Over 80 %",
+      "w": ["Omtrent 60 %", "Rundt 70 %", "Cirka 90 %"],
+      "r": 860,
+      "t": ["urbanisering"]
+    },
+    {
+      "id": 203,
+      "q": "Hva har tradisjonelt bestemt bosetningsmønsteret i Norge?",
+      "a": "Tilgang på lokale naturressurser",
+      "w": ["Avstand til hovedstaden", "Politiske grenser", "Kulturelle forhold"],
+      "r": 920,
+      "t": ["historie"]
+    },
+    {
+      "id": 204,
+      "q": "Når var urbaniseringsprosessen i Norge på sitt raskeste?",
+      "a": "Siste del av 1800-tallet",
+      "w": ["Tidlig 1700-tall", "Mellom 1920 og 1950", "Etter 1970"],
+      "r": 940,
+      "t": ["urbanisering"]
+    },
+    {
+      "id": 205,
+      "q": "Hvilken landsdel har hatt lavest andel bybefolkning historisk?",
+      "a": "Nord-Norge",
+      "w": ["Trøndelag", "Sørlandet", "Vestlandet"],
+      "r": 910,
+      "t": ["regioner"]
+    },
+    {
+      "id": 206,
+      "q": "Hvilken byregion regnes som et eksempel på konurbasjon i Norge?",
+      "a": "Stavanger–Sandnes",
+      "w": ["Bodø–Fauske", "Hamar–Lillehammer", "Molde–Ålesund"],
+      "r": 890,
+      "t": ["byutvikling"]
+    },
+    {
+      "id": 207,
+      "q": "Fra 1800 til 2000 ble bosetningen i Norge endret fra overveiende spredt til omtrent hvor stor andel tett?",
+      "a": "75 %",
+      "w": ["55 %", "65 %", "85 %"],
+      "r": 900,
+      "t": ["statistikk"]
+    },
+    {
+      "id": 208,
+      "q": "Hva er hovedårsaken til flytting innenlands i Norge ifølge artikkelen?",
+      "a": "Arbeid",
+      "w": ["Klima", "Familie", "Boligpris"],
+      "r": 870,
+      "t": ["flytting"]
+    },
+    {
+      "id": 209,
+      "q": "Hva er et særtrekk ved norske byer sammenlignet med mange europeiske?",
+      "a": "De ligger langt fra hverandre og er små",
+      "w": ["De har høy befolkningstetthet", "De mangler havneområder", "De ble grunnlagt før middelalderen"],
+      "r": 950,
+      "t": ["byer"]
+    },
+    {
+      "id": 210,
+      "q": "Omtrent hvor mange personer utvandret fra Norge til Amerika mellom 1825 og 1920?",
+      "a": "800 000",
+      "w": ["400 000", "1,2 millioner", "600 000"],
+      "r": 930,
+      "t": ["utvandring"]
+    },
+    {
+      "id": 211,
+      "q": "Hvilken landsdel hadde ingen byer før 1789?",
+      "a": "Nord-Norge",
+      "w": ["Sørlandet", "Trøndelag", "Vestlandet"],
+      "r": 890,
+      "t": ["historie"]
+    },
+    {
+      "id": 212,
+      "q": "Hva var Norges største by i 1769?",
+      "a": "Bergen",
+      "w": ["Trondheim", "Christiania", "Drammen"],
+      "r": 870,
+      "t": ["byer"]
+    },
+    {
+      "id": 213,
+      "q": "Hva kalles byer som vokser sammen til større byområder?",
+      "a": "Konurbasjoner",
+      "w": ["Agglomerasjoner", "Urbanblokker", "Metropoler"],
+      "r": 950,
+      "t": ["begreper"]
+    },
+    {
+      "id": 214,
+      "q": "Hvor mange personer hadde tettstedet Oslo i 2018?",
+      "a": "1 million",
+      "w": ["850 000", "1,2 millioner", "650 000"],
+      "r": 880,
+      "t": ["statistikk"]
+    },
+    {
+      "id": 215,
+      "q": "Hvilken høyde ligger mesteparten av Norges bosetning under?",
+      "a": "150 meter over havet",
+      "w": ["300 meter", "500 meter", "900 meter"],
+      "r": 910,
+      "t": ["topografi"]
+    },
+    {
+      "id": 216,
+      "q": "Hvor mange personer med innvandrerbakgrunn bodde i Norge i 2023?",
+      "a": "877 227",
+      "w": ["625 000", "940 000", "1,1 millioner"],
+      "r": 930,
+      "t": ["innvandring"]
+    },
+    {
+      "id": 217,
+      "q": "Hvilken norsk kommune hadde høyest andel innvandrere i 2023?",
+      "a": "Gamvik",
+      "w": ["Oslo", "Rælingen", "Sandefjord"],
+      "r": 940,
+      "t": ["innvandring"]
+    },
+    {
+      "id": 218,
+      "q": "Hvilken gruppe er den største blant innvandrere i flest norske kommuner?",
+      "a": "Polakker",
+      "w": ["Svensker", "Litauere", "Syriere"],
+      "r": 870,
+      "t": ["innvandring"]
+    },
+    {
+      "id": 219,
+      "q": "Hvor mange personer i Norge snakker samisk omtrent?",
+      "a": "20 000–30 000",
+      "w": ["10 000–15 000", "30 000–50 000", "50 000–70 000"],
+      "r": 920,
+      "t": ["språk"]
+    },
+    {
+      "id": 220,
+      "q": "Hva markerer grensen mellom østnorske og vestnorske dialekter?",
+      "a": "Langfjella",
+      "w": ["Glomma", "Hardangerfjorden", "Mjøsa"],
+      "r": 880,
+      "t": ["dialekter"]
+    },
+    {
+      "id": 221,
+      "q": "Hvilken by omtales som Norges oljehovedstad?",
+      "a": "Stavanger",
+      "w": ["Bergen", "Kristiansand", "Trondheim"],
+      "r": 850,
+      "t": ["næringsliv"]
+    },
+    {
+      "id": 222,
+      "q": "Når mistet skillet mellom by- og landkommuner rettslig betydning?",
+      "a": "Etter 1994",
+      "w": ["Etter 1980", "Etter 2000", "Etter 1970"],
+      "r": 960,
+      "t": ["forvaltning"]
+    },
+    {
+      "id": 223,
+      "q": "Hvilke to norske byer ble grunnlagt som gruvebyer?",
+      "a": "Kongsberg og Røros",
+      "w": ["Bodø og Narvik", "Skien og Hamar", "Haugesund og Moss"],
+      "r": 870,
+      "t": ["industri"]
+    },
+    {
+      "id": 224,
+      "q": "Hva er gentrifisering et uttrykk for?",
+      "a": "Oppgradering av eldre arbeiderstrøk",
+      "w": ["Sammenvoksing av byområder", "Statlig flyttepolitikk", "Utbygging av industriområder"],
+      "r": 910,
+      "t": ["byutvikling"]
+    },
+    {
+      "id": 225,
+      "q": "Hvilken by fikk et nytt rettvinklet gatenett etter en storbrann i 1624?",
+      "a": "Christiania",
+      "w": ["Bergen", "Trondheim", "Skien"],
+      "r": 890,
+      "t": ["byplan"]
+    },
+    {
+      "id": 226,
+      "q": "Hva var hovedårsaken til at tettsteder som Sokndalsstrand og Lærdalsøyri vokste frem?",
+      "a": "Oppheving av byenes handelsmonopol i 1842",
+      "w": ["Oppdagelse av olje", "Bybranner i byene", "Utbygging av jernbane"],
+      "r": 950,
+      "t": ["handel"]
+    },
+    {
+      "id": 227,
+      "q": "Når ble utskiftingsloven som endret gårdsstrukturen i Norge vedtatt?",
+      "a": "1857",
+      "w": ["1814", "1875", "1890"],
+      "r": 940,
+      "t": ["jordbruk"]
+    },
+    {
+      "id": 228,
+      "q": "Hva beskriver teigblanding i norsk landbruk?",
+      "a": "At flere bruk hadde åkrer om hverandre",
+      "w": ["At jorda ble samlet til én eier", "At dyr ble holdt på felles beite", "At gårdene lå på rekke"],
+      "r": 930,
+      "t": ["jordbruk"]
+    },
+    {
+      "id": 229,
+      "q": "Hva kjennetegnet klyngetun på Vestlandet og Sørlandet?",
+      "a": "Flere gårder med hus samlet i ett tun",
+      "w": ["Enkeltgårder med stor avstand", "Industribebyggelse nær sjøen", "Bymessige kvartaler"],
+      "r": 870,
+      "t": ["bosetning"]
+    },
+    {
+      "id": 230,
+      "q": "Hva var hovedformålet med utskiftingene på 1800-tallet?",
+      "a": "Å samle jorden i mer sammenhengende teiger",
+      "w": ["Å fordele jord mellom fylker", "Å etablere statsjordbruk", "Å bygge nye byer"],
+      "r": 920,
+      "t": ["jordbruk"]
+    },
+    {
+      "id": 231,
+      "q": "Hvor ligger Norges geografiske midtpunkt ifølge Statens kartverk?",
+      "a": "I Steinkjer kommune i Trøndelag",
+      "w": ["I Mosjøen i Nordland", "I Dovre kommune i Innlandet", "I Brønnøysund i Nordland"],
+      "r": 870,
+      "t": ["geografi"]
+    },
+    {
+      "id": 232,
+      "q": "Hva slags metode brukte Statens kartverk for å beregne Norges geografiske midtpunkt?",
+      "a": "En internasjonalt anerkjent metode basert på arealtyngdepunkt",
+      "w": ["Midtpunkt mellom Nordkapp og Lindesnes", "Middelverdi av lengde- og breddegrader", "GPS-beregning av korteste vei mellom ytterpunkter"],
+      "r": 940,
+      "t": ["metode"]
+    },
+    {
+      "id": 233,
+      "q": "Hvilket landskapsvernområde ligger Norges geografiske midtpunkt i?",
+      "a": "Skjækra landskapsvernområde",
+      "w": ["Børgefjell nasjonalpark", "Blåfjella-Skjækerfjella nasjonalpark", "Fongen naturreservat"],
+      "r": 960,
+      "t": ["natur"]
+    },
+    {
+      "id": 234,
+      "q": "Hvilke to innsjøer ligger nær Norges geografiske midtpunkt?",
+      "a": "Mokkavatnet og Lustadvatnet",
+      "w": ["Femunden og Snåsavatnet", "Røssvatnet og Tunnsjøen", "Byavatnet og Selbusjøen"],
+      "r": 950,
+      "t": ["geografi"]
+    },
+    {
+      "id": 235,
+      "q": "Hva markedsfører Brønnøysund seg som i sammenheng med Norges midtpunkt?",
+      "a": "Kystbyen midt i Norge",
+      "w": ["Midtpunktets hovedstad", "Nordlands midtpunkt", "Byen ved 65. breddegrad"],
+      "r": 880,
+      "t": ["regionprofil"]
+    },
+    {
+      "id": 236,
+      "q": "Omtrent hvor stor andel av Norges landareal dekkes av innsjøer?",
+      "a": "Rundt 5 %",
+      "w": ["Omtrent 2 %", "Rundt 8 %", "Cirka 12 %"],
+      "r": 850,
+      "t": ["areal"]
+    },
+    {
+      "id": 237,
+      "q": "Hvor mange innsjøer finnes det omtrent i Norge ifølge registreringer?",
+      "a": "Omtrent 450 000",
+      "w": ["Omtrent 300 000", "Omtrent 600 000", "Omtrent 800 000"],
+      "r": 870,
+      "t": ["antall"]
+    },
+    {
+      "id": 238,
+      "q": "Hva er Norges største innsjø i areal?",
+      "a": "Mjøsa",
+      "w": ["Røssvatnet", "Femunden", "Randsfjorden"],
+      "r": 820,
+      "t": ["størrelse"]
+    },
+    {
+      "id": 239,
+      "q": "Hvilken innsjø er dypest i Europa?",
+      "a": "Hornindalsvatnet",
+      "w": ["Salvatnet", "Tinnsjå", "Mjøsa"],
+      "r": 980,
+      "t": ["dybde"]
+    },
+    {
+      "id": 240,
+      "q": "Hvor dypt er Salvatnet, Norges nest dypeste innsjø?",
+      "a": "Omtrent 464 meter",
+      "w": ["Omtrent 380 meter", "Omtrent 515 meter", "Omtrent 295 meter"],
+      "r": 940,
+      "t": ["dybde"]
+    },
+    {
+      "id": 241,
+      "q": "Hvilken innsjø er den tredje dypeste i Europa?",
+      "a": "Tinnsjå",
+      "w": ["Fyresvatn", "Suldalsvatnet", "Røssvatnet"],
+      "r": 930,
+      "t": ["dybde"]
+    },
+    {
+      "id": 242,
+      "q": "Hvilken innsjø er både Norges største i areal og fjerde dypest i Europa?",
+      "a": "Mjøsa",
+      "w": ["Randsfjorden", "Femunden", "Røssvatnet"],
+      "r": 910,
+      "t": ["rekord"]
+    },
+    {
+      "id": 243,
+      "q": "Hva slags type innsjø er Salvatnet klassifisert som?",
+      "a": "Meromiktisk",
+      "w": ["Eutrof", "Oligotrof", "Dystrof"],
+      "r": 1150,
+      "t": ["limnologi"]
+    },
+    {
+      "id": 244,
+      "q": "Hvor ligger Øvervatnet, en innsjø med deler under havnivå?",
+      "a": "I Fauske, Nordland",
+      "w": ["I Hemsedal, Buskerud", "I Aurland, Vestland", "I Oppdal, Trøndelag"],
+      "r": 880,
+      "t": ["lokasjon"]
+    },
+    {
+      "id": 245,
+      "q": "Hvor mange av de 18 største innsjøene i Norge brukes som reguleringsmagasiner?",
+      "a": "13",
+      "w": ["9", "15", "6"],
+      "r": 970,
+      "t": ["energi"]
+    },
+    {
+      "id": 246,
+      "q": "Hvilken innsjø er Norges nest største i areal?",
+      "a": "Røssvatnet",
+      "w": ["Femunden", "Randsfjorden", "Tyrifjorden"],
+      "r": 870,
+      "t": ["størrelse"]
+    },
+    {
+      "id": 247,
+      "q": "Hvilken innsjø ligger høyest over havet blant de største i Norge?",
+      "a": "Møsvatnet",
+      "w": ["Randsfjorden", "Snåsavatnet", "Norsjø"],
+      "r": 960,
+      "t": ["høyde"]
+    },
+    {
+      "id": 248,
+      "q": "Hvilken innsjø i Telemark er blant Norges største og brukes som reguleringsmagasin?",
+      "a": "Nisser",
+      "w": ["Seljordsvatnet", "Kviteseidvatnet", "Fyresvatn"],
+      "r": 890,
+      "t": ["region"]
+    },
+    {
+      "id": 249,
+      "q": "Hvor dypt er Tinnsjå omtrent?",
+      "a": "460 meter",
+      "w": ["370 meter", "280 meter", "520 meter"],
+      "r": 940,
+      "t": ["dybde"]
+    },
+    {
+      "id": 250,
+      "q": "Hvilken innsjø i Agder og Rogaland er blant de største og høyestliggende i landet?",
+      "a": "Blåsjø",
+      "w": ["Byglandsfjorden", "Suldalsvatnet", "Lygne"],
+      "r": 950,
+      "t": ["energi"]
+    },
+    {
+      "id": 251,
+      "q": "Hvor ligger Norges tredje største innsjø, Femunden?",
+      "a": "Mellom Innlandet og Trøndelag",
+      "w": ["I Nordland", "I Rogaland", "I Vestland"],
+      "r": 850,
+      "t": ["lokasjon"]
+    },
+    {
+      "id": 252,
+      "q": "Hvilken innsjø ligger delvis i både Norge og Sverige og har norsk areal på 84 km²?",
+      "a": "Över-Uman",
+      "w": ["Rogen", "Gresvatnet", "Storrostavatnet"],
+      "r": 1000,
+      "t": ["grensevann"]
+    },
+    {
+      "id": 253,
+      "q": "Hva er omtrent gjennomsnittsdybden i Mjøsa?",
+      "a": "150 meter",
+      "w": ["95 meter", "210 meter", "70 meter"],
+      "r": 860,
+      "t": ["dybde"]
+    },
+    {
+      "id": 254,
+      "q": "Hvilken innsjø i Telemark er kjent for å ha et gjennomsnittlig dyp på over 200 meter?",
+      "a": "Kviteseidvatnet",
+      "w": ["Seljordsvatnet", "Totak", "Norsjø"],
+      "r": 950,
+      "t": ["dybde"]
+    },
+    {
+      "id": 255,
+      "q": "Hva er den største innsjøen på Vestlandet?",
+      "a": "Hornindalsvatnet",
+      "w": ["Jølstravatnet", "Breimsvatnet", "Oppstrynsvatnet"],
+      "r": 880,
+      "t": ["region"]
+    },
+    {
+      "id": 256,
+      "q": "Hvilken innsjø har det største volumet i Norge?",
+      "a": "Mjøsa",
+      "w": ["Røssvatnet", "Tyrifjorden", "Hornindalsvatnet"],
+      "r": 870,
+      "t": ["volum"]
+    },
+    {
+      "id": 257,
+      "q": "Hvor stort er vannvolumet i Mjøsa omtrent?",
+      "a": "56 km³",
+      "w": ["42 km³", "63 km³", "33 km³"],
+      "r": 900,
+      "t": ["volum"]
+    },
+    {
+      "id": 258,
+      "q": "Hvilken innsjø har nest størst volum etter regulering?",
+      "a": "Røssvatnet",
+      "w": ["Tyrifjorden", "Femunden", "Blåsjø"],
+      "r": 910,
+      "t": ["volum"]
+    },
+    {
+      "id": 259,
+      "q": "Hvilken innsjø i Nordland har største magasinkapasitet målt i lagret energi?",
+      "a": "Blåsjø",
+      "w": ["Storglomvatnet", "Balvatnet", "Røssvatnet"],
+      "r": 940,
+      "t": ["kraft"]
+    },
+    {
+      "id": 260,
+      "q": "Hvilken innsjø har omtrent 7,3 km³ vannvolum og ligger i Innlandet?",
+      "a": "Randsfjorden",
+      "w": ["Storsjøen", "Tyrifjorden", "Norsjø"],
+      "r": 880,
+      "t": ["volum"]
+    },
+    {
+      "id": 261,
+      "q": "Hva er Norges høyeste fjell?",
+      "a": "Galdhøpiggen",
+      "w": ["Glittertinden", "Store Skagastølstind", "Snøhetta"],
+      "r": 830,
+      "t": ["fjell"]
+    },
+    {
+      "id": 262,
+      "q": "Hvor høyt er Galdhøpiggen over havet?",
+      "a": "2 469 meter",
+      "w": ["2 452 meter", "2 465 meter", "2 455 meter"],
+      "r": 870,
+      "t": ["høyde"]
+    },
+    {
+      "id": 263,
+      "q": "Hva er Norges nest høyeste fjell?",
+      "a": "Glittertinden",
+      "w": ["Store Skagastølstind", "Store Styggedalstind", "Snøhetta"],
+      "r": 880,
+      "t": ["fjell"]
+    },
+    {
+      "id": 264,
+      "q": "I hvilket fjellområde ligger Galdhøpiggen?",
+      "a": "Jotunheimen",
+      "w": ["Rondane", "Dovrefjell", "Breheimen"],
+      "r": 850,
+      "t": ["område"]
+    },
+    {
+      "id": 265,
+      "q": "Hvilket fjell er høyest i Vestland fylke?",
+      "a": "Store Skagastølstind",
+      "w": ["Store Styggedalstind", "Gjertvasstind", "Fannaråki"],
+      "r": 920,
+      "t": ["region"]
+    },
+    {
+      "id": 266,
+      "q": "Hva er høyden til Glittertinden, Norges nest høyeste fjell?",
+      "a": "2 452 meter",
+      "w": ["2 469 meter", "2 405 meter", "2 373 meter"],
+      "r": 870,
+      "t": ["høyde"]
+    },
+    {
+      "id": 267,
+      "q": "Hvilket fjell er høyest utenfor Jotunheimen?",
+      "a": "Snøhetta",
+      "w": ["Rondslottet", "Gaustatoppen", "Lodalskåpa"],
+      "r": 890,
+      "t": ["område"]
+    },
+    {
+      "id": 268,
+      "q": "I hvilket fylke ligger Galdhøpiggen?",
+      "a": "Innlandet",
+      "w": ["Vestland", "Trøndelag", "Møre og Romsdal"],
+      "r": 830,
+      "t": ["fylke"]
+    },
+    {
+      "id": 269,
+      "q": "Hva er Norges tredje høyeste fjell?",
+      "a": "Store Skagastølstind",
+      "w": ["Store Styggedalstind", "Gjertvasstind", "Snøhetta"],
+      "r": 870,
+      "t": ["fjell"]
+    },
+    {
+      "id": 270,
+      "q": "Hva kalles fjellområdet hvor Glittertinden ligger?",
+      "a": "Jotunheimen",
+      "w": ["Rondane", "Hardangervidda", "Setesdalsheiene"],
+      "r": 830,
+      "t": ["område"]
+    },
+    {
+      "id": 271,
+      "q": "Hvilket fjell er høyest på Dovrefjell?",
+      "a": "Snøhetta",
+      "w": ["Høgvagltind", "Rondslottet", "Hestbrepigg"],
+      "r": 900,
+      "t": ["område"]
+    },
+    {
+      "id": 272,
+      "q": "Hvilket fjell er kjent som «Storen» blant fjellklatrere?",
+      "a": "Store Skagastølstind",
+      "w": ["Gjertvasstind", "Falketind", "Storebjørn"],
+      "r": 910,
+      "t": ["kallenavn"]
+    },
+    {
+      "id": 273,
+      "q": "Hvor mange fjell i Norge rager over 2 000 meter over havet?",
+      "a": "Over 300",
+      "w": ["Rundt 150", "Omtrent 50", "Under 100"],
+      "r": 950,
+      "t": ["antall"]
+    },
+    {
+      "id": 274,
+      "q": "Hvilket fjell er høyest i Rondane nasjonalpark?",
+      "a": "Rondslottet",
+      "w": ["Storronden", "Høgronden", "Digerronden"],
+      "r": 910,
+      "t": ["område"]
+    },
+    {
+      "id": 275,
+      "q": "Hva er høyden til Snøhetta?",
+      "a": "2 286 meter",
+      "w": ["2 373 meter", "2 405 meter", "2 240 meter"],
+      "r": 860,
+      "t": ["høyde"]
+    },
+    {
+      "id": 276,
+      "q": "I hvilket fylke ligger fjellet Storebjørn?",
+      "a": "Innlandet",
+      "w": ["Vestland", "Møre og Romsdal", "Trøndelag"],
+      "r": 880,
+      "t": ["fylke"]
+    },
+    {
+      "id": 277,
+      "q": "Hva heter Norges høyeste fjell som ikke ligger i Jotunheimen eller Dovrefjell?",
+      "a": "Rondslottet",
+      "w": ["Lodalskåpa", "Romsdalshorn", "Gaustatoppen"],
+      "r": 930,
+      "t": ["område"]
+    },
+    {
+      "id": 278,
+      "q": "Hvilket fjell er høyest i Hardangerområdet?",
+      "a": "Hardangerjøkulen",
+      "w": ["Folgefonna", "Blåisen", "Trolltinden"],
+      "r": 920,
+      "t": ["region"]
+    },
+    {
+      "id": 279,
+      "q": "Hva heter fjellet som tidligere ble målt høyere enn Galdhøpiggen på grunn av isbreen?",
+      "a": "Glittertinden",
+      "w": ["Storebjørn", "Falketind", "Surtningssue"],
+      "r": 940,
+      "t": ["historie"]
+    },
+    {
+      "id": 280,
+      "q": "Hvilket fjell er høyest i Nord-Norge?",
+      "a": "Oksskolten",
+      "w": ["Jiehkkevárri", "Suliskongen", "Store Lenangstind"],
+      "r": 950,
+      "t": ["region"]
+    },
+    {
+      "id": 281,
+      "q": "I hvilket fylke ligger Oksskolten?",
+      "a": "Nordland",
+      "w": ["Troms", "Finnmark", "Trøndelag"],
+      "r": 870,
+      "t": ["fylke"]
+    },
+    {
+      "id": 282,
+      "q": "Hva er høyden til fjellet Oksskolten?",
+      "a": "1 916 meter",
+      "w": ["1 892 meter", "1 944 meter", "1 899 meter"],
+      "r": 870,
+      "t": ["høyde"]
+    },
+    {
+      "id": 283,
+      "q": "Hva er Norges høyeste topp på Svalbard?",
+      "a": "Newtontoppen",
+      "w": ["Perriertoppen", "Halvdanpiggen", "Håkon VII Toppen"],
+      "r": 970,
+      "t": ["svalbard"]
+    },
+    {
+      "id": 284,
+      "q": "Hva er høyden til Glittertinden inkludert isbreen?",
+      "a": "2 481 meter",
+      "w": ["2 469 meter", "2 455 meter", "2 460 meter"],
+      "r": 900,
+      "t": ["historie"]
+    },
+    {
+      "id": 285,
+      "q": "Hva heter fjellet som har kallenavnet «Dronningen av Jotunheimen»?",
+      "a": "Falketind",
+      "w": ["Gjertvasstind", "Surtningssue", "Storebjørn"],
+      "r": 930,
+      "t": ["kallenavn"]
+    },
+    {
+      "id": 286,
+      "q": "Hvilket fjell ligger på grensen mellom Lom og Luster kommuner?",
+      "a": "Storebjørn",
+      "w": ["Falketind", "Stetind", "Hurrungane"],
+      "r": 910,
+      "t": ["geografi"]
+    },
+    {
+      "id": 287,
+      "q": "Hva heter Norges høyeste frittstående fjell (ikke del av en fjellkjede)?",
+      "a": "Snøhetta",
+      "w": ["Rondslottet", "Galdhøpiggen", "Hestbrepigg"],
+      "r": 940,
+      "t": ["geografi"]
+    },
+    {
+      "id": 288,
+      "q": "I hvilket fjellområde finner man Store Styggedalstind?",
+      "a": "Hurrungane",
+      "w": ["Breheimen", "Rondane", "Dovrefjell"],
+      "r": 930,
+      "t": ["område"]
+    },
+    {
+      "id": 289,
+      "q": "Hvilket fjell er kjent som høyeste topp i Sunndal kommune?",
+      "a": "Storskrymten",
+      "w": ["Trolltinden", "Innerdalstårnet", "Snøhetta"],
+      "r": 950,
+      "t": ["region"]
+    },
+    {
+      "id": 290,
+      "q": "Hvilket fjell er kjent som «nasjonalfjellet» i Norge?",
+      "a": "Stetind",
+      "w": ["Snøhetta", "Gaustatoppen", "Falketind"],
+      "r": 880,
+      "t": ["symbol"]
+    },
+    {
+      "id": 291,
+      "q": "Hva er Norges eldste bergarter, som er omkring 2,7 milliarder år gamle?",
+      "a": "Gneis i Finnmark og Lofoten",
+      "w": ["Sandstein i Trøndelag", "Basalt i Oslofeltet", "Skifer på Sørlandet"],
+      "r": 960,
+      "t": ["geologi"]
+    },
+    {
+      "id": 292,
+      "q": "Hva kalles den store fjellkjeden som strekker seg langs hele Skandinavia?",
+      "a": "Den skandinaviske fjellkjede",
+      "w": ["Alpane", "Appalachene", "De norske høyfjell"],
+      "r": 890,
+      "t": ["fjellkjede"]
+    },
+    {
+      "id": 293,
+      "q": "Hva heter Norges eneste aktive vulkan?",
+      "a": "Beerenberg på Jan Mayen",
+      "w": ["Gaustatoppen", "Okstindan", "Galdhøpiggen"],
+      "r": 910,
+      "t": ["vulkan"]
+    },
+    {
+      "id": 294,
+      "q": "Hvor dypt kan permafrosten på Svalbard være?",
+      "a": "Flere hundre meter",
+      "w": ["Maks 10 meter", "Omtrent 50 meter", "Bare noen få meter"],
+      "r": 970,
+      "t": ["permafrost"]
+    },
+    {
+      "id": 295,
+      "q": "Hva var Norges kraftigste jordskjelv målt noensinne?",
+      "a": "Jan Mayen-skjelvet i 2018 (styrke 6,8)",
+      "w": ["Osloskjelvet 1904", "Helgelandsskjelvet 1819", "Svalbardskjelvet 2008"],
+      "r": 950,
+      "t": ["jordskjelv"]
+    },
+    {
+      "id": 296,
+      "q": "Hva er strandflaten i Norge?",
+      "a": "Et lavt og flatt kystområde med øyer og holmer",
+      "w": ["Et høyt fjellplatå", "En type bre", "En vulkansk slette"],
+      "r": 860,
+      "t": ["landformer"]
+    },
+    {
+      "id": 297,
+      "q": "Hvilken prosess skaper U-formede daler?",
+      "a": "Erosjon fra isbreer",
+      "w": ["Erosjon fra elver", "Vindsliping", "Jordskjelvaktivitet"],
+      "r": 880,
+      "t": ["landformer"]
+    },
+    {
+      "id": 298,
+      "q": "Hva kalles den store endemorenen som går tvers over Sør-Norge?",
+      "a": "Raet",
+      "w": ["Jæren", "Hardangervidda", "Dovrefjell"],
+      "r": 920,
+      "t": ["morene"]
+    },
+    {
+      "id": 299,
+      "q": "Hva består morenemateriale hovedsakelig av?",
+      "a": "En blanding av leire, sand, stein og blokker",
+      "w": ["Kun sand", "Kun leire", "Kun store steiner"],
+      "r": 880,
+      "t": ["geologi"]
+    },
+    {
+      "id": 300,
+      "q": "Hva er den kaledonske fjellkjede et resultat av?",
+      "a": "Sammenstøt mellom kontinenter i oldtiden",
+      "w": ["Vulkanutbrudd i nyere tid", "Isbreers erosjon", "Vindavsetninger"],
+      "r": 950,
+      "t": ["fjellkjede"]
+    },
+    {
+      "id": 301,
+      "q": "Hva er typisk for daler på Vestlandet?",
+      "a": "Bratte U-daler og fjorder med stupbratte sider",
+      "w": ["Slake V-daler", "Flate elvesletter", "Sanddyner"],
+      "r": 890,
+      "t": ["landskap"]
+    },
+    {
+      "id": 302,
+      "q": "Hva kalles små restfjell som stikker opp fra strandflaten, som Torghatten?",
+      "a": "Rauk",
+      "w": ["Nunatak", "Sanddyne", "Fjord"],
+      "r": 870,
+      "t": ["landformer"]
+    },
+    {
+      "id": 303,
+      "q": "Hva er den dominerende bergarten i Oslofeltet?",
+      "a": "Rombeporfyr",
+      "w": ["Granitt", "Gneis", "Kalkstein"],
+      "r": 910,
+      "t": ["berggrunn"]
+    },
+    {
+      "id": 304,
+      "q": "Hvilken fjellformasjon utgjør restene av den kaledonske fjellkjede?",
+      "a": "Den norske fjellkjeden",
+      "w": ["Alpane", "Uralfjellene", "Himalaya"],
+      "r": 880,
+      "t": ["fjell"]
+    },
+    {
+      "id": 305,
+      "q": "Hva kalles lagdelte grotter dannet i kalkstein?",
+      "a": "Karstlandskap",
+      "w": ["Basaltslette", "Morenedal", "Permafrosthule"],
+      "r": 900,
+      "t": ["geologi"]
+    },
+    {
+      "id": 306,
+      "q": "Hva er den største sammenhengende fjellvidda i Norge?",
+      "a": "Hardangervidda",
+      "w": ["Finnmarksvidda", "Rondane", "Dovrefjell"],
+      "r": 850,
+      "t": ["fjellvidde"]
+    },
+    {
+      "id": 307,
+      "q": "Hvilken landform er typisk for Østlandet?",
+      "a": "Lange, slake U-daler med skogkledde åser",
+      "w": ["Bratte alpine fjell", "Sanddyner", "Vulkanområder"],
+      "r": 870,
+      "t": ["landskap"]
+    },
+    {
+      "id": 308,
+      "q": "Hvor ligger Norges geografiske midtpunkt?",
+      "a": "Steinkjer",
+      "w": ["Røros", "Bodø", "Hamar"],
+      "r": 860,
+      "t": ["geografi"]
+    },
+    {
+      "id": 309,
+      "q": "Hva er blokkmark (blokkhav)?",
+      "a": "Område med steinblokker dannet ved frostsprenging",
+      "w": ["Elveavsetning", "Sanddynefelt", "Basaltslette"],
+      "r": 880,
+      "t": ["landformer"]
+    },
+    {
+      "id": 310,
+      "q": "Hva var årsaken til at Norge ble et fjelland igjen etter tertiærtiden?",
+      "a": "Heving av landblokken mot vest",
+      "w": ["Vulkanutbrudd", "Meteorittnedslag", "Havstigning"],
+      "r": 950,
+      "t": ["dannelse"]
+    },
+    {
+      "id": 311,
+      "q": "Hva kalles fjell som stakk opp gjennom isdekket under istiden?",
+      "a": "Nunatakker",
+      "w": ["Rauker", "Tinder", "Vidder"],
+      "r": 920,
+      "t": ["istid"]
+    },
+    {
+      "id": 312,
+      "q": "Hva heter den geologiske formasjonen der Oslo ligger?",
+      "a": "Oslofeltet",
+      "w": ["Raet", "Scandes", "Devonbeltet"],
+      "r": 860,
+      "t": ["geologi"]
+    },
+    {
+      "id": 313,
+      "q": "Hva dannet fjordene i Norge?",
+      "a": "Isbreers erosjon under istidene",
+      "w": ["Elverosjon", "Vind og regn", "Jordskjelv"],
+      "r": 850,
+      "t": ["fjorder"]
+    },
+    {
+      "id": 314,
+      "q": "Hvilken periode begynte istidene som formet Norge for alvor?",
+      "a": "Kvartærtiden",
+      "w": ["Tertiærtiden", "Devontiden", "Kambrium"],
+      "r": 880,
+      "t": ["istid"]
+    },
+    {
+      "id": 315,
+      "q": "Hva heter den store vidda i nord med høyfjellsklima?",
+      "a": "Finnmarksvidda",
+      "w": ["Hardangervidda", "Setesdalsheiene", "Dovrefjell"],
+      "r": 850,
+      "t": ["vidde"]
+    },
+    {
+      "id": 316,
+      "q": "Hva er typisk for Norges kystlinje?",
+      "a": "Fjordkyst med mange øyer og holmer",
+      "w": ["Sandkyst", "Koralldekket kyst", "Mangroveskog"],
+      "r": 860,
+      "t": ["kyst"]
+    },
+    {
+      "id": 317,
+      "q": "Hva er hovedårsaken til Norges dype fjorder?",
+      "a": "Isbreenes nedskuring under istidene",
+      "w": ["Havstigning", "Jordskjelv", "Vind"],
+      "r": 880,
+      "t": ["fjorder"]
+    },
+    {
+      "id": 318,
+      "q": "Hva er Grønnligrotten kjent for?",
+      "a": "Kalksteinsgrotte i Rana",
+      "w": ["Basalthule på Svalbard", "Isgrotte i Jotunheimen", "Lavahule på Jan Mayen"],
+      "r": 890,
+      "t": ["grotte"]
+    },
+    {
+      "id": 319,
+      "q": "Hva er forskjellen mellom V-daler og U-daler?",
+      "a": "V-daler er dannet av elver, U-daler av isbreer",
+      "w": ["U-daler av vind, V-daler av is", "U-daler av elver, V-daler av breer", "Begge av vulkaner"],
+      "r": 900,
+      "t": ["daler"]
+    },
+    {
+      "id": 320,
+      "q": "Hva skjedde med landet etter istiden?",
+      "a": "Landhevning på opptil 220 meter",
+      "w": ["Landet sank under havet", "Kysten ble flatere", "Fjellene ble lavere"],
+      "r": 880,
+      "t": ["landhevning"]
     }
   ]
 }
-
