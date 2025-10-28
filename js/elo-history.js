@@ -3,12 +3,14 @@ class ELOHistory {
         this.eloHistory = this.loadELOHistory();
         this.playerStats = this.loadPlayerStats();
         this.currentELO = this.loadELO();
+        this.eloChart = null;
         
         this.init();
     }
     
     init() {
         this.updateStats();
+        this.createELOChart();
         this.populateHistoryList();
     }
     
@@ -49,6 +51,122 @@ class ELOHistory {
         document.getElementById('currentELO').textContent = `ELO ${currentELO}`;
     }
     
+    createELOChart() {
+        const ctx = document.getElementById('eloChart').getContext('2d');
+        
+        // Destroy existing chart if it exists
+        if (this.eloChart) {
+            this.eloChart.destroy();
+        }
+        
+        if (this.eloHistory.length === 0) {
+            // Show empty state
+            ctx.fillStyle = '#6c757d';
+            ctx.font = '16px Inter';
+            ctx.textAlign = 'center';
+            ctx.fillText('Ingen ELO data tilgjengelig', ctx.canvas.width / 2, ctx.canvas.height / 2);
+            return;
+        }
+        
+        // Prepare data
+        const labels = this.eloHistory.map(point => point.questionNumber);
+        const eloData = this.eloHistory.map(point => point.elo);
+        const correctData = this.eloHistory.map(point => point.isCorrect ? point.elo : null);
+        const incorrectData = this.eloHistory.map(point => !point.isCorrect ? point.elo : null);
+        
+        this.eloChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'ELO Rating',
+                        data: eloData,
+                        borderColor: '#007bff',
+                        backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.1,
+                        pointRadius: 3,
+                        pointHoverRadius: 5
+                    },
+                    {
+                        label: 'Correct Answers',
+                        data: correctData,
+                        borderColor: '#28a745',
+                        backgroundColor: 'rgba(40, 167, 69, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        showLine: false
+                    },
+                    {
+                        label: 'Incorrect Answers',
+                        data: incorrectData,
+                        borderColor: '#dc3545',
+                        backgroundColor: 'rgba(220, 53, 69, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        showLine: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'ELO Progression Over Time',
+                        font: {
+                            size: 16,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Question Number',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            color: '#e0e0e0'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'ELO Rating',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            color: '#e0e0e0'
+                        },
+                        min: Math.max(800, Math.min(...eloData) - 50),
+                        max: Math.max(...eloData) + 50
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                }
+            }
+        });
+    }
+    
     populateHistoryList() {
         const historyList = document.getElementById('historyList');
         
@@ -57,8 +175,8 @@ class ELOHistory {
             return;
         }
         
-        // Sort by question number (chronological order)
-        const sortedHistory = [...this.eloHistory].sort((a, b) => a.questionNumber - b.questionNumber);
+        // Sort by question number (reverse chronological order - newest first)
+        const sortedHistory = [...this.eloHistory].sort((a, b) => b.questionNumber - a.questionNumber);
         
         historyList.innerHTML = sortedHistory.map(item => {
             const eloChangeClass = item.eloChange >= 0 ? 'positive' : 'negative';

@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div id="container">
@@ -15,7 +16,6 @@
             <div class="left-dropdown">
                 <a href="index.html" class="topbutton hamburger">
                     <span class="hamburger-icon">←</span>
-                    <span class="category-text">Tilbake</span>
                 </a>
             </div>
             <div class="right-buttons">
@@ -42,7 +42,18 @@
                 </div>
             </div>
             
+            <div class="chart-section">
+                <h2>ELO Progression</h2>
+                <div class="chart-container">
+                    <canvas id="eloChart" width="800" height="400"></canvas>
+                </div>
+            </div>
+            
             <div class="history-content">
+                <div class="history-list-header">
+                    <h3>Spørsmål Historikk</h3>
+                    <p class="history-note">Nyeste spørsmål øverst</p>
+                </div>
                 <div class="history-list" id="historyList">
                     <div class="no-history">Laster historikk...</div>
                 </div>

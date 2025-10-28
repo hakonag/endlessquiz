@@ -2,7 +2,7 @@
   "version": "1.0",
   "category": "Geografi",
   "metadata": {
-    "totalQuestions": 580,
+    "totalQuestions": 630,
     "difficultyRange": {
       "min": 761,
       "max": 2155
@@ -1424,10 +1424,6 @@
       "t": [
         "ytterpunkter"
       ]
-      "a": "Hoybergodden",
-      "w": ["Vardetangen", "Utvær fyr", "Holmebåen"],
-      "r": 910,
-      "t": ["ytterpunkter"]
     },
     {
       "id": 103,
@@ -7966,10 +7962,6 @@
       "t": [
         "natur"
       ]
-      "a": "ca. 93 %",
-      "w": ["ca. 50 %", "ca. 70 %", "ca. 20 %"],
-      "r": 920,
-      "t": ["natur"]
     },
     {
       "id": 607,
@@ -7998,10 +7990,6 @@
       "t": [
         "geografi"
       ]
-      "a": "ca. 49 km²",
-      "w": ["ca. 156 km²", "ca. 2 700 000 km²", "ca. 310 km²"],
-      "r": 850,
-      "t": ["geografi"]
     },
     {
       "id": 609,
@@ -8072,10 +8060,6 @@
       "t": [
         "geografi"
       ]
-      "a": "ca. 450 km",
-      "w": ["ca. 2200 km", "ca. 120 km", "ca. 900 km"],
-      "r": 890,
-      "t": ["geografi"]
     },
     {
       "id": 614,
@@ -8258,10 +8242,6 @@
       "t": [
         "geografi"
       ]
-      "a": "ca. 2200 km",
-      "w": ["ca. 450 km", "ca. 1100 km", "ca. 3000 km"],
-      "r": 870,
-      "t": ["geografi"]
     },
     {
       "id": 627,
