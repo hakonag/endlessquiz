@@ -66,23 +66,16 @@
     {
       "id": 4,
       "q": "Hvor stor del av Norge ligger nord for polarsirkelen?",
-<<<<<<< Updated upstream
       "a": "Omtrent en tredjedel",
       "w": [
         "Omtrent halvparten",
         "En fjerdedel",
         "Nesten hele landet"
       ],
-      "r": 968,
+      "r": 970,
       "t": [
         "klima"
       ]
-=======
-      "a": "ca. en tredjedel",
-      "w": ["ca. halvparten", "ca. en fjerdedel", "nesten hele landet"],
-      "r": 970,
-      "t": ["klima"]
->>>>>>> Stashed changes
     },
     {
       "id": 5,
@@ -423,23 +416,10 @@
     {
       "id": 29,
       "q": "Hvor ligger Svalbard i forhold til fastlands-Norge?",
-<<<<<<< Updated upstream
-      "a": "Omtrent 1000 km nord for fastlandet",
-      "w": [
-        "500 km nord",
-        "1500 km vest",
-        "2000 km øst"
-      ],
-      "r": 1166,
-      "t": [
-        "arktis"
-      ]
-=======
       "a": "ca. 1000 km nord",
       "w": ["ca. 500 km nord", "ca. 1500 km vest", "ca. 2000 km øst"],
       "r": 970,
       "t": ["arktis"]
->>>>>>> Stashed changes
     },
     {
       "id": 30,
@@ -640,23 +620,10 @@
     {
       "id": 44,
       "q": "Hvor stor del av Norges landareal består av fjell og vidde?",
-<<<<<<< Updated upstream
-      "a": "Omtrent 70 %",
-      "w": [
-        "Omtrent 30 %",
-        "Omtrent 50 %",
-        "Omtrent 85 %"
-      ],
-      "r": 1201,
-      "t": [
-        "topografi"
-      ]
-=======
       "a": "ca. 70 %",
       "w": ["ca. 30 %", "ca. 50 %", "ca. 85 %"],
       "r": 1070,
       "t": ["topografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 45,
@@ -815,23 +782,10 @@
     {
       "id": 56,
       "q": "Hvor mange prosent av Norge er dekket av skog?",
-<<<<<<< Updated upstream
-      "a": "Omtrent 38 %",
-      "w": [
-        "Omtrent 25 %",
-        "Omtrent 50 %",
-        "Omtrent 60 %"
-      ],
-      "r": 1223,
-      "t": [
-        "natur"
-      ]
-=======
       "a": "ca. 38 %",
       "w": ["ca. 25 %", "ca. 50 %", "ca. 60 %"],
       "r": 1100,
       "t": ["natur"]
->>>>>>> Stashed changes
     },
     {
       "id": 57,
@@ -1452,28 +1406,14 @@
     {
       "id": 101,
       "q": "Hva er Norges nordligste punkt (Kongeriket Norge)?",
-<<<<<<< Updated upstream
-      "a": "Rossøya (Sjuøyane, Svalbard)",
-      "w": [
-        "Kinnarodden (Finnmark)",
-        "Knivskjelodden (Magerøya)",
-        "Nordkapp (Magerøya)"
-      ],
-      "r": 1290,
-      "t": [
-        "ytterpunkter"
-      ]
-=======
       "a": "Rossøya",
       "w": ["Kinnarodden", "Knivskjelodden", "Nordkapp"],
       "r": 840,
       "t": ["ytterpunkter"]
->>>>>>> Stashed changes
     },
     {
       "id": 102,
       "q": "Hva er Norges vestligste punkt (Kongeriket Norge)?",
-<<<<<<< Updated upstream
       "a": "Hoybergodden (Jan Mayen)",
       "w": [
         "Vardetangen (Austrheim)",
@@ -1484,17 +1424,14 @@
       "t": [
         "ytterpunkter"
       ]
-=======
       "a": "Hoybergodden",
       "w": ["Vardetangen", "Utvær fyr", "Holmebåen"],
       "r": 910,
       "t": ["ytterpunkter"]
->>>>>>> Stashed changes
     },
     {
       "id": 103,
       "q": "Hva er Norges sørligste punkt på norsk jord?",
-<<<<<<< Updated upstream
       "a": "Pysen (Lindesnes)",
       "w": [
         "Lindesnes fyr (Lindesnes)",
@@ -1505,17 +1442,14 @@
       "t": [
         "ytterpunkter"
       ]
-=======
       "a": "Pysen",
       "w": ["Lindesnes fyr", "Lista", "Eigerøya"],
       "r": 760,
       "t": ["ytterpunkter"]
->>>>>>> Stashed changes
     },
     {
       "id": 104,
       "q": "Hva er Norges østligste punkt (Kongeriket Norge)?",
-<<<<<<< Updated upstream
       "a": "Kræmerpynten (Kvitøya, Svalbard)",
       "w": [
         "Kibergsneset (Vardø)",
@@ -1526,17 +1460,14 @@
       "t": [
         "ytterpunkter"
       ]
-=======
       "a": "Kræmerpynten",
       "w": ["Kibergsneset", "Hornøya", "Elvenes"],
       "r": 880,
       "t": ["ytterpunkter"]
->>>>>>> Stashed changes
     },
     {
       "id": 105,
       "q": "Største avstand nord–sør i Norge (Kongeriket) er omtrent:",
-<<<<<<< Updated upstream
       "a": "2 636 km (Lindesnes–Kvitøya)",
       "w": [
         "1 813 km (Lista–Hornøya)",
@@ -1547,17 +1478,14 @@
       "t": [
         "avstander"
       ]
-=======
       "a": "ca. 2636 km",
       "w": ["ca. 1813 km", "ca. 432 km", "ca. 210 km"],
       "r": 1050,
       "t": ["avstander"]
->>>>>>> Stashed changes
     },
     {
       "id": 106,
       "q": "Hvor er Norge på sitt smaleste (bredde)?",
-<<<<<<< Updated upstream
       "a": "Elvenes (Sør-Varanger)",
       "w": [
         "Kiberg (Vardø)",
@@ -1568,17 +1496,14 @@
       "t": [
         "avstander"
       ]
-=======
       "a": "Elvenes",
       "w": ["Kiberg", "Skibotn", "Tana bru"],
       "r": 980,
       "t": ["avstander"]
->>>>>>> Stashed changes
     },
     {
       "id": 107,
       "q": "Hvor ligger Norges geografiske midtpunkt?",
-<<<<<<< Updated upstream
       "a": "Steinkjer (Trøndelag)",
       "w": [
         "Oppdal (Trøndelag)",
@@ -1589,17 +1514,14 @@
       "t": [
         "geografi"
       ]
-=======
       "a": "Steinkjer",
       "w": ["Oppdal", "Røros", "Hattfjelldal"],
       "r": 750,
       "t": ["geografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 108,
       "q": "Vestligste punkt på Fastlands-Norge er:",
-<<<<<<< Updated upstream
       "a": "Vardetangen (Austrheim)",
       "w": [
         "Utvær fyr (Solund)",
@@ -1610,17 +1532,14 @@
       "t": [
         "fastlands-norge"
       ]
-=======
       "a": "Vardetangen",
       "w": ["Utvær fyr", "Holmebåen", "Hellesøy"],
       "r": 860,
       "t": ["fastlands-norge"]
->>>>>>> Stashed changes
     },
     {
       "id": 109,
       "q": "Nordligste punkt på Fastlands-Norge er:",
-<<<<<<< Updated upstream
       "a": "Kinnarodden (Gamvik)",
       "w": [
         "Nordkapp (Magerøya)",
@@ -1631,17 +1550,14 @@
       "t": [
         "fastlands-norge"
       ]
-=======
       "a": "Kinnarodden",
       "w": ["Nordkapp", "Knivskjelodden", "Rossøya"],
       "r": 800,
       "t": ["fastlands-norge"]
->>>>>>> Stashed changes
     },
     {
       "id": 110,
       "q": "Østligste punkt på Fastlands-Norge er:",
-<<<<<<< Updated upstream
       "a": "Kibergsneset (Vardø)",
       "w": [
         "Hornøya (Vardø)",
@@ -1652,17 +1568,14 @@
       "t": [
         "fastlands-norge"
       ]
-=======
       "a": "Kibergsneset",
       "w": ["Hornøya", "Elvenes", "Vardetangen"],
       "r": 880,
       "t": ["fastlands-norge"]
->>>>>>> Stashed changes
     },
     {
       "id": 111,
       "q": "Sørligste punkt på Fastlands-Norge er:",
-<<<<<<< Updated upstream
       "a": "Lindesnes (Lindesnes)",
       "w": [
         "Lista (Farsund)",
@@ -1673,17 +1586,14 @@
       "t": [
         "fastlands-norge"
       ]
-=======
       "a": "Lindesnes",
       "w": ["Lista", "Mandal", "Egersund"],
       "r": 760,
       "t": ["fastlands-norge"]
->>>>>>> Stashed changes
     },
     {
       "id": 112,
       "q": "Nordligste punkt når Fastlands-Norge med øyer og skjær medregnes:",
-<<<<<<< Updated upstream
       "a": "Knivskjelodden (Nordkapp)",
       "w": [
         "Kinnarodden (Gamvik)",
@@ -1694,17 +1604,14 @@
       "t": [
         "fastlands-norge med øyer"
       ]
-=======
       "a": "Knivskjelodden",
       "w": ["Kinnarodden", "Nordkapp-platået", "Hornøya"],
       "r": 920,
       "t": ["fastlands-norge med øyer"]
->>>>>>> Stashed changes
     },
     {
       "id": 113,
       "q": "Vestligste punkt når Fastlands-Norge med øyer og skjær medregnes:",
-<<<<<<< Updated upstream
       "a": "Holmebåen (ved Utvær fyr, Solund)",
       "w": [
         "Vardetangen (Austrheim)",
@@ -1715,17 +1622,14 @@
       "t": [
         "fastlands-norge med øyer"
       ]
-=======
       "a": "Holmebåen",
       "w": ["Vardetangen", "Fedje", "Bømlo"],
       "r": 930,
       "t": ["fastlands-norge med øyer"]
->>>>>>> Stashed changes
     },
     {
       "id": 114,
       "q": "Østligste punkt når Fastlands-Norge med øyer og skjær medregnes:",
-<<<<<<< Updated upstream
       "a": "Hornøya (utenfor Vardø)",
       "w": [
         "Kræmerpynten (Kvitøya)",
@@ -1736,17 +1640,14 @@
       "t": [
         "fastlands-norge med øyer"
       ]
-=======
       "a": "Hornøya",
       "w": ["Kræmerpynten", "Kibergsneset", "Kinnarodden"],
       "r": 880,
       "t": ["fastlands-norge med øyer"]
->>>>>>> Stashed changes
     },
     {
       "id": 115,
       "q": "Hva er Norges sørligste øy (innenfor riket)?",
-<<<<<<< Updated upstream
       "a": "Pysen (Lindesnes)",
       "w": [
         "Skjernøy (Lindesnes)",
@@ -1757,12 +1658,10 @@
       "t": [
         "øyer"
       ]
-=======
       "a": "Pysen",
       "w": ["Skjernøy", "Hidra", "Hvaler"],
       "r": 760,
       "t": ["øyer"]
->>>>>>> Stashed changes
     },
     {
       "id": 116,
@@ -1781,7 +1680,6 @@
     {
       "id": 117,
       "q": "Vestligste punkt når biland tas med er:",
-<<<<<<< Updated upstream
       "a": "Peter I Øy (Antarktis)",
       "w": [
         "Hoybergodden (Jan Mayen)",
@@ -1792,17 +1690,14 @@
       "t": [
         "biland"
       ]
-=======
       "a": "Peter I Øy",
       "w": ["Hoybergodden", "Bouvetøya", "Prinsesse Ragnhild Kyst"],
       "r": 1120,
       "t": ["biland"]
->>>>>>> Stashed changes
     },
     {
       "id": 118,
       "q": "Sørligste punkt når biland tas med er:",
-<<<<<<< Updated upstream
       "a": "Polpunktet (Sydpolen), Dronning Maud Land",
       "w": [
         "Sørspissen av Bouvetøya",
@@ -1813,17 +1708,14 @@
       "t": [
         "biland"
       ]
-=======
       "a": "Polpunktet",
       "w": ["Sørspissen av Bouvetøya", "Peter I Øy", "Sørkapp"],
       "r": 1140,
       "t": ["biland"]
->>>>>>> Stashed changes
     },
     {
       "id": 119,
       "q": "Østligste punkt når biland tas med er:",
-<<<<<<< Updated upstream
       "a": "Grensen mot Australias Antarktisterritorium (Dronning Maud Land)",
       "w": [
         "Kræmerpynten på Kvitøya (Svalbard)",
@@ -1834,17 +1726,14 @@
       "t": [
         "biland"
       ]
-=======
       "a": "Grensen mot Australias Antarktisterritorium",
       "w": ["Kræmerpynten på Kvitøya", "Kibergsneset på Varangerhalvøya", "Hornøya utenfor Vardø"],
       "r": 1180,
       "t": ["biland"]
->>>>>>> Stashed changes
     },
     {
       "id": 120,
       "q": "Største avstand på Fastlands-Norge er mellom:",
-<<<<<<< Updated upstream
       "a": "Lista (Farsund) og Hornøya (Vardø)",
       "w": [
         "Lindesnes og Nordkapp",
@@ -1855,17 +1744,14 @@
       "t": [
         "avstander"
       ]
-=======
       "a": "Lista og Hornøya",
       "w": ["Lindesnes og Nordkapp", "Egersund og Kibergsneset", "Vardetangen og Kinnarodden"],
       "r": 970,
       "t": ["avstander"]
->>>>>>> Stashed changes
     },
     {
       "id": 121,
       "q": "Hvem regnes som den tidligste kjente oppdageren som besøkte Norge?",
-<<<<<<< Updated upstream
       "a": "Pytheas fra Massalia (ca. 330 f.Kr.)",
       "w": [
         "Pietro Querini (1432)",
@@ -1876,12 +1762,10 @@
       "t": [
         "antikken"
       ]
-=======
       "a": "Pytheas fra Massalia",
       "w": ["Pietro Querini", "Olaus Magnus", "Hans Glaser"],
       "r": 1080,
       "t": ["antikken"]
->>>>>>> Stashed changes
     },
     {
       "id": 122,
@@ -3076,7 +2960,6 @@
     {
       "id": 207,
       "q": "Fra 1800 til 2000 ble bosetningen i Norge endret fra overveiende spredt til omtrent hvor stor andel tett?",
-<<<<<<< Updated upstream
       "a": "75 %",
       "w": [
         "55 %",
@@ -3087,12 +2970,10 @@
       "t": [
         "statistikk"
       ]
-=======
       "a": "ca. 75 %",
       "w": ["ca. 55 %", "ca. 65 %", "ca. 85 %"],
       "r": 900,
       "t": ["statistikk"]
->>>>>>> Stashed changes
     },
     {
       "id": 208,
@@ -3195,7 +3076,6 @@
     {
       "id": 215,
       "q": "Hvilken høyde ligger mesteparten av Norges bosetning under?",
-<<<<<<< Updated upstream
       "a": "150 meter over havet",
       "w": [
         "300 meter",
@@ -3206,12 +3086,10 @@
       "t": [
         "topografi"
       ]
-=======
       "a": "ca. 150 meter over havet",
       "w": ["ca. 300 meter", "ca. 500 meter", "ca. 900 meter"],
       "r": 910,
       "t": ["topografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 216,
@@ -3510,7 +3388,6 @@
     {
       "id": 237,
       "q": "Hvor mange innsjøer finnes det omtrent i Norge ifølge registreringer?",
-<<<<<<< Updated upstream
       "a": "Omtrent 450 000",
       "w": [
         "Omtrent 300 000",
@@ -3521,12 +3398,10 @@
       "t": [
         "antall"
       ]
-=======
       "a": "ca. 450 000",
       "w": ["ca. 300 000", "ca. 600 000", "ca. 800 000"],
       "r": 870,
       "t": ["antall"]
->>>>>>> Stashed changes
     },
     {
       "id": 238,
@@ -3559,7 +3434,6 @@
     {
       "id": 240,
       "q": "Hvor dypt er Salvatnet, Norges nest dypeste innsjø?",
-<<<<<<< Updated upstream
       "a": "Omtrent 464 meter",
       "w": [
         "Omtrent 380 meter",
@@ -3570,12 +3444,10 @@
       "t": [
         "dybde"
       ]
-=======
       "a": "ca. 464 meter",
       "w": ["ca. 380 meter", "ca. 515 meter", "ca. 295 meter"],
       "r": 940,
       "t": ["dybde"]
->>>>>>> Stashed changes
     },
     {
       "id": 241,
@@ -3692,7 +3564,6 @@
     {
       "id": 249,
       "q": "Hvor dypt er Tinnsjå omtrent?",
-<<<<<<< Updated upstream
       "a": "460 meter",
       "w": [
         "370 meter",
@@ -3703,12 +3574,10 @@
       "t": [
         "dybde"
       ]
-=======
       "a": "ca. 460 meter",
       "w": ["ca. 370 meter", "ca. 280 meter", "ca. 520 meter"],
       "r": 940,
       "t": ["dybde"]
->>>>>>> Stashed changes
     },
     {
       "id": 250,
@@ -3755,7 +3624,6 @@
     {
       "id": 253,
       "q": "Hva er omtrent gjennomsnittsdybden i Mjøsa?",
-<<<<<<< Updated upstream
       "a": "150 meter",
       "w": [
         "95 meter",
@@ -3766,12 +3634,10 @@
       "t": [
         "dybde"
       ]
-=======
       "a": "ca. 150 meter",
       "w": ["ca. 95 meter", "ca. 210 meter", "ca. 70 meter"],
       "r": 860,
       "t": ["dybde"]
->>>>>>> Stashed changes
     },
     {
       "id": 254,
@@ -3818,7 +3684,6 @@
     {
       "id": 257,
       "q": "Hvor stort er vannvolumet i Mjøsa omtrent?",
-<<<<<<< Updated upstream
       "a": "56 km³",
       "w": [
         "42 km³",
@@ -3829,12 +3694,10 @@
       "t": [
         "volum"
       ]
-=======
       "a": "ca. 56 km³",
       "w": ["ca. 42 km³", "ca. 63 km³", "ca. 33 km³"],
       "r": 900,
       "t": ["volum"]
->>>>>>> Stashed changes
     },
     {
       "id": 258,
@@ -4357,7 +4220,6 @@
     {
       "id": 295,
       "q": "Hva var Norges kraftigste jordskjelv målt noensinne?",
-<<<<<<< Updated upstream
       "a": "Jan Mayen-skjelvet i 2018 (styrke 6,8)",
       "w": [
         "Osloskjelvet 1904",
@@ -4368,12 +4230,10 @@
       "t": [
         "jordskjelv"
       ]
-=======
       "a": "Jan Mayen-skjelvet i 2018",
       "w": ["Osloskjelvet 1904", "Helgelandsskjelvet 1819", "Svalbardskjelvet 2008"],
       "r": 950,
       "t": ["jordskjelv"]
->>>>>>> Stashed changes
     },
     {
       "id": 296,
@@ -4826,7 +4686,6 @@
     {
       "id": 328,
       "q": "Hva er Devoldnuten registrert som ifølge norske kart?",
-<<<<<<< Updated upstream
       "a": "Omtrent 2400 meter høy",
       "w": [
         "3280 meter",
@@ -4837,12 +4696,10 @@
       "t": [
         "fjell"
       ]
-=======
       "a": "ca. 2400 meter høy",
       "w": ["ca. 3280 meter", "ca. 2994 meter", "ca. 3148 meter"],
       "r": 870,
       "t": ["fjell"]
->>>>>>> Stashed changes
     },
     {
       "id": 329,
@@ -5155,7 +5012,6 @@
     {
       "id": 401,
       "q": "Hvor stor del av Norges berggrunn består av den kaledonske fjellkjedesonen?",
-<<<<<<< Updated upstream
       "a": "Omtrent to tredjedeler",
       "w": [
         "Omtrent halvparten",
@@ -5166,12 +5022,10 @@
       "t": [
         "geologi"
       ]
-=======
       "a": "ca. to tredjedeler",
       "w": ["ca. halvparten", "ca. en tredjedel", "nesten hele landet"],
       "r": 890,
       "t": ["geologi"]
->>>>>>> Stashed changes
     },
     {
       "id": 402,
@@ -5428,7 +5282,6 @@
     {
       "id": 420,
       "q": "Hva produserte Blaafarveværket på Modum på 1800-tallet?",
-<<<<<<< Updated upstream
       "a": "Blåfargepigment (kobolt)",
       "w": [
         "Sølv",
@@ -5439,17 +5292,14 @@
       "t": [
         "industrihistorie"
       ]
-=======
       "a": "Blåfargepigment",
       "w": ["Sølv", "Jern", "Svovel"],
       "r": 850,
       "t": ["industrihistorie"]
->>>>>>> Stashed changes
     },
     {
       "id": 421,
       "q": "Hva slags mineral utvinnes ved Hauge i Dalane og brukes i flyskrog?",
-<<<<<<< Updated upstream
       "a": "Titan (fra ilmenitt)",
       "w": [
         "Kobber",
@@ -5460,12 +5310,10 @@
       "t": [
         "metall"
       ]
-=======
       "a": "Titan",
       "w": ["Kobber", "Grafitt", "Olivin"],
       "r": 870,
       "t": ["metall"]
->>>>>>> Stashed changes
     },
     {
       "id": 422,
@@ -5680,7 +5528,6 @@
     {
       "id": 437,
       "q": "Hvor mange prosent av Svalbards areal er dekket av isbreer?",
-<<<<<<< Updated upstream
       "a": "60 %",
       "w": [
         "40 %",
@@ -5691,12 +5538,10 @@
       "t": [
         "natur"
       ]
-=======
       "a": "ca. 60 %",
       "w": ["ca. 40 %", "ca. 70 %", "ca. 50 %"],
       "r": 900,
       "t": ["natur"]
->>>>>>> Stashed changes
     },
     {
       "id": 438,
@@ -5841,7 +5686,6 @@
     {
       "id": 448,
       "q": "Hva heter den norske institusjonen som driver med forskning på luftforurensning på Svalbard?",
-<<<<<<< Updated upstream
       "a": "Norsk institutt for luftforskning (NILU)",
       "w": [
         "Meteorologisk institutt",
@@ -5852,12 +5696,10 @@
       "t": [
         "forskning"
       ]
-=======
       "a": "NILU",
       "w": ["Meteorologisk institutt", "Norsk Polarinstitutt", "UNIS"],
       "r": 850,
       "t": ["forskning"]
->>>>>>> Stashed changes
     },
     {
       "id": 449,
@@ -5918,7 +5760,6 @@
     {
       "id": 453,
       "q": "Hvor stor andel av Svalbard er dekket av vegetasjon?",
-<<<<<<< Updated upstream
       "a": "10 %",
       "w": [
         "20 %",
@@ -5929,12 +5770,10 @@
       "t": [
         "flora"
       ]
-=======
       "a": "ca. 10 %",
       "w": ["ca. 20 %", "ca. 5 %", "ca. 15 %"],
       "r": 880,
       "t": ["flora"]
->>>>>>> Stashed changes
     },
     {
       "id": 454,
@@ -6093,7 +5932,6 @@
     {
       "id": 465,
       "q": "Hvor mange nasjonaliteter er representert i Longyearbyen?",
-<<<<<<< Updated upstream
       "a": "Omtrent 40",
       "w": [
         "Omtrent 25",
@@ -6104,12 +5942,10 @@
       "t": [
         "demografi"
       ]
-=======
       "a": "ca. 40",
       "w": ["ca. 25", "ca. 15", "ca. 60"],
       "r": 880,
       "t": ["demografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 466,
@@ -6380,7 +6216,6 @@
     {
       "id": 485,
       "q": "Omtrent hvor stor andel av Svalbards areal er dekket av isbreer?",
-<<<<<<< Updated upstream
       "a": "60 %",
       "w": [
         "40 %",
@@ -6391,12 +6226,10 @@
       "t": [
         "klima"
       ]
-=======
       "a": "ca. 60 %",
       "w": ["ca. 40 %", "ca. 75 %", "ca. 25 %"],
       "r": 880,
       "t": ["klima"]
->>>>>>> Stashed changes
     },
     {
       "id": 486,
@@ -6555,7 +6388,6 @@
     {
       "id": 497,
       "q": "Hvilket forskningssenter ligger i Longyearbyen og tilbyr universitetskurs?",
-<<<<<<< Updated upstream
       "a": "Universitetssenteret på Svalbard (UNIS)",
       "w": [
         "Norsk Polarinstitutt",
@@ -6566,12 +6398,10 @@
       "t": [
         "forskning"
       ]
-=======
       "a": "UNIS",
       "w": ["Norsk Polarinstitutt", "EISCAT", "Frøhvelvet"],
       "r": 880,
       "t": ["forskning"]
->>>>>>> Stashed changes
     },
     {
       "id": 498,
@@ -6674,7 +6504,6 @@
     {
       "id": 505,
       "q": "Hvor mange nasjonaliteter er representert i Longyearbyen?",
-<<<<<<< Updated upstream
       "a": "Omtrent 40",
       "w": [
         "Rundt 10",
@@ -6685,12 +6514,10 @@
       "t": [
         "demografi"
       ]
-=======
       "a": "ca. 40",
       "w": ["ca. 10", "ca. 100", "ca. 25"],
       "r": 870,
       "t": ["demografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 506,
@@ -6709,7 +6536,6 @@
     {
       "id": 507,
       "q": "Hvor mye av Svalbard er vernet som nasjonalpark eller naturreservat?",
-<<<<<<< Updated upstream
       "a": "Omtrent to tredeler",
       "w": [
         "Halvparten",
@@ -6720,12 +6546,10 @@
       "t": [
         "naturvern"
       ]
-=======
       "a": "ca. to tredeler",
       "w": ["ca. halvparten", "ca. en tredel", "tre fjerdedeler"],
       "r": 900,
       "t": ["naturvern"]
->>>>>>> Stashed changes
     },
     {
       "id": 508,
@@ -6772,7 +6596,6 @@
     {
       "id": 511,
       "q": "Hva er det høyeste punktet på Jan Mayen?",
-<<<<<<< Updated upstream
       "a": "Beerenberg (2 272 moh)",
       "w": [
         "Rudolftoppen",
@@ -6783,12 +6606,10 @@
       "t": [
         "geografi"
       ]
-=======
       "a": "Beerenberg",
       "w": ["Rudolftoppen", "Midtfjellet", "Olafberget"],
       "r": 870,
       "t": ["geografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 512,
@@ -6822,7 +6643,6 @@
     {
       "id": 514,
       "q": "Hva er arealet til Jan Mayen?",
-<<<<<<< Updated upstream
       "a": "377 km²",
       "w": [
         "420 km²",
@@ -6833,12 +6653,10 @@
       "t": [
         "geografi"
       ]
-=======
       "a": "ca. 377 km²",
       "w": ["ca. 420 km²", "ca. 255 km²", "ca. 600 km²"],
       "r": 850,
       "t": ["geografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 515,
@@ -6928,7 +6746,6 @@
     {
       "id": 521,
       "q": "Hvor mange personer er vanligvis stasjonert på Jan Mayen?",
-<<<<<<< Updated upstream
       "a": "Omtrent 17",
       "w": [
         "Omtrent 30",
@@ -6939,12 +6756,10 @@
       "t": [
         "samfunn"
       ]
-=======
       "a": "ca. 17",
       "w": ["ca. 30", "ca. 10", "ca. 50"],
       "r": 820,
       "t": ["samfunn"]
->>>>>>> Stashed changes
     },
     {
       "id": 522,
@@ -8141,7 +7956,6 @@
     {
       "id": 606,
       "q": "Hvor stor andel av Bouvetøya er dekket av isbreer?",
-<<<<<<< Updated upstream
       "a": "Omtrent 93 %",
       "w": [
         "Omtrent 50 %",
@@ -8152,12 +7966,10 @@
       "t": [
         "natur"
       ]
-=======
       "a": "ca. 93 %",
       "w": ["ca. 50 %", "ca. 70 %", "ca. 20 %"],
       "r": 920,
       "t": ["natur"]
->>>>>>> Stashed changes
     },
     {
       "id": 607,
@@ -8176,7 +7988,6 @@
     {
       "id": 608,
       "q": "Hva er arealet til Bouvetøya?",
-<<<<<<< Updated upstream
       "a": "49 km²",
       "w": [
         "156 km²",
@@ -8187,12 +7998,10 @@
       "t": [
         "geografi"
       ]
-=======
       "a": "ca. 49 km²",
       "w": ["ca. 156 km²", "ca. 2 700 000 km²", "ca. 310 km²"],
       "r": 850,
       "t": ["geografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 609,
@@ -8253,7 +8062,6 @@
     {
       "id": 613,
       "q": "Hvor langt ligger Peter I Øy fra det antarktiske kontinentet?",
-<<<<<<< Updated upstream
       "a": "Omtrent 450 km",
       "w": [
         "Omtrent 2200 km",
@@ -8264,12 +8072,10 @@
       "t": [
         "geografi"
       ]
-=======
       "a": "ca. 450 km",
       "w": ["ca. 2200 km", "ca. 120 km", "ca. 900 km"],
       "r": 890,
       "t": ["geografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 614,
@@ -8442,7 +8248,6 @@
     {
       "id": 626,
       "q": "Hvor langt ligger Bouvetøya fra Sør-Afrika?",
-<<<<<<< Updated upstream
       "a": "Omtrent 2200 km",
       "w": [
         "450 km",
@@ -8453,12 +8258,10 @@
       "t": [
         "geografi"
       ]
-=======
       "a": "ca. 2200 km",
       "w": ["ca. 450 km", "ca. 1100 km", "ca. 3000 km"],
       "r": 870,
       "t": ["geografi"]
->>>>>>> Stashed changes
     },
     {
       "id": 627,
