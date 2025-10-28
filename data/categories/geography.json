@@ -66,9 +66,9 @@
     {
       "id": 4,
       "q": "Hvor stor del av Norge ligger nord for polarsirkelen?",
-      "a": "Omtrent en tredjedel",
+      "a": "ca. en tredjedel",
       "w": [
-        "Omtrent halvparten",
+        "ca. halvparten",
         "En fjerdedel",
         "Nesten hele landet"
       ],
@@ -110,7 +110,7 @@
       "q": "Hvor stor er Norges kystlinje inkludert øyer?",
       "a": "Over 100 000 kilometer",
       "w": [
-        "Omtrent 10 000 kilometer",
+        "ca. 10 000 kilometer",
         "30 000 kilometer",
         "70 000 kilometer"
       ],
@@ -318,11 +318,11 @@
     {
       "id": 22,
       "q": "Hva er den laveste temperaturen som er målt i Norge?",
-      "a": "−51,4 °C",
+      "a": "−51,4°C",
       "w": [
-        "−46,8 °C",
-        "−53,0 °C",
-        "−48,2 °C"
+        "−46,8°C",
+        "−53,0°C",
+        "−48,2°C"
       ],
       "r": 1148,
       "t": [
@@ -2702,7 +2702,7 @@
       "q": "Omtrent hvor stor andel av Norges befolkning bor i tettsteder?",
       "a": "Over 80 %",
       "w": [
-        "Omtrent 60 %",
+        "ca. 60 %",
         "Rundt 70 %",
         "Cirka 90 %"
       ],
@@ -3180,7 +3180,7 @@
       "q": "Omtrent hvor stor andel av Norges landareal dekkes av innsjøer?",
       "a": "Rundt 5 %",
       "w": [
-        "Omtrent 2 %",
+        "ca. 2 %",
         "Rundt 8 %",
         "Cirka 12 %"
       ],
@@ -3669,7 +3669,7 @@
       "a": "Over 300",
       "w": [
         "Rundt 150",
-        "Omtrent 50",
+        "ca. 50",
         "Under 100"
       ],
       "r": 1468,
@@ -3963,7 +3963,7 @@
       "a": "Flere hundre meter",
       "w": [
         "Maks 10 meter",
-        "Omtrent 50 meter",
+        "ca. 50 meter",
         "Bare noen få meter"
       ],
       "r": 1486,
@@ -5296,11 +5296,11 @@
     {
       "id": 442,
       "q": "Hva er det høyeste fjellet på Svalbard målt i meter over havet?",
-      "a": "1713 moh.",
+      "a": "1713 moh",
       "w": [
-        "1640 moh.",
-        "1730 moh.",
-        "1685 moh."
+        "1640 moh",
+        "1730 moh",
+        "1685 moh"
       ],
       "r": 1580,
       "t": [
@@ -5754,11 +5754,11 @@
     {
       "id": 476,
       "q": "Hva er den høyeste gjennomsnittstemperaturen i Longyearbyen om sommeren?",
-      "a": "+6,5 °C",
+      "a": "+6,5°C",
       "w": [
-        "+4,5 °C",
-        "+8 °C",
-        "+2 °C"
+        "+4,5°C",
+        "+8°C",
+        "+2°C"
       ],
       "r": 1618,
       "t": [

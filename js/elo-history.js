@@ -173,36 +173,38 @@ class ELOHistory {
         });
     }
     
-    populateHistoryList() {
-        const historyList = document.getElementById('historyList');
-        
-        if (this.eloHistory.length === 0) {
-            historyList.innerHTML = '<div class="no-history">Ingen spørsmål besvart ennå</div>';
-            return;
-        }
-        
-        // Sort by question number (reverse chronological order - newest first)
-        const sortedHistory = [...this.eloHistory].sort((a, b) => b.questionNumber - a.questionNumber);
-        
-        historyList.innerHTML = sortedHistory.map(item => {
-            const eloChangeClass = item.eloChange >= 0 ? 'positive' : 'negative';
-            const eloChangeText = item.eloChange >= 0 ? `+${item.eloChange}` : `${item.eloChange}`;
-            const correctClass = item.isCorrect ? 'correct' : 'incorrect';
-            
-            return `
-                <div class="history-item ${correctClass}">
-                    <div class="history-question">
-                        <strong>Spørsmål ${item.questionNumber}:</strong> ${item.questionText || this.getQuestionText(item.questionId)}
-                    </div>
-                    <div class="history-details">
-                        <span class="history-category">${item.category || 'Generell'}</span>
-                        <span class="history-rating">Rating: ${item.questionRating}</span>
-                        <span class="history-elo-change ${eloChangeClass}">${eloChangeText}</span>
-                    </div>
-                </div>
-            `;
-        }).join('');
-    }
+           populateHistoryList() {
+               const historyList = document.getElementById('historyList');
+               
+               if (this.eloHistory.length === 0) {
+                   historyList.innerHTML = '<div class="no-history">Ingen spørsmål besvart ennå</div>';
+                   return;
+               }
+               
+               // Sort by timestamp (reverse chronological order - newest first) and take only last 10
+               const sortedHistory = [...this.eloHistory]
+                   .sort((a, b) => b.timestamp - a.timestamp)
+                   .slice(0, 10);
+               
+               historyList.innerHTML = sortedHistory.map(item => {
+                   const eloChangeClass = item.eloChange >= 0 ? 'positive' : 'negative';
+                   const eloChangeText = item.eloChange >= 0 ? `+${item.eloChange}` : `${item.eloChange}`;
+                   const correctClass = item.isCorrect ? 'correct' : 'incorrect';
+                   
+                   return `
+                       <div class="history-item ${correctClass}">
+                           <div class="history-question">
+                               ${item.questionText || this.getQuestionText(item.questionId)}
+                           </div>
+                           <div class="history-details">
+                               <span class="history-category">${item.category || 'Generell'}</span>
+                               <span class="history-rating">Rating: ${item.questionRating}</span>
+                               <span class="history-elo-change ${eloChangeClass}">${eloChangeText}</span>
+                           </div>
+                       </div>
+                   `;
+               }).join('');
+           }
     
     getQuestionText(questionId) {
         // Find the question text from stored history
