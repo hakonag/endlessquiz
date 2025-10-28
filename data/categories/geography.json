@@ -1974,9 +1974,9 @@
       "q": "Hva var hovedmotivet for utenlandske oppdagelsesreiser til Norge på 1800-tallet?",
       "a": "Interesse for natur, samer og arktiske landskap",
       "w": [
-        "Søk etter gullforekomster",
-        "Militære ekspedisjoner",
-        "Religiøs pilegrimsferd"
+        "Søk etter gullforekomster og mineraler",
+        "Militære ekspedisjoner og kartlegging",
+        "Religiøs pilegrimsferd og misjon"
       ],
       "r": 1362,
       "t": [
@@ -2338,9 +2338,9 @@
       "q": "Hva menes med fjordenes 'terskel'?",
       "a": "grunne parti nær munningen som hindrer vannutskifting",
       "w": [
-        "høye fjell rundt fjorden",
-        "vannspeilet i overflaten",
-        "innsjø som ligger over fjorden"
+        "høye fjell rundt fjorden som beskytter",
+        "vannspeilet i overflaten som reflekterer",
+        "innsjø som ligger over fjorden som regulerer"
       ],
       "r": 1394,
       "t": [
@@ -3124,8 +3124,8 @@
       "q": "Hva slags metode brukte Statens kartverk for å beregne Norges geografiske midtpunkt?",
       "a": "En internasjonalt anerkjent metode basert på arealtyngdepunkt",
       "w": [
-        "Midtpunkt mellom Nordkapp og Lindesnes",
-        "Middelverdi av lengde- og breddegrader",
+        "Midtpunkt mellom Nordkapp og Lindesnes beregnet",
+        "Middelverdi av lengde- og breddegrader gjennomsnittet",
         "GPS-beregning av korteste vei mellom ytterpunkter"
       ],
       "r": 1438,
@@ -3984,9 +3984,9 @@
       "q": "Hva er strandflaten i Norge?",
       "a": "Et lavt og flatt kystområde med øyer og holmer",
       "w": [
-        "Et høyt fjellplatå",
-        "En type bre",
-        "En vulkansk slette"
+        "Et høyt fjellplatå med snø",
+        "En type bre og ismasse",
+        "En vulkansk slette og lava"
       ],
       "r": 1486,
       "t": [
@@ -4026,9 +4026,9 @@
       "q": "Hva består morenemateriale hovedsakelig av?",
       "a": "En blanding av leire, sand, stein og blokker",
       "w": [
-        "Kun sand",
-        "Kun leire",
-        "Kun store steiner"
+        "Kun sand og grus",
+        "Kun leire og silt",
+        "Kun store steiner og blokker"
       ],
       "r": 1490,
       "t": [
@@ -4041,8 +4041,8 @@
       "a": "Sammenstøt mellom kontinenter i oldtiden",
       "w": [
         "Vulkanutbrudd i nyere tid",
-        "Isbreers erosjon",
-        "Vindavsetninger"
+        "Isbreers erosjon og nedbrytning",
+        "Vindavsetninger og sedimenter"
       ],
       "r": 1490,
       "t": [
@@ -4054,9 +4054,9 @@
       "q": "Hva er typisk for daler på Vestlandet?",
       "a": "Bratte U-daler og fjorder med stupbratte sider",
       "w": [
-        "Slake V-daler",
-        "Flate elvesletter",
-        "Sanddyner"
+        "Slake V-daler og elvesletter",
+        "Flate elvesletter og sletter",
+        "Sanddyner og kystområder"
       ],
       "r": 1491,
       "t": [
@@ -4138,9 +4138,9 @@
       "q": "Hvilken landform er typisk for Østlandet?",
       "a": "Lange, slake U-daler med skogkledde åser",
       "w": [
-        "Bratte alpine fjell",
-        "Sanddyner",
-        "Vulkanområder"
+        "Bratte alpine fjell og topper",
+        "Sanddyner og kystområder",
+        "Vulkanområder og lava"
       ],
       "r": 1497,
       "t": [
@@ -4166,9 +4166,9 @@
       "q": "Hva er blokkmark (blokkhav)?",
       "a": "Område med steinblokker dannet ved frostsprenging",
       "w": [
-        "Elveavsetning",
-        "Sanddynefelt",
-        "Basaltslette"
+        "Elveavsetning og sedimenter",
+        "Sanddynefelt og kystområder",
+        "Basaltslette og lava"
       ],
       "r": 1498,
       "t": [
@@ -4650,9 +4650,9 @@
       "q": "Hva er sannsynlig årsak til hevningen av Skandinavia?",
       "a": "Åpningen av Nord-Atlanteren og varmepunktet under Island",
       "w": [
-        "Jordskjelv",
-        "Kontinentkollisjon",
-        "Erosjon fra elver"
+        "Jordskjelv og tektonisk aktivitet",
+        "Kontinentkollisjon og fjellkjededannelse",
+        "Erosjon fra elver og isbreer"
       ],
       "r": 1539,
       "t": [
@@ -5024,9 +5024,9 @@
       "q": "Hva brukes olivin blant annet til i industrien?",
       "a": "Å absorbere giftige tungmetaller og i smelteverk",
       "w": [
-        "Som byggestein",
-        "Til sement",
-        "Til glassproduksjon"
+        "Som byggestein og konstruksjon",
+        "Til sement og bindemiddel",
+        "Til glassproduksjon og keramikk"
       ],
       "r": 1560,
       "t": [

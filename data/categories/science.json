@@ -596,9 +596,9 @@
       "q": "Hvilken norsk oppfinnelse hjalp til med å industrialisere melkeproduksjon på 1900-tallet?",
       "a": "Separatormaskinen til Amund Stenerud",
       "w": [
-        "Ostehøvelen",
-        "Sprayboksen",
-        "Fiskekutteren"
+        "Ostehøvelen og skjæreverktøy",
+        "Sprayboksen og emballasje",
+        "Fiskekutteren og båttype"
       ],
       "r": 1396,
       "t": [
@@ -1151,9 +1151,9 @@
       "q": "Hvilket norsk forskningsmiljø står bak utviklingen av verdens første elektriske ferge, 'Ampere'?",
       "a": "Norled og Westcon Power & Automation",
       "w": [
-        "Kongsberg Gruppen",
-        "SINTEF Energi",
-        "Statkraft"
+        "Kongsberg Gruppen og teknologi",
+        "SINTEF Energi og forskning",
+        "Statkraft og energiproduksjon"
       ],
       "r": 1515,
       "t": [
@@ -1631,9 +1631,9 @@
       "q": "Hvilket norsk institutt leder arbeidet med klimamodeller i Norge?",
       "a": "CICERO Senter for klimaforskning",
       "w": [
-        "NILU",
-        "SINTEF",
-        "FFI"
+        "NILU og luftforskning",
+        "SINTEF og teknologi",
+        "FFI og forsvarsforskning"
       ],
       "r": 1635,
       "t": [
@@ -1661,9 +1661,9 @@
       "q": "Hvilken norsk oppfinnelse brukes til å forlenge levetiden til oljeplattformer på sokkelen?",
       "a": "Subsea-kompresjonssystemet fra Aker Solutions",
       "w": [
-        "Panteautomaten",
-        "Gassturbinen",
-        "Flytende vindturbin"
+        "Panteautomaten og retursystem",
+        "Gassturbinen og kraftproduksjon",
+        "Flytende vindturbin og energi"
       ],
       "r": 1636,
       "t": [
@@ -2021,9 +2021,9 @@
       "q": "Hvilket norsk teknologimiljø utviklet verdens første 5G-nett på oljeplattform?",
       "a": "Equinor i samarbeid med Telenor",
       "w": [
-        "Kongsberg Gruppen",
-        "Aker Solutions",
-        "SINTEF"
+        "Kongsberg Gruppen og teknologi",
+        "Aker Solutions og industri",
+        "SINTEF og forskning"
       ],
       "r": 1762,
       "t": [
@@ -2246,9 +2246,9 @@
       "q": "Hvilket norsk universitet står bak utviklingen av verdens første selvkjørende bybuss?",
       "a": "UiT Norges arktiske universitet",
       "w": [
-        "NTNU",
-        "UiO",
-        "UiB"
+        "NTNU og teknologiforskning",
+        "UiO og grunnforskning",
+        "UiB og marinbiologi"
       ],
       "r": 2024,
       "t": [

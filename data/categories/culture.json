@@ -711,9 +711,9 @@
       "q": "Hva heter maleriet av Christian Krohg som skildrer sosial nød i Kristiania?",
       "a": "Albertine i politilægens venteværelse",
       "w": [
-        "Syk pike",
-        "Natt",
-        "Sjømannen og piken"
+        "Syk pike og sykehus",
+        "Natt og mørke",
+        "Sjømannen og piken på bryggen"
       ],
       "r": 1451,
       "t": [
@@ -816,9 +816,9 @@
       "q": "Hva er hovedtema i nyromantisk kunst rundt år 1900?",
       "a": "Menneskets forhold til naturen og det åndelige",
       "w": [
-        "Urbanisering",
-        "Industrialisering",
-        "Sosiale problemer"
+        "Urbanisering og byutvikling",
+        "Industrialisering og teknologi",
+        "Sosiale problemer og klassekamp"
       ],
       "r": 1478,
       "t": [
@@ -996,9 +996,9 @@
       "q": "Hva led Munch selv av i barndommen?",
       "a": "Astmatisk bronkitt og revmatisk feber",
       "w": [
-        "Tuberkulose",
-        "Polio",
-        "Skarlagensfeber"
+        "Tuberkulose og lungesykdom",
+        "Polio og nervesykdom",
+        "Skarlagensfeber og infeksjon"
       ],
       "r": 1519,
       "t": [
@@ -1070,9 +1070,9 @@
       "q": "Hva var motivet for Munchs verdensberømte maleri «Skrik» inspirert av?",
       "a": "En personlig opplevelse av angst under en solnedgang",
       "w": [
-        "En avisartikkel om krig",
-        "Et dikt av Ibsen",
-        "En religiøs visjon"
+        "En avisartikkel om krig og konflikt",
+        "Et dikt av Ibsen om kjærlighet",
+        "En religiøs visjon om dommedag"
       ],
       "r": 1554,
       "t": [
@@ -1160,9 +1160,9 @@
       "q": "Hvor er Edvard Munch gravlagt?",
       "a": "Æreslunden på Vår Frelsers gravlund i Oslo",
       "w": [
-        "Gamlebyen kirkegård",
-        "Domkirkegården",
-        "Kragerø kirkegård"
+        "Gamlebyen kirkegård og historisk område",
+        "Domkirkegården og religiøs plass",
+        "Kragerø kirkegård og kystby"
       ],
       "r": 1572,
       "t": [
@@ -1457,9 +1457,9 @@
       "q": "Hva ble funnet i Munchs atelier etter hans død?",
       "a": "Tusenvis av malerier og grafiske trykk",
       "w": [
-        "Bare noen få ferdige verk",
-        "Kun fotografier",
-        "Kun møbler og brev"
+        "Bare noen få ferdige verk og skisser",
+        "Kun fotografier og dokumenter",
+        "Kun møbler og brev og personlige gjenstander"
       ],
       "r": 1664,
       "t": [
@@ -2392,7 +2392,7 @@
     "id": 193,
     "q": "Hvilket legendarisk mål scoret Ole Gunnar Solskjær i Mesterligafinalen i 1999?",
     "a": "Vinnermålet mot Bayern München i det 93. minutt",
-    "w": ["Straffemål mot Juventus", "Hattrick mot Inter", "Selvmål mot Real Madrid"],
+    "w": ["Straffemål mot Juventus i finalen", "Hattrick mot Inter i semifinalen", "Selvmål mot Real Madrid i kvartfinalen"],
     "r": 400,
     "t": ["fotball", "historie"]
     },
@@ -2832,7 +2832,7 @@
       "id": 258,
       "q": "Hva heter Alf Prøysens kjente barnefortelling om en liten kvinne?",
       "a": "Kjerringa som ble så lita som ei teskje",
-      "w": ["Teskjekjerringa på ferie", "Kjerringa med staven", "Lillemor i gryta"],
+      "w": ["Teskjekjerringa på ferie og eventyr", "Kjerringa med staven og magi", "Lillemor i gryta og kokekunst"],
       "r": 400,
       "t": ["barnebøker", "klassiker"]
     },
