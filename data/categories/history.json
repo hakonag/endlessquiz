@@ -2,7 +2,7 @@
   "version": "1.0",
   "category": "History",
   "metadata": {
-    "totalQuestions": 10,
+    "totalQuestions": 50,
     "difficultyRange": {
       "min": 987,
       "max": 1804

@@ -209,29 +209,14 @@ class EndlessQuiz {
                     });
                 });
                 
-                // Chart button
-                document.getElementById('btnChart').addEventListener('click', () => {
-                    this.showELOChart();
-                });
-                
                 // ELO rating click
                 document.getElementById('btnRating').addEventListener('click', () => {
                     this.showELOHistory();
                 });
                 
                 // Modal close events
-                document.querySelector('.close').addEventListener('click', () => {
-                    this.hideELOChart();
-                });
-                
                 document.querySelector('.close-history').addEventListener('click', () => {
                     this.hideELOHistory();
-                });
-                
-                document.getElementById('chartModal').addEventListener('click', (e) => {
-                    if (e.target.id === 'chartModal') {
-                        this.hideELOChart();
-                    }
                 });
                 
                 document.getElementById('historyModal').addEventListener('click', (e) => {
@@ -526,130 +511,6 @@ class EndlessQuiz {
             `<span class="correct">${this.correctAnswers}</span> / <span class="answered">${this.answeredQuestions}</span> / <span class="total">${this.totalQuestions.toLocaleString()}</span>`;
     }
     
-    showELOChart() {
-        const modal = document.getElementById('chartModal');
-        modal.style.display = 'block';
-        
-        // Create or update chart
-        this.createELOChart();
-        
-        // Update stats
-        this.updateChartStats();
-    }
-    
-    hideELOChart() {
-        const modal = document.getElementById('chartModal');
-        modal.style.display = 'none';
-    }
-    
-    createELOChart() {
-        const ctx = document.getElementById('eloChart').getContext('2d');
-        
-        // Destroy existing chart if it exists
-        if (this.eloChart) {
-            this.eloChart.destroy();
-        }
-        
-        // Prepare data
-        const labels = this.eloHistory.map(point => point.questionNumber);
-        const eloData = this.eloHistory.map(point => point.elo);
-        const correctData = this.eloHistory.map(point => point.isCorrect ? point.elo : null);
-        const incorrectData = this.eloHistory.map(point => !point.isCorrect ? point.elo : null);
-        
-        this.eloChart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'ELO Rating',
-                        data: eloData,
-                        borderColor: '#007bff',
-                        backgroundColor: 'rgba(0, 123, 255, 0.1)',
-                        borderWidth: 2,
-                        fill: true,
-                        tension: 0.1
-                    },
-                    {
-                        label: 'Correct Answers',
-                        data: correctData,
-                        borderColor: '#28a745',
-                        backgroundColor: 'rgba(40, 167, 69, 0.1)',
-                        borderWidth: 3,
-                        pointRadius: 4,
-                        pointHoverRadius: 6,
-                        showLine: false
-                    },
-                    {
-                        label: 'Incorrect Answers',
-                        data: incorrectData,
-                        borderColor: '#dc3545',
-                        backgroundColor: 'rgba(220, 53, 69, 0.1)',
-                        borderWidth: 3,
-                        pointRadius: 4,
-                        pointHoverRadius: 6,
-                        showLine: false
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'ELO Progression Over Time',
-                        font: {
-                            size: 16,
-                            weight: 'bold'
-                        }
-                    },
-                    legend: {
-                        display: true,
-                        position: 'top'
-                    }
-                },
-                scales: {
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Question Number'
-                        },
-                        grid: {
-                            color: '#e0e0e0'
-                        }
-                    },
-                    y: {
-                        title: {
-                            display: true,
-                            text: 'ELO Rating'
-                        },
-                        grid: {
-                            color: '#e0e0e0'
-                        },
-                        min: Math.max(800, Math.min(...eloData) - 50),
-                        max: Math.max(...eloData) + 50
-                    }
-                },
-                interaction: {
-                    intersect: false,
-                    mode: 'index'
-                }
-            }
-        });
-    }
-    
-    updateChartStats() {
-        if (this.eloHistory.length === 0) return;
-        
-        const eloValues = this.eloHistory.map(point => point.elo);
-        const highestELO = Math.max(...eloValues);
-        const averageELO = Math.round(eloValues.reduce((a, b) => a + b, 0) / eloValues.length);
-        
-        document.getElementById('highestELO').textContent = highestELO;
-        document.getElementById('averageELO').textContent = averageELO;
-        document.getElementById('totalQuestionsChart').textContent = this.eloHistory.length;
-    }
     
     showELOHistory() {
         const modal = document.getElementById('historyModal');
