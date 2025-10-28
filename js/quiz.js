@@ -521,8 +521,7 @@ class EndlessQuiz {
     }
     
     updateUI() {
-        document.getElementById('btnRating').textContent = Math.round(this.elo);
-        document.querySelector('.category-text').textContent = `ELO ${Math.round(this.elo)}`;
+        document.getElementById('btnRating').textContent = `ELO ${Math.round(this.elo)}`;
         document.getElementById('questionCounter').innerHTML = 
             `<span class="correct">${this.correctAnswers}</span> / <span class="answered">${this.answeredQuestions}</span> / <span class="total">${this.totalQuestions.toLocaleString()}</span>`;
     }
