@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body>
     <!-- Loading Screen -->
@@ -20,9 +21,9 @@
     <div id="container">
             <div id="toprow">
                 <div class="dropdown left-dropdown">
-                    <div id="btnCategory" class="topbutton hamburger">
-                        <span class="hamburger-icon">☰</span>
-                    </div>
+                <div id="btnCategory" class="topbutton hamburger">
+                    <i data-lucide="menu"></i>
+                </div>
                     <div id="dropdownContent" class="dropdown-content">
                         <div class="dropdown-item" data-filename="general.json">Generell Kunnskap</div>
                         <div class="dropdown-item" data-filename="history.json">Historie</div>
@@ -55,5 +56,9 @@
     </div>
 
     <script src="js/quiz.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
 </body>
 </html>

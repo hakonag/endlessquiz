@@ -35,9 +35,9 @@ class EndlessQuiz {
     }
     
     async loadCategories() {
-        try {
-            const response = await fetch('data/categories.json');
-            const data = await response.json();
+       try {
+           const response = await fetch(`data/categories.json?t=${Date.now()}`);
+           const data = await response.json();
             this.categories = data.categories;
         } catch (error) {
             console.error('Feil ved lasting av kategorier:', error);
@@ -50,10 +50,10 @@ class EndlessQuiz {
             if (categoryFilename === 'general.json') {
                 // For General Knowledge, load all 4 categories and combine
                 await this.loadGeneralKnowledge();
-            } else {
-                // For specific categories, load normally
-                const response = await fetch(`data/categories/${categoryFilename}`);
-                const data = await response.json();
+                   } else {
+                       // For specific categories, load normally
+                       const response = await fetch(`data/categories/${categoryFilename}?t=${Date.now()}`);
+                       const data = await response.json();
                 
                 // Handle both old and new format
                 if (data.version) {
@@ -88,9 +88,9 @@ class EndlessQuiz {
             const allQuestions = [];
             
             // Load all 4 category files
-            for (const category of categories) {
-                const response = await fetch(`data/categories/${category}.json`);
-                const data = await response.json();
+                   for (const category of categories) {
+                       const response = await fetch(`data/categories/${category}.json?t=${Date.now()}`);
+                       const data = await response.json();
                 
                 // Handle both old and new format
                 if (data.version) {

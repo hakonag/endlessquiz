@@ -3,12 +3,14 @@ class ELOHistory {
         this.eloHistory = this.loadELOHistory();
         this.playerStats = this.loadPlayerStats();
         this.currentELO = this.loadELO();
+        this.eloChart = null;
         
         this.init();
     }
     
     init() {
         this.updateStats();
+        this.createELOChart();
         this.populateHistoryList();
     }
     
@@ -49,6 +51,128 @@ class ELOHistory {
         document.getElementById('currentELO').textContent = `ELO ${currentELO}`;
     }
     
+    createELOChart() {
+        const ctx = document.getElementById('eloChart').getContext('2d');
+        
+        // Destroy existing chart if it exists
+        if (this.eloChart) {
+            this.eloChart.destroy();
+        }
+        
+        if (this.eloHistory.length === 0) {
+            // Show empty state
+            ctx.fillStyle = '#6c757d';
+            ctx.font = '16px Inter';
+            ctx.textAlign = 'center';
+            ctx.fillText('Ingen ELO data tilgjengelig', ctx.canvas.width / 2, ctx.canvas.height / 2);
+            return;
+        }
+        
+        // Prepare data
+        const labels = this.eloHistory.map(point => point.questionNumber);
+        const eloData = this.eloHistory.map(point => point.elo);
+        const correctData = this.eloHistory.map(point => point.isCorrect ? point.elo : null);
+        const incorrectData = this.eloHistory.map(point => !point.isCorrect ? point.elo : null);
+        
+        this.eloChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'ELO Rating',
+                        data: eloData,
+                        borderColor: '#007bff',
+                        backgroundColor: 'rgba(0, 123, 255, 0.05)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.2,
+                        pointRadius: 0, // Remove all points for cleaner line
+                        pointHoverRadius: 4
+                    },
+                    {
+                        label: 'Correct',
+                        data: correctData,
+                        borderColor: '#28a745',
+                        backgroundColor: '#28a745',
+                        borderWidth: 0,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        showLine: false
+                    },
+                    {
+                        label: 'Incorrect',
+                        data: incorrectData,
+                        borderColor: '#dc3545',
+                        backgroundColor: '#dc3545',
+                        borderWidth: 0,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        showLine: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: false // Remove title completely for cleaner look
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            usePointStyle: true,
+                            pointStyle: 'circle',
+                            padding: 20,
+                            font: {
+                                size: 12
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        display: false, // Hide X-axis completely
+                        grid: {
+                            display: false
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'ELO Rating',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            color: '#f0f0f0',
+                            drawBorder: false
+                        },
+                        border: {
+                            display: false
+                        },
+                        ticks: {
+                            color: '#666666',
+                            font: {
+                                size: 12
+                            }
+                        },
+                        min: Math.max(800, Math.min(...eloData) - 50),
+                        max: Math.max(...eloData) + 50
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                }
+            }
+        });
+    }
+    
     populateHistoryList() {
         const historyList = document.getElementById('historyList');
         
@@ -57,8 +181,8 @@ class ELOHistory {
             return;
         }
         
-        // Sort by question number (chronological order)
-        const sortedHistory = [...this.eloHistory].sort((a, b) => a.questionNumber - b.questionNumber);
+        // Sort by question number (reverse chronological order - newest first)
+        const sortedHistory = [...this.eloHistory].sort((a, b) => b.questionNumber - a.questionNumber);
         
         historyList.innerHTML = sortedHistory.map(item => {
             const eloChangeClass = item.eloChange >= 0 ? 'positive' : 'negative';

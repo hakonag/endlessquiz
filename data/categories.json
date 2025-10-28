@@ -1,6 +1,6 @@
 {
   "totalCategories": 5,
-  "totalQuestions": 980,
+  "totalQuestions": 1030,
   "categories": [
     {
       "name": "Historie",
@@ -11,7 +11,7 @@
     {
       "name": "Geografi",
       "filename": "geography.json",
-      "count": 580,
+      "count": 630,
       "description": "Spørsmål om land, hovedsteder, landemerker og fysiske trekk"
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "Generell Kunnskap",
       "filename": "general.json",
-      "count": 980,
+      "count": 1030,
       "description": "Blandede spørsmål fra alle kategorier"
     }
   ]

@@ -2,7 +2,7 @@
   "version": "1.0",
   "category": "Geografi",
   "metadata": {
-    "totalQuestions": 580,
+    "totalQuestions": 630,
     "difficultyRange": {
       "min": 761,
       "max": 2155
@@ -1414,18 +1414,44 @@
     {
       "id": 102,
       "q": "Hva er Norges vestligste punkt (Kongeriket Norge)?",
+<<<<<<< HEAD
       "a": "Hoybergodden",
       "w": ["Vardetangen", "Utvær fyr", "Holmebåen"],
       "r": 910,
       "t": ["ytterpunkter"]
+=======
+      "a": "Hoybergodden (Jan Mayen)",
+      "w": [
+        "Vardetangen (Austrheim)",
+        "Utvær fyr (Solund)",
+        "Holmebåen (Solund)"
+      ],
+      "r": 1294,
+      "t": [
+        "ytterpunkter"
+      ]
+>>>>>>> 072064b78c055eb533f8a650d1cf1b6c92ab4a45
     },
     {
       "id": 103,
       "q": "Hva er Norges sørligste punkt på norsk jord?",
+<<<<<<< HEAD
       "a": "Pysen",
       "w": ["Lindesnes fyr", "Lista", "Eigerøya"],
       "r": 760,
       "t": ["ytterpunkter"]
+=======
+      "a": "Pysen (Lindesnes)",
+      "w": [
+        "Lindesnes fyr (Lindesnes)",
+        "Lista (Farsund)",
+        "Eigerøya (Eigersund)"
+      ],
+      "r": 1295,
+      "t": [
+        "ytterpunkter"
+      ]
+>>>>>>> 072064b78c055eb533f8a650d1cf1b6c92ab4a45
     },
     {
       "id": 104,
@@ -1438,10 +1464,23 @@
     {
       "id": 105,
       "q": "Største avstand nord–sør i Norge (Kongeriket) er omtrent:",
+<<<<<<< HEAD
       "a": "ca. 2636 km",
       "w": ["ca. 1813 km", "ca. 432 km", "ca. 210 km"],
       "r": 1050,
       "t": ["avstander"]
+=======
+      "a": "2 636 km (Lindesnes–Kvitøya)",
+      "w": [
+        "1 813 km (Lista–Hornøya)",
+        "432 km (Vardetangen–Mellomfjellrøysa)",
+        "210 km (punkt lengst fra sjø)"
+      ],
+      "r": 1296,
+      "t": [
+        "avstander"
+      ]
+>>>>>>> 072064b78c055eb533f8a650d1cf1b6c92ab4a45
     },
     {
       "id": 106,
@@ -7550,10 +7589,23 @@
     {
       "id": 606,
       "q": "Hvor stor andel av Bouvetøya er dekket av isbreer?",
+<<<<<<< HEAD
       "a": "ca. 93 %",
       "w": ["ca. 50 %", "ca. 70 %", "ca. 20 %"],
       "r": 920,
       "t": ["natur"]
+=======
+      "a": "Omtrent 93 %",
+      "w": [
+        "Omtrent 50 %",
+        "Omtrent 70 %",
+        "Omtrent 20 %"
+      ],
+      "r": 1838,
+      "t": [
+        "natur"
+      ]
+>>>>>>> 072064b78c055eb533f8a650d1cf1b6c92ab4a45
     },
     {
       "id": 607,
@@ -7572,10 +7624,23 @@
     {
       "id": 608,
       "q": "Hva er arealet til Bouvetøya?",
+<<<<<<< HEAD
       "a": "ca. 49 km²",
       "w": ["ca. 156 km²", "ca. 2 700 000 km²", "ca. 310 km²"],
       "r": 850,
       "t": ["geografi"]
+=======
+      "a": "49 km²",
+      "w": [
+        "156 km²",
+        "2 700 000 km²",
+        "310 km²"
+      ],
+      "r": 1850,
+      "t": [
+        "geografi"
+      ]
+>>>>>>> 072064b78c055eb533f8a650d1cf1b6c92ab4a45
     },
     {
       "id": 609,
@@ -7636,10 +7701,23 @@
     {
       "id": 613,
       "q": "Hvor langt ligger Peter I Øy fra det antarktiske kontinentet?",
+<<<<<<< HEAD
       "a": "ca. 450 km",
       "w": ["ca. 2200 km", "ca. 120 km", "ca. 900 km"],
       "r": 890,
       "t": ["geografi"]
+=======
+      "a": "Omtrent 450 km",
+      "w": [
+        "Omtrent 2200 km",
+        "Omtrent 120 km",
+        "Omtrent 900 km"
+      ],
+      "r": 1889,
+      "t": [
+        "geografi"
+      ]
+>>>>>>> 072064b78c055eb533f8a650d1cf1b6c92ab4a45
     },
     {
       "id": 614,
@@ -7812,10 +7890,23 @@
     {
       "id": 626,
       "q": "Hvor langt ligger Bouvetøya fra Sør-Afrika?",
+<<<<<<< HEAD
       "a": "ca. 2200 km",
       "w": ["ca. 450 km", "ca. 1100 km", "ca. 3000 km"],
       "r": 870,
       "t": ["geografi"]
+=======
+      "a": "Omtrent 2200 km",
+      "w": [
+        "450 km",
+        "1100 km",
+        "3000 km"
+      ],
+      "r": 1987,
+      "t": [
+        "geografi"
+      ]
+>>>>>>> 072064b78c055eb533f8a650d1cf1b6c92ab4a45
     },
     {
       "id": 627,

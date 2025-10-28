@@ -133,6 +133,18 @@ body {
     font-weight: bold;
 }
 
+/* Lucide Icon Styles */
+.hamburger i {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+    transition: all 0.15s ease;
+}
+
+.hamburger:hover i {
+    transform: scale(1.1);
+}
+
 /* Dropdown */
 .dropdown {
     position: relative;
@@ -657,6 +669,27 @@ body {
     border-radius: 0;
 }
 
+.history-list-header {
+    background: #f8f8f8;
+    padding: 20px 30px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.history-list-header h3 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.history-note {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d;
+    font-style: italic;
+}
+
 .history-page .history-item {
     padding: 20px 30px;
     border-bottom: 1px solid #e0e0e0;
@@ -690,6 +723,36 @@ body {
 .history-page .hamburger:hover {
     text-decoration: none;
     color: inherit;
+}
+
+/* Chart Section Styles */
+.chart-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.chart-section h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+    height: 400px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+#eloChart {
+    max-width: 100%;
+    height: 100%;
 }
 
 /* Responsive Design */
@@ -742,6 +805,25 @@ body {
     
     .categoryName {
         font-size: 16px;
+    }
+    
+    /* History page mobile styles */
+    .history-page {
+        padding: 15px;
+    }
+    
+    .history-page .history-stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .chart-container {
+        height: 300px;
+        padding: 15px;
+    }
+    
+    .chart-section h2 {
+        font-size: 20px;
     }
 }
 
