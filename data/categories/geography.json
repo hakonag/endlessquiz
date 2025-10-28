@@ -1002,9 +1002,9 @@
       "q": "Hvor ligger Trollheimen?",
       "a": "Mellom Trøndelag og Møre og Romsdal",
       "w": [
-        "I Nordland",
-        "I Telemark",
-        "I Rogaland"
+        "I Nordland og Troms",
+        "I Telemark og Vestfold",
+        "I Rogaland og Hordaland"
       ],
       "r": 1255,
       "t": [
@@ -3984,9 +3984,9 @@
       "q": "Hva er strandflaten i Norge?",
       "a": "Et lavt og flatt kystområde med øyer og holmer",
       "w": [
-        "Et høyt fjellplatå med snø",
-        "En type bre og ismasse",
-        "En vulkansk slette og lava"
+        "Et høyt fjellplatå med snø og is",
+        "En type bre og ismasse og vann",
+        "En vulkansk slette og lava og aske"
       ],
       "r": 1486,
       "t": [
@@ -4026,9 +4026,9 @@
       "q": "Hva består morenemateriale hovedsakelig av?",
       "a": "En blanding av leire, sand, stein og blokker",
       "w": [
-        "Kun sand og grus",
-        "Kun leire og silt",
-        "Kun store steiner og blokker"
+        "Kun sand og grus og sedimenter",
+        "Kun leire og silt og mineraler",
+        "Kun store steiner og blokker og fjell"
       ],
       "r": 1490,
       "t": [
@@ -5594,9 +5594,9 @@
       "q": "Hva heter det norske gruveselskapet som har vært dominerende på Svalbard?",
       "a": "Store Norske Spitsbergen Kulkompani",
       "w": [
-        "Norsk Kullkompani",
-        "Polarkraft",
-        "Svalbard Mining AS"
+        "Norsk Kullkompani og gruver",
+        "Polarkraft og energi",
+        "Svalbard Mining AS og utvinning"
       ],
       "r": 1603,
       "t": [
@@ -6831,9 +6831,9 @@
       "q": "Hva er den største trusselen mot vegetasjonen på Jan Mayen?",
       "a": "Erosjon og slitasje fra vær og vulkanaske",
       "w": [
-        "Beitedyr",
-        "Turisme",
-        "Forurensning"
+        "Beitedyr og husdyr",
+        "Turisme og mennesker",
+        "Forurensning og kjemikalier"
       ],
       "r": 1726,
       "t": [
@@ -7716,9 +7716,9 @@
       "q": "Hvor ligger forskningsstasjonen Troll?",
       "a": "I Jutulsessen i Dronning Maud Land",
       "w": [
-        "På Bouvetøya",
-        "På Peter I Øy",
-        "Ved Sørpolen"
+        "På Bouvetøya og øy",
+        "På Peter I Øy og territorium",
+        "Ved Sørpolen og Antarktis"
       ],
       "r": 1917,
       "t": [

@@ -66,9 +66,9 @@
       "q": "Hvilken arkitekt sto bak Skaugum, kronprinsparets bolig som brant i 1930?",
       "a": "Herman Major Backer",
       "w": [
-        "Henrik Bull",
-        "Magnus Poulsson",
-        "Bredo Greve"
+        "Henrik Bull og arkitekt",
+        "Magnus Poulsson og designer",
+        "Bredo Greve og byggmester"
       ],
       "r": 1112,
       "t": [
@@ -96,9 +96,9 @@
       "q": "Hvem sto sammen med Herman Munthe-Kaas bak Kunstnernes Hus i Oslo?",
       "a": "Gudolf Blakstad",
       "w": [
-        "Ove Bang",
-        "Kjell Lund",
-        "Magnus Poulsson"
+        "Ove Bang og arkitekt",
+        "Kjell Lund og designer",
+        "Magnus Poulsson og byggmester"
       ],
       "r": 1152,
       "t": [
@@ -126,9 +126,9 @@
       "q": "Hvilken arkitekt tegnet både Vestbanestasjonen og Østbanestasjonen i Oslo?",
       "a": "Georg Andreas Bull",
       "w": [
-        "Christian Grosch",
-        "Paul Due",
-        "Henrik Bull"
+        "Christian Grosch og arkitekt",
+        "Paul Due og designer",
+        "Henrik Bull og byggmester"
       ],
       "r": 1208,
       "t": [
@@ -171,9 +171,9 @@
       "q": "Hvilken norsk arkitekt mottok Pritzker Architecture Prize i 1997?",
       "a": "Sverre Fehn",
       "w": [
-        "Kjetil Trædal Thorsen",
-        "Arne Korsmo",
-        "Nils Slaatto"
+        "Kjetil Trædal Thorsen og arkitekt",
+        "Arne Korsmo og designer",
+        "Nils Slaatto og byggmester"
       ],
       "r": 1246,
       "t": [
@@ -621,9 +621,9 @@
       "q": "Hvilken maler regnes som den første norske kunstner med internasjonalt gjennombrudd?",
       "a": "Johan Christian Dahl",
       "w": [
-        "Harald Sohlberg",
-        "Christian Krohg",
-        "Hans Gude"
+        "Harald Sohlberg og maler",
+        "Christian Krohg og kunstner",
+        "Hans Gude og landskapsmaler"
       ],
       "r": 1411,
       "t": [
@@ -2496,7 +2496,7 @@
     "id": 216,
     "q": "Hvem ledet juryen som i 2007 kåret 25 verk til 'Norsk Litteraturfestivals' liste over sentrale verk?",
     "a": "Janike Kampevold Larsen",
-    "w": ["Kjell Askildsen", "Jan Kjærstad", "Dag Solstad"],
+    "w": ["Kjell Askildsen og forfatter", "Jan Kjærstad og roman", "Dag Solstad og litteratur"],
     "r": 700,
     "t": ["litteratur", "jury"]
     },
