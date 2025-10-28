@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
@@ -15,7 +16,7 @@
         <div id="toprow">
             <div class="left-dropdown">
                 <a href="index.html" class="topbutton hamburger">
-                    <span class="hamburger-icon">←</span>
+                    <i data-lucide="arrow-left"></i>
                 </a>
             </div>
             <div class="right-buttons">
@@ -62,5 +63,9 @@
     </div>
 
     <script src="js/elo-history.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
 </body>
 </html>
