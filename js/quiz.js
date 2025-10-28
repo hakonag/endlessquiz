@@ -87,30 +87,34 @@ class EndlessQuiz {
             const categories = ['history', 'geography', 'science', 'culture'];
             const allQuestions = [];
             
-            // Load all 4 category files
+                   // Load all 4 category files
                    for (const category of categories) {
                        const response = await fetch(`data/categories/${category}.json?t=${Date.now()}`);
                        const data = await response.json();
-                
-                // Handle both old and new format
-                if (data.version) {
-                    // New optimized format
-                    const questions = data.questions.map(q => ({
-                        id: q.id,
-                        question: q.q,
-                        answer: q.a,
-                        wrongAnswers: q.w,
-                        rating: q.r,
-                        category: data.category,
-                        language: "eng",
-                        tags: q.t
-                    }));
-                    allQuestions.push(...questions);
-                } else {
-                    // Old format (fallback)
-                    allQuestions.push(...data.questions);
-                }
-            }
+
+                       // Handle both old and new format
+                       if (data.version) {
+                           // New optimized format - renumber questions to avoid duplicates
+                           const questions = data.questions.map((q, index) => ({
+                               id: allQuestions.length + index + 1, // Ensure unique IDs
+                               question: q.q,
+                               answer: q.a,
+                               wrongAnswers: q.w,
+                               rating: q.r,
+                               category: data.category,
+                               language: "eng",
+                               tags: q.t
+                           }));
+                           allQuestions.push(...questions);
+                       } else {
+                           // Old format (fallback) - also renumber
+                           const questions = data.questions.map((q, index) => ({
+                               ...q,
+                               id: allQuestions.length + index + 1 // Ensure unique IDs
+                           }));
+                           allQuestions.push(...questions);
+                       }
+                   }
             
             this.questions = allQuestions;
             this.shuffleArray(this.questions);
