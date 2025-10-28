@@ -4,8 +4,8 @@
   "metadata": {
     "totalQuestions": 19,
     "difficultyRange": {
-      "min": 750,
-      "max": 1100
+      "min": 835,
+      "max": 2023
     },
     "lastUpdated": "2025-10-27",
     "tags": [
@@ -20,961 +20,2277 @@
       "id": 1,
       "q": "Hvem tegnet hovedbygningen ved Norges tekniske høgskole (nå NTNU)?",
       "a": "Bredo Greve",
-      "w": ["Christian Grosch", "Henrik Bull", "Paul Due"],
-      "r": 950,
-      "t": ["arkitektur", "utdanning"]
+      "w": [
+        "Christian Grosch",
+        "Henrik Bull",
+        "Paul Due"
+      ],
+      "r": 835,
+      "t": [
+        "arkitektur",
+        "utdanning"
+      ]
     },
     {
       "id": 2,
       "q": "Arnstein Arneberg er blant annet kjent for å ha vunnet arkitektkonkurransen om hvilket bygg i Oslo?",
       "a": "Oslo rådhus",
-      "w": ["Det kongelige slott", "Nasjonalgalleriet", "Operaen i Oslo"],
-      "r": 970,
-      "t": ["arkitektur", "Oslo"]
+      "w": [
+        "Det kongelige slott",
+        "Nasjonalgalleriet",
+        "Operaen i Oslo"
+      ],
+      "r": 1067,
+      "t": [
+        "arkitektur",
+        "Oslo"
+      ]
     },
     {
       "id": 3,
       "q": "Lars Backer regnes som en pioner innen funksjonalisme i Norge. Hvilket kjent serveringssted sto han bak?",
       "a": "Ekebergrestauranten",
-      "w": ["Frognerbadet", "Grand Café", "Sogn Studentby"],
-      "r": 940,
-      "t": ["arkitektur", "funksjonalisme"]
+      "w": [
+        "Frognerbadet",
+        "Grand Café",
+        "Sogn Studentby"
+      ],
+      "r": 1095,
+      "t": [
+        "arkitektur",
+        "funksjonalisme"
+      ]
     },
     {
       "id": 4,
       "q": "Hvilken arkitekt sto bak Skaugum, kronprinsparets bolig som brant i 1930?",
       "a": "Herman Major Backer",
-      "w": ["Henrik Bull", "Magnus Poulsson", "Bredo Greve"],
-      "r": 930,
-      "t": ["arkitektur", "bolig"]
+      "w": [
+        "Henrik Bull",
+        "Magnus Poulsson",
+        "Bredo Greve"
+      ],
+      "r": 1112,
+      "t": [
+        "arkitektur",
+        "bolig"
+      ]
     },
     {
       "id": 5,
       "q": "Ove Bang var en sentral skikkelse i hvilken stilretning?",
       "a": "Funksjonalismen",
-      "w": ["Nasjonalromantikken", "Jugendstilen", "Klassisismen"],
-      "r": 910,
-      "t": ["arkitektur", "stilretning"]
+      "w": [
+        "Nasjonalromantikken",
+        "Jugendstilen",
+        "Klassisismen"
+      ],
+      "r": 1131,
+      "t": [
+        "arkitektur",
+        "stilretning"
+      ]
     },
     {
       "id": 6,
       "q": "Hvem sto sammen med Herman Munthe-Kaas bak Kunstnernes Hus i Oslo?",
       "a": "Gudolf Blakstad",
-      "w": ["Ove Bang", "Kjell Lund", "Magnus Poulsson"],
-      "r": 920,
-      "t": ["arkitektur", "Oslo"]
+      "w": [
+        "Ove Bang",
+        "Kjell Lund",
+        "Magnus Poulsson"
+      ],
+      "r": 1152,
+      "t": [
+        "arkitektur",
+        "Oslo"
+      ]
     },
     {
       "id": 7,
       "q": "Kari Nissen Brodtkorb er kjent for boligprosjekter på Aker Brygge. Hvilken pris har hun mottatt?",
       "a": "Houens fonds diplom",
-      "w": ["Grosch-medaljen", "Pritzker-prisen", "Betongtavlen"],
-      "r": 950,
-      "t": ["arkitektur", "priser"]
+      "w": [
+        "Grosch-medaljen",
+        "Pritzker-prisen",
+        "Betongtavlen"
+      ],
+      "r": 1177,
+      "t": [
+        "arkitektur",
+        "priser"
+      ]
     },
     {
       "id": 8,
       "q": "Hvilken arkitekt tegnet både Vestbanestasjonen og Østbanestasjonen i Oslo?",
       "a": "Georg Andreas Bull",
-      "w": ["Christian Grosch", "Paul Due", "Henrik Bull"],
-      "r": 970,
-      "t": ["arkitektur", "jernbane"]
+      "w": [
+        "Christian Grosch",
+        "Paul Due",
+        "Henrik Bull"
+      ],
+      "r": 1208,
+      "t": [
+        "arkitektur",
+        "jernbane"
+      ]
     },
     {
       "id": 9,
       "q": "Henrik Bull er kjent for restaureringen av hvilket nasjonalt monument?",
       "a": "Nidarosdomen",
-      "w": ["Stiklestad kirke", "Domkirken i Oslo", "Heddal stavkirke"],
-      "r": 960,
-      "t": ["arkitektur", "restaurering"]
+      "w": [
+        "Stiklestad kirke",
+        "Domkirken i Oslo",
+        "Heddal stavkirke"
+      ],
+      "r": 1238,
+      "t": [
+        "arkitektur",
+        "restaurering"
+      ]
     },
     {
       "id": 10,
       "q": "Paul Due er kjent for en rekke jernbanestasjoner og bygninger i hvilken stil?",
       "a": "Dragestil og jugendstil",
-      "w": ["Nasjonalromantikk", "Funksjonalisme", "Klassisisme"],
-      "r": 910,
-      "t": ["arkitektur", "stilretning"]
+      "w": [
+        "Nasjonalromantikk",
+        "Funksjonalisme",
+        "Klassisisme"
+      ],
+      "r": 1243,
+      "t": [
+        "arkitektur",
+        "stilretning"
+      ]
     },
     {
       "id": 11,
       "q": "Hvilken norsk arkitekt mottok Pritzker Architecture Prize i 1997?",
       "a": "Sverre Fehn",
-      "w": ["Kjetil Trædal Thorsen", "Arne Korsmo", "Nils Slaatto"],
-      "r": 980,
-      "t": ["arkitektur", "priser"]
+      "w": [
+        "Kjetil Trædal Thorsen",
+        "Arne Korsmo",
+        "Nils Slaatto"
+      ],
+      "r": 1246,
+      "t": [
+        "arkitektur",
+        "priser"
+      ]
     },
     {
       "id": 12,
       "q": "Christian Heinrich Grosch tegnet universitetsbygningene i Oslo i hvilken stilretning?",
       "a": "Dansk klassisisme",
-      "w": ["Funksjonalisme", "Jugendstil", "Nasjonalromantikk"],
-      "r": 950,
-      "t": ["arkitektur", "klassisisme"]
+      "w": [
+        "Funksjonalisme",
+        "Jugendstil",
+        "Nasjonalromantikk"
+      ],
+      "r": 1264,
+      "t": [
+        "arkitektur",
+        "klassisisme"
+      ]
     },
     {
       "id": 13,
       "q": "Lilla Hansen var Norges første kvinnelige arkitekt med egen praksis. Hva het studenthjemmet hun tegnet for unge kvinner?",
       "a": "Studiehjem for unge piker",
-      "w": ["Heftyeterrassen", "Villa Stenersen", "Stranden-prosjektet"],
-      "r": 920,
-      "t": ["arkitektur", "kvinner"]
+      "w": [
+        "Heftyeterrassen",
+        "Villa Stenersen",
+        "Stranden-prosjektet"
+      ],
+      "r": 1265,
+      "t": [
+        "arkitektur",
+        "kvinner"
+      ]
     },
     {
       "id": 14,
       "q": "Wilhelm von Hanno tegnet hvilken markant kirke i Oslo sentrum?",
       "a": "Trefoldighetskirken",
-      "w": ["Sagene kirke", "Uranienborg kirke", "Gamle Aker kirke"],
-      "r": 940,
-      "t": ["arkitektur", "kirke"]
+      "w": [
+        "Sagene kirke",
+        "Uranienborg kirke",
+        "Gamle Aker kirke"
+      ],
+      "r": 1265,
+      "t": [
+        "arkitektur",
+        "kirke"
+      ]
     },
     {
       "id": 15,
       "q": "Jan Inge Hovig tegnet et av Nord-Norges mest kjente landemerker. Hvilket?",
       "a": "Ishavskatedralen",
-      "w": ["Domkirken i Tromsø", "Alta kirke", "Trondenes kirke"],
-      "r": 970,
-      "t": ["arkitektur", "Nord-Norge"]
+      "w": [
+        "Domkirken i Tromsø",
+        "Alta kirke",
+        "Trondenes kirke"
+      ],
+      "r": 1270,
+      "t": [
+        "arkitektur",
+        "Nord-Norge"
+      ]
     },
     {
       "id": 16,
       "q": "Kristin Jarmund står bak Justervesenets hovedkontor på Kjeller. Hvilken stil forbindes hun med?",
       "a": "Nyfunksjonalisme",
-      "w": ["Brutalisme", "Postmodernisme", "Minimalisme"],
-      "r": 930,
-      "t": ["arkitektur", "moderne"]
+      "w": [
+        "Brutalisme",
+        "Postmodernisme",
+        "Minimalisme"
+      ],
+      "r": 1275,
+      "t": [
+        "arkitektur",
+        "moderne"
+      ]
     },
     {
       "id": 17,
       "q": "Arne Korsmo tegnet Villa Stenersen – et hovedverk innen hvilken retning?",
       "a": "Funksjonalismen",
-      "w": ["Modernismen", "Jugendstilen", "Ekspresjonismen"],
-      "r": 970,
-      "t": ["arkitektur", "villa"]
+      "w": [
+        "Modernismen",
+        "Jugendstilen",
+        "Ekspresjonismen"
+      ],
+      "r": 1280,
+      "t": [
+        "arkitektur",
+        "villa"
+      ]
     },
     {
       "id": 18,
       "q": "Håkon Mjelva fikk Betongtavlen i 1974 for hvilken T-banestasjon i Oslo?",
       "a": "Romsås stasjon",
-      "w": ["Majorstuen stasjon", "Stortinget stasjon", "Grorud stasjon"],
-      "r": 900,
-      "t": ["arkitektur", "T-bane"]
+      "w": [
+        "Majorstuen stasjon",
+        "Stortinget stasjon",
+        "Grorud stasjon"
+      ],
+      "r": 1281,
+      "t": [
+        "arkitektur",
+        "T-bane"
+      ]
     },
     {
       "id": 19,
       "q": "Hvilken norsk funksjonalist tegnet Norges ambassade i Stockholm?",
       "a": "Knut Knutsen",
-      "w": ["Sverre Fehn", "Ove Bang", "Nils Slaatto"],
-      "r": 920,
-      "t": ["arkitektur", "utenriks"]
+      "w": [
+        "Sverre Fehn",
+        "Ove Bang",
+        "Nils Slaatto"
+      ],
+      "r": 1288,
+      "t": [
+        "arkitektur",
+        "utenriks"
+      ]
     },
     {
       "id": 20,
       "q": "Hans Ditlev Franciscus Linstow sto bak planleggingen av hvilken sentral gate i Oslo?",
       "a": "Karl Johans gate",
-      "w": ["Bogstadveien", "Prinsens gate", "Grensen"],
-      "r": 970,
-      "t": ["arkitektur", "Oslo"]
+      "w": [
+        "Bogstadveien",
+        "Prinsens gate",
+        "Grensen"
+      ],
+      "r": 1303,
+      "t": [
+        "arkitektur",
+        "Oslo"
+      ]
     },
     {
       "id": 21,
       "q": "Kjell Lund tegnet Chateau Neuf og mottok hvilken arkitekturpris?",
       "a": "Grosch-medaljen",
-      "w": ["Betongtavlen", "Houens fonds diplom", "Pritzker-prisen"],
-      "r": 930,
-      "t": ["arkitektur", "priser"]
+      "w": [
+        "Betongtavlen",
+        "Houens fonds diplom",
+        "Pritzker-prisen"
+      ],
+      "r": 1304,
+      "t": [
+        "arkitektur",
+        "priser"
+      ]
     },
     {
       "id": 22,
       "q": "Herman Munthe-Kaas samarbeidet tett med hvilken annen arkitekt om Haugesund rådhus?",
       "a": "Gudolf Blakstad",
-      "w": ["Magnus Poulsson", "Sverre Fehn", "Nils Slaatto"],
-      "r": 910,
-      "t": ["arkitektur", "samarbeid"]
+      "w": [
+        "Magnus Poulsson",
+        "Sverre Fehn",
+        "Nils Slaatto"
+      ],
+      "r": 1319,
+      "t": [
+        "arkitektur",
+        "samarbeid"
+      ]
     },
     {
       "id": 23,
       "q": "Hvilken arkitekt sto bak Oslo rådhus sammen med Arnstein Arneberg?",
       "a": "Magnus Poulsson",
-      "w": ["Lars Backer", "Henrik Bull", "Paul Due"],
-      "r": 960,
-      "t": ["arkitektur", "Oslo"]
+      "w": [
+        "Lars Backer",
+        "Henrik Bull",
+        "Paul Due"
+      ],
+      "r": 1328,
+      "t": [
+        "arkitektur",
+        "Oslo"
+      ]
     },
     {
       "id": 24,
       "q": "Heinrich Ernst Schirmer var kjent for restaurering av Nidarosdomen og bygging av hvilken institusjon i Oslo?",
       "a": "Botsfengselet",
-      "w": ["Nationaltheatret", "Universitetet", "Det kongelige slott"],
-      "r": 950,
-      "t": ["arkitektur", "institusjon"]
+      "w": [
+        "Nationaltheatret",
+        "Universitetet",
+        "Det kongelige slott"
+      ],
+      "r": 1332,
+      "t": [
+        "arkitektur",
+        "institusjon"
+      ]
     },
     {
       "id": 25,
       "q": "Nils Slaatto arbeidet sammen med Kjell Lund på flere prosjekter. Hvilken retning forbindes han med?",
       "a": "Strukturalisme",
-      "w": ["Postmodernisme", "Konstruktivisme", "Funksjonalisme"],
-      "r": 920,
-      "t": ["arkitektur", "moderne"]
+      "w": [
+        "Postmodernisme",
+        "Konstruktivisme",
+        "Funksjonalisme"
+      ],
+      "r": 1341,
+      "t": [
+        "arkitektur",
+        "moderne"
+      ]
     },
     {
       "id": 26,
       "q": "Niels Torp tegnet terminalbygget på hvilken flyplass?",
       "a": "Oslo lufthavn Gardermoen",
-      "w": ["København Kastrup", "Flesland", "Torp Sandefjord"],
-      "r": 970,
-      "t": ["arkitektur", "flyplass"]
+      "w": [
+        "København Kastrup",
+        "Flesland",
+        "Torp Sandefjord"
+      ],
+      "r": 1342,
+      "t": [
+        "arkitektur",
+        "flyplass"
+      ]
     },
     {
       "id": 27,
       "q": "Kjetil Trædal Thorsen er medgrunnlegger av hvilket norsk arkitektfirma?",
       "a": "Snøhetta",
-      "w": ["Aviaplan", "MAD Arkitekter", "Helen & Hard"],
-      "r": 980,
-      "t": ["arkitektur", "firma"]
+      "w": [
+        "Aviaplan",
+        "MAD Arkitekter",
+        "Helen & Hard"
+      ],
+      "r": 1354,
+      "t": [
+        "arkitektur",
+        "firma"
+      ]
     },
     {
       "id": 28,
       "q": "Hvilket verk av Snøhetta ble tildelt Grosch-medaljen i 2012?",
       "a": "Operahuset i Oslo",
-      "w": ["Bibliotheca Alexandrina", "Deichman Bjørvika", "OL-museet i Lillehammer"],
-      "r": 970,
-      "t": ["arkitektur", "priser"]
+      "w": [
+        "Bibliotheca Alexandrina",
+        "Deichman Bjørvika",
+        "OL-museet i Lillehammer"
+      ],
+      "r": 1360,
+      "t": [
+        "arkitektur",
+        "priser"
+      ]
     },
     {
       "id": 29,
       "q": "Aviaplan var involvert i planleggingen av hvilken type infrastruktur?",
       "a": "Flyplasser",
-      "w": ["Bybaner", "Sykehus", "Universiteter"],
-      "r": 890,
-      "t": ["arkitektur", "transport"]
+      "w": [
+        "Bybaner",
+        "Sykehus",
+        "Universiteter"
+      ],
+      "r": 1361,
+      "t": [
+        "arkitektur",
+        "transport"
+      ]
     },
     {
       "id": 30,
       "q": "Hvilken arkitekt fikk tilnavnet 'modernismens mester' etter Villa Schreiner og Hedmarksmuseet?",
       "a": "Sverre Fehn",
-      "w": ["Arne Korsmo", "Knut Knutsen", "Nils Slaatto"],
-      "r": 950,
-      "t": ["arkitektur", "modernisme"]
+      "w": [
+        "Arne Korsmo",
+        "Knut Knutsen",
+        "Nils Slaatto"
+      ],
+      "r": 1365,
+      "t": [
+        "arkitektur",
+        "modernisme"
+      ]
     },
     {
       "id": 31,
       "q": "Hvilken periode regnes som starten på norsk kunsthistorie?",
       "a": "Steinalderen",
-      "w": ["Bronsealderen", "Vikingtiden", "Middelalderen"],
-      "r": 750,
-      "t": ["kunsthistorie", "periode"]
+      "w": [
+        "Bronsealderen",
+        "Vikingtiden",
+        "Middelalderen"
+      ],
+      "r": 1372,
+      "t": [
+        "kunsthistorie",
+        "periode"
+      ]
     },
     {
       "id": 32,
       "q": "Hva kalles bergmaleriene som finnes flere steder i Norge, blant annet i Alta?",
       "a": "Helleristninger",
-      "w": ["Runer", "Fresker", "Ikoner"],
-      "r": 800,
-      "t": ["forhistorisk", "kunst"]
+      "w": [
+        "Runer",
+        "Fresker",
+        "Ikoner"
+      ],
+      "r": 1378,
+      "t": [
+        "forhistorisk",
+        "kunst"
+      ]
     },
     {
       "id": 33,
       "q": "Dyreornamentikken fra vikingtiden er spesielt kjent fra utsmykning av hva?",
       "a": "Skip og våpen",
-      "w": ["Kirker", "Glassmalerier", "Veggtepper"],
-      "r": 830,
-      "t": ["vikingtid", "ornamentikk"]
+      "w": [
+        "Kirker",
+        "Glassmalerier",
+        "Veggtepper"
+      ],
+      "r": 1381,
+      "t": [
+        "vikingtid",
+        "ornamentikk"
+      ]
     },
     {
       "id": 34,
       "q": "Hva kalles den særnorske kirkearkitekturen som oppsto i middelalderen?",
       "a": "Stavkirker",
-      "w": ["Korskirker", "Steinkirker", "Klosterkirker"],
-      "r": 860,
-      "t": ["middelalder", "arkitektur"]
+      "w": [
+        "Korskirker",
+        "Steinkirker",
+        "Klosterkirker"
+      ],
+      "r": 1387,
+      "t": [
+        "middelalder",
+        "arkitektur"
+      ]
     },
     {
       "id": 35,
       "q": "Hvilken middelalderkunstner er kjent for utskjæringene i Urnes stavkirke?",
       "a": "Urnesmesteren",
-      "w": ["Gudbrandsmesteren", "Nidarosmunkene", "Telemarksskolen"],
-      "r": 880,
-      "t": ["middelalder", "treskjæring"]
+      "w": [
+        "Gudbrandsmesteren",
+        "Nidarosmunkene",
+        "Telemarksskolen"
+      ],
+      "r": 1393,
+      "t": [
+        "middelalder",
+        "treskjæring"
+      ]
     },
     {
       "id": 36,
       "q": "Hvilken stil dominerte kirkekunsten i Norge på 1100- og 1200-tallet?",
       "a": "Romansk stil",
-      "w": ["Gotisk stil", "Barokk", "Renessanse"],
-      "r": 870,
-      "t": ["stilhistorie", "middelalder"]
+      "w": [
+        "Gotisk stil",
+        "Barokk",
+        "Renessanse"
+      ],
+      "r": 1399,
+      "t": [
+        "stilhistorie",
+        "middelalder"
+      ]
     },
     {
       "id": 37,
       "q": "Hva er typisk for gotisk kirkekunst?",
       "a": "Spisse buer og glassmalerier",
-      "w": ["Enkle linjer og lite ornamentikk", "Runde hvelv og søyler", "Massive steinvegger uten vinduer"],
-      "r": 890,
-      "t": ["gotikk", "kunst"]
+      "w": [
+        "Enkle linjer og lite ornamentikk",
+        "Runde hvelv og søyler",
+        "Massive steinvegger uten vinduer"
+      ],
+      "r": 1399,
+      "t": [
+        "gotikk",
+        "kunst"
+      ]
     },
     {
       "id": 38,
       "q": "Hvilken epoke kom etter middelalderen og brakte inn et mer menneskelig uttrykk i kunsten?",
       "a": "Renessansen",
-      "w": ["Romantikken", "Barokken", "Empiren"],
-      "r": 900,
-      "t": ["kunsthistorie", "renessanse"]
+      "w": [
+        "Romantikken",
+        "Barokken",
+        "Empiren"
+      ],
+      "r": 1405,
+      "t": [
+        "kunsthistorie",
+        "renessanse"
+      ]
     },
     {
       "id": 39,
       "q": "Hvilken kunstretning preget Norge på 1600-tallet, særlig i kirkekunsten?",
       "a": "Barokken",
-      "w": ["Rokokko", "Renessanse", "Klassisisme"],
-      "r": 890,
-      "t": ["barokk", "kirke"]
+      "w": [
+        "Rokokko",
+        "Renessanse",
+        "Klassisisme"
+      ],
+      "r": 1409,
+      "t": [
+        "barokk",
+        "kirke"
+      ]
     },
     {
       "id": 40,
       "q": "Hvilket treslag ble oftest brukt til utskjæringer i barokke altertavler i Norge?",
       "a": "Furu",
-      "w": ["Eik", "Bjørk", "Ask"],
-      "r": 850,
-      "t": ["barokk", "treskjæring"]
+      "w": [
+        "Eik",
+        "Bjørk",
+        "Ask"
+      ],
+      "r": 1410,
+      "t": [
+        "barokk",
+        "treskjæring"
+      ]
     },
     {
       "id": 41,
       "q": "Hvilken maler regnes som den første norske kunstner med internasjonalt gjennombrudd?",
       "a": "Johan Christian Dahl",
-      "w": ["Harald Sohlberg", "Christian Krohg", "Hans Gude"],
-      "r": 980,
-      "t": ["romantikken", "maleri"]
+      "w": [
+        "Harald Sohlberg",
+        "Christian Krohg",
+        "Hans Gude"
+      ],
+      "r": 1411,
+      "t": [
+        "romantikken",
+        "maleri"
+      ]
     },
     {
       "id": 42,
       "q": "J.C. Dahl forbindes særlig med hvilken kunstretning?",
       "a": "Romantikken",
-      "w": ["Klassisismen", "Naturalismen", "Impresjonismen"],
-      "r": 930,
-      "t": ["kunsthistorie", "romantikken"]
+      "w": [
+        "Klassisismen",
+        "Naturalismen",
+        "Impresjonismen"
+      ],
+      "r": 1422,
+      "t": [
+        "kunsthistorie",
+        "romantikken"
+      ]
     },
     {
       "id": 43,
       "q": "Hvilket motiv ble særlig viktig i norsk nasjonalromantisk kunst på 1800-tallet?",
       "a": "Norsk natur og fjellandskap",
-      "w": ["Krig og mytologi", "Portretter av konger", "Byliv og industri"],
-      "r": 890,
-      "t": ["romantikken", "nasjonal"]
+      "w": [
+        "Krig og mytologi",
+        "Portretter av konger",
+        "Byliv og industri"
+      ],
+      "r": 1434,
+      "t": [
+        "romantikken",
+        "nasjonal"
+      ]
     },
     {
       "id": 44,
       "q": "Hvilken kunstner malte «Brudeferd i Hardanger» sammen med Adolph Tidemand?",
       "a": "Hans Gude",
-      "w": ["Christian Skredsvig", "Harald Sohlberg", "Frits Thaulow"],
-      "r": 910,
-      "t": ["romantikken", "maleri"]
+      "w": [
+        "Christian Skredsvig",
+        "Harald Sohlberg",
+        "Frits Thaulow"
+      ],
+      "r": 1434,
+      "t": [
+        "romantikken",
+        "maleri"
+      ]
     },
     {
       "id": 45,
       "q": "Hvilken epoke i norsk kunsthistorie er Adolph Tidemand mest kjent for?",
       "a": "Nasjonalromantikken",
-      "w": ["Barokken", "Symbolismen", "Rokokko"],
-      "r": 920,
-      "t": ["kunsthistorie", "nasjonalromantikk"]
+      "w": [
+        "Barokken",
+        "Symbolismen",
+        "Rokokko"
+      ],
+      "r": 1443,
+      "t": [
+        "kunsthistorie",
+        "nasjonalromantikk"
+      ]
     },
     {
       "id": 46,
       "q": "Christian Krohg var en sentral figur i hvilken kunstretning?",
       "a": "Naturalismen",
-      "w": ["Symbolismen", "Romantikken", "Impresjonismen"],
-      "r": 900,
-      "t": ["naturalismen", "realismen"]
+      "w": [
+        "Symbolismen",
+        "Romantikken",
+        "Impresjonismen"
+      ],
+      "r": 1449,
+      "t": [
+        "naturalismen",
+        "realismen"
+      ]
     },
     {
       "id": 47,
       "q": "Hva heter maleriet av Christian Krohg som skildrer sosial nød i Kristiania?",
       "a": "Albertine i politilægens venteværelse",
-      "w": ["Syk pike", "Natt", "Sjømannen og piken"],
-      "r": 940,
-      "t": ["kunst", "samfunn"]
+      "w": [
+        "Syk pike",
+        "Natt",
+        "Sjømannen og piken"
+      ],
+      "r": 1451,
+      "t": [
+        "kunst",
+        "samfunn"
+      ]
     },
     {
       "id": 48,
       "q": "Hvilken norsk kunstner forbindes mest med symbolismen?",
       "a": "Edvard Munch",
-      "w": ["Harald Sohlberg", "Oda Krohg", "Theodor Kittelsen"],
-      "r": 960,
-      "t": ["symbolisme", "maleri"]
+      "w": [
+        "Harald Sohlberg",
+        "Oda Krohg",
+        "Theodor Kittelsen"
+      ],
+      "r": 1461,
+      "t": [
+        "symbolisme",
+        "maleri"
+      ]
     },
     {
       "id": 49,
       "q": "Hva heter Edvard Munchs mest kjente maleri?",
       "a": "Skrik",
-      "w": ["Madonna", "Livets dans", "Vampyr"],
-      "r": 970,
-      "t": ["munch", "ikon"]
+      "w": [
+        "Madonna",
+        "Livets dans",
+        "Vampyr"
+      ],
+      "r": 1467,
+      "t": [
+        "munch",
+        "ikon"
+      ]
     },
     {
       "id": 50,
       "q": "Hvilken norsk kunstner er kjent for nasjonalromantiske eventyrmotiver og trollfigurer?",
       "a": "Theodor Kittelsen",
-      "w": ["Gerhard Munthe", "Kitty Kielland", "Axel Revold"],
-      "r": 880,
-      "t": ["eventyr", "illustrasjon"]
+      "w": [
+        "Gerhard Munthe",
+        "Kitty Kielland",
+        "Axel Revold"
+      ],
+      "r": 1470,
+      "t": [
+        "eventyr",
+        "illustrasjon"
+      ]
     },
     {
       "id": 51,
       "q": "Hvilken kvinnelig maler var en pioner i friluftsmaleri på 1800-tallet?",
       "a": "Kitty Kielland",
-      "w": ["Oda Krohg", "Harriet Backer", "Aasta Nørregaard"],
-      "r": 910,
-      "t": ["kunst", "kvinner"]
+      "w": [
+        "Oda Krohg",
+        "Harriet Backer",
+        "Aasta Nørregaard"
+      ],
+      "r": 1473,
+      "t": [
+        "kunst",
+        "kvinner"
+      ]
     },
     {
       "id": 52,
       "q": "Harriet Backer er kjent for sine malerier av hva?",
       "a": "Interiører og lysvirkninger",
-      "w": ["Fjellandskap", "Hav og skip", "Abstrakte former"],
-      "r": 890,
-      "t": ["kunst", "realismen"]
+      "w": [
+        "Fjellandskap",
+        "Hav og skip",
+        "Abstrakte former"
+      ],
+      "r": 1476,
+      "t": [
+        "kunst",
+        "realismen"
+      ]
     },
     {
       "id": 53,
       "q": "Hvilken norsk maler var en sentral figur i Nyromantikken og malte «Vinternatt i Rondane»?",
       "a": "Harald Sohlberg",
-      "w": ["Hans Gude", "Frits Thaulow", "Oda Krohg"],
-      "r": 940,
-      "t": ["nyromantikken", "maleri"]
+      "w": [
+        "Hans Gude",
+        "Frits Thaulow",
+        "Oda Krohg"
+      ],
+      "r": 1478,
+      "t": [
+        "nyromantikken",
+        "maleri"
+      ]
     },
     {
       "id": 54,
       "q": "Hva er hovedtema i nyromantisk kunst rundt år 1900?",
       "a": "Menneskets forhold til naturen og det åndelige",
-      "w": ["Urbanisering", "Industrialisering", "Sosiale problemer"],
-      "r": 930,
-      "t": ["nyromantikken", "tema"]
+      "w": [
+        "Urbanisering",
+        "Industrialisering",
+        "Sosiale problemer"
+      ],
+      "r": 1478,
+      "t": [
+        "nyromantikken",
+        "tema"
+      ]
     },
     {
       "id": 55,
       "q": "Hvilken kunstretning oppsto etter 1. verdenskrig og la vekt på abstrakte former?",
       "a": "Modernismen",
-      "w": ["Naturalismen", "Klassisismen", "Romantikken"],
-      "r": 920,
-      "t": ["modernismen", "abstrakt"]
+      "w": [
+        "Naturalismen",
+        "Klassisismen",
+        "Romantikken"
+      ],
+      "r": 1479,
+      "t": [
+        "modernismen",
+        "abstrakt"
+      ]
     },
     {
       "id": 56,
       "q": "Hva kjennetegner norsk funksjonalistisk kunst og design på 1930-tallet?",
       "a": "Enkel form, brukervennlighet og rasjonell estetikk",
-      "w": ["Dekorative linjer og ornamenter", "Sterke farger og ekspresjon", "Naturmotiver og nasjonale symboler"],
-      "r": 890,
-      "t": ["design", "modernisme"]
+      "w": [
+        "Dekorative linjer og ornamenter",
+        "Sterke farger og ekspresjon",
+        "Naturmotiver og nasjonale symboler"
+      ],
+      "r": 1480,
+      "t": [
+        "design",
+        "modernisme"
+      ]
     },
     {
       "id": 57,
       "q": "Hvilken norsk kunstnergruppe ble grunnlagt i 1948 og introduserte abstrakt ekspresjonisme?",
       "a": "Konkretistene",
-      "w": ["Nyromantikerne", "Oslogruppen", "Sosialrealistene"],
-      "r": 940,
-      "t": ["kunst", "etterkrigstid"]
+      "w": [
+        "Nyromantikerne",
+        "Oslogruppen",
+        "Sosialrealistene"
+      ],
+      "r": 1483,
+      "t": [
+        "kunst",
+        "etterkrigstid"
+      ]
     },
     {
       "id": 58,
       "q": "Hvilken kunstner er kjent for fargesterke, abstrakte malerier og mosaikker, blant annet i Oslo rådhus?",
       "a": "Kai Fjell",
-      "w": ["Jakob Weidemann", "Reidar Aulie", "Ludvig Karsten"],
-      "r": 950,
-      "t": ["modernisme", "abstrakt"]
+      "w": [
+        "Jakob Weidemann",
+        "Reidar Aulie",
+        "Ludvig Karsten"
+      ],
+      "r": 1484,
+      "t": [
+        "modernisme",
+        "abstrakt"
+      ]
     },
     {
       "id": 59,
       "q": "Jakob Weidemann ble en av de fremste innen hvilken retning?",
       "a": "Abstrakt ekspresjonisme",
-      "w": ["Symbolisme", "Naturalistisk realisme", "Romantikk"],
-      "r": 950,
-      "t": ["modernisme", "ekspresjonisme"]
+      "w": [
+        "Symbolisme",
+        "Naturalistisk realisme",
+        "Romantikk"
+      ],
+      "r": 1485,
+      "t": [
+        "modernisme",
+        "ekspresjonisme"
+      ]
     },
     {
       "id": 60,
       "q": "Hvilken norsk kunstner har stått bak glassmaleriene i Nidarosdomen?",
       "a": "Gabriel Kielland",
-      "w": ["Kai Fjell", "Edvard Munch", "Per Krohg"],
-      "r": 880,
-      "t": ["kunst", "glassmaleri"]
+      "w": [
+        "Kai Fjell",
+        "Edvard Munch",
+        "Per Krohg"
+      ],
+      "r": 1490,
+      "t": [
+        "kunst",
+        "glassmaleri"
+      ]
     },
     {
       "id": 61,
       "q": "Når ble Edvard Munch født?",
       "a": "12. desember 1863",
-      "w": ["24. januar 1864", "15. november 1862", "3. februar 1865"],
-      "r": 820,
-      "t": ["biografi", "fødselsår"]
+      "w": [
+        "24. januar 1864",
+        "15. november 1862",
+        "3. februar 1865"
+      ],
+      "r": 1511,
+      "t": [
+        "biografi",
+        "fødselsår"
+      ]
     },
     {
       "id": 62,
       "q": "Hvor ble Edvard Munch født?",
       "a": "Løten i Hedmark",
-      "w": ["Kristiania", "Fredrikstad", "Bærum"],
-      "r": 850,
-      "t": ["biografi", "fødested"]
+      "w": [
+        "Kristiania",
+        "Fredrikstad",
+        "Bærum"
+      ],
+      "r": 1513,
+      "t": [
+        "biografi",
+        "fødested"
+      ]
     },
     {
       "id": 63,
       "q": "Hva het Edvard Munchs far?",
       "a": "Christian Munch",
-      "w": ["Peter Andreas Munch", "Andreas Munch", "Søren Munch"],
-      "r": 880,
-      "t": ["familie", "biografi"]
+      "w": [
+        "Peter Andreas Munch",
+        "Andreas Munch",
+        "Søren Munch"
+      ],
+      "r": 1514,
+      "t": [
+        "familie",
+        "biografi"
+      ]
     },
     {
       "id": 64,
       "q": "Hvilken sykdom døde Munchs mor av da han var barn?",
       "a": "Tuberkulose",
-      "w": ["Lungebetennelse", "Difteri", "Kolera"],
-      "r": 890,
-      "t": ["familie", "sykdom"]
+      "w": [
+        "Lungebetennelse",
+        "Difteri",
+        "Kolera"
+      ],
+      "r": 1516,
+      "t": [
+        "familie",
+        "sykdom"
+      ]
     },
     {
       "id": 65,
       "q": "Hvilken slektning tok seg av barna etter morens død?",
       "a": "Tanten Karen Bjølstad",
-      "w": ["Tanten Sofie Munch", "Faren Christian", "Søsteren Inger"],
-      "r": 870,
-      "t": ["familie", "barndom"]
+      "w": [
+        "Tanten Sofie Munch",
+        "Faren Christian",
+        "Søsteren Inger"
+      ],
+      "r": 1516,
+      "t": [
+        "familie",
+        "barndom"
+      ]
     },
     {
       "id": 66,
       "q": "Hva led Munch selv av i barndommen?",
       "a": "Astmatisk bronkitt og revmatisk feber",
-      "w": ["Tuberkulose", "Polio", "Skarlagensfeber"],
-      "r": 890,
-      "t": ["helse", "barndom"]
+      "w": [
+        "Tuberkulose",
+        "Polio",
+        "Skarlagensfeber"
+      ],
+      "r": 1519,
+      "t": [
+        "helse",
+        "barndom"
+      ]
     },
     {
       "id": 67,
       "q": "Hvilken kunstner var Munch elev hos tidlig i karrieren?",
       "a": "Christian Krohg",
-      "w": ["Hans Gude", "Frits Thaulow", "Harriet Backer"],
-      "r": 880,
-      "t": ["utdanning", "lærer"]
+      "w": [
+        "Hans Gude",
+        "Frits Thaulow",
+        "Harriet Backer"
+      ],
+      "r": 1530,
+      "t": [
+        "utdanning",
+        "lærer"
+      ]
     },
     {
       "id": 68,
       "q": "Hva het Munchs første større utstillingsbilde fra 1886?",
       "a": "Det syke barn",
-      "w": ["Pubertet", "Melankoli", "Pikene på broen"],
-      "r": 930,
-      "t": ["verk", "tidlig"]
+      "w": [
+        "Pubertet",
+        "Melankoli",
+        "Pikene på broen"
+      ],
+      "r": 1530,
+      "t": [
+        "verk",
+        "tidlig"
+      ]
     },
     {
       "id": 69,
       "q": "I hvilket land hadde Munch sin første store separatutstilling i utlandet?",
       "a": "Tyskland (Berlin)",
-      "w": ["Frankrike", "Sverige", "Danmark"],
-      "r": 910,
-      "t": ["utstilling", "Berlin"]
+      "w": [
+        "Frankrike",
+        "Sverige",
+        "Danmark"
+      ],
+      "r": 1542,
+      "t": [
+        "utstilling",
+        "Berlin"
+      ]
     },
     {
       "id": 70,
       "q": "Hvilken kunstretning forbindes Munch særlig med?",
       "a": "Ekspresjonismen",
-      "w": ["Kubismen", "Impresjonismen", "Futurismen"],
-      "r": 900,
-      "t": ["stilretning"]
+      "w": [
+        "Kubismen",
+        "Impresjonismen",
+        "Futurismen"
+      ],
+      "r": 1544,
+      "t": [
+        "stilretning"
+      ]
     },
     {
       "id": 71,
       "q": "Hva var motivet for Munchs verdensberømte maleri «Skrik» inspirert av?",
       "a": "En personlig opplevelse av angst under en solnedgang",
-      "w": ["En avisartikkel om krig", "Et dikt av Ibsen", "En religiøs visjon"],
-      "r": 960,
-      "t": ["verk", "symbolisme"]
+      "w": [
+        "En avisartikkel om krig",
+        "Et dikt av Ibsen",
+        "En religiøs visjon"
+      ],
+      "r": 1554,
+      "t": [
+        "verk",
+        "symbolisme"
+      ]
     },
     {
       "id": 72,
       "q": "Hva kalles serien av verk som «Skrik» er en del av?",
       "a": "Livsfrisen",
-      "w": ["Livets dans", "Menneskeberget", "Dødens syklus"],
-      "r": 940,
-      "t": ["verk", "serie"]
+      "w": [
+        "Livets dans",
+        "Menneskeberget",
+        "Dødens syklus"
+      ],
+      "r": 1555,
+      "t": [
+        "verk",
+        "serie"
+      ]
     },
     {
       "id": 73,
       "q": "Hvor oppholdt Munch seg i lange perioder om somrene og hentet inspirasjon?",
       "a": "Åsgårdstrand",
-      "w": ["Kragerø", "Horten", "Skagen"],
-      "r": 890,
-      "t": ["sted", "inspirasjon"]
+      "w": [
+        "Kragerø",
+        "Horten",
+        "Skagen"
+      ],
+      "r": 1559,
+      "t": [
+        "sted",
+        "inspirasjon"
+      ]
     },
     {
       "id": 74,
       "q": "Hva heter sommerhuset Munch kjøpte i Åsgårdstrand?",
       "a": "Nygårdsgrunn",
-      "w": ["Ekely", "Engelhaug", "Grimsrød"],
-      "r": 870,
-      "t": ["sted", "eiendom"]
+      "w": [
+        "Ekely",
+        "Engelhaug",
+        "Grimsrød"
+      ],
+      "r": 1561,
+      "t": [
+        "sted",
+        "eiendom"
+      ]
     },
     {
       "id": 75,
       "q": "Hva het eiendommen Munch bodde på fra 1916 til sin død?",
       "a": "Ekely",
-      "w": ["Åsgårdstrand", "Frogner", "Tøyen"],
-      "r": 870,
-      "t": ["sted", "bolig"]
+      "w": [
+        "Åsgårdstrand",
+        "Frogner",
+        "Tøyen"
+      ],
+      "r": 1568,
+      "t": [
+        "sted",
+        "bolig"
+      ]
     },
     {
       "id": 76,
       "q": "Når døde Edvard Munch?",
       "a": "23. januar 1944",
-      "w": ["1. mars 1943", "12. desember 1942", "5. februar 1945"],
-      "r": 820,
-      "t": ["biografi", "dødsår"]
+      "w": [
+        "1. mars 1943",
+        "12. desember 1942",
+        "5. februar 1945"
+      ],
+      "r": 1569,
+      "t": [
+        "biografi",
+        "dødsår"
+      ]
     },
     {
       "id": 77,
       "q": "Hvor er Edvard Munch gravlagt?",
       "a": "Æreslunden på Vår Frelsers gravlund i Oslo",
-      "w": ["Gamlebyen kirkegård", "Domkirkegården", "Kragerø kirkegård"],
-      "r": 850,
-      "t": ["biografi", "gravsted"]
+      "w": [
+        "Gamlebyen kirkegård",
+        "Domkirkegården",
+        "Kragerø kirkegård"
+      ],
+      "r": 1572,
+      "t": [
+        "biografi",
+        "gravsted"
+      ]
     },
     {
       "id": 78,
       "q": "Hvilket selvportrett viser Munch liggende mellom to symboler på liv og død?",
       "a": "Mellom klokken og sengen",
-      "w": ["Selvportrett med sigarett", "Selvportrett foran husveggen", "Selvportrett med knokkelarm"],
-      "r": 940,
-      "t": ["verk", "selvportrett"]
+      "w": [
+        "Selvportrett med sigarett",
+        "Selvportrett foran husveggen",
+        "Selvportrett med knokkelarm"
+      ],
+      "r": 1574,
+      "t": [
+        "verk",
+        "selvportrett"
+      ]
     },
     {
       "id": 79,
       "q": "Hvilken sykdomsscene ble et av Munchs mest berømte motiver?",
       "a": "Det syke barn",
-      "w": ["Sjalusi", "Madonna", "Vampyr"],
-      "r": 900,
-      "t": ["verk", "tema"]
+      "w": [
+        "Sjalusi",
+        "Madonna",
+        "Vampyr"
+      ],
+      "r": 1574,
+      "t": [
+        "verk",
+        "tema"
+      ]
     },
     {
       "id": 80,
       "q": "Hvilket bilde regnes som Munchs sterkeste symbol på liv og død?",
       "a": "Solen",
-      "w": ["Livets dans", "Dagen derpå", "Angst"],
-      "r": 950,
-      "t": ["symbolikk", "verk"]
+      "w": [
+        "Livets dans",
+        "Dagen derpå",
+        "Angst"
+      ],
+      "r": 1578,
+      "t": [
+        "symbolikk",
+        "verk"
+      ]
     },
     {
       "id": 81,
       "q": "Hvem var en viktig støttespiller og samler av Munchs malerier?",
       "a": "Harald Nørregaard",
-      "w": ["Rolf Stenersen", "Christian Krohg", "Frits Thaulow"],
-      "r": 890,
-      "t": ["venner", "samlere"]
+      "w": [
+        "Rolf Stenersen",
+        "Christian Krohg",
+        "Frits Thaulow"
+      ],
+      "r": 1579,
+      "t": [
+        "venner",
+        "samlere"
+      ]
     },
     {
       "id": 82,
       "q": "Hva slags kunstform drev Munch også med ved siden av maleri?",
       "a": "Grafikk",
-      "w": ["Skulptur", "Fotografi", "Keramikk"],
-      "r": 870,
-      "t": ["kunstformer"]
+      "w": [
+        "Skulptur",
+        "Fotografi",
+        "Keramikk"
+      ],
+      "r": 1586,
+      "t": [
+        "kunstformer"
+      ]
     },
     {
       "id": 83,
       "q": "Hvor mange arbeider etterlot Munch seg omtrent?",
       "a": "Rundt 28 000",
-      "w": ["10 000", "50 000", "18 000"],
-      "r": 880,
-      "t": ["produksjon", "statistikk"]
+      "w": [
+        "10 000",
+        "50 000",
+        "18 000"
+      ],
+      "r": 1590,
+      "t": [
+        "produksjon",
+        "statistikk"
+      ]
     },
     {
       "id": 84,
       "q": "Til hvem testamenterte Munch hoveddelen av sine verk?",
       "a": "Oslo kommune",
-      "w": ["Staten", "Familien", "Nasjonalgalleriet"],
-      "r": 860,
-      "t": ["arv", "testament"]
+      "w": [
+        "Staten",
+        "Familien",
+        "Nasjonalgalleriet"
+      ],
+      "r": 1594,
+      "t": [
+        "arv",
+        "testament"
+      ]
     },
     {
       "id": 85,
       "q": "Hvor ligger dagens Munchmuseum?",
       "a": "Bjørvika i Oslo",
-      "w": ["Tøyen", "Ekely", "Grünerløkka"],
-      "r": 850,
-      "t": ["museum"]
+      "w": [
+        "Tøyen",
+        "Ekely",
+        "Grünerløkka"
+      ],
+      "r": 1595,
+      "t": [
+        "museum"
+      ]
     },
     {
       "id": 86,
       "q": "Når åpnet det første Munchmuseet på Tøyen?",
       "a": "1963",
-      "w": ["1958", "1970", "1981"],
-      "r": 850,
-      "t": ["museum", "årstall"]
+      "w": [
+        "1958",
+        "1970",
+        "1981"
+      ],
+      "r": 1596,
+      "t": [
+        "museum",
+        "årstall"
+      ]
     },
     {
       "id": 87,
       "q": "Hvilken tittel fikk Munch i 1933?",
       "a": "Storkorset av St. Olavs Orden",
-      "w": ["Kunstnerforbundets ærespris", "Goetheprisen", "Nasjonalgalleriets medalje"],
-      "r": 880,
-      "t": ["utmerkelser"]
+      "w": [
+        "Kunstnerforbundets ærespris",
+        "Goetheprisen",
+        "Nasjonalgalleriets medalje"
+      ],
+      "r": 1598,
+      "t": [
+        "utmerkelser"
+      ]
     },
     {
       "id": 88,
       "q": "Hvilken tysk kunstbevegelse tok med Munchs verk i sin «entartet kunst»-utstilling i 1937?",
       "a": "Nazistene",
-      "w": ["Ekspresjonistene", "Surrealistene", "Kubistene"],
-      "r": 910,
-      "t": ["historie", "kunstpolitikk"]
+      "w": [
+        "Ekspresjonistene",
+        "Surrealistene",
+        "Kubistene"
+      ],
+      "r": 1605,
+      "t": [
+        "historie",
+        "kunstpolitikk"
+      ]
     },
     {
       "id": 89,
       "q": "Hva er temaet i Munchs «Livsfrisen»-serie?",
       "a": "Kjærlighet, angst og død",
-      "w": ["Religion, politikk og natur", "Familie, kunst og frihet", "Arbeid, fattigdom og samfunn"],
-      "r": 920,
-      "t": ["tema", "verk"]
+      "w": [
+        "Religion, politikk og natur",
+        "Familie, kunst og frihet",
+        "Arbeid, fattigdom og samfunn"
+      ],
+      "r": 1613,
+      "t": [
+        "tema",
+        "verk"
+      ]
     },
     {
       "id": 90,
       "q": "Hva heter Munchs selvbiografiske dikt som ble tonesatt av Ketil Bjørnstad og Kari Bremnes?",
       "a": "Løsrivelse",
-      "w": ["Livets dans", "Soloppgang", "Angst"],
-      "r": 940,
-      "t": ["dikt", "musikk"]
+      "w": [
+        "Livets dans",
+        "Soloppgang",
+        "Angst"
+      ],
+      "r": 1614,
+      "t": [
+        "dikt",
+        "musikk"
+      ]
     },
     {
       "id": 91,
       "q": "Hva slags materiale finnes i Munchs etterlatte arkiv?",
       "a": "Brev, dagbøker og notater",
-      "w": ["Kun malerier", "Bare fotografier", "Lydopptak og film"],
-      "r": 880,
-      "t": ["forskning", "arkiv"]
+      "w": [
+        "Kun malerier",
+        "Bare fotografier",
+        "Lydopptak og film"
+      ],
+      "r": 1614,
+      "t": [
+        "forskning",
+        "arkiv"
+      ]
     },
     {
       "id": 92,
       "q": "Hvilket sted ble brukt som oppbevaring for Munchs bilder under 2. verdenskrig?",
       "a": "Dikemark sykehus",
-      "w": ["Nasjonalgalleriet", "Slottet", "Rådhuset"],
-      "r": 900,
-      "t": ["krig", "oppbevaring"]
+      "w": [
+        "Nasjonalgalleriet",
+        "Slottet",
+        "Rådhuset"
+      ],
+      "r": 1630,
+      "t": [
+        "krig",
+        "oppbevaring"
+      ]
     },
     {
       "id": 93,
       "q": "Hvem spilte hovedrollen i filmen «Edvard Munch» (1974) regissert av Peter Watkins?",
       "a": "Geir Westby",
-      "w": ["Sverre Krüger", "Henrik Dahlsbakken", "Trond Espen Seim"],
-      "r": 960,
-      "t": ["film", "biografi"]
+      "w": [
+        "Sverre Krüger",
+        "Henrik Dahlsbakken",
+        "Trond Espen Seim"
+      ],
+      "r": 1644,
+      "t": [
+        "film",
+        "biografi"
+      ]
     },
     {
       "id": 94,
       "q": "Hvilken norsk by er motivet for Munchs maleri «Solen»?",
       "a": "Kragerø",
-      "w": ["Åsgårdstrand", "Oslo", "Løten"],
-      "r": 910,
-      "t": ["verk", "sted"]
+      "w": [
+        "Åsgårdstrand",
+        "Oslo",
+        "Løten"
+      ],
+      "r": 1648,
+      "t": [
+        "verk",
+        "sted"
+      ]
     },
     {
       "id": 95,
       "q": "Hvilken kunstner laget bysten på Munchs grav?",
       "a": "Arne Durban",
-      "w": ["Per Elsdorf", "Gustav Vigeland", "Kai Fjell"],
-      "r": 880,
-      "t": ["minnesmerke", "kunstner"]
+      "w": [
+        "Per Elsdorf",
+        "Gustav Vigeland",
+        "Kai Fjell"
+      ],
+      "r": 1659,
+      "t": [
+        "minnesmerke",
+        "kunstner"
+      ]
     },
     {
       "id": 96,
       "q": "Hvilket instrument ble brukt til å hedre Munchs dikt i musikkprosjektene?",
       "a": "Piano",
-      "w": ["Fiolin", "Fløyte", "Saxofon"],
-      "r": 850,
-      "t": ["musikk", "tolkning"]
+      "w": [
+        "Fiolin",
+        "Fløyte",
+        "Saxofon"
+      ],
+      "r": 1663,
+      "t": [
+        "musikk",
+        "tolkning"
+      ]
     },
     {
       "id": 97,
       "q": "Hva ble funnet i Munchs atelier etter hans død?",
       "a": "Tusenvis av malerier og grafiske trykk",
-      "w": ["Bare noen få ferdige verk", "Kun fotografier", "Kun møbler og brev"],
-      "r": 880,
-      "t": ["arv", "atelier"]
+      "w": [
+        "Bare noen få ferdige verk",
+        "Kun fotografier",
+        "Kun møbler og brev"
+      ],
+      "r": 1664,
+      "t": [
+        "arv",
+        "atelier"
+      ]
     },
     {
       "id": 98,
       "q": "Hvor mange malerier omtrent inngår i Munchs gave til Oslo?",
       "a": "Omtrent 1 100",
-      "w": ["300", "2 000", "5 000"],
-      "r": 890,
-      "t": ["samling", "museum"]
+      "w": [
+        "300",
+        "2 000",
+        "5 000"
+      ],
+      "r": 1665,
+      "t": [
+        "samling",
+        "museum"
+      ]
     },
     {
       "id": 99,
       "q": "Når ble Munchs fødested på Løten markert med minnestein?",
       "a": "1963",
-      "w": ["1944", "1970", "1989"],
-      "r": 870,
-      "t": ["minne", "sted"]
+      "w": [
+        "1944",
+        "1970",
+        "1989"
+      ],
+      "r": 1692,
+      "t": [
+        "minne",
+        "sted"
+      ]
     },
     {
       "id": 100,
       "q": "Hva symboliserer broen i Munchs «Pikene på broen»?",
       "a": "Overgangen mellom barndom og voksenliv",
-      "w": ["Grensen mellom liv og død", "Veien til kjærligheten", "Adskillelse fra naturen"],
-      "r": 950,
-      "t": ["symbolikk", "tolkning"]
+      "w": [
+        "Grensen mellom liv og død",
+        "Veien til kjærligheten",
+        "Adskillelse fra naturen"
+      ],
+      "r": 1698,
+      "t": [
+        "symbolikk",
+        "tolkning"
+      ]
     },
     {
       "id": 101,
       "q": "Når og hvor ble Nikolai Astrup født?",
       "a": "30. august 1880 i Bremanger",
-      "w": ["12. desember 1879 i Luster", "30. august 1881 i Førde", "15. juli 1880 i Jølster"],
-      "r": 850,
-      "t": ["biografi", "fødselsår"]
+      "w": [
+        "12. desember 1879 i Luster",
+        "30. august 1881 i Førde",
+        "15. juli 1880 i Jølster"
+      ],
+      "r": 1714,
+      "t": [
+        "biografi",
+        "fødselsår"
+      ]
     },
     {
       "id": 102,
       "q": "Hvor døde Nikolai Astrup, og hvor gammel ble han?",
       "a": "Han døde i Førde i 1928, 47 år gammel",
-      "w": ["Han døde i Bergen i 1930, 50 år gammel", "Han døde i Jølster i 1925, 45 år gammel", "Han døde i Oslo i 1928, 48 år gammel"],
-      "r": 860,
-      "t": ["biografi", "dødsår"]
+      "w": [
+        "Han døde i Bergen i 1930, 50 år gammel",
+        "Han døde i Jølster i 1925, 45 år gammel",
+        "Han døde i Oslo i 1928, 48 år gammel"
+      ],
+      "r": 1717,
+      "t": [
+        "biografi",
+        "dødsår"
+      ]
     },
     {
       "id": 103,
       "q": "Hvilket kunstnerisk medium, ved siden av maleri, er Astrup kjent for å ha fornyet i Norge?",
       "a": "Tresnitt",
-      "w": ["Litografi", "Oljepastell", "Freskomaleri"],
-      "r": 890,
-      "t": ["kunst", "grafikk"]
+      "w": [
+        "Litografi",
+        "Oljepastell",
+        "Freskomaleri"
+      ],
+      "r": 1723,
+      "t": [
+        "kunst",
+        "grafikk"
+      ]
     },
     {
       "id": 104,
       "q": "Hvilken annen norsk kunstner blir nevnt som Astrups samtidige fornyer av grafikk?",
       "a": "Edvard Munch",
-      "w": ["Harald Sohlberg", "Christian Krohg", "Erik Werenskiold"],
-      "r": 870,
-      "t": ["kunstnere", "forbindelser"]
+      "w": [
+        "Harald Sohlberg",
+        "Christian Krohg",
+        "Erik Werenskiold"
+      ],
+      "r": 1742,
+      "t": [
+        "kunstnere",
+        "forbindelser"
+      ]
     },
     {
       "id": 105,
       "q": "Hva het Astrups kone, og hva var hennes kunstneriske virke?",
       "a": "Engel Astrup; hun var tekstilkunstner",
-      "w": ["Kari Astrup; hun var billedhugger", "Anna Astrup; hun var maler", "Signe Astrup; hun var musiker"],
-      "r": 880,
-      "t": ["familie", "kunst"]
+      "w": [
+        "Kari Astrup; hun var billedhugger",
+        "Anna Astrup; hun var maler",
+        "Signe Astrup; hun var musiker"
+      ],
+      "r": 1748,
+      "t": [
+        "familie",
+        "kunst"
+      ]
     },
     {
       "id": 106,
       "q": "Hva het stedet der Astrup bodde og arbeidet de siste årene av livet sitt?",
       "a": "Sandalstrand (nå Astruptunet)",
-      "w": ["Ekely", "Fjærland", "Prestegården i Jølster"],
-      "r": 870,
-      "t": ["sted", "museum"]
+      "w": [
+        "Ekely",
+        "Fjærland",
+        "Prestegården i Jølster"
+      ],
+      "r": 1748,
+      "t": [
+        "sted",
+        "museum"
+      ]
     },
     {
       "id": 107,
       "q": "Hva kjennetegner Astrups motivkrets i kunsten?",
       "a": "Landskaper og folkeliv fra Jølster, ofte gjentatt i varianter",
-      "w": ["Bybilder fra Bergen", "Marinemotiver fra Vestlandet", "Portretter av kjente personer"],
-      "r": 900,
-      "t": ["motiver", "kunst"]
+      "w": [
+        "Bybilder fra Bergen",
+        "Marinemotiver fra Vestlandet",
+        "Portretter av kjente personer"
+      ],
+      "r": 1751,
+      "t": [
+        "motiver",
+        "kunst"
+      ]
     },
     {
       "id": 108,
       "q": "Hvilken sykdom var Astrup plaget av hele livet?",
       "a": "Astma",
-      "w": ["Tuberkulose", "Hjertesykdom", "Diabetes"],
-      "r": 860,
-      "t": ["helse", "biografi"]
+      "w": [
+        "Tuberkulose",
+        "Hjertesykdom",
+        "Diabetes"
+      ],
+      "r": 1753,
+      "t": [
+        "helse",
+        "biografi"
+      ]
     },
     {
       "id": 109,
       "q": "Hva døde Nikolai Astrup av?",
       "a": "Lungebetennelse",
-      "w": ["Astmaanfall", "Tuberkulose", "Nyresvikt"],
-      "r": 850,
-      "t": ["helse", "dødsårsak"]
+      "w": [
+        "Astmaanfall",
+        "Tuberkulose",
+        "Nyresvikt"
+      ],
+      "r": 1765,
+      "t": [
+        "helse",
+        "dødsårsak"
+      ]
     },
     {
       "id": 110,
       "q": "Hvilken utenlandsk kunstner påvirket Astrup sterkt og inspirerte navnet på en av hans sønner?",
       "a": "Arnold Böcklin",
-      "w": ["Vincent van Gogh", "Paul Gauguin", "Claude Monet"],
-      "r": 910,
-      "t": ["inspirasjon", "kunstnere"]
+      "w": [
+        "Vincent van Gogh",
+        "Paul Gauguin",
+        "Claude Monet"
+      ],
+      "r": 1780,
+      "t": [
+        "inspirasjon",
+        "kunstnere"
+      ]
     },
     {
       "id": 111,
       "q": "Hvor studerte Astrup i Paris?",
       "a": "Académie Colarossi",
-      "w": ["École des Beaux-Arts", "Académie Julian", "Sorbonne"],
-      "r": 870,
-      "t": ["utdanning", "Paris"]
+      "w": [
+        "École des Beaux-Arts",
+        "Académie Julian",
+        "Sorbonne"
+      ],
+      "r": 1792,
+      "t": [
+        "utdanning",
+        "Paris"
+      ]
     },
     {
       "id": 112,
       "q": "Hvilken norsk lærer hadde Astrup tidligere studert hos i Kristiania?",
       "a": "Harriet Backer",
-      "w": ["Erik Werenskiold", "Christian Krohg", "Frits Thaulow"],
-      "r": 880,
-      "t": ["utdanning", "lærer"]
+      "w": [
+        "Erik Werenskiold",
+        "Christian Krohg",
+        "Frits Thaulow"
+      ],
+      "r": 1802,
+      "t": [
+        "utdanning",
+        "lærer"
+      ]
     },
     {
       "id": 113,
       "q": "Hva mente Astrup skulle komme først i et maleri?",
       "a": "Stemningen",
-      "w": ["Fargene", "Motivet", "Komposisjonen"],
-      "r": 890,
-      "t": ["kunst", "teori"]
+      "w": [
+        "Fargene",
+        "Motivet",
+        "Komposisjonen"
+      ],
+      "r": 1817,
+      "t": [
+        "kunst",
+        "teori"
+      ]
     },
     {
       "id": 114,
       "q": "Hvor gammel var Engel Sunde da hun giftet seg med Astrup?",
       "a": "15 år",
-      "w": ["17 år", "19 år", "21 år"],
-      "r": 880,
-      "t": ["familie", "ekteskap"]
+      "w": [
+        "17 år",
+        "19 år",
+        "21 år"
+      ],
+      "r": 1826,
+      "t": [
+        "familie",
+        "ekteskap"
+      ]
     },
     {
       "id": 115,
       "q": "Hva var Astrups forhold til farens religiøse syn?",
       "a": "Han tok avstand fra farens strenge kristendom",
-      "w": ["Han ble prest selv", "Han ble enda mer religiøs", "Han forlot kristendommen helt"],
-      "r": 870,
-      "t": ["oppvekst", "religion"]
+      "w": [
+        "Han ble prest selv",
+        "Han ble enda mer religiøs",
+        "Han forlot kristendommen helt"
+      ],
+      "r": 1826,
+      "t": [
+        "oppvekst",
+        "religion"
+      ]
     },
     {
       "id": 116,
       "q": "Hvilket kjent Astrup-verk viser et stort sankthansbål omgitt av mennesker?",
       "a": "Jonsokbål",
-      "w": ["Maimåne", "Vårnatt", "Prestegårdshagen"],
-      "r": 900,
-      "t": ["verk", "symbolikk"]
+      "w": [
+        "Maimåne",
+        "Vårnatt",
+        "Prestegårdshagen"
+      ],
+      "r": 1829,
+      "t": [
+        "verk",
+        "symbolikk"
+      ]
     },
     {
       "id": 117,
       "q": "Hvilket motiv brukte Astrup i mange varianter, inspirert av barndommen?",
       "a": "Prestegårdshagen i måneskinn",
-      "w": ["Fjellgården", "Blått vann", "Hus ved elven"],
-      "r": 890,
-      "t": ["verk", "barndom"]
+      "w": [
+        "Fjellgården",
+        "Blått vann",
+        "Hus ved elven"
+      ],
+      "r": 1876,
+      "t": [
+        "verk",
+        "barndom"
+      ]
     },
     {
       "id": 118,
       "q": "Hvilken årstid er særlig sentral i Astrups kunst?",
       "a": "Vår og sommer",
-      "w": ["Høst", "Vinter", "Senhøst"],
-      "r": 850,
-      "t": ["motiver", "årstid"]
+      "w": [
+        "Høst",
+        "Vinter",
+        "Senhøst"
+      ],
+      "r": 1936,
+      "t": [
+        "motiver",
+        "årstid"
+      ]
     },
     {
       "id": 119,
       "q": "Hva slags minnesmerke ble reist over Astrup i 1938?",
       "a": "En minnestein ved barndomshjemmet på Ålhus",
-      "w": ["Et monument i Bergen", "En statue i Jølster sentrum", "En bauta på Sandalstrand"],
-      "r": 860,
-      "t": ["minne", "monument"]
+      "w": [
+        "Et monument i Bergen",
+        "En statue i Jølster sentrum",
+        "En bauta på Sandalstrand"
+      ],
+      "r": 2013,
+      "t": [
+        "minne",
+        "monument"
+      ]
     },
     {
       "id": 120,
       "q": "Hvilket museum i Bergen viser mange av Astrups verk i dag?",
       "a": "KODE 4",
-      "w": ["Nasjonalmuseet", "Munchmuseet", "Astrup Fearnley Museet"],
+      "w": [
+        "Nasjonalmuseet",
+        "Munchmuseet",
+        "Astrup Fearnley Museet"
+      ],
+      "r": 2023,
+      "t": [
+        "museum",
+        "kunst"
+      ]
+    },
+    {
+      "id": 121,
+      "q": "Når spilte Norges herrelandslag i fotball sin første landskamp?",
+      "a": "1908",
+      "w": ["1912", "1898", "1916"],
+      "r": 750,
+      "t": ["historie", "fotball"]
+    },
+    {
+      "id": 122,
+      "q": "Hvilket land møtte Norge i sin aller første landskamp i 1908?",
+      "a": "Sverige",
+      "w": ["Danmark", "Finland", "Tyskland"],
+      "r": 740,
+      "t": ["historie", "fotball"]
+    },
+    {
+      "id": 123,
+      "q": "Hvem scoret Norges første mål i landslagshistorien?",
+      "a": "Edvard Thømt",
+      "w": ["Einar Gundersen", "Rolf Maartmann", "Thorbjørn Svenssen"],
+      "r": 790,
+      "t": ["spillere", "historie"]
+    },
+    {
+      "id": 124,
+      "q": "Hvilken norsk spiller har flest landskamper gjennom tidene?",
+      "a": "John Arne Riise",
+      "w": ["Erik Thorstvedt", "Rune Bratseth", "Henning Berg"],
+      "r": 820,
+      "t": ["rekorder", "spillere"]
+    },
+    {
+      "id": 125,
+      "q": "I hvilket år vant Norge 2–1 mot Brasil i VM-sluttspillet?",
+      "a": "1998",
+      "w": ["1994", "2002", "1986"],
+      "r": 910,
+      "t": ["VM", "kamper"]
+    },
+    {
+      "id": 126,
+      "q": "Hvem scoret begge Norges mål i 2–1-seieren over Brasil i VM 1998?",
+      "a": "Kjetil Rekdal og Tore André Flo",
+      "w": ["Ole Gunnar Solskjær og John Carew", "Henning Berg og Jostein Flo", "Steffen Iversen og Vegard Heggem"],
+      "r": 950,
+      "t": ["VM", "målscorere"]
+    },
+    {
+      "id": 127,
+      "q": "Hva heter stadion der Norges landslag spiller sine hjemmekamper?",
+      "a": "Ullevaal Stadion",
+      "w": ["Lerkendal Stadion", "Viking Stadion", "Intility Arena"],
+      "r": 600,
+      "t": ["arena", "Oslo"]
+    },
+    {
+      "id": 128,
+      "q": "Når åpnet Ullevaal Stadion for første gang?",
+      "a": "1926",
+      "w": ["1932", "1919", "1921"],
+      "r": 780,
+      "t": ["arena", "historie"]
+    },
+    {
+      "id": 129,
+      "q": "Hvilken norsk landslagsspiller fikk kallenavnet «Iron Man»?",
+      "a": "Thorbjørn Svenssen",
+      "w": ["Egil Olsen", "Roald Jensen", "Tom Lund"],
+      "r": 850,
+      "t": ["spillere", "historie"]
+    },
+    {
+      "id": 130,
+      "q": "Hvilket år kvalifiserte Norge seg til VM for første gang?",
+      "a": "1938",
+      "w": ["1950", "1974", "1982"],
+      "r": 900,
+      "t": ["VM", "historie"]
+    },
+    {
+      "id": 131,
+      "q": "Hvem var Norges landslagstrener under VM i 1998?",
+      "a": "Egil «Drillo» Olsen",
+      "w": ["Nils Johan Semb", "Per-Mathias Høgmo", "Åge Hareide"],
+      "r": 760,
+      "t": ["trenere", "VM"]
+    },
+    {
+      "id": 132,
+      "q": "Hvor mange ganger har Norge deltatt i VM-sluttspill for herrer?",
+      "a": "Tre ganger",
+      "w": ["To ganger", "Fire ganger", "Fem ganger"],
       "r": 880,
-      "t": ["museum", "kunst"]
-    }
+      "t": ["VM", "statistikk"]
+    },
+    {
+      "id": 133,
+      "q": "Hvilket år spilte Norge sin første EM-kvalifisering?",
+      "a": "1963",
+      "w": ["1958", "1968", "1972"],
+      "r": 850,
+      "t": ["EM", "historie"]
+    },
+    {
+      "id": 134,
+      "q": "Hvem scoret på straffespark mot Brasil i VM 1998?",
+      "a": "Kjetil Rekdal",
+      "w": ["Tore André Flo", "John Carew", "Ronny Johnsen"],
+      "r": 900,
+      "t": ["VM", "mål"]
+    },
+    {
+      "id": 135,
+      "q": "Hvilket land slo Norge ut av VM 1998 i åttendedelsfinalen?",
+      "a": "Italia",
+      "w": ["Frankrike", "Kroatia", "Nederland"],
+      "r": 920,
+      "t": ["VM", "kamper"]
+    },
+    {
+      "id": 136,
+      "q": "Hva var stillingen da Norge slo England på Ullevaal i 1981?",
+      "a": "2–1",
+      "w": ["1–0", "3–2", "2–0"],
+      "r": 890,
+      "t": ["historie", "kamper"]
+    },
+    {
+      "id": 137,
+      "q": "Hvilken kommentator ble kjent for utbruddet «Vi er best i verden!»?",
+      "a": "Bjørge Lillelien",
+      "w": ["Arne Scheie", "Lars Tjærnås", "Jon Herwig Carlsen"],
+      "r": 970,
+      "t": ["media", "sitater"]
+    },
+    {
+      "id": 138,
+      "q": "Hvem var kaptein for landslaget i VM 1994?",
+      "a": "Rune Bratseth",
+      "w": ["Kjetil Rekdal", "Stig Inge Bjørnebye", "Lars Bohinen"],
+      "r": 860,
+      "t": ["VM", "kaptein"]
+    },
+    {
+      "id": 139,
+      "q": "Hvilken spiller ble kjent for det berømte «Flo-passet»?",
+      "a": "Tore André Flo",
+      "w": ["Jostein Flo", "Ole Gunnar Solskjær", "John Carew"],
+      "r": 910,
+      "t": ["spillere", "taktikk"]
+    },
+    {
+      "id": 140,
+      "q": "Hva heter Norges fotballforbunds nåværende hovedkvarter?",
+      "a": "Ullevaal Stadion",
+      "w": ["Nydalen Arena", "Intility Arena", "Bislett Stadion"],
+      "r": 600,
+      "t": ["organisasjon", "fotball"]
+    },
+    {
+      "id": 141,
+      "q": "Hvor mange mål scoret Norge mot Brasil i VM-historien?",
+      "a": "To",
+      "w": ["Ett", "Tre", "Fire"],
+      "r": 920,
+      "t": ["VM", "statistikk"]
+    },
+    {
+      "id": 142,
+      "q": "Hvem var landslagssjef etter Egil Olsen i 1998?",
+      "a": "Nils Johan Semb",
+      "w": ["Åge Hareide", "Per-Mathias Høgmo", "Kjetil Rekdal"],
+      "r": 780,
+      "t": ["trenere", "historie"]
+    },
+    {
+      "id": 143,
+      "q": "Hvilket år tok Norge bronse i OL i fotball?",
+      "a": "1936",
+      "w": ["1920", "1952", "1960"],
+      "r": 950,
+      "t": ["OL", "historie"]
+    },
+    {
+      "id": 144,
+      "q": "Hvilken norsk keeper har flest landskamper?",
+      "a": "Erik Thorstvedt",
+      "w": ["Thomas Myhre", "Frode Grodås", "Ørjan Nyland"],
+      "r": 800,
+      "t": ["spillere", "rekorder"]
+    },
+    {
+      "id": 145,
+      "q": "Hvem scoret Norges første mål i VM-historien?",
+      "a": "Arne Brustad",
+      "w": ["Reidar Kvammen", "Jørgen Juve", "Henry Johansen"],
+      "r": 910,
+      "t": ["VM", "mål"]
+    },
+    {
+      "id": 146,
+      "q": "Hva er Norges største seier i en landskamp?",
+      "a": "12–0 mot Finland",
+      "w": ["10–0 mot Island", "11–0 mot Færøyene", "9–1 mot Danmark"],
+      "r": 940,
+      "t": ["statistikk", "kamper"]
+    },
+    {
+      "id": 147,
+      "q": "Hvem scoret Norges mål mot Italia i VM 1994?",
+      "a": "Kjetil Rekdal",
+      "w": ["Jostein Flo", "Lars Bohinen", "Gunnar Halle"],
+      "r": 900,
+      "t": ["VM", "mål"]
+    },
+    {
+      "id": 148,
+      "q": "Hvilken norsk spiller ble kåret til Årets fotballspiller i Norge flest ganger på 1990-tallet?",
+      "a": "Kjetil Rekdal",
+      "w": ["Tore André Flo", "Rune Bratseth", "Ole Gunnar Solskjær"],
+      "r": 850,
+      "t": ["spillere", "priser"]
+    },
+    {
+      "id": 149,
+      "q": "Når ble Norges Fotballforbund stiftet?",
+      "a": "1902",
+      "w": ["1898", "1905", "1910"],
+      "r": 700,
+      "t": ["organisasjon", "historie"]
+    },
+    {
+      "id": 150,
+      "q": "Hvem scoret Norges siste mål i et VM-sluttspill (per 2025)?",
+      "a": "Kjetil Rekdal",
+      "w": ["John Carew", "Steffen Iversen", "Tore André Flo"],
+      "r": 960,
+      "t": ["VM", "mål"]
+    },
+    {
+      "id": 151,
+      "q": "Hvem var toppscorer for Norges herrelandslag i fotball med 33 mål mellom 1928 og 1937?",
+      "a": "Jørgen Juve",
+      "w": ["Reidar Kvammen", "Odd Iversen", "John Carew"],
+      "r": 750,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 152,
+      "q": "Hvilket norsk landslag ble kjent som 'Bronselaget' etter OL i Berlin 1936?",
+      "a": "Norges herrelandslag i fotball",
+      "w": ["Norges håndballandslag for menn", "Norges ishockeylandslag", "Norges friidrettslandslag"],
+      "r": 700,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 153,
+      "q": "Mot hvilket land spilte Norge sin aller første herrelandskamp i fotball 12. juli 1908?",
+      "a": "Sverige",
+      "w": ["Danmark", "Tyskland", "Finland"],
+      "r": 650,
+      "t": ["fotball", "Norge"]
+      },
+      {
+      "id": 154,
+      "q": "Hvilken norsk spiller scoret 51 mål på 46 landskamper per oktober 2025?",
+      "a": "Erling Braut Haaland",
+      "w": ["Joshua King", "John Carew", "Jørgen Juve"],
+      "r": 600,
+      "t": ["fotball", "Norge"]
+      },
+      {
+      "id": 155,
+      "q": "Hvilken klubb representerte Gunnar Andersen da han spilte 46 landskamper for Norge mellom 1911 og 1924?",
+      "a": "Lyn",
+      "w": ["Odd", "Fredrikstad", "Viking"],
+      "r": 800,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 156,
+      "q": "Hvilken norsk forsvarsspiller nådde 100 landskamper mellom 1992 og 2004?",
+      "a": "Henning Berg",
+      "w": ["Brede Hangeland", "Ronny Johnsen", "Erik Hoftun"],
+      "r": 750,
+      "t": ["fotball", "spillere"]
+      },
+      {
+      "id": 157,
+      "q": "Hva var posisjonen til Arne Brustad, en del av Bronselaget fra 1936?",
+      "a": "Angrep",
+      "w": ["Midtbane", "Forsvar", "Målvakt"],
+      "r": 700,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 158,
+      "q": "Hvilken klubb spilte både Fredrik og Patrick Berg for på landslagsnivå?",
+      "a": "Bodø/Glimt",
+      "w": ["Molde", "Rosenborg", "Viking"],
+      "r": 650,
+      "t": ["fotball", "familie"]
+      },
+      {
+      "id": 159,
+      "q": "Hvilken norsk landslagsspiller spilte for både Manchester United og Blackburn Rovers på 1990-tallet?",
+      "a": "Henning Berg",
+      "w": ["Ronny Johnsen", "John Arne Riise", "Tore André Flo"],
+      "r": 700,
+      "t": ["fotball", "Premier League"]
+      },
+      {
+      "id": 160,
+      "q": "Hvilken tidligere landslagsspiller var senere hovedtrener for det norske herrelandslaget?",
+      "a": "Åge Hareide",
+      "w": ["Tom Lund", "Egil Olsen", "Kjetil Rekdal"],
+      "r": 850,
+      "t": ["fotball", "trener"]
+      },
+      {
+      "id": 161,
+      "q": "Hvilken norsk klubb har hatt flest spillere representert på herrelandslaget gjennom tidene?",
+      "a": "Lyn",
+      "w": ["Fredrikstad", "Rosenborg", "Vålerenga"],
+      "r": 900,
+      "t": ["fotball", "klubber"]
+      },
+      {
+      "id": 162,
+      "q": "Hva var stillingen da Norge slo Brasil under VM i 1998, en kamp John Carew deltok i?",
+      "a": "2–1 til Norge",
+      "w": ["1–0 til Norge", "2–2 uavgjort", "3–1 til Brasil"],
+      "r": 800,
+      "t": ["fotball", "VM"]
+      },
+      {
+      "id": 163,
+      "q": "Hvilken norsk forsvarsspiller var kjent for sin tid i Fulham og spilte 91 landskamper for Norge?",
+      "a": "Brede Hangeland",
+      "w": ["Jon Arne Riise", "Erik Hoftun", "Claus Lundekvam"],
+      "r": 700,
+      "t": ["fotball", "Premier League"]
+      },
+      {
+      "id": 164,
+      "q": "Hvilken spiller scoret Norges første landslagsmål i 1908?",
+      "a": "Thorvald Torgersen",
+      "w": ["Gunnar Andersen", "Kaare Halvorsen", "Karl Poppe"],
+      "r": 950,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 165,
+      "q": "Hvilken norsk keeper spilte for både Chelsea og Tottenham Hotspur?",
+      "a": "Frode Grodås",
+      "w": ["Thomas Myhre", "Rune Jarstein", "Espen Baardsen"],
+      "r": 750,
+      "t": ["fotball", "målvakt"]
+      },
+      {
+      "id": 166,
+      "q": "Hvilken norsk spiller fikk 110 landskamper og scoret 16 mål, hovedsakelig fra backposisjon?",
+      "a": "John Arne Riise",
+      "w": ["Jon Inge Høiland", "Steffen Iversen", "Vegard Heggem"],
+      "r": 650,
+      "t": ["fotball", "rekorder"]
+      },
+      {
+      "id": 167,
+      "q": "Hva var den typiske posisjonen til Morten Gamst Pedersen på landslaget?",
+      "a": "Midtbane",
+      "w": ["Forsvar", "Keeper", "Angrep"],
+      "r": 600,
+      "t": ["fotball", "spillere"]
+      },
+      {
+      "id": 168,
+      "q": "Hvilken klubb representerte Sander Berge før han gikk til Sheffield United?",
+      "a": "KRC Genk",
+      "w": ["Molde", "Viking", "Bodø/Glimt"],
+      "r": 650,
+      "t": ["fotball", "spillere"]
+      },
+      {
+      "id": 169,
+      "q": "Hvilken norsk spiss spilte for Aston Villa, Lyon og West Ham og scoret 24 landslagsmål?",
+      "a": "John Carew",
+      "w": ["Tore André Flo", "Joshua King", "Steffen Iversen"],
+      "r": 650,
+      "t": ["fotball", "angrep"]
+      },
+      {
+      "id": 170,
+      "q": "Hvilket år spilte Norge sin første offisielle landskamp i fotball?",
+      "a": "1908",
+      "w": ["1910", "1899", "1912"],
+      "r": 600,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 171,
+      "q": "Hvilken tidligere landslagsspiller ble kjent som treneren bak Norges seier mot Brasil i 1998?",
+      "a": "Egil 'Drillo' Olsen",
+      "w": ["Åge Hareide", "Per-Mathias Høgmo", "Kjetil Rekdal"],
+      "r": 600,
+      "t": ["fotball", "trener"]
+      },
+      {
+      "id": 172,
+      "q": "Hvilken norsk keeper har flest landskamper gjennom tidene?",
+      "a": "Erik Thorstvedt",
+      "w": ["Rune Jarstein", "Thomas Myhre", "Frode Grodås"],
+      "r": 700,
+      "t": ["fotball", "rekorder"]
+      },
+      {
+      "id": 173,
+      "q": "Hvilken klubb spilte Erling Braut Haaland for før han gikk til Manchester City?",
+      "a": "Borussia Dortmund",
+      "w": ["Red Bull Salzburg", "Molde FK", "Bryne FK"],
+      "r": 600,
+      "t": ["fotball", "spillere"]
+      },
+      {
+      "id": 174,
+      "q": "Hvilken spiller med fornavn Tore spilte for Chelsea og Rangers og scoret 23 landslagsmål?",
+      "a": "Tore André Flo",
+      "w": ["Tore Pedersen", "Tore Reginiussen", "Tore Høiland"],
+      "r": 650,
+      "t": ["fotball", "Premier League"]
+      },
+      {
+      "id": 175,
+      "q": "Hvilket tiår hadde Norge sitt berømte 'Bronselag' i fotball?",
+      "a": "1930-årene",
+      "w": ["1920-årene", "1940-årene", "1950-årene"],
+      "r": 650,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 176,
+      "q": "Hvilken norsk spiller var både aktiv for Celtic og Rosenborg og spilte 76 landskamper?",
+      "a": "Tore André Flo",
+      "w": ["Harald Brattbakk", "Vidar Riseth", "Ronny Johnsen"],
+      "r": 700,
+      "t": ["fotball", "spillere"]
+      },
+      {
+      "id": 177,
+      "q": "Hvilken norsk midtbanespiller var kaptein for Norge og spilte i Premier League for Fulham?",
+      "a": "Stefan Johansen",
+      "w": ["Sander Berge", "Henning Berg", "Håvard Nordtveit"],
+      "r": 700,
+      "t": ["fotball", "kaptein"]
+      },
+      {
+      "id": 178,
+      "q": "Hvilken klubb hadde flest spillere på landslaget under 'Bronselaget' fra 1936?",
+      "a": "Lyn",
+      "w": ["Fredrikstad", "Viking", "Odd"],
+      "r": 800,
+      "t": ["fotball", "historie"]
+      },
+      {
+      "id": 179,
+      "q": "Hvilken norsk spiller scoret sitt første landslagsmål i debuten mot Østerrike i 2019?",
+      "a": "Erling Braut Haaland",
+      "w": ["Alexander Sørloth", "Joshua King", "Sander Berge"],
+      "r": 650,
+      "t": ["fotball", "spillere"]
+      },
+      {
+      "id": 180,
+      "q": "Hvilken norsk landslagsspiller fra 1930-tallet ble senere kjent som fotballkommentator og forfatter?",
+      "a": "Reidar Kvammen",
+      "w": ["Odd Frantzen", "Arne Brustad", "Jørgen Juve"],
+      "r": 950,
+      "t": ["fotball", "historie"]
+      }
   ]
 }
