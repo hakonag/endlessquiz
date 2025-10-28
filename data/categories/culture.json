@@ -2611,6 +2611,486 @@
     "w": ["Sult", "Pan", "Victoria"],
     "r": 400,
     "t": ["litteratur", "nobelpris"]
+    },
+    {
+      "id": 231,
+      "q": "Hvem redigerte 1967-utgaven av «Norges nasjonallitteratur»?",
+      "a": "Francis Bull",
+      "w": ["Sigurd Hoel", "Harald Beyer", "Arne Garborg"],
+      "r": 600,
+      "t": ["litteratur", "kanon"]
+    },
+    {
+      "id": 232,
+      "q": "Hvilket verk var dominerende i norsk skole fra 1892 til 1950-tallet?",
+      "a": "Nordahl Rolfsens Lesebok for folkeskolen",
+      "w": ["Gyldendals lesebok", "Norsk lesebok", "Skolens lesebok"],
+      "r": 500,
+      "t": ["litteratur", "skole"]
+    },
+    {
+      "id": 233,
+      "q": "Hvilke to eventyrsamlerne regnes som sentrale i norsk litteraturkanon?",
+      "a": "Asbjørnsen og Moe",
+      "w": ["Dass og Holberg", "Wergeland og Welhaven", "Bjørnson og Garborg"],
+      "r": 400,
+      "t": ["eventyr", "klassikere"]
+    },
+    {
+      "id": 234,
+      "q": "Hvilket verk av Petter Dass er gjenganger i norske litterære kanoner?",
+      "a": "Nordlands Trompet",
+      "w": ["Den Nordske Dale-Viise", "Katekismesanger", "Prestens visebok"],
+      "r": 600,
+      "t": ["litteratur", "barokk"]
+    },
+    {
+      "id": 235,
+      "q": "Hvilket diktverk av Snorre Sturlason regnes som en del av Norges nasjonallitteratur?",
+      "a": "Heimskringla",
+      "w": ["Njåls saga", "Voluspå", "Lilja"],
+      "r": 700,
+      "t": ["norrøn litteratur"]
+    },
+    {
+      "id": 236,
+      "q": "Hvem skrev «Amtmandens Døttre»?",
+      "a": "Camilla Collett",
+      "w": ["Amalie Skram", "Sigrid Undset", "Cora Sandel"],
+      "r": 400,
+      "t": ["roman", "feminisme"]
+    },
+    {
+      "id": 237,
+      "q": "Hvilket verk gjorde Henrik Ibsen internasjonalt kjent i 1867?",
+      "a": "Peer Gynt",
+      "w": ["Et dukkehjem", "Brand", "Gengangere"],
+      "r": 500,
+      "t": ["drama", "klassiker"]
+    },
+    {
+      "id": 238,
+      "q": "Hvilken roman vant Tarjei Vesaas stor anerkjennelse for i 1957?",
+      "a": "Fuglane",
+      "w": ["Is-slottet", "Kimen", "Bleikeplassen"],
+      "r": 500,
+      "t": ["roman", "modernisme"]
+    },
+    {
+      "id": 239,
+      "q": "Hvilken forfatter skrev «Haugtussa»?",
+      "a": "Arne Garborg",
+      "w": ["Olav H. Hauge", "Hans E. Kinck", "Aasmund Olavsson Vinje"],
+      "r": 400,
+      "t": ["poesi", "nyromantikk"]
+    },
+    {
+      "id": 240,
+      "q": "Hvilken roman av Sigrid Undset inngår i «Kristin Lavransdatter»-trilogien?",
+      "a": "Kransen",
+      "w": ["Husfrue", "Korset", "Jenny"],
+      "r": 500,
+      "t": ["roman", "middelalder"]
+    },
+    {
+      "id": 241,
+      "q": "Hvem skrev «Sult», et sentralt verk i norsk modernisme?",
+      "a": "Knut Hamsun",
+      "w": ["Sigbjørn Obstfelder", "Rolf Jacobsen", "Olaf Bull"],
+      "r": 400,
+      "t": ["modernisme", "roman"]
+    },
+    {
+      "id": 242,
+      "q": "Hva heter Ivar Aasens grammatiske hovedverk fra 1848?",
+      "a": "Det norske Folkesprogs Grammatik",
+      "w": ["Norsk Grammatik", "Maal og Mening", "Språket vårt"],
+      "r": 700,
+      "t": ["språk", "nynorsk"]
+    },
+    {
+      "id": 243,
+      "q": "Hvem regnes som opphavsmann til 'Kiærlighed uden Strømper'?",
+      "a": "Johan Herman Wessel",
+      "w": ["Holberg", "Bjørnson", "Dass"],
+      "r": 600,
+      "t": ["litteratur", "opplysningstid"]
+    },
+    {
+      "id": 244,
+      "q": "Hvilket verk ble skrevet av P.A. Munch mellom 1851 og 1863?",
+      "a": "Det norske Folks Historie",
+      "w": ["Heimskringla", "Nordlands Trompet", "Sædeligheds-Tilstanden i Norge"],
+      "r": 700,
+      "t": ["historie", "sakprosa"]
+    },
+    {
+      "id": 245,
+      "q": "Hva het Eilert Sundts kjente studie fra 1857?",
+      "a": "Sædeligheds-Tilstanden i Norge",
+      "w": ["Om fattigdommen", "Norske bygdeliv", "Arbeid og moral"],
+      "r": 600,
+      "t": ["sosiologi", "sakprosa"]
+    },
+    {
+      "id": 246,
+      "q": "Hvilket verk gjorde Amalie Skram kjent som naturalistisk forfatter?",
+      "a": "Forraadt",
+      "w": ["Constance Ring", "Agnete", "Lucie"],
+      "r": 500,
+      "t": ["naturalismen", "roman"]
+    },
+    {
+      "id": 247,
+      "q": "Hvem skrev 'Nordmenns nistepakke' – en kritikk av norsk litterær kanon?",
+      "a": "Trond Berg Eriksen",
+      "w": ["Francis Bull", "Janike Kampevold Larsen", "Jørgen Sejersted"],
+      "r": 700,
+      "t": ["litteratur", "kritikk"]
+    },
+    {
+      "id": 248,
+      "q": "Hvilken barnebokforfatter skrev 'Folk og røvere i Kardemomme by'?",
+      "a": "Thorbjørn Egner",
+      "w": ["Alf Prøysen", "Anne-Cath. Vestly", "Inger Hagerup"],
+      "r": 400,
+      "t": ["barnebøker", "klassikere"]
+    },
+    {
+      "id": 249,
+      "q": "Hvilket verk av Thor Heyerdahl ble en internasjonal suksess i 1948?",
+      "a": "Kon-Tiki",
+      "w": ["Aku-Aku", "Tigris", "På havet mot vest"],
+      "r": 400,
+      "t": ["eventyr", "sakprosa"]
+    },
+    {
+      "id": 250,
+      "q": "Hvilken forfatter vant Bokklubbenes avstemning i 1986 med 'Folket på Innhaug'?",
+      "a": "Anne Karin Elstad",
+      "w": ["Sigrid Undset", "Herbjørg Wassmo", "Cora Sandel"],
+      "r": 500,
+      "t": ["roman", "folkelesning"]
+    },
+    {
+      "id": 251,
+      "q": "Hvilken roman vant Dagbladets leseravstemning «Folkets favoritt» i 2007?",
+      "a": "Mengele Zoo",
+      "w": ["Beatles", "Kristin Lavransdatter", "Markens Grøde"],
+      "r": 500,
+      "t": ["roman", "avstemning"]
+    },
+    {
+      "id": 252,
+      "q": "Hvilken forfatter står bak romanen 'Beatles'?",
+      "a": "Lars Saabye Christensen",
+      "w": ["Jan Kjærstad", "Dag Solstad", "Erlend Loe"],
+      "r": 400,
+      "t": ["roman", "1980-tall"]
+    },
+    {
+      "id": 253,
+      "q": "Hvem skrev 'På gjengrodde stier'?",
+      "a": "Knut Hamsun",
+      "w": ["Tarjei Vesaas", "Olav Duun", "Sigurd Hoel"],
+      "r": 400,
+      "t": ["roman", "etterkrigstid"]
+    },
+    {
+      "id": 254,
+      "q": "Hva het Kjartan Fløgstads debutroman fra 1970-tallet?",
+      "a": "Fyr og flamme",
+      "w": ["Det 7. klima", "Dalen Portland", "Kron og mynt"],
+      "r": 600,
+      "t": ["roman", "modernisme"]
+    },
+    {
+      "id": 255,
+      "q": "Hvem skrev romanen 'Naiv.Super.'?",
+      "a": "Erlend Loe",
+      "w": ["Frode Grytten", "Per Petterson", "Carl Frode Tiller"],
+      "r": 400,
+      "t": ["roman", "90-tall"]
+    },
+    {
+      "id": 256,
+      "q": "Hvilken roman av Per Petterson vant stor internasjonal anerkjennelse?",
+      "a": "Ut og stjæle hester",
+      "w": ["I kjølvannet", "Jeg forbanner tidens elv", "Aske i munnen, sand i skoa"],
+      "r": 500,
+      "t": ["roman", "moderne"]
+    },
+    {
+      "id": 257,
+      "q": "Hvilken bok av Åsne Seierstad ble en internasjonal bestselger?",
+      "a": "Bokhandleren i Kabul",
+      "w": ["To søstre", "Engelen fra Groznyj", "Hundre og én dag"],
+      "r": 400,
+      "t": ["sakprosa", "journalistikk"]
+    },
+    {
+      "id": 258,
+      "q": "Hva heter Alf Prøysens kjente barnefortelling om en liten kvinne?",
+      "a": "Kjerringa som ble så lita som ei teskje",
+      "w": ["Teskjekjerringa på ferie", "Kjerringa med staven", "Lillemor i gryta"],
+      "r": 400,
+      "t": ["barnebøker", "klassiker"]
+    },
+    {
+      "id": 259,
+      "q": "Hvem skrev 'Fabel X' og 'Under aftenhimmelen'?",
+      "a": "Finn Carling",
+      "w": ["Olav Duun", "Agnar Mykle", "Cora Sandel"],
+      "r": 700,
+      "t": ["litteratur", "psykologi"]
+    },
+    {
+      "id": 260,
+      "q": "Hvilket verk ble utgitt av Dag Solstad i 1974?",
+      "a": "25. september-plassen",
+      "w": ["Genanse og verdighet", "Roman 1987", "Gymnaslærer Pedersens beretning"],
+      "r": 500,
+      "t": ["roman", "modernisme"]
+    },
+    {
+      "id": 261,
+      "q": "Hvem redigerte 1967-utgaven av «Norges nasjonallitteratur»?",
+      "a": "Francis Bull",
+      "w": ["Sigurd Hoel", "Harald Beyer", "Arne Garborg"],
+      "r": 600,
+      "t": ["litteratur", "kanon"]
+    },
+    {
+      "id": 262,
+      "q": "Hva heter det store leseverket som preget norsk skole fra 1892 til 1950-tallet?",
+      "a": "Nordahl Rolfsens Lesebok for folkeskolen",
+      "w": ["Gyldendals lesebok", "Norsk lesebok", "Skolens lesebok"],
+      "r": 500,
+      "t": ["litteratur", "skole"]
+    },
+    {
+      "id": 263,
+      "q": "Hvilket forlag stod bak serien «Norges nasjonallitteratur»?",
+      "a": "Gyldendal",
+      "w": ["Aschehoug", "Cappelen", "Universitetsforlaget"],
+      "r": 400,
+      "t": ["forlag", "litteratur"]
+    },
+    {
+      "id": 264,
+      "q": "Hvilken serie ble lansert som Aschehougs svar på Gyldendals «Norges nasjonallitteratur»?",
+      "a": "Søyler i norsk litteratur",
+      "w": ["Den norske kanon", "Nordmenns nistepakke", "Perler i prosa"],
+      "r": 600,
+      "t": ["litteratur", "forlag"]
+    },
+    {
+      "id": 265,
+      "q": "Hvem ledet juryen som utarbeidet Norsk Litteraturfestivals kanonliste i 2007?",
+      "a": "Janike Kampevold Larsen",
+      "w": ["Stig Sæterbakken", "Erik Bjerck Hagen", "Petter Aaslestad"],
+      "r": 600,
+      "t": ["litteratur", "jury"]
+    },
+    {
+      "id": 266,
+      "q": "Hvilken forfatter skrev kritikkverket «Nordmenns nistepakke»?",
+      "a": "Trond Berg Eriksen",
+      "w": ["Francis Bull", "Erik Bjerck Hagen", "Jon Haarberg"],
+      "r": 500,
+      "t": ["litteratur", "kritikk"]
+    },
+    {
+      "id": 267,
+      "q": "Hvor mange verk omfattet Trond Berg Eriksens 'nistepakke'?",
+      "a": "64",
+      "w": ["32", "50", "80"],
+      "r": 600,
+      "t": ["litteratur", "kanon"]
+    },
+    {
+      "id": 268,
+      "q": "Hvilket verk fra 1739 av Petter Dass ble inkludert i Nordmenns nistepakke?",
+      "a": "Nordlands Beskrivelse",
+      "w": ["Nordlands Trompet", "Den Nordske Dale-Viise", "Hassel-Nødder"],
+      "r": 700,
+      "t": ["litteratur", "barokk"]
+    },
+    {
+      "id": 269,
+      "q": "Hvilket opplysningsverk utga Erik Pontoppidan i 1752–53?",
+      "a": "Forsøk til Norges naturlige historie",
+      "w": ["Sandhed til gudfryktighed", "Norges Historie", "Den lærde skole"],
+      "r": 700,
+      "t": ["sakprosa", "opplysningstid"]
+    },
+    {
+      "id": 270,
+      "q": "Hvilken kvinne utga 'Lærebog i de forskjellige grene af husholdningen' i 1845?",
+      "a": "Hanna Winsnes",
+      "w": ["Camilla Collett", "Hanna Kvanmo", "Margrethe Munthe"],
+      "r": 500,
+      "t": ["sakprosa", "husholdning"]
+    },
+    {
+      "id": 271,
+      "q": "Hva heter Eilert Sundts kjente verk fra 1857?",
+      "a": "Sædeligheds-Tilstanden i Norge",
+      "w": ["Om fattigdommen", "Folkeskikk", "Moral og arbeid"],
+      "r": 400,
+      "t": ["sakprosa", "sosiologi"]
+    },
+    {
+      "id": 272,
+      "q": "Hvilken diktsamling utga Arnulf Øverland i 1929?",
+      "a": "Hustavler",
+      "w": ["Til ungdommen", "En hustavle", "Hjemkomst"],
+      "r": 500,
+      "t": ["poesi", "mellomkrigstid"]
+    },
+    {
+      "id": 273,
+      "q": "Hvilken roman skrev Aksel Sandemose i 1933?",
+      "a": "En flyktning krysser sitt spor",
+      "w": ["Det svundne er en drøm", "Vi pynter oss med horn", "Rossmanns land"],
+      "r": 400,
+      "t": ["roman", "mellomkrigstid"]
+    },
+    {
+      "id": 274,
+      "q": "Hva heter Thor Heyerdahls verk fra 1948 som ble internasjonalt kjent?",
+      "a": "Kon-Tiki",
+      "w": ["Aku-Aku", "Tigris", "På havet mot vest"],
+      "r": 400,
+      "t": ["eventyr", "sakprosa"]
+    },
+    {
+      "id": 275,
+      "q": "Hvilken roman av Agnar Mykle skapte stor debatt i 1956?",
+      "a": "Sangen om den røde rubin",
+      "w": ["Lasso rundt fru Luna", "Rubinen", "Elskere"],
+      "r": 400,
+      "t": ["roman", "debatt"]
+    },
+    {
+      "id": 276,
+      "q": "Hvilket forlag ga ut serien «Norske klassikere» i 1988–89?",
+      "a": "Gyldendal",
+      "w": ["Aschehoug", "Cappelen", "Det Norske Samlaget"],
+      "r": 400,
+      "t": ["forlag", "klassikere"]
+    },
+    {
+      "id": 277,
+      "q": "Hvilket forlag utga serien 'Norske klassikere forteller' mellom 1997 og 2001?",
+      "a": "Aschehoug",
+      "w": ["Gyldendal", "Cappelen", "Samlaget"],
+      "r": 400,
+      "t": ["litteratur", "forlag"]
+    },
+    {
+      "id": 278,
+      "q": "Hvilken bokserie ble utgitt under OLs kulturprogram i 1993?",
+      "a": "Norske perler i prosa",
+      "w": ["Norges nasjonallitteratur", "Søyler i norsk litteratur", "Norsk litterær kanon"],
+      "r": 600,
+      "t": ["antologi", "noveller"]
+    },
+    {
+      "id": 279,
+      "q": "Hvilken novelle av Amalie Skram ble inkludert i 'Perler i prosa'?",
+      "a": "Karens jul",
+      "w": ["Lucie", "Constance Ring", "Forraadt"],
+      "r": 400,
+      "t": ["novelle", "naturalismen"]
+    },
+    {
+      "id": 280,
+      "q": "Hvem skrev novellen «Han Lars i Lia»?",
+      "a": "Arne Garborg",
+      "w": ["Olav Duun", "Knut Hamsun", "Tryggve Andersen"],
+      "r": 500,
+      "t": ["novelle", "realismen"]
+    },
+    {
+      "id": 281,
+      "q": "Hvem skrev novellen «Brua over fossen»?",
+      "a": "Johannes Heggland",
+      "w": ["Torborg Nedreaas", "Hans E. Kinck", "Jonas Lie"],
+      "r": 600,
+      "t": ["novelle", "bygdeliv"]
+    },
+    {
+      "id": 282,
+      "q": "Hvilken novelle av Tarjei Vesaas er inkludert i 'Perler i prosa'?",
+      "a": "Vesle-Trask",
+      "w": ["Fuglane", "Kimen", "Is-slottet"],
+      "r": 400,
+      "t": ["novelle", "symbolisme"]
+    },
+    {
+      "id": 283,
+      "q": "Hvilken novelle av Kjell Askildsen åpner 'Nyere perler i prosa' (1975)?",
+      "a": "Hjemme fra krigen",
+      "w": ["Møte", "Thomas F's siste nedtegnelser", "Carl Lange"],
+      "r": 600,
+      "t": ["novelle", "minimalisme"]
+    },
+    {
+      "id": 284,
+      "q": "Hvilken novelle skrev Tor Åge Bringsværd i 'Nyere perler i prosa'?",
+      "a": "Eventyr",
+      "w": ["Pinocchio-papirene", "Minotauros", "Ker Shus"],
+      "r": 500,
+      "t": ["novelle", "fantasy"]
+    },
+    {
+      "id": 285,
+      "q": "Hvilken novelle i 'Norske perler i prosa' ble skrevet av Jon Fosse?",
+      "a": "Eg kunne ikkje seie det til deg",
+      "w": ["Nokon kjem til å komme", "Morgon og kveld", "Andvake"],
+      "r": 500,
+      "t": ["novelle", "modernisme"]
+    },
+    {
+      "id": 286,
+      "q": "Hvem skrev novellen «Det nye vinduet»?",
+      "a": "Roy Jacobsen",
+      "w": ["Dag Solstad", "Per Petterson", "Jon Fosse"],
+      "r": 500,
+      "t": ["novelle", "modernisme"]
+    },
+    {
+      "id": 287,
+      "q": "Hvilken novelle av Per Petterson inngår i 'Norske perler i prosa'?",
+      "a": "Som en tiger i bur",
+      "w": ["Ut og stjæle hester", "I kjølvannet", "Jeg forbanner tidens elv"],
+      "r": 500,
+      "t": ["novelle", "modernisme"]
+    },
+    {
+      "id": 288,
+      "q": "Hvem skrev «Den lange reisen til et annet menneske»?",
+      "a": "Bjørg Vik",
+      "w": ["Torborg Nedreaas", "Herbjørg Wassmo", "Laila Stien"],
+      "r": 500,
+      "t": ["novelle", "feminisme"]
+    },
+    {
+      "id": 289,
+      "q": "Hvilken roman vant Dagbladets leseravstemning i 2007 under Norsk Litteraturfestival?",
+      "a": "Mengele Zoo",
+      "w": ["Beatles", "Markens Grøde", "Kristin Lavransdatter"],
+      "r": 400,
+      "t": ["roman", "avstemning"]
+    },
+    {
+      "id": 290,
+      "q": "Hvilken bok av Kjartan Fløgstad inngår i Dagbladets liste over de 25 beste romanene 1981–2006?",
+      "a": "Kron og mynt",
+      "w": ["Fyr og flamme", "Dalen Portland", "Grand Manila"],
+      "r": 500,
+      "t": ["roman", "kanon"]
     }
   ]
 }
