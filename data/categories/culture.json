@@ -2451,6 +2451,169 @@
     "w": ["Høyre", "Venstre", "Fremskrittspartiet"],
     "r": 800,
     "t": ["politikk", "fotball"]
+    },
+    {
+    "id": 211,
+    "q": "Hva var Nordahl Rolfsens mest kjente verk, brukt i norske skoler fra 1890-tallet til 1950-tallet?",
+    "a": "Læsebog for folkeskolen",
+    "w": ["Lesebok for gymnaset", "Norske dikt", "Fortellinger for ungdom"],
+    "r": 500,
+    "t": ["litteratur", "norsk skolehistorie"]
+    },
+    {
+    "id": 212,
+    "q": "Hvilket år ble første bind av Nordahl Rolfsens Læsebog for folkeskolen utgitt?",
+    "a": "1892",
+    "w": ["1885", "1901", "1910"],
+    "r": 600,
+    "t": ["litteraturhistorie", "utgivelser"]
+    },
+    {
+    "id": 213,
+    "q": "Hvilket verk regnes som et av de mest omfattende forsøkene på å samle Norges litterære klassikere, utgitt i 40 bind i 1967?",
+    "a": "Norges nasjonallitteratur",
+    "w": ["Norsk litteraturhistorie", "Søyler i norsk litteratur", "Den norske bokserien"],
+    "r": 600,
+    "t": ["litteratur", "kanon"]
+    },
+    {
+    "id": 214,
+    "q": "Hvem redigerte 1967-utgaven av 'Norges nasjonallitteratur'?",
+    "a": "Francis Bull",
+    "w": ["Asbjørn Aarseth", "Petter Aaslestad", "Jan Erik Vold"],
+    "r": 700,
+    "t": ["litteratur", "forlagsserier"]
+    },
+    {
+    "id": 215,
+    "q": "Hvilket forlag stod bak bokserien 'Søyler i norsk litteratur' fra 1987?",
+    "a": "Aschehoug",
+    "w": ["Gyldendal", "Cappelen", "Universitetsforlaget"],
+    "r": 600,
+    "t": ["litteratur", "forlag"]
+    },
+    {
+    "id": 216,
+    "q": "Hvem ledet juryen som i 2007 kåret 25 verk til 'Norsk Litteraturfestivals' liste over sentrale verk?",
+    "a": "Janike Kampevold Larsen",
+    "w": ["Kjell Askildsen", "Jan Kjærstad", "Dag Solstad"],
+    "r": 700,
+    "t": ["litteratur", "jury"]
+    },
+    {
+    "id": 217,
+    "q": "Hva heter idéhistorikeren som i 1995 utga 'Nordmenns nistepakke', en kritikk av norsk litterær kanon?",
+    "a": "Trond Berg Eriksen",
+    "w": ["Jon Haarberg", "Erik Bjerck Hagen", "Petter Aaslestad"],
+    "r": 600,
+    "t": ["litteratur", "kritikk"]
+    },
+    {
+    "id": 218,
+    "q": "Hvilken norsk dikter skrev 'Hassel-Nødder' og 'Jødesagen i det norske Storthing'?",
+    "a": "Henrik Wergeland",
+    "w": ["Bjørnstjerne Bjørnson", "Henrik Ibsen", "Arne Garborg"],
+    "r": 600,
+    "t": ["litteratur", "klassikere"]
+    },
+    {
+    "id": 219,
+    "q": "Hvilken kvinnelig forfatter regnes som Norges første feministiske romanforfatter med verket 'Amtmandens Døttre'?",
+    "a": "Camilla Collett",
+    "w": ["Amalie Skram", "Cora Sandel", "Sigrid Undset"],
+    "r": 400,
+    "t": ["litteratur", "kvinnelige forfattere"]
+    },
+    {
+    "id": 220,
+    "q": "Hvilken norsk forfatter vant Nobelprisen i litteratur i 1928 for trilogien 'Kristin Lavransdatter'?",
+    "a": "Sigrid Undset",
+    "w": ["Knut Hamsun", "Cora Sandel", "Amalie Skram"],
+    "r": 400,
+    "t": ["nobelpris", "litteratur"]
+    },
+    {
+    "id": 221,
+    "q": "Hvilken diktsamling av Olav H. Hauge regnes som en del av Norges litterære kanon?",
+    "a": "Dropar i austavind",
+    "w": ["Dikt i samling", "Spør vinden", "Huset i hagen"],
+    "r": 650,
+    "t": ["poesi", "norsk litteratur"]
+    },
+    {
+    "id": 222,
+    "q": "Hvilken roman av Aksel Sandemose introduserte begrepet 'Janteloven'?",
+    "a": "En flyktning krysser sitt spor",
+    "w": ["Det svundne er en drøm", "Ross Dane", "Varulven"],
+    "r": 500,
+    "t": ["litteratur", "kulturhistorie"]
+    },
+    {
+    "id": 223,
+    "q": "Hva heter bokverket redigert av Edvard Beyer i 1966, med norske noveller?",
+    "a": "Perler i prosa",
+    "w": ["Norsk novellekunst", "Klassiske fortellinger", "Norske røster"],
+    "r": 700,
+    "t": ["litteratur", "noveller"]
+    },
+    {
+    "id": 224,
+    "q": "Hvilken novelle av Amalie Skram er inkludert i antologien 'Perler i prosa'?",
+    "a": "Karens jul",
+    "w": ["Lucie", "Constance Ring", "Forraadt"],
+    "r": 700,
+    "t": ["litteratur", "noveller"]
+    },
+    {
+    "id": 225,
+    "q": "Hvilken forfatter skrev 'Fuglane', en gjenganger i flere kanonlister?",
+    "a": "Tarjei Vesaas",
+    "w": ["Olav Duun", "Johan Borgen", "Knut Hamsun"],
+    "r": 500,
+    "t": ["litteratur", "modernisme"]
+    },
+    {
+    "id": 226,
+    "q": "Hvilken dikter skrev 'Alle mine dikt' og 'Hemmelig liv'?",
+    "a": "Rolf Jacobsen",
+    "w": ["Olav H. Hauge", "Gunvor Hofmo", "André Bjerke"],
+    "r": 600,
+    "t": ["poesi", "modernisme"]
+    },
+    {
+    "id": 227,
+    "q": "Hvilken roman vant publikumsavstemningen i Dagbladet/Nitimen 2007 som 'Folkets favoritt'?",
+    "a": "Mengele Zoo",
+    "w": ["Beatles", "Markens Grøde", "Kristin Lavransdatter"],
+    "r": 400,
+    "t": ["litteratur", "avstemning"]
+    },
+    {
+    "id": 228,
+    "q": "Hvilken forfatter skrev 'Beatles' og 'Halvbroren', begge ofte på favorittlister?",
+    "a": "Lars Saabye Christensen",
+    "w": ["Roy Jacobsen", "Erlend Loe", "Dag Solstad"],
+    "r": 400,
+    "t": ["litteratur", "moderne romaner"]
+    },
+    {
+    "id": 229,
+    "q": "Hva heter boken Trond Berg Eriksen utga i 1995 som kritiserte norsk litterær kanon?",
+    "a": "Nordmenns nistepakke",
+    "w": ["Norsk litterær arv", "Kanon og kritikk", "Lesebok for folket"],
+    "r": 700,
+    "t": ["litteratur", "essay"]
+    },
+    {
+    "id": 230,
+    "q": "Hvilket verk av Knut Hamsun vant Nobelprisen i litteratur i 1920?",
+    "a": "Markens Grøde",
+    "w": ["Sult", "Pan", "Victoria"],
+    "r": 400,
+    "t": ["litteratur", "nobelpris"]
     }
   ]
 }
+
+
+

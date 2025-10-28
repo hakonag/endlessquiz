@@ -596,6 +596,102 @@ body {
     color: #000000;
 }
 
+/* History Page Styles */
+.history-page {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.history-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.history-header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.history-content {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.history-page .history-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 0;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+
+.history-page .stat-item {
+    text-align: center;
+}
+
+.history-page .stat-label {
+    display: block;
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.history-page .stat-value {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.history-page .history-list {
+    max-height: none;
+    overflow-y: visible;
+    border: none;
+    border-radius: 0;
+}
+
+.history-page .history-item {
+    padding: 20px 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.history-page .history-item:last-child {
+    border-bottom: none;
+}
+
+.history-page .history-question {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.history-page .history-details {
+    gap: 20px;
+    font-size: 14px;
+}
+
+.history-page .history-elo-change {
+    font-size: 16px;
+    padding: 6px 12px;
+}
+
+/* Back button styling */
+.history-page .hamburger {
+    text-decoration: none;
+    color: inherit;
+}
+
+.history-page .hamburger:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     #container {

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELO Historikk - Endeløs Quiz</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="toprow">
+            <div class="left-dropdown">
+                <a href="index.html" class="topbutton hamburger">
+                    <span class="hamburger-icon">←</span>
+                    <span class="category-text">Tilbake</span>
+                </a>
+            </div>
+            <div class="right-buttons">
+                <div id="currentELO" class="topbutton">ELO 800</div>
+            </div>
+        </div>
+        
+        <div class="history-page">
+            <div class="history-header">
+                <h1>ELO Historikk</h1>
+                <div class="history-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Nåværende ELO:</span>
+                        <span class="stat-value" id="currentELOValue">800</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Start ELO:</span>
+                        <span class="stat-value" id="startELOValue">800</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Netto Endring:</span>
+                        <span class="stat-value" id="netChangeValue">+0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="history-content">
+                <div class="history-list" id="historyList">
+                    <div class="no-history">Laster historikk...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/elo-history.js"></script>
+</body>
+</html>

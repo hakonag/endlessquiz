@@ -211,18 +211,7 @@ class EndlessQuiz {
                 
                 // ELO rating click
                 document.getElementById('btnRating').addEventListener('click', () => {
-                    this.showELOHistory();
-                });
-                
-                // Modal close events
-                document.querySelector('.close-history').addEventListener('click', () => {
-                    this.hideELOHistory();
-                });
-                
-                document.getElementById('historyModal').addEventListener('click', (e) => {
-                    if (e.target.id === 'historyModal') {
-                        this.hideELOHistory();
-                    }
+                    window.location.href = 'elo-history.html';
                 });
                 
                 // Keyboard support
@@ -512,74 +501,6 @@ class EndlessQuiz {
     }
     
     
-    showELOHistory() {
-        const modal = document.getElementById('historyModal');
-        modal.style.display = 'block';
-        
-        // Update stats
-        this.updateHistoryStats();
-        
-        // Populate history list
-        this.populateHistoryList();
-    }
-    
-    hideELOHistory() {
-        const modal = document.getElementById('historyModal');
-        modal.style.display = 'none';
-    }
-    
-    updateHistoryStats() {
-        const startELO = this.playerStats.startingELO || 800;
-        const currentELO = this.elo;
-        const netChange = currentELO - startELO;
-        
-        document.getElementById('currentELO').textContent = currentELO;
-        document.getElementById('startELO').textContent = startELO;
-        document.getElementById('netChange').textContent = 
-            netChange >= 0 ? `+${netChange}` : `${netChange}`;
-    }
-    
-    populateHistoryList() {
-        const historyList = document.getElementById('historyList');
-        
-        if (this.eloHistory.length === 0) {
-            historyList.innerHTML = '<div class="no-history">Ingen spørsmål besvart ennå</div>';
-            return;
-        }
-        
-        // Sort by question number (chronological order)
-        const sortedHistory = [...this.eloHistory].sort((a, b) => a.questionNumber - b.questionNumber);
-        
-        historyList.innerHTML = sortedHistory.map(item => {
-            const eloChangeClass = item.eloChange >= 0 ? 'positive' : 'negative';
-            const eloChangeText = item.eloChange >= 0 ? `+${item.eloChange}` : `${item.eloChange}`;
-            const correctClass = item.isCorrect ? 'correct' : 'incorrect';
-            
-            return `
-                <div class="history-item ${correctClass}">
-                    <div class="history-question">
-                        <strong>Spørsmål ${item.questionNumber}:</strong> ${item.questionText || this.getQuestionText(item.questionId)}
-                    </div>
-                    <div class="history-details">
-                        <span class="history-category">${item.category || 'Generell'}</span>
-                        <span class="history-rating">Rating: ${item.questionRating}</span>
-                        <span class="history-elo-change ${eloChangeClass}">${eloChangeText}</span>
-                    </div>
-                </div>
-            `;
-        }).join('');
-    }
-    
-    getQuestionText(questionId) {
-        // Find the question text from stored history
-        const historyItem = this.eloHistory.find(item => item.questionId === questionId);
-        if (historyItem && historyItem.questionText) {
-            return historyItem.questionText;
-        }
-        
-        // Fallback
-        return `Spørsmål ID: ${questionId}`;
-    }
 }
 
 // Initialize the quiz when the page loads
