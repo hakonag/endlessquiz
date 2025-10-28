@@ -2053,244 +2053,404 @@
       "t": ["VM", "mål"]
     },
     {
-      "id": 151,
-      "q": "Hvem var toppscorer for Norges herrelandslag i fotball med 33 mål mellom 1928 og 1937?",
-      "a": "Jørgen Juve",
-      "w": ["Reidar Kvammen", "Odd Iversen", "John Carew"],
-      "r": 750,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 152,
-      "q": "Hvilket norsk landslag ble kjent som 'Bronselaget' etter OL i Berlin 1936?",
-      "a": "Norges herrelandslag i fotball",
-      "w": ["Norges håndballandslag for menn", "Norges ishockeylandslag", "Norges friidrettslandslag"],
-      "r": 700,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 153,
-      "q": "Mot hvilket land spilte Norge sin aller første herrelandskamp i fotball 12. juli 1908?",
-      "a": "Sverige",
-      "w": ["Danmark", "Tyskland", "Finland"],
-      "r": 650,
-      "t": ["fotball", "Norge"]
-      },
-      {
-      "id": 154,
-      "q": "Hvilken norsk spiller scoret 51 mål på 46 landskamper per oktober 2025?",
-      "a": "Erling Braut Haaland",
-      "w": ["Joshua King", "John Carew", "Jørgen Juve"],
-      "r": 600,
-      "t": ["fotball", "Norge"]
-      },
-      {
-      "id": 155,
-      "q": "Hvilken klubb representerte Gunnar Andersen da han spilte 46 landskamper for Norge mellom 1911 og 1924?",
-      "a": "Lyn",
-      "w": ["Odd", "Fredrikstad", "Viking"],
-      "r": 800,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 156,
-      "q": "Hvilken norsk forsvarsspiller nådde 100 landskamper mellom 1992 og 2004?",
-      "a": "Henning Berg",
-      "w": ["Brede Hangeland", "Ronny Johnsen", "Erik Hoftun"],
-      "r": 750,
-      "t": ["fotball", "spillere"]
-      },
-      {
-      "id": 157,
-      "q": "Hva var posisjonen til Arne Brustad, en del av Bronselaget fra 1936?",
-      "a": "Angrep",
-      "w": ["Midtbane", "Forsvar", "Målvakt"],
-      "r": 700,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 158,
-      "q": "Hvilken klubb spilte både Fredrik og Patrick Berg for på landslagsnivå?",
-      "a": "Bodø/Glimt",
-      "w": ["Molde", "Rosenborg", "Viking"],
-      "r": 650,
-      "t": ["fotball", "familie"]
-      },
-      {
-      "id": 159,
-      "q": "Hvilken norsk landslagsspiller spilte for både Manchester United og Blackburn Rovers på 1990-tallet?",
-      "a": "Henning Berg",
-      "w": ["Ronny Johnsen", "John Arne Riise", "Tore André Flo"],
-      "r": 700,
-      "t": ["fotball", "Premier League"]
-      },
-      {
-      "id": 160,
-      "q": "Hvilken tidligere landslagsspiller var senere hovedtrener for det norske herrelandslaget?",
-      "a": "Åge Hareide",
-      "w": ["Tom Lund", "Egil Olsen", "Kjetil Rekdal"],
-      "r": 850,
-      "t": ["fotball", "trener"]
-      },
-      {
-      "id": 161,
-      "q": "Hvilken norsk klubb har hatt flest spillere representert på herrelandslaget gjennom tidene?",
-      "a": "Lyn",
-      "w": ["Fredrikstad", "Rosenborg", "Vålerenga"],
-      "r": 900,
-      "t": ["fotball", "klubber"]
-      },
-      {
-      "id": 162,
-      "q": "Hva var stillingen da Norge slo Brasil under VM i 1998, en kamp John Carew deltok i?",
-      "a": "2–1 til Norge",
-      "w": ["1–0 til Norge", "2–2 uavgjort", "3–1 til Brasil"],
-      "r": 800,
-      "t": ["fotball", "VM"]
-      },
-      {
-      "id": 163,
-      "q": "Hvilken norsk forsvarsspiller var kjent for sin tid i Fulham og spilte 91 landskamper for Norge?",
-      "a": "Brede Hangeland",
-      "w": ["Jon Arne Riise", "Erik Hoftun", "Claus Lundekvam"],
-      "r": 700,
-      "t": ["fotball", "Premier League"]
-      },
-      {
-      "id": 164,
-      "q": "Hvilken spiller scoret Norges første landslagsmål i 1908?",
-      "a": "Thorvald Torgersen",
-      "w": ["Gunnar Andersen", "Kaare Halvorsen", "Karl Poppe"],
-      "r": 950,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 165,
-      "q": "Hvilken norsk keeper spilte for både Chelsea og Tottenham Hotspur?",
-      "a": "Frode Grodås",
-      "w": ["Thomas Myhre", "Rune Jarstein", "Espen Baardsen"],
-      "r": 750,
-      "t": ["fotball", "målvakt"]
-      },
-      {
-      "id": 166,
-      "q": "Hvilken norsk spiller fikk 110 landskamper og scoret 16 mål, hovedsakelig fra backposisjon?",
-      "a": "John Arne Riise",
-      "w": ["Jon Inge Høiland", "Steffen Iversen", "Vegard Heggem"],
-      "r": 650,
-      "t": ["fotball", "rekorder"]
-      },
-      {
-      "id": 167,
-      "q": "Hva var den typiske posisjonen til Morten Gamst Pedersen på landslaget?",
-      "a": "Midtbane",
-      "w": ["Forsvar", "Keeper", "Angrep"],
-      "r": 600,
-      "t": ["fotball", "spillere"]
-      },
-      {
-      "id": 168,
-      "q": "Hvilken klubb representerte Sander Berge før han gikk til Sheffield United?",
-      "a": "KRC Genk",
-      "w": ["Molde", "Viking", "Bodø/Glimt"],
-      "r": 650,
-      "t": ["fotball", "spillere"]
-      },
-      {
-      "id": 169,
-      "q": "Hvilken norsk spiss spilte for Aston Villa, Lyon og West Ham og scoret 24 landslagsmål?",
-      "a": "John Carew",
-      "w": ["Tore André Flo", "Joshua King", "Steffen Iversen"],
-      "r": 650,
-      "t": ["fotball", "angrep"]
-      },
-      {
-      "id": 170,
-      "q": "Hvilket år spilte Norge sin første offisielle landskamp i fotball?",
-      "a": "1908",
-      "w": ["1910", "1899", "1912"],
-      "r": 600,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 171,
-      "q": "Hvilken tidligere landslagsspiller ble kjent som treneren bak Norges seier mot Brasil i 1998?",
-      "a": "Egil 'Drillo' Olsen",
-      "w": ["Åge Hareide", "Per-Mathias Høgmo", "Kjetil Rekdal"],
-      "r": 600,
-      "t": ["fotball", "trener"]
-      },
-      {
-      "id": 172,
-      "q": "Hvilken norsk keeper har flest landskamper gjennom tidene?",
-      "a": "Erik Thorstvedt",
-      "w": ["Rune Jarstein", "Thomas Myhre", "Frode Grodås"],
-      "r": 700,
-      "t": ["fotball", "rekorder"]
-      },
-      {
-      "id": 173,
-      "q": "Hvilken klubb spilte Erling Braut Haaland for før han gikk til Manchester City?",
-      "a": "Borussia Dortmund",
-      "w": ["Red Bull Salzburg", "Molde FK", "Bryne FK"],
-      "r": 600,
-      "t": ["fotball", "spillere"]
-      },
-      {
-      "id": 174,
-      "q": "Hvilken spiller med fornavn Tore spilte for Chelsea og Rangers og scoret 23 landslagsmål?",
-      "a": "Tore André Flo",
-      "w": ["Tore Pedersen", "Tore Reginiussen", "Tore Høiland"],
-      "r": 650,
-      "t": ["fotball", "Premier League"]
-      },
-      {
-      "id": 175,
-      "q": "Hvilket tiår hadde Norge sitt berømte 'Bronselag' i fotball?",
-      "a": "1930-årene",
-      "w": ["1920-årene", "1940-årene", "1950-årene"],
-      "r": 650,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 176,
-      "q": "Hvilken norsk spiller var både aktiv for Celtic og Rosenborg og spilte 76 landskamper?",
-      "a": "Tore André Flo",
-      "w": ["Harald Brattbakk", "Vidar Riseth", "Ronny Johnsen"],
-      "r": 700,
-      "t": ["fotball", "spillere"]
-      },
-      {
-      "id": 177,
-      "q": "Hvilken norsk midtbanespiller var kaptein for Norge og spilte i Premier League for Fulham?",
-      "a": "Stefan Johansen",
-      "w": ["Sander Berge", "Henning Berg", "Håvard Nordtveit"],
-      "r": 700,
-      "t": ["fotball", "kaptein"]
-      },
-      {
-      "id": 178,
-      "q": "Hvilken klubb hadde flest spillere på landslaget under 'Bronselaget' fra 1936?",
-      "a": "Lyn",
-      "w": ["Fredrikstad", "Viking", "Odd"],
-      "r": 800,
-      "t": ["fotball", "historie"]
-      },
-      {
-      "id": 179,
-      "q": "Hvilken norsk spiller scoret sitt første landslagsmål i debuten mot Østerrike i 2019?",
-      "a": "Erling Braut Haaland",
-      "w": ["Alexander Sørloth", "Joshua King", "Sander Berge"],
-      "r": 650,
-      "t": ["fotball", "spillere"]
-      },
-      {
-      "id": 180,
-      "q": "Hvilken norsk landslagsspiller fra 1930-tallet ble senere kjent som fotballkommentator og forfatter?",
-      "a": "Reidar Kvammen",
-      "w": ["Odd Frantzen", "Arne Brustad", "Jørgen Juve"],
-      "r": 950,
-      "t": ["fotball", "historie"]
-      }
+    "id": 151,
+    "q": "Hvem var toppscorer for Norges herrelandslag i fotball med 33 mål mellom 1928 og 1937?",
+    "a": "Jørgen Juve",
+    "w": ["Reidar Kvammen", "Odd Iversen", "John Carew"],
+    "r": 750,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 152,
+    "q": "Hvilket norsk landslag ble kjent som 'Bronselaget' etter OL i Berlin 1936?",
+    "a": "Norges herrelandslag i fotball",
+    "w": ["Norges håndballandslag for menn", "Norges ishockeylandslag", "Norges friidrettslandslag"],
+    "r": 700,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 153,
+    "q": "Mot hvilket land spilte Norge sin aller første herrelandskamp i fotball 12. juli 1908?",
+    "a": "Sverige",
+    "w": ["Danmark", "Tyskland", "Finland"],
+    "r": 650,
+    "t": ["fotball", "Norge"]
+    },
+    {
+    "id": 154,
+    "q": "Hvilken norsk spiller scoret 51 mål på 46 landskamper per oktober 2025?",
+    "a": "Erling Braut Haaland",
+    "w": ["Joshua King", "John Carew", "Jørgen Juve"],
+    "r": 600,
+    "t": ["fotball", "Norge"]
+    },
+    {
+    "id": 155,
+    "q": "Hvilken klubb representerte Gunnar Andersen da han spilte 46 landskamper for Norge mellom 1911 og 1924?",
+    "a": "Lyn",
+    "w": ["Odd", "Fredrikstad", "Viking"],
+    "r": 800,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 156,
+    "q": "Hvilken norsk forsvarsspiller nådde 100 landskamper mellom 1992 og 2004?",
+    "a": "Henning Berg",
+    "w": ["Brede Hangeland", "Ronny Johnsen", "Erik Hoftun"],
+    "r": 750,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 157,
+    "q": "Hva var posisjonen til Arne Brustad, en del av Bronselaget fra 1936?",
+    "a": "Angrep",
+    "w": ["Midtbane", "Forsvar", "Målvakt"],
+    "r": 700,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 158,
+    "q": "Hvilken klubb spilte både Fredrik og Patrick Berg for på landslagsnivå?",
+    "a": "Bodø/Glimt",
+    "w": ["Molde", "Rosenborg", "Viking"],
+    "r": 650,
+    "t": ["fotball", "familie"]
+    },
+    {
+    "id": 159,
+    "q": "Hvilken norsk landslagsspiller spilte for både Manchester United og Blackburn Rovers på 1990-tallet?",
+    "a": "Henning Berg",
+    "w": ["Ronny Johnsen", "John Arne Riise", "Tore André Flo"],
+    "r": 700,
+    "t": ["fotball", "Premier League"]
+    },
+    {
+    "id": 160,
+    "q": "Hvilken tidligere landslagsspiller var senere hovedtrener for det norske herrelandslaget?",
+    "a": "Åge Hareide",
+    "w": ["Tom Lund", "Egil Olsen", "Kjetil Rekdal"],
+    "r": 850,
+    "t": ["fotball", "trener"]
+    },
+    {
+    "id": 161,
+    "q": "Hvilken norsk klubb har hatt flest spillere representert på herrelandslaget gjennom tidene?",
+    "a": "Lyn",
+    "w": ["Fredrikstad", "Rosenborg", "Vålerenga"],
+    "r": 900,
+    "t": ["fotball", "klubber"]
+    },
+    {
+    "id": 162,
+    "q": "Hva var stillingen da Norge slo Brasil under VM i 1998, en kamp John Carew deltok i?",
+    "a": "2–1 til Norge",
+    "w": ["1–0 til Norge", "2–2 uavgjort", "3–1 til Brasil"],
+    "r": 800,
+    "t": ["fotball", "VM"]
+    },
+    {
+    "id": 163,
+    "q": "Hvilken norsk forsvarsspiller var kjent for sin tid i Fulham og spilte 91 landskamper for Norge?",
+    "a": "Brede Hangeland",
+    "w": ["Jon Arne Riise", "Erik Hoftun", "Claus Lundekvam"],
+    "r": 700,
+    "t": ["fotball", "Premier League"]
+    },
+    {
+    "id": 164,
+    "q": "Hvilken spiller scoret Norges første landslagsmål i 1908?",
+    "a": "Thorvald Torgersen",
+    "w": ["Gunnar Andersen", "Kaare Halvorsen", "Karl Poppe"],
+    "r": 950,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 165,
+    "q": "Hvilken norsk keeper spilte for både Chelsea og Tottenham Hotspur?",
+    "a": "Frode Grodås",
+    "w": ["Thomas Myhre", "Rune Jarstein", "Espen Baardsen"],
+    "r": 750,
+    "t": ["fotball", "målvakt"]
+    },
+    {
+    "id": 166,
+    "q": "Hvilken norsk spiller fikk 110 landskamper og scoret 16 mål, hovedsakelig fra backposisjon?",
+    "a": "John Arne Riise",
+    "w": ["Jon Inge Høiland", "Steffen Iversen", "Vegard Heggem"],
+    "r": 650,
+    "t": ["fotball", "rekorder"]
+    },
+    {
+    "id": 167,
+    "q": "Hva var den typiske posisjonen til Morten Gamst Pedersen på landslaget?",
+    "a": "Midtbane",
+    "w": ["Forsvar", "Keeper", "Angrep"],
+    "r": 600,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 168,
+    "q": "Hvilken klubb representerte Sander Berge før han gikk til Sheffield United?",
+    "a": "KRC Genk",
+    "w": ["Molde", "Viking", "Bodø/Glimt"],
+    "r": 650,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 169,
+    "q": "Hvilken norsk spiss spilte for Aston Villa, Lyon og West Ham og scoret 24 landslagsmål?",
+    "a": "John Carew",
+    "w": ["Tore André Flo", "Joshua King", "Steffen Iversen"],
+    "r": 650,
+    "t": ["fotball", "angrep"]
+    },
+    {
+    "id": 170,
+    "q": "Hvilket år spilte Norge sin første offisielle landskamp i fotball?",
+    "a": "1908",
+    "w": ["1910", "1899", "1912"],
+    "r": 600,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 171,
+    "q": "Hvilken tidligere landslagsspiller ble kjent som treneren bak Norges seier mot Brasil i 1998?",
+    "a": "Egil 'Drillo' Olsen",
+    "w": ["Åge Hareide", "Per-Mathias Høgmo", "Kjetil Rekdal"],
+    "r": 600,
+    "t": ["fotball", "trener"]
+    },
+    {
+    "id": 172,
+    "q": "Hvilken norsk keeper har flest landskamper gjennom tidene?",
+    "a": "Erik Thorstvedt",
+    "w": ["Rune Jarstein", "Thomas Myhre", "Frode Grodås"],
+    "r": 700,
+    "t": ["fotball", "rekorder"]
+    },
+    {
+    "id": 173,
+    "q": "Hvilken klubb spilte Erling Braut Haaland for før han gikk til Manchester City?",
+    "a": "Borussia Dortmund",
+    "w": ["Red Bull Salzburg", "Molde FK", "Bryne FK"],
+    "r": 600,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 174,
+    "q": "Hvilken spiller med fornavn Tore spilte for Chelsea og Rangers og scoret 23 landslagsmål?",
+    "a": "Tore André Flo",
+    "w": ["Tore Pedersen", "Tore Reginiussen", "Tore Høiland"],
+    "r": 650,
+    "t": ["fotball", "Premier League"]
+    },
+    {
+    "id": 175,
+    "q": "Hvilket tiår hadde Norge sitt berømte 'Bronselag' i fotball?",
+    "a": "1930-årene",
+    "w": ["1920-årene", "1940-årene", "1950-årene"],
+    "r": 650,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 176,
+    "q": "Hvilken norsk spiller var både aktiv for Celtic og Rosenborg og spilte 76 landskamper?",
+    "a": "Tore André Flo",
+    "w": ["Harald Brattbakk", "Vidar Riseth", "Ronny Johnsen"],
+    "r": 700,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 177,
+    "q": "Hvilken norsk midtbanespiller var kaptein for Norge og spilte i Premier League for Fulham?",
+    "a": "Stefan Johansen",
+    "w": ["Sander Berge", "Henning Berg", "Håvard Nordtveit"],
+    "r": 700,
+    "t": ["fotball", "kaptein"]
+    },
+    {
+    "id": 178,
+    "q": "Hvilken klubb hadde flest spillere på landslaget under 'Bronselaget' fra 1936?",
+    "a": "Lyn",
+    "w": ["Fredrikstad", "Viking", "Odd"],
+    "r": 800,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 179,
+    "q": "Hvilken norsk spiller scoret sitt første landslagsmål i debuten mot Østerrike i 2019?",
+    "a": "Erling Braut Haaland",
+    "w": ["Alexander Sørloth", "Joshua King", "Sander Berge"],
+    "r": 650,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 180,
+    "q": "Hvilken norsk landslagsspiller fra 1930-tallet ble senere kjent som fotballkommentator og forfatter?",
+    "a": "Reidar Kvammen",
+    "w": ["Odd Frantzen", "Arne Brustad", "Jørgen Juve"],
+    "r": 950,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 181,
+    "q": "Hvilken klubb spilte John Arne Riise flest kamper for i sin karriere?",
+    "a": "Liverpool",
+    "w": ["AS Roma", "Aalesund", "Fulham"],
+    "r": 600,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 182,
+    "q": "Hvor mange landskamper spilte John Arne Riise for Norge?",
+    "a": "110",
+    "w": ["104", "99", "116"],
+    "r": 600,
+    "t": ["fotball", "rekorder"]
+    },
+    {
+    "id": 183,
+    "q": "For hvilken klubb vant John Arne Riise Mesterligaen i 2004/05-sesongen?",
+    "a": "Liverpool",
+    "w": ["AS Monaco", "AS Roma", "Fulham"],
+    "r": 600,
+    "t": ["fotball", "meritter"]
+    },
+    {
+    "id": 184,
+    "q": "Hvilken posisjon spilte John Arne Riise primært?",
+    "a": "Back",
+    "w": ["Midtbane", "Angrep", "Keeper"],
+    "r": 500,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 185,
+    "q": "Hvilken norsk klubb startet John Arne Riise seniorkarrieren sin i?",
+    "a": "Aalesund",
+    "w": ["Molde", "Bryne", "Lyn"],
+    "r": 650,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 186,
+    "q": "Hvilken fransk klubb spilte John Arne Riise for før overgangen til Liverpool?",
+    "a": "AS Monaco",
+    "w": ["Paris Saint-Germain", "Marseille", "Lille"],
+    "r": 650,
+    "t": ["fotball", "Europa"]
+    },
+    {
+    "id": 187,
+    "q": "Hvilken italiensk klubb spilte John Arne Riise for mellom 2008 og 2011?",
+    "a": "AS Roma",
+    "w": ["AC Milan", "Juventus", "Inter"],
+    "r": 600,
+    "t": ["fotball", "Italia"]
+    },
+    {
+    "id": 188,
+    "q": "Hva het John Arne Riises bror, som også spilte profesjonell fotball?",
+    "a": "Bjørn Helge Riise",
+    "w": ["Thomas Riise", "Anders Riise", "Marius Riise"],
+    "r": 600,
+    "t": ["fotball", "familie"]
+    },
+    {
+    "id": 189,
+    "q": "Hvilken pris vant John Arne Riise som 'Årets Kniksen'?",
+    "a": "2006",
+    "w": ["2001", "2003", "2008"],
+    "r": 700,
+    "t": ["fotball", "priser"]
+    },
+    {
+    "id": 190,
+    "q": "Hvilken klubb trente John Arne Riise i Toppserien fra 2021 til 2023?",
+    "a": "Avaldsnes",
+    "w": ["Flint Tønsberg", "Kolbotn", "Lillestrøm"],
+    "r": 750,
+    "t": ["fotball", "trener"]
+    },
+    {
+    "id": 191,
+    "q": "Hvilken klubb spilte Ole Gunnar Solskjær flest kamper for i sin karriere?",
+    "a": "Manchester United",
+    "w": ["Molde", "Clausenengen", "Rosenborg"],
+    "r": 500,
+    "t": ["fotball", "spillere"]
+    },
+    {
+    "id": 192,
+    "q": "Hvor mange mål scoret Ole Gunnar Solskjær for Manchester United?",
+    "a": "126",
+    "w": ["115", "101", "132"],
+    "r": 600,
+    "t": ["fotball", "rekorder"]
+    },
+    {
+    "id": 193,
+    "q": "Hvilket legendarisk mål scoret Ole Gunnar Solskjær i Mesterligafinalen i 1999?",
+    "a": "Vinnermålet mot Bayern München i det 93. minutt",
+    "w": ["Straffemål mot Juventus", "Hattrick mot Inter", "Selvmål mot Real Madrid"],
+    "r": 400,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 194,
+    "q": "Hva var kallenavnet til Ole Gunnar Solskjær blant Manchester United-fans?",
+    "a": "20LEGEND",
+    "w": ["Red Viking", "Baby Red", "Goal Machine"],
+    "r": 600,
+    "t": ["fotball", "kallenavn"]
+    },
+    {
+    "id": 195,
+    "q": "Hvilken klubb ledet Solskjær til sitt første seriegull som trener?",
+    "a": "Molde FK",
+    "w": ["Cardiff City", "Manchester United", "Beşiktaş"],
+    "r": 500,
+    "t": ["fotball", "trener"]
+    },
+    {
+    "id": 196,
+    "q": "Når fikk Ole Gunnar Solskjær sparken som manager for Manchester United?",
+    "a": "21. november 2021",
+    "w": ["19. desember 2018", "2. januar 2014", "28. august 2025"],
+    "r": 650,
+    "t": ["fotball", "historie"]
+    },
+    {
+    "id": 197,
+    "q": "Hvilken klubb trente Solskjær i Tyrkia i 2025?",
+    "a": "Beşiktaş JK",
+    "w": ["Galatasaray", "Fenerbahçe", "Trabzonspor"],
+    "r": 600,
+    "t": ["fotball", "trener"]
+    },
+    {
+    "id": 198,
+    "q": "Hva het boka Ole Gunnar Solskjær ga ut i samarbeid med Kjetil Siem?",
+    "a": "Æ",
+    "w": ["20LEGEND", "Super Sub", "Fortellingen om Ole Gunnar"],
+    "r": 700,
+    "t": ["litteratur", "fotball"]
+    },
+    {
+    "id": 199,
+    "q": "Hvilken norsk orden ble Ole Gunnar Solskjær utnevnt til Ridder 1. klasse av?",
+    "a": "St. Olavs Orden",
+    "w": ["Den Kongelige Norske Fortjenstorden", "St. Georgs Orden", "Den Gylne Løves Orden"],
+    "r": 700,
+    "t": ["utmerkelser", "nasjonalt"]
+    },
+    {
+    "id": 200,
+    "q": "Hvilket politisk parti har Ole Gunnar Solskjær offentlig støttet?",
+    "a": "Arbeiderpartiet",
+    "w": ["Høyre", "Venstre", "Fremskrittspartiet"],
+    "r": 800,
+    "t": ["politikk", "fotball"]
+    }
   ]
 }
