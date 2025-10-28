@@ -2,16 +2,19 @@ class EndlessQuiz {
     constructor() {
         this.categories = [];
         this.currentCategory = null;
+        this.currentCategoryFile = null; // Track current category filename
         this.questions = [];
         this.currentQuestionIndex = 0;
-        this.elo = this.loadELO(); // Load from localStorage
+        this.categoryELOs = this.loadCategoryELOs(); // Separate ELO per category
+        this.elo = 800; // Current category ELO (will be set when category loads)
         this.streak = 0;
         this.isAnswering = false;
         this.currentQuestion = null;
         this.answeredQuestions = 0;
         this.correctAnswers = 0;
         this.totalQuestions = 0;
-        this.eloHistory = this.loadELOHistory(); // Track ELO progression
+        this.categoryELOHistories = this.loadCategoryELOHistories(); // Track ELO progression per category
+        this.eloHistory = []; // Current category history
         this.playerStats = this.loadPlayerStats(); // Track player behavior patterns
         this.eloChart = null; // Chart.js instance
         
@@ -215,7 +218,12 @@ class EndlessQuiz {
                 
                 // ELO rating click
                 document.getElementById('btnRating').addEventListener('click', () => {
-                    window.location.href = 'elo-history.html';
+                    window.location.href = `elo-history.html?category=${this.currentCategoryFile}`;
+                });
+                
+                // Reset button click
+                document.getElementById('btnReset').addEventListener('click', () => {
+                    this.resetProgress();
                 });
                 
                 // Keyboard support
@@ -244,23 +252,45 @@ class EndlessQuiz {
         return "10,000"; // Fallback
     }
     
-    // ELO Persistence Methods
-    loadELO() {
-        const saved = localStorage.getItem('endlessQuiz_elo');
-        return saved ? parseInt(saved) : 800;
+    // ELO Persistence Methods - Category Specific
+    loadCategoryELOs() {
+        const saved = localStorage.getItem('endlessQuiz_categoryELOs');
+        return saved ? JSON.parse(saved) : {
+            'general.json': 800,
+            'history.json': 800,
+            'geography.json': 800,
+            'science.json': 800,
+            'culture.json': 800
+        };
     }
     
-    saveELO() {
-        localStorage.setItem('endlessQuiz_elo', this.elo.toString());
+    saveCategoryELOs() {
+        localStorage.setItem('endlessQuiz_categoryELOs', JSON.stringify(this.categoryELOs));
     }
     
-    loadELOHistory() {
-        const saved = localStorage.getItem('endlessQuiz_eloHistory');
-        return saved ? JSON.parse(saved) : [];
+    loadCategoryELOHistories() {
+        const saved = localStorage.getItem('endlessQuiz_categoryELOHistories');
+        return saved ? JSON.parse(saved) : {
+            'general.json': [],
+            'history.json': [],
+            'geography.json': [],
+            'science.json': [],
+            'culture.json': []
+        };
     }
     
-    saveELOHistory() {
-        localStorage.setItem('endlessQuiz_eloHistory', JSON.stringify(this.eloHistory));
+    saveCategoryELOHistories() {
+        localStorage.setItem('endlessQuiz_categoryELOHistories', JSON.stringify(this.categoryELOHistories));
+    }
+    
+    getCurrentCategoryELO() {
+        return this.categoryELOs[this.currentCategoryFile] || 800;
+    }
+    
+    setCurrentCategoryELO(elo) {
+        this.categoryELOs[this.currentCategoryFile] = elo;
+        this.elo = elo;
+        this.saveCategoryELOs();
     }
     
     loadPlayerStats() {
@@ -315,11 +345,17 @@ class EndlessQuiz {
     }
     
     async startQuiz(categoryFilename) {
+        this.currentCategoryFile = categoryFilename;
         await this.loadQuestions(categoryFilename);
         this.totalQuestions = this.questions.length;
         this.answeredQuestions = 0;
         this.correctAnswers = 0;
         this.currentQuestionIndex = 0;
+        
+        // Load category-specific ELO and history
+        this.elo = this.getCurrentCategoryELO();
+        this.eloHistory = this.categoryELOHistories[categoryFilename] || [];
+        
         this.displayQuestion();
         this.updateUI();
     }
@@ -410,8 +446,8 @@ class EndlessQuiz {
         const oldELO = this.elo;
         this.elo += eloChange;
         
-        // Record ELO history for chart
-        this.eloHistory.push({
+        // Record ELO history for chart (category-specific)
+        const historyEntry = {
             questionNumber: this.answeredQuestions + 1,
             elo: this.elo,
             eloChange: eloChange,
@@ -421,7 +457,10 @@ class EndlessQuiz {
             questionText: this.currentQuestion.question,
             category: this.currentCategory,
             timestamp: Date.now()
-        });
+        };
+        
+        this.eloHistory.push(historyEntry);
+        this.categoryELOHistories[this.currentCategoryFile] = this.eloHistory;
         
         // Update player stats
         this.updatePlayerStats(isCorrect, questionRating);
@@ -435,9 +474,9 @@ class EndlessQuiz {
         
         this.answeredQuestions++;
         
-        // Save to localStorage
-        this.saveELO();
-        this.saveELOHistory();
+        // Save to localStorage (category-specific)
+        this.setCurrentCategoryELO(this.elo);
+        this.saveCategoryELOHistories();
         this.savePlayerStats();
         
         this.updateUI();
@@ -502,6 +541,33 @@ class EndlessQuiz {
         document.getElementById('btnRating').textContent = `ELO ${Math.round(this.elo)}`;
         document.getElementById('questionCounter').innerHTML = 
             `<span class="correct">${this.correctAnswers}</span> / <span class="answered">${this.answeredQuestions}</span> / <span class="total">${this.totalQuestions.toLocaleString()}</span>`;
+    }
+    
+    resetProgress() {
+        if (!confirm('Er du sikker på at du vil tilbakestille all fremgang for denne kategorien? Dette vil nullstille ELO og historikk.')) {
+            return;
+        }
+        
+        // Reset current category ELO and history
+        this.categoryELOs[this.currentCategoryFile] = 800;
+        this.categoryELOHistories[this.currentCategoryFile] = [];
+        this.elo = 800;
+        this.eloHistory = [];
+        
+        // Reset current session stats
+        this.answeredQuestions = 0;
+        this.correctAnswers = 0;
+        this.streak = 0;
+        
+        // Save to localStorage
+        this.saveCategoryELOs();
+        this.saveCategoryELOHistories();
+        
+        // Update UI
+        this.updateUI();
+        
+        // Show confirmation
+        alert('Fremgang tilbakestilt!');
     }
     
     

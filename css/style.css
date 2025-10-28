@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -15,6 +16,9 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    touch-action: manipulation;
 }
 
 /* Container */
@@ -71,6 +75,7 @@ body {
 
 .topbutton:active {
     background: #e8e8e8;
+    transform: scale(0.98);
 }
 
 #questionCounter {
@@ -100,6 +105,19 @@ body {
     border-color: #d0d0d0;
     color: #000000;
     font-weight: 600;
+}
+
+#btnReset {
+    background: #ffffff;
+    border-color: #d0d0d0;
+    color: #dc3545;
+    font-weight: 600;
+}
+
+#btnReset:hover {
+    background: #dc3545;
+    color: #ffffff;
+    border-color: #dc3545;
 }
 
 .topbutton.clickable {
@@ -256,7 +274,8 @@ body {
 
 .answer:active {
     background: #e8e8e8;
-    transform: translateY(0);
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* Answer States */
@@ -755,103 +774,497 @@ body {
     height: 100%;
 }
 
-/* Responsive Design */
+/* Responsive Design - Tablet */
 @media (max-width: 768px) {
-    #container {
+    body {
         padding: 0;
     }
     
+    #container {
+        padding: 0;
+        max-width: 100%;
+    }
+    
+    /* Top Row - Optimized for tablet */
     #toprow {
-        padding: 15px 20px;
-        flex-wrap: wrap;
+        padding: 12px 16px;
         gap: 8px;
-        justify-content: center;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .left-dropdown {
+        flex-shrink: 0;
+    }
+    
+    .right-buttons {
+        gap: 8px;
+        flex-wrap: nowrap;
     }
     
     .topbutton {
-        font-size: 12px;
-        padding: 8px 12px;
-        min-width: 60px;
+        font-size: 13px;
+        padding: 8px 14px;
+        min-width: auto;
+        white-space: nowrap;
     }
     
+    .hamburger {
+        padding: 8px 10px;
+        min-width: 38px;
+    }
+    
+    #questionCounter {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    
+    #btnRating {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+    
+    #btnReset {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+    
+    /* Question Area */
     #questionWrapper {
-        min-height: 250px;
-        padding: 30px 20px;
+        min-height: 200px;
+        padding: 30px 24px;
     }
     
     #question {
         font-size: 22px;
+        line-height: 1.4;
+    }
+    
+    /* Answer Buttons */
+    #answersContainer {
+        gap: 12px;
+        padding: 24px 16px 40px 16px;
+        grid-template-columns: 1fr 1fr;
     }
     
     .answer {
-        font-size: 16px;
-        padding: 25px 20px;
-        min-height: 100px;
+        font-size: 15px;
+        padding: 20px 16px;
+        min-height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
-    #answersContainer {
-        gap: 15px;
-        padding: 30px 20px;
-    }
-    
+    /* Category Selection */
     #categoryGrid {
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 12px;
+        padding: 0 16px;
     }
     
     .categoryButton {
-        padding: 25px 20px;
+        padding: 20px 16px;
     }
     
     .categoryName {
-        font-size: 16px;
+        font-size: 18px;
     }
     
-    /* History page mobile styles */
+    .categoryCount {
+        font-size: 13px;
+    }
+    
+    .categoryDescription {
+        font-size: 12px;
+    }
+    
+    /* Dropdown */
+    .dropdown-content {
+        min-width: 200px;
+        left: 0;
+        right: auto;
+    }
+    
+    .dropdown-item {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    
+    /* History Page */
     .history-page {
-        padding: 15px;
+        padding: 20px 16px;
+    }
+    
+    .history-header h1 {
+        font-size: 26px;
+        margin-bottom: 16px;
     }
     
     .history-page .history-stats {
-        flex-direction: column;
-        gap: 15px;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 16px;
+    }
+    
+    .history-page .stat-item {
+        flex: 1 1 calc(50% - 20px);
+        min-width: 120px;
+    }
+    
+    .history-page .stat-label {
+        font-size: 13px;
+    }
+    
+    .history-page .stat-value {
+        font-size: 18px;
     }
     
     .chart-container {
-        height: 300px;
-        padding: 15px;
+        height: 280px;
+        padding: 16px;
+    }
+    
+    .chart-section {
+        margin: 30px 0;
     }
     
     .chart-section h2 {
         font-size: 20px;
+        margin-bottom: 16px;
+    }
+    
+    .history-list-header {
+        padding: 16px 20px;
+    }
+    
+    .history-list-header h3 {
+        font-size: 18px;
+    }
+    
+    .history-note {
+        font-size: 13px;
+    }
+    
+    .history-page .history-item {
+        padding: 16px 20px;
+    }
+    
+    .history-page .history-question {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    
+    .history-page .history-details {
+        gap: 12px;
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+    
+    .history-page .history-elo-change {
+        font-size: 14px;
+        padding: 4px 10px;
     }
 }
 
+/* Responsive Design - Mobile */
 @media (max-width: 480px) {
+    body {
+        padding: 0;
+    }
+    
+    #container {
+        padding: 0;
+    }
+    
+    /* Top Row - Stacked layout for small screens */
+    #toprow {
+        padding: 10px 12px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+    }
+    
+    .left-dropdown {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .right-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+        width: 100%;
+    }
+    
+    .topbutton {
+        font-size: 12px;
+        padding: 10px 8px;
+        min-width: 0;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .hamburger {
+        padding: 10px 16px;
+        width: auto;
+        min-width: 0;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #questionCounter {
+        font-size: 11px;
+        padding: 10px 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    #btnRating {
+        font-size: 12px;
+        padding: 10px 8px;
+    }
+    
+    #btnReset {
+        font-size: 12px;
+        padding: 10px 8px;
+    }
+    
+    /* Question Area */
+    #questionWrapper {
+        min-height: 180px;
+        padding: 24px 16px;
+    }
+    
     #question {
-        font-size: 20px;
+        font-size: 19px;
+        line-height: 1.45;
+    }
+    
+    /* Answer Buttons - Full 2x2 Grid */
+    #answersContainer {
+        gap: 10px;
+        padding: 20px 12px 32px 12px;
+        grid-template-columns: 1fr 1fr;
     }
     
     .answer {
         font-size: 14px;
-        padding: 20px 15px;
-        min-height: 90px;
+        padding: 16px 12px;
+        min-height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.35;
+    }
+    
+    /* Ensure answer buttons are perfect squares on mobile */
+    .answer::before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+        float: left;
+    }
+    
+    .answer {
+        position: relative;
+    }
+    
+    .answer::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    
+    /* Category Selection */
+    #categorySelection {
+        padding: 20px 12px;
+    }
+    
+    #categorySelection h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    #categoryGrid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 0;
+    }
+    
+    .categoryButton {
+        padding: 18px 16px;
+    }
+    
+    .categoryName {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    
+    .categoryCount {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    
+    .categoryDescription {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+    
+    /* Dropdown - Full width on mobile */
+    .dropdown-content {
+        min-width: calc(100vw - 24px);
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 400px;
+    }
+    
+    .dropdown-item {
+        padding: 14px 16px;
+        font-size: 15px;
+    }
+    
+    /* History Page Mobile */
+    .history-page {
+        padding: 16px 12px;
+    }
+    
+    .history-header h1 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    
+    .history-page .history-stats {
+        flex-direction: column;
+        gap: 16px;
+        padding: 14px;
+    }
+    
+    .history-page .stat-item {
+        width: 100%;
+    }
+    
+    .history-page .stat-label {
+        font-size: 12px;
+    }
+    
+    .history-page .stat-value {
+        font-size: 20px;
+    }
+    
+    .chart-container {
+        height: 250px;
+        padding: 12px;
+    }
+    
+    .chart-section {
+        margin: 24px 0;
+    }
+    
+    .chart-section h2 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    
+    .history-list-header {
+        padding: 14px 16px;
+    }
+    
+    .history-list-header h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    
+    .history-note {
+        font-size: 12px;
+    }
+    
+    .history-page .history-item {
+        padding: 14px 16px;
+    }
+    
+    .history-page .history-question {
+        font-size: 14px;
+        margin-bottom: 8px;
+        line-height: 1.4;
+    }
+    
+    .history-page .history-details {
+        gap: 10px;
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+    
+    .history-page .history-category {
+        font-size: 11px;
+        padding: 4px 8px;
+    }
+    
+    .history-page .history-rating {
+        font-size: 11px;
+    }
+    
+    .history-page .history-elo-change {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+    
+    /* Loading Screen Mobile */
+    #loadingScreen {
+        padding: 20px;
+    }
+    
+    .loading-text {
+        font-size: 22px;
+    }
+    
+    .loading-subtext {
+        font-size: 14px;
+    }
+    
+    .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border-width: 4px;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+    #question {
+        font-size: 17px;
+    }
+    
+    .answer {
+        font-size: 13px;
+        padding: 14px 10px;
+        min-height: 80px;
+    }
+    
+    #answersContainer {
+        gap: 8px;
+        padding: 16px 10px 28px 10px;
+    }
+    
+    #questionWrapper {
+        min-height: 160px;
+        padding: 20px 12px;
     }
     
     .topbutton {
         font-size: 11px;
-        padding: 6px 10px;
-        min-width: 50px;
+        padding: 8px 6px;
     }
     
-    #answersContainer {
-        gap: 12px;
-        padding: 20px 15px;
+    #questionCounter {
+        font-size: 10px;
     }
     
-    #questionWrapper {
-        min-height: 200px;
-        padding: 20px 15px;
+    .history-page .history-question {
+        font-size: 13px;
     }
 }
 

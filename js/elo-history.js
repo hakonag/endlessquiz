@@ -1,8 +1,16 @@
 class ELOHistory {
     constructor() {
-        this.eloHistory = this.loadELOHistory();
+        // Get category from URL parameter, default to 'general.json'
+        const urlParams = new URLSearchParams(window.location.search);
+        this.currentCategoryFile = urlParams.get('category') || 'general.json';
+        
+        this.categoryELOs = this.loadCategoryELOs();
+        this.categoryELOHistories = this.loadCategoryELOHistories();
+        
+        this.eloHistory = this.categoryELOHistories[this.currentCategoryFile] || [];
+        this.currentELO = this.categoryELOs[this.currentCategoryFile] || 800;
+        
         this.playerStats = this.loadPlayerStats();
-        this.currentELO = this.loadELO();
         this.eloChart = null;
         
         this.init();
@@ -14,14 +22,26 @@ class ELOHistory {
         this.populateHistoryList();
     }
     
-    loadELO() {
-        const saved = localStorage.getItem('endlessQuiz_elo');
-        return saved ? parseInt(saved) : 800;
+    loadCategoryELOs() {
+        const saved = localStorage.getItem('endlessQuiz_categoryELOs');
+        return saved ? JSON.parse(saved) : {
+            'general.json': 800,
+            'history.json': 800,
+            'geography.json': 800,
+            'science.json': 800,
+            'culture.json': 800
+        };
     }
     
-    loadELOHistory() {
-        const saved = localStorage.getItem('endlessQuiz_eloHistory');
-        return saved ? JSON.parse(saved) : [];
+    loadCategoryELOHistories() {
+        const saved = localStorage.getItem('endlessQuiz_categoryELOHistories');
+        return saved ? JSON.parse(saved) : {
+            'general.json': [],
+            'history.json': [],
+            'geography.json': [],
+            'science.json': [],
+            'culture.json': []
+        };
     }
     
     loadPlayerStats() {

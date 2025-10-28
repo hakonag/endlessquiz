@@ -1526,11 +1526,11 @@
     {
       "id": 116,
       "q": "Hvilke områder regnes som Norges biland?",
-      "a": "Bouvetøya, Peter I Øy og Dronning Maud Land",
+      "a": "Bouvetøya/Peter I Øy/Dronning Maud Land",
       "w": [
-        "Jan Mayen, Svalbard og Bjørnøya",
-        "Røst, Værøy og Sørøya",
-        "Karmøy, Tysnes og Hitra"
+        "Jan Mayen/Svalbard/Bjørnøya",
+        "Røst/Værøy/Sørøya",
+        "Karmøy/Tysnes/Hitra"
       ],
       "r": 1316,
       "t": [
@@ -1549,7 +1549,7 @@
       "id": 118,
       "q": "Sørligste punkt når biland tas med er:",
       "a": "Polpunktet",
-      "w": ["Sørspissen av Bouvetøya", "Peter I Øy", "Sørkapp"],
+      "w": ["Bouvetøya", "Peter I Øy", "Sørkapp"],
       "r": 1140,
       "t": ["biland"]
     },
@@ -1572,7 +1572,7 @@
     {
       "id": 121,
       "q": "Hvem regnes som den tidligste kjente oppdageren som besøkte Norge?",
-      "a": "Pytheas fra Massalia",
+      "a": "Pytheas Massalia",
       "w": ["Pietro Querini", "Olaus Magnus", "Hans Glaser"],
       "r": 1080,
       "t": ["antikken"]
@@ -1708,7 +1708,7 @@
       "q": "Hvem skrev reiseverket 'Viaggio Settentrionale' om Finnmark?",
       "a": "Francesco Negri",
       "w": [
-        "Pierre Martin de la Martinière",
+        "Pierre Martin",
         "Louis Phillipe",
         "Knud Leem"
       ],
@@ -1720,7 +1720,7 @@
     {
       "id": 132,
       "q": "Hvilken fransk skipslege besøkte Varanger og Novaja Zemlja i 1670?",
-      "a": "Pierre Martin de la Martinière",
+      "a": "Pierre Martin",
       "w": [
         "René Laennec",
         "Louis Pasteur",
@@ -1734,7 +1734,7 @@
     {
       "id": 133,
       "q": "Hvem var amtmann i Finnmark og skrev 'Speculum Boreale'?",
-      "a": "Hans H. Lilienskiold",
+      "a": "Hans Lilienskiold",
       "w": [
         "Petter Dass",
         "Knud Leem",
@@ -1750,7 +1750,7 @@
       "q": "Hvem skrev 'Nordlands trompet' på 1700-tallet?",
       "a": "Petter Dass",
       "w": [
-        "Hans H. Lilienskiold",
+        "Hans Lilienskiold",
         "Knud Leem",
         "Peder Dass"
       ],
@@ -1762,7 +1762,7 @@
     {
       "id": 135,
       "q": "Hva var temaet i Knud Leems bok fra 1767?",
-      "a": "Samenes språk, levesett og religion",
+      "a": "Samenes levesett",
       "w": [
         "Norsk bergverkshistorie",
         "Nordlands fiske",
