@@ -161,8 +161,8 @@ class ELOHistory {
                                 size: 12
                             }
                         },
-                        min: Math.max(800, Math.min(...eloData) - 50),
-                        max: Math.max(...eloData) + 50
+                               min: 700,
+                               max: Math.max(...eloData) + 50
                     }
                 },
                 interaction: {
