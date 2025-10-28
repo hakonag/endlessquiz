@@ -83,29 +83,29 @@ class ELOHistory {
                         label: 'ELO Rating',
                         data: eloData,
                         borderColor: '#007bff',
-                        backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                        backgroundColor: 'rgba(0, 123, 255, 0.05)',
                         borderWidth: 2,
                         fill: true,
-                        tension: 0.1,
-                        pointRadius: 3,
-                        pointHoverRadius: 5
+                        tension: 0.2,
+                        pointRadius: 0, // Remove all points for cleaner line
+                        pointHoverRadius: 4
                     },
                     {
-                        label: 'Correct Answers',
+                        label: 'Correct',
                         data: correctData,
                         borderColor: '#28a745',
-                        backgroundColor: 'rgba(40, 167, 69, 0.1)',
-                        borderWidth: 3,
+                        backgroundColor: '#28a745',
+                        borderWidth: 0,
                         pointRadius: 4,
                         pointHoverRadius: 6,
                         showLine: false
                     },
                     {
-                        label: 'Incorrect Answers',
+                        label: 'Incorrect',
                         data: incorrectData,
                         borderColor: '#dc3545',
-                        backgroundColor: 'rgba(220, 53, 69, 0.1)',
-                        borderWidth: 3,
+                        backgroundColor: '#dc3545',
+                        borderWidth: 0,
                         pointRadius: 4,
                         pointHoverRadius: 6,
                         showLine: false
@@ -117,30 +117,26 @@ class ELOHistory {
                 maintainAspectRatio: false,
                 plugins: {
                     title: {
-                        display: true,
-                        text: 'ELO Progression Over Time',
-                        font: {
-                            size: 16,
-                            weight: 'bold'
-                        }
+                        display: false // Remove title completely for cleaner look
                     },
                     legend: {
                         display: true,
-                        position: 'top'
+                        position: 'top',
+                        labels: {
+                            usePointStyle: true,
+                            pointStyle: 'circle',
+                            padding: 20,
+                            font: {
+                                size: 12
+                            }
+                        }
                     }
                 },
                 scales: {
                     x: {
-                        title: {
-                            display: true,
-                            text: 'Question Number',
-                            font: {
-                                size: 14,
-                                weight: 'bold'
-                            }
-                        },
+                        display: false, // Hide X-axis completely
                         grid: {
-                            color: '#e0e0e0'
+                            display: false
                         }
                     },
                     y: {
@@ -153,7 +149,17 @@ class ELOHistory {
                             }
                         },
                         grid: {
-                            color: '#e0e0e0'
+                            color: '#f0f0f0',
+                            drawBorder: false
+                        },
+                        border: {
+                            display: false
+                        },
+                        ticks: {
+                            color: '#666666',
+                            font: {
+                                size: 12
+                            }
                         },
                         min: Math.max(800, Math.min(...eloData) - 50),
                         max: Math.max(...eloData) + 50

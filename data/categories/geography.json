@@ -1438,10 +1438,6 @@
       "t": [
         "ytterpunkter"
       ]
-      "a": "Pysen",
-      "w": ["Lindesnes fyr", "Lista", "Eigerøya"],
-      "r": 760,
-      "t": ["ytterpunkter"]
     },
     {
       "id": 104,
@@ -1474,10 +1470,6 @@
       "t": [
         "avstander"
       ]
-      "a": "ca. 2636 km",
-      "w": ["ca. 1813 km", "ca. 432 km", "ca. 210 km"],
-      "r": 1050,
-      "t": ["avstander"]
     },
     {
       "id": 106,

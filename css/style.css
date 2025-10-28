@@ -740,13 +740,14 @@ body {
 
 .chart-container {
     background: #ffffff;
-    border: 1px solid #e0e0e0;
+    border: none;
     border-radius: 8px;
     padding: 20px;
     margin: 0 auto;
     max-width: 900px;
     position: relative;
     height: 400px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 #eloChart {
